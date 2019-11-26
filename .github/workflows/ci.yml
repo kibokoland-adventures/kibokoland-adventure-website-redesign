@@ -1,0 +1,56 @@
+name: Continous Integration
+
+on: [push]
+
+jobs:
+  build:
+    name: Build
+    
+    strategy:
+      matrix:
+        runs-on: [ubuntu-latest, macOS-latest, windows-latest]
+        node-version: [12.x]
+        ruby: [ '2.x' ]
+      fail-fast: false
+    
+    runs-on: ${{ matrix.runs-on }}
+
+    steps:
+    - uses: actions/checkout@v1
+
+# Setup NodeJS environement
+    - name: Setup NodeJS ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+        
+# Install NodeJS global packages
+    - name: NodeJS global Pug & Gulp
+      run: |
+        npm install --global pug
+        npm install --global gulp-cli
+
+# Install Ruby environement
+    - name: Setup Ruby environment with ruby-build
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: ${{ matrix.ruby }}
+        architecture: 'x64'
+
+# Install Jekyll bundler
+    - name: Install Jekyll bundler
+      run: gem install bundler jekyll
+
+# Install Jekyll in this folder
+    - name: Install Jekyll
+      run: bundler install
+
+# Install NodeJS Dependences on dev folder
+    - name: Install NodeJS Dependencies
+      run: npm install
+        
+# Build the project for production
+    - name: Build the project with Gulp
+      run: gulp build
+      env:
+        CI: true

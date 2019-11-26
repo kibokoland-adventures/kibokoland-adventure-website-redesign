@@ -1,0 +1,56 @@
+@import 'modules/normalize'
+
+// Temporary coloring options.
+$text-color: #ECF0F4
+$bg-color: #2C2C39
+
+$primary: #1B8DF7
+$secondary: #821BF7
+
+// Temporary preview styles.
+body
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+	background: $bg-color
+
+	a
+		color: lighten($primary, 30%)
+		text-decoration: none
+		transition: color 220ms ease
+
+		&:hover
+			color: lighten($primary, 40%)
+
+	header.site-header
+		display: flex
+		align-items: center
+		justify-content: center
+		height: 100vh
+		color: $text-color
+		animation: gradient 3s alternate infinite linear
+
+		@keyframes gradient
+			from
+					background-color: $primary
+			to
+					background-color: $secondary
+		
+		.header-content
+			padding: 5%
+			
+			h1.title
+				text-align: center
+				font-size: 4em
+
+
+				@media screen and (max-width: 700px)
+						font-size: 2.5em
+				
+			h4
+				text-align: right
+
+			@media screen and (max-width: 900px)
+				h1.title
+						font-size: 3em
+				h4
+						text-align: center
+		

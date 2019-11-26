@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":["myFunction","t","console","log"],"mappings":";;AAAA,CAAA,SAAAA,UAAA,GAAA;AACA,MAAAC,CAAA,GAAA,IAAA;AACAC,EAAAA,OAAA,CAAAC,GAAA,CAAA,aAAA;AACA,CAHA","file":"all.js","sourcesContent":["(function myFunction() {\n\tconst t = this;\n\tconsole.log(\"Hello World\");\n})();"]}

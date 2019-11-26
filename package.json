@@ -1,0 +1,75 @@
+{
+  "name": "web-dev-starter-kit",
+  "version": "2.0.0",
+  "description": "This is a starter project including full setup for NodeJS, Gulp, Pug, Jekyll, Babel, Sass, Normalize, Autoprefixer & BrowserSync",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "prebuild": "rebuild-node-sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gleesik/jekyll-starter-kit.git"
+  },
+  "keywords": [
+    "gulp",
+    "pug",
+    "jekyll",
+    "babel",
+    "sass",
+    "normalize",
+    "autoprefixer",
+    "browser-sync"
+  ],
+  "author": "Daniel Costrasel (gleesik)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gleesik/web-dev-starter-kit/issues"
+  },
+  "homepage": "https://github.com/gleesik/web-dev-starter-kit#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "browser-sync": "^2.26.7",
+    "core-js": "^3.4.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-beautify": "^3.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-run": "^1.7.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.13.0",
+    "normalize.css": "^8.0.1",
+    "rebuild-node-sass": "^1.1.0",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "dependencies": {},
+  "browserslist": "> 0.25%, not dead",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "esmodules": true
+          }
+        }
+      ]
+    ]
+  },
+  "optionalDependencies": {}
+}
