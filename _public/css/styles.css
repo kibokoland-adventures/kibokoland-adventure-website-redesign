@@ -469,18 +469,6 @@ input[type="button"] {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 60%; }
 
-a {
-  color: #493A30;
-  text-decoration: none;
-  outline: 1; }
-  a:hover, a:focus {
-    color: #967763; }
-
-.link:hover {
-  text-decoration: underline;
-  -webkit-text-decoration-color: #655142;
-          text-decoration-color: #655142; }
-
 ::selection {
   background: #FFF498; }
 
