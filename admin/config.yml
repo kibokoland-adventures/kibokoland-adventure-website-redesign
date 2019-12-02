@@ -1,5 +1,0 @@
-backend:
-  name: github
-  repo: i-meets-i/kibokoland-adventure-website-redesign
-
-media_folder: "img/uploads"
