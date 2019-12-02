@@ -1,0 +1,137 @@
+
+
+
+	
+.form
+  max-width: 95%
+  min-width: 320px
+  margin: 0 auto	
+  position: relative
+  display: flex 
+  flex-wrap: wrap
+  flex-direction: row
+  justify-content: center 
+
+  .customer-details
+    margin: $space-1-4 auto
+
+
+  fieldset
+    margin-top: $space-1-4
+
+  fieldset legend
+    //background: darken(white, 5%)
+    color: $dark-brown
+    font-size: 1.2em
+    font-weight: 600
+
+    .article-title 
+      margin-bottom: 0
+  fieldset label
+    margin-top: $space-12-3
+  .form-col-2 
+    width: 96%
+  .modal-form-label
+    background-color: $lighter
+    padding: 0 $space-base-4
+    border-radius: $space-base-4
+
+
+
+
+
+
+
+
+  input[type='text'],
+  input[type='password'],
+  input[type='email'],
+  input[type='url'],
+  input[type='email'],
+  input[type='date'],
+  input[type='number'],
+  select
+    width: 95%
+    height: 2rem
+    border: none
+    border-radius: 5px
+    background: transparentize($dark-brown, 0.5)
+    color: white
+    letter-spacing: 1.4px
+    font-family: inherit
+    font-weight: 600
+    font-size: inherit
+    padding: 0.222em
+    position: relative
+    transition: border 300ms
+
+    &::placeholder 
+      color: white
+
+  input[type='email']
+    font-weight: 600
+    letter-spacing: 1px
+
+  input[type='text']:focus,
+  input[type='password']:focus,
+  input[type='email']:focus,
+  input[type='url']:focus,
+  input[type='email']:focus,
+  input[type='date']:focus,
+  input[type='number']:focus,
+  textarea
+    border-color: #656d78
+    //outline: none
+
+  textarea 
+    border-color: $light-brown
+    width: 95%
+    border-radius: 5px
+    color: $dark-brown
+    letter-spacing: .011012330233em
+    font-size: 1.2em
+    background: $lighter //transparentize($dark-brown, 0.8)
+    margin: $space-15-3 0px 2rem 0px
+    text-align: left
+  option 
+    background-color: transparentize($dark-brown, 0.8)
+    color: white
+    
+
+
+
+
+    
+
+
+
+
+	
+	
+
+
+
+.no-border 
+  border: none
+
+
+
+
+// On error messages
+
+fieldset label.error
+	color: #e75845
+	display: none
+	margin-left: 0.5em
+	width: auto !important
+
+
+
+@keyframes tick 
+	0% 
+		transform: scale(0)
+
+	90% 
+		transform: scale(1.4)
+	100% 
+		transform: scale(1)

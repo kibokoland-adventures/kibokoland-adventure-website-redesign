@@ -1,0 +1,52 @@
+.modal.cart-overlay
+  .modal-content.article.cart
+    span.close-button.close-cart.large &times; <!-- <i class="fa fa-window-close" aria-hidden="true"></i> -->
+    h3.align-text-center  Your Bucket List
+    form.form
+      .cart-content
+
+      fieldset 
+        .cart-footer
+          h3.cart-imoji 👍    <br><span class="cart-total"> 0 </span> <small>/ Destinations</small>
+          .btn.clear-cart clear cart
+
+      fieldset.no-border.customer-details
+        legend.align-text-center 
+          h3 Your Details
+
+        label(for="name") Name: <input type="text" id="name" name="user_name" required>
+        label(for="email") Email: <input type="text" id="email" name="user_email" required>
+
+        label(for="Group") Number of People Traveling: <br> <input type="number" id="group" name="user_group" required>
+        
+        
+        .flex.flex-btn.form-col-2
+          label(for="start-date") <b>Start Date</b> <br><input type="date" id="start_date" name="travel-dates" required>
+          label(for="end-date") <b>End Date</b> <br><input  type="date" id="end_date" name="travel-dates" required>
+
+        
+        .flex.flex-btn.form-col-2
+          label(for="pick-up") <b>Pick-up 🛬 </b> <br>
+            select(id="pick-up-points" name="pick-up-points" value="-- Pick a location ---" required)
+              option I don't know yet
+              option Kiboko Land Adventure's Office - free
+              option Arusha - free
+              option Kilimanjaro Airport (JRO)
+              option Dar es Salaam 
+              option Other 
+            
+          label(for="drop-off") <b>Drop-off 🛫 </b> <br>
+            select(id="drop-off-points" name="drop-off-points" value="-- Pick a location ---" required)
+              option I don't know yet
+              option Kiboko Land Adventure's Office - free
+              option Arusha Airport - free
+              option Kilimanjaro Airport (JRO)
+              option Dar es Salaam 
+              option Other 
+              
+          
+
+        textarea#note.tilt-rt(name="", cols="30", rows="10" placeholder="Would you like to go camping? tell us your requirements...")
+
+      p: button.btn.tilt-lft(type="submit") Get A Quote!
+          

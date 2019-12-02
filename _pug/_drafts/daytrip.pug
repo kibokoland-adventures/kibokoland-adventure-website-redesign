@@ -1,0 +1,79 @@
+|---
+| layout: page
+| title: Day Trips
+| subtitle: A day is all you have got? HAVE THE NORTHEN'S BEST FOR LAST!
+| backtop: pg-day-top
+|---
+   
+section.pg-content.flex
+
+  //PAGE ============================================================ SIDE BAR
+  sidebar.pg-content-table
+    ul.ul-plain.quick-links.
+      {% for destination in site.daytrips %}
+        <li class="link"> <a href="{{destination.url}}"> <b>➥</b> {{destination.title}}
+      {% endfor %}
+    //Quic Perks/ Tips
+    |{% include quicktip.html%}
+
+    //End Quick Perks/Tips
+        
+  // PAGE ------------------------------------------------------------- END SIDE BAR
+  section.pg-section-articles.products-center.
+
+    {% for destination in site.daytrips %}
+    //PAGE ARTICLE ========================================================= PAGE ARTICLE
+    article.article.display-article
+      .accordion
+        h2.article-title.flex <small class="best-price"> 🏷️<mark>{{destination.price_tag}}</mark></small> {{destination.data.name}} <span class="article-highlights flex flex-col align-start"><span class="best-time">{{destination.data.dates}}</span> <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"><mark>{{destination.data.circuit}} ️</mark></a> </b> </span> </span> </span>
+      
+      .panel
+        .panel-positional
+          .panel-thumb.tilt-lft(style="background-image: url('/assets/img/day-materumi.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;")
+            h2 🏊 
+          .notes
+            p <b class="user-comment">{{destination.customer-comment}} </b>
+            p <b>What is like:</b> <br> #️⃣ Underground springs pond #️⃣warm  clear clean water #️⃣ideal for swimming. #️⃣very deep, in some places up to 10 meters 
+            .notes-lc-adress
+              p <b>Pick-Up 🛬  & Drop-Off 🛫  Points 📍 :</b> <br> <b> ✈ KILIMANJARO AIRPORT   ✈ ARUCHA AIRPORT  ✈ DAR ES SALAAM </b>
+            p <b>Activities:</b> You will swim ,🍲 eat, drink and 🤣laugh alot!
+          
+          
+            button.snipcart-add-item.btn.bag-btn.tilt-rt(
+            data-item-id="001"
+            data-item-price="456.99"
+            data-item-url="#"
+            data-item-location="Northen Circuit"
+            data-item-description="✌️ Great experience when the weather holds."
+            data-item-image="/assets/img/day-materumi.jpg"
+            data-item-name="Chemka-Hot-Spring-Day-Tour") ADD TO CART
+            button.btn.rt READ MORE
+    //PAGE ARTICLE ------------------------------------------------------------ PAGE ARTICLE END
+
+    {% endfor %}
+
+    //PAGE ARTICLE ------------------------------------------------------------ PAGE ARTICLE
+    article.article
+      .accordion
+        h2.article-title.flex <small class="best-price"> 🏷️<mark>$356</mark></small> Chemka ♨ hot spring <span class="article-highlights flex flex-col align-start"><span class="best-time">🌞 <b>july - nov </b> | <b>jan - march</b> </span> <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"><mark>Kilimanjaro ⛰ ️</mark></a> </b> </span> </span> </span>
+      .panel
+        .panel-positional
+          .panel-thumb.tilt-lft(style="background-image: url('/assets/img/day-materumi.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;")
+            h2 🏊 
+          .notes 
+            p <b class="user-view">✌️ Great experience when the weather holds </b>
+            p <b>Setting:</b> <br> #️⃣ Underground springs pond #️⃣warm  clear clean water #️⃣ideal for swimming. #️⃣very deep, in some places up to 10 meters 
+            p <span class="notes-lc-adress">📍<small>location: </small> Chemka Village. 40 Km from Moshi  </span>
+            p <b>Activities:</b> You will swim ,🍲 eat, drink and 🤣laugh alot!
+            
+            button.snipcart-add-item.btn.bag-btn.tilt-rt(
+            data-item-id="002"
+            data-item-price="356.99"
+            data-item-url="#"
+            data-item-location="Northen Circuit"
+            data-item-description="😮 Arusha Np is a ricj tapestry of habitats, teeming with animals & birds."
+            data-item-image="/assets/img/day-materumi.jpg"
+            data-item-name="Arusha National Park") ADD TO CART
+            button.btn.tilt-rt READ 
+    //PAGE ARTICLE ------------------------------------------------------------ PAGE ARTICLE END
+//======================================================================={PAGE CART} 

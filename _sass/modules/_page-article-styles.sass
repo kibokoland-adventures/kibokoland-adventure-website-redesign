@@ -1,0 +1,133 @@
+.pg-section-articles 
+  flex: 2
+  & > * 
+    margin: 0 $space-0-4
+    //margin-left: $space-1-4// remove
+    margin-bottom: $space-5-4//top
+
+
+.accordion > *
+  margin: 0 
+  padding: $space-12-3 0
+
+.accordion 
+  cursor: pointer
+
+.accordion::hover
+  //background-color: blue
+  //color: pink
+
+
+
+.article-title
+  //margin-top: $space-5-4
+
+
+
+
+.panel 
+  display: none 
+  justify-content: flex-start
+  padding-top: $space-1-4
+
+.display-article .panel 
+  display: block 
+.no-display-article .panel 
+  display: none
+
+.panel > * 
+  flex: 1 
+
+
+.notes 
+  flex: 2
+  margin-left: $space-base-2-4
+
+  
+.panel-thumb 
+  //width: $space-25-4 
+  height: $space-25-4 //$space-15-4
+  background-color: deepskyblue
+  margin: $space-base-4
+  margin-bottom: $space-1-4
+  overflow: hidden
+  border-radius: $space-base-4 $space-4-3  $space-base-4
+
+.article-pg-thumb 
+  height: $col-50-3
+
+
+.article-highlights 
+  display: flex
+  flex-direction: column
+  display: inline-block
+  width: 170px
+  margin-left: $space-12-3
+  font-family: 'McLaren', cursive
+
+.article-highlights > * 
+  display: block
+.lc-adress,.best-time,.best-price
+  font-size: $space-12-3
+.lc-adress 
+  margin-top: $space-base-2-4
+
+.place-link 
+  display: inline-block 
+  border: $border-w-1 solid $border-c-light
+  border-radius: $space-base-4
+  
+.notes > * 
+  //margin-bottom: $space-base-4
+.user-comment
+  margin-left: $space-12-3
+  margin-bottom: $space-5-4//$space-1-4
+
+
+//Inner Page Article Styles 
+.article-nav-bar-wrap
+  background-color: $lighter-green
+  height: $space-1-4
+  border-radius: $border-w-3
+
+.article-nav-bar 
+  width: 86%
+.article-nav-link
+  ::hover 
+    font-weight: 600
+
+.article-nav-link-current 
+  font-weight: 600
+
+.destination-overview, .plz-note
+  margin-top: $space-5-4
+
+.tour-details 
+  background-color: $lighter-green 
+  border-radius: $border-w-3
+  p
+    padding: 0 
+    margin-bottom: $space-base-2-4
+    line-height: 1em
+    padding: 1em
+.tour-logistics 
+  border: solid $letter-spc $dark-brown
+  border-radius: $border-w-3
+  padding: 1.5%
+  li b 
+    font-size: 20px
+.included,.excluded 
+  flex: 1
+  min-width: 300px
+.no-display-article .accordion
+  background-color: $lighter-green 
+  border-radius: $border-w-3
+  padding: $space-base-4
+
+  .article-title 
+    margin-top: 0
+
+.no-display-article
+  margin-top: $space-5-4
+  border-color: $lighter-green
+  margin-top: 

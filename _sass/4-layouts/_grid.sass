@@ -1,0 +1,232 @@
+
+/*
+  * KLA' WEBSITE GRID
+    */
+
+/*
+  * POSITIONING
+  */
+.flex 
+  display: flex 
+.flex-col 
+  flex-direction: column
+.align-center 
+  align-items: center
+.align-start 
+  align-items: flex-start
+.align-end 
+  align-items: flex-end
+.flex-btn
+  justify-content: space-between
+.flex-around
+  justify-content: space-around
+.flex-end
+  justify-content: flex-end
+.flex-center 
+  justify-content: center
+
+.flex_wrap 
+  flex-wrap: wrap 
+
+.space-children > * 
+  margin-bottom: $space-15-3
+
+
+/*
+  *LAYOUTS
+  */
+
+.page 
+  height: auto
+
+.grid
+  max-width: 980px
+  margin: 0 auto
+  padding: 0 5px
+  position: relative
+
+
+
+//Product Pages
+
+.pg-content > *
+  flex: 1
+
+
+
+
+
+//Footnote 
+.pg-important-links-position 
+  margin-top: $space-5-4
+
+
+.col-100
+  width: 100%
+.col-30 
+  width: 305px
+.col-3 
+  width: $space-25-4
+.col-4
+  width: 235px
+
+.align-text-center 
+  text-align: center
+//MEDIA QUERIES 
+
+
+/**
+  * =================================================================   Max-Width: 596px
+    /
+@media screen and (max-width: 494px)
+  .form-col-2 
+    flex-direction: column 
+    width: 95%
+
+    
+    
+@media screen and (max-width: 596px) 
+  .brand-values 
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
+
+    .brand-value
+      border-bottom: $border-w-1 solid $border-c-brown //#493A30
+      width: 100%
+
+/**
+  * -----------------------------------------------------------------   Max-Width: 596px
+    /
+
+
+
+/**
+  * =================================================================   Max-Width: 768px
+    /
+@media screen and (max-width: 769px) 
+
+  //Site Wide Media Querries
+  
+
+  /* 
+    MOBILE NAV
+    The "responsive" class is added to the topnav-mobile with JavaScript 
+    when the user clicks on the icon. This class makes the topnav-mobile 
+    look good on small screens (display the links vertically instead of horizontally) */
+  .topnav-mobile-nav.responsive,
+  .topnav-mobile-nav-share-home.responsive,
+    display: block  
+    
+  .topnav-mobile a.icon
+    display: inline-block
+    position: absolute
+    left: $space-base-2-4
+    top: $space-base-4
+  .topnav-mobile a.share-icon-home
+    position: absolute
+    font-size: $space-1-4
+    right: $space-base-2-4
+    top: $space-base-4
+
+  .topnav-mobile a.share-icon-page
+    top: $space-base-2-4
+
+  .topnav-mobile-link
+    width: 100% 
+  
+    &:hover
+      background-color: $border-c-brown
+      color: $lighter-green
+      border-radius: 1.9140625px 1.344307270233196px
+      padding: 1.9140625px 1.344307270233196px
+
+
+  // WHY US SECTION TOP-HOME, BOTTOM IN PAGES
+  .brand-value
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
+
+  .brand-value-txt
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
+
+
+  //Home Media Querries
+  .homenav-corporate, .pagenav-top-corporate
+    display: none 
+
+  .shadow
+    top: 0
+    margin-top: 0
+
+  .homenav-brand-connect
+    display: none
+
+  .services-articles
+    justify-content: center
+    
+  .services-article
+    justify-content: space-around
+
+
+  //Product Pages Media Querries
+  .pg-content
+    display: block 
+    
+  .pg-content-table 
+    display: none
+
+  .pg-section-articles 
+    flex: 1 
+    margin: $space-base-4 0px
+    & > * 
+      margin: 0 $space-base-2-4
+      margin-bottom: $space-5-4
+
+
+
+/**
+  * ----------------------------------------------------------------- END  Max-Width: 768px
+    /
+
+
+/**
+  * =================================================================   Min-Width: 768px
+    /
+@media screen and (min-width: 768px) 
+  .cart 
+    //width: 45vw
+    min-width: 450px
+
+
+  .topnav-mobile-home 
+    display: none
+
+  
+
+
+/**
+  * ----------------------------------------------------------------- END Min-Width: 768px
+    /
+
+
+
+/**
+  * =================================================================   Min-Width: 1440px
+    /
+@media screen and (min-width: 1440px )
+  .shadow
+    height: 805px
+
+/**
+  * ------------------------------------------------------------------  END Min-Width: 1440px
+    /

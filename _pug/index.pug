@@ -3,7 +3,8 @@
 | layout: default
 |---
 
-header.site-header
-	.header-content
-		h1.title Web Development Starter Kit
-		h4 Coded with ❤ by #[a(href='http://gleesik.com') Gleesik&trade;]
+header
+	| {% include hm-header.html %}
+	| {% include hm-fold.html %}
+	| {% include hm-services.html %}
+	| {% include hm-newsletter.html %}

@@ -1,0 +1,176 @@
+|---
+| layout: default
+| title: Day Trips
+| subtitle: A day is all you have got? HAVE THE NORTHEN'S BEST FOR LAST!
+| backtop: pg-day-top
+|---
+
+header.page-header
+  .grid
+    
+    .topnav-mobile.topnav-page 
+      .topnav-mobile-toggle 
+        a(href="javascript:void(0);" id="nav-toggle-page" class="icon js-topnav-mobile-nav-mobile-toggle") <i class="fa fa-bars"></i>
+        a(href="javascript:void(0);" id="nav-toggle-social-page" class="share-icon-page  js-topnav-mobile-nav-mobile-toggle-share") <i class="fa fa-share-alt"></i>
+
+        //PAGE ========================================= PAGE NAV DESK
+        nav.pagenav.flex.flex-btn.grid
+          a(href="/").brands-logo.logo-position-page: img(src="./img/logo-kibokoland-6.svg")
+
+          article
+            ul.ul-plain.pagenav-top-corporate.pagenav-corporate.flex.flex-end <!---pagenav-top-corporate -->
+              li.pgnav-top-link <a href="/about.pug">About Us</a>
+              li.pgnav-top-link <a href="/before-you-travel.pug">Before You Travel</a>
+              li.pgnav-top-link <a href="/contact.pug">Contact </a>
+              li.pgnav-top-link <a href="/blog.pug">Blog </a>
+              li.pgnav-top-link English <!-- Google Translation -->
+
+            ul.pagenav-product-links.flex.flex-btn 
+              a(href="/day-trip.pug").active.product-link.tilt-rt Day Trip 
+              a(href="/private-safari-holidays-and-transfers.pug").active.product-link.tilt-lft Safari & Transfers
+              a(href="/trekking-and-activities.pug").product-link.tilt-rt Trekking & Activities
+
+        // PAGE ------------------------------------------------------ END PAGE NAV DESK
+
+      .topnav-mobile-nav
+        .js-topnav-mobile-nav 
+          ul.ul-plain.topnav-mobile-main-links 
+            li <a href="/day-trip.pug" class="topnav-mobile-link "> Day Trip</a> 
+            li <a href="/private-safari-holidays-and-transfers.pug" class="topnav-mobile-link"> Private Safari Holidays And Transfers</a>
+            li <a href="/trekking-and-activities.pug" class="topnav-mobile-link"> Trekking & Activities</a>
+          ul.ul-plain.topnav-mobile-sub-links 
+            li <a href="/our-values.pug" class="topnav-mobile-link"> Our Values</a>
+            li <a href="/our-team.pug" class="topnav-mobile-link"> Our Team</a>
+            li <a href="/how-can-we-help-you.pug" class="topnav-mobile-link"> How can we help you?</a>
+          
+            
+      .topnav-mobile-nav-share.topnav-mobile-nav-share-home.ul-plain
+        .js-topnav-mobile-nav-share 
+          .brand-social <i class=" fa fa-facebook-square"></i>
+          .brand-social <i class=" fa fa-instagram"></i>
+          .brand-social <i class=" fa fa-twitter"></i>
+          .brand-social <i class=" fa fa-tripadvisor"></i>
+          .brand-social <i class=" fa fa-envelope"></i>
+
+// PAGE -------------------------------------------------------- END PAGE HEADER
+
+// PAGE ========================================= PAGE CONTENT  
+section
+  .grid
+
+    //PAGE ====================================== SHOPPING CART
+    nav.pg-shopping-cart.flex.flex-end#pg-day-top
+      .pg-cart
+        button.cart-btn.shopping-checkout <span class="huge nav-icon">🛍 </span>
+          .cart-items.round.number.large 0
+    //PAGE -------------------------------------- END SHOPPING CART
+   
+    
+
+
+
+    
+    // PAGE =========================================== PAGE CONTENT HEADER
+    header.section-header.flex.flex-btn
+      .pg-intro
+        h2.pg-title.tilt-rt PRIVATE SAFARI HOLIDAYS &amp; TRANSFERS  
+        h3.pg-sub <!--WHEN --> NOW THIS IS A PLACE TO BE <!--LETS MAKE -->   
+    // PAGE --------------------------------------- - END PAGE CONTENT HEADER
+
+
+    
+    section.pg-content.flex
+    
+      //PAGE ============================================================ SIDE BAR
+      sidebar.pg-content-table
+        ul.ul-plain.quick-links
+          li(class="link"): a(href="#") <b>➥</b> Chemka ♨ hot spring Day Tour 
+          li(class="link"): a(href="#") <b>➥</b> Materuni Water falls Dat Tour
+          li(class="link"): a(href="#") <b>➥</b> Full Day Trip To Ngorongoro Creater
+          li(class="link"): a(href="#") <b>➥</b> Full Day In Tarangire 
+        
+        .quick-perks
+          h2 Tip: 
+          p.
+            You can select the excursion that you like by clicking <button class="btn"> ADD TO CART</button> button... then
+            move to other pages and do the same. And when you about done!
+            there is a cart icon on the top... all your selections will 
+            listed there... ready for sharing w/ us for pre-booking and planning.
+            
+      // PAGE ------------------------------------------------------------- END SIDE BAR
+      section.pg-section-articles.products-center
+
+
+        //PAGE ARTICLE ========================================================= PAGE ARTICLE
+        article.article.display-article
+          .accordion
+            h2.article-title.flex <small class="best-price"> 🏷️<mark>$356</mark></small> Chemka ♨ hot spring <span class="article-highlights flex flex-col align-start"><span class="best-time">🌞 <b>july - nov </b> | <b>jan - march</b> </span> <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"><mark>Kilimanjaro ⛰ ️</mark></a> </b> </span> </span> </span>
+          
+          .panel
+            .panel-positional
+              .panel-thumb.tilt-lft(style="background-image: url('/assets/img/day-materumi.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;")
+                h2 🏊 
+              .notes
+                p <b class="user-comment">✌️ Great experience when the weather holds </b>
+                p <b>What is like:</b> <br> #️⃣ Underground springs pond #️⃣warm  clear clean water #️⃣ideal for swimming. #️⃣very deep, in some places up to 10 meters 
+                .notes-lc-adress
+                  p <b>Pick-Up 🛬  & Drop-Off 🛫  Points 📍 :</b> <br> <b> ✈ KILIMANJARO AIRPORT   ✈ ARUCHA AIRPORT  ✈ DAR ES SALAAM </b>
+                p <b>Activities:</b> You will swim ,🍲 eat, drink and 🤣laugh alot!
+              
+              
+                button.snipcart-add-item.btn.bag-btn.tilt-rt(
+                data-item-id="004"
+                data-item-price="456.99"
+                data-item-url="#"
+                data-item-location="Northen Circuit Tanzania"
+                data-item-description="✌️ Great experience when the weather holds."
+                data-item-image="/assets/img/day-materumi.jpg"
+                data-item-name="Serengeti") ADD TO CART
+                button.btn.rt READ MORE
+        //PAGE ARTICLE ------------------------------------------------------------ PAGE ARTICLE END
+
+
+
+        //PAGE ARTICLE ------------------------------------------------------------ PAGE ARTICLE
+        article.article
+          .accordion
+            h2.article-title.flex <small class="best-price"> 🏷️<mark>$356</mark></small> Chemka ♨ hot spring <span class="article-highlights flex flex-col align-start"><span class="best-time">🌞 <b>july - nov </b> | <b>jan - march</b> </span> <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"><mark>Kilimanjaro ⛰ ️</mark></a> </b> </span> </span> </span>
+          .panel
+            .panel-positional
+              .panel-thumb.tilt-lft(style="background-image: url('/assets/img/day-materumi.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;")
+                h2 🏊 
+              .notes 
+                p <b class="user-view">✌️ Great experience when the weather holds </b>
+                p <b>Setting:</b> <br> #️⃣ Underground springs pond #️⃣warm  clear clean water #️⃣ideal for swimming. #️⃣very deep, in some places up to 10 meters 
+                p <span class="notes-lc-adress">📍<small>location: </small> Chemka Village. 40 Km from Moshi  </span>
+                p <b>Activities:</b> You will swim ,🍲 eat, drink and 🤣laugh alot!
+                
+                button.snipcart-add-item.btn.bag-btn.tilt-rt(
+                data-item-id="005"
+                data-item-price="356.99"
+                data-item-url="#"
+                data-item-location="Northen Circuit Tanzania"
+                data-item-description="😮 Arusha Np is a ricj tapestry of habitats, teeming with animals & birds."
+                data-item-image="/assets/img/day-materumi.jpg"
+                data-item-name="Kitulo") ADD TO CART
+                button.btn.tilt-rt READ 
+        //PAGE ARTICLE ------------------------------------------------------------ PAGE ARTICLE END
+    //======================================================================={PAGE CART} 
+
+    .cart-overlay.grid
+      .cart 
+        span.close-cart.large <i class="fa fa-window-close" aria-hidden="true"></i>
+        .article
+          //cart-item 
+          h3.align-text-center  Your Cart
+          .cart-content
+          //.cart-item.flex.flex-btn.flex_wrap.align-center 
+            
+          // cart-item end
+
+          .cart-footer
+            h3 your safari duration: <br><span class="cart-total"> 0 </span> <small>/ Days</small>
+            button.btn.clear-cart clear cart
+    // ----------------------------------------------------------------- END PAGE_CART 
+
+

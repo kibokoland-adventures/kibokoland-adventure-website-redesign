@@ -1,0 +1,72 @@
+.share-page,.js-nav-toggle //mobile nav icon -- display: block on desk
+  z-index: 6
+
+
+.page-header
+  background:
+    color: $lighter-green
+  
+.pagenav
+  position: relative
+  z-index: 1
+  height: 185px
+
+.logo-position-page
+  width: 300px
+  position: relative
+  top: $space-0-4
+
+
+.pagenav-top-corporate
+
+  @media screen and (max-width: 768px) 
+    display: none 
+
+.pagenav-corporate 
+  position: relative
+  right: $space-5-4
+  top: $space-0-4
+  & > * 
+    cursor: pointer
+
+.pgnav-top-link
+  margin: $space-0-4 0 //15px
+  margin-left: $space-1-4 //30px
+  font-weight: 400
+  letter-spacing: $letter-spc
+  margin-bottom: $space-1-4
+  color: $dark-brown //==> link color
+  text-transform: uppercase
+  font-family: 'Luckiest Guy', cursive
+  border-bottom: $border-w-1 solid $lighter-green
+  font:
+    size: $space-12-3
+.pgnav-top-link:hover
+  border-bottom-color: $light-green
+
+
+.product-link 
+  width: 25.33%
+  margin-left: $space-12-3
+  font-size: 1.5rem
+  line-height: 1.4rem
+  text-align: center
+  display: flex 
+  align-items: flex-end
+  padding-bottom: $space-base-2-4
+  border-bottom: $border-w-3 solid $border-c-light-green
+  cursor: pointer
+  @media screen and (max-width: 769px)
+    display: none
+
+
+.product-link.active, .corp-active 
+  border: $border-w-1 solid
+  border-color: $dark-brown
+  border-radius: $border-w-6
+  border-bottom-width: $border-w-3
+.corp-active
+  border-width: 0.9140625px
+  border-bottom-width: $border-w-1
+  padding: 0 $border-w-3
+

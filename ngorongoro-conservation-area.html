@@ -1,0 +1,161 @@
+---
+layout: page
+title: Ngorongoro Conservation Area
+subtitle: The wild the people all in one land, this is the 8th wonder of the world
+backtop: pg-day-top
+---
+<section class="pg-content flex">{% assign destination = site.data.destinations.items%}
+	<!--PAGE ============================================================ SIDE BAR-->
+	<sidebar class="pg-content-table">
+		<ul class="ul-plain quick-links">
+			<!--for loop - daytrips-collection-->{% for item in destination%}
+			  {% if item.sys.category == "private_safari" %}
+			   <li class="link"> <a href="./{{item.sys.url_slug}}.html"> <b>➥</b> {{item.fields.title}} </a> </li>
+			 {% endif%}
+			{%endfor%}
+		</ul>
+		<div class="quick-perks">
+			<h2>Tip: </h2>
+			<p>
+				You can select the excursion that you like by clicking <button class="btn"> ADD TO BUCKET</button> button... then
+				move to other pages and do the same. And when you about done!
+				there is a cart icon on the top... all your selections will 
+				listed there... ready for sharing w/ us for pre-booking and planning.
+				  
+			</p>
+		</div>
+	</sidebar>
+	<!-- PAGE ------------------------------------------------------------- END SIDE BAR-->
+	<section class="pg-section-articles products-center">
+		<!--PAGE ARTICLE ========================================================= PAGE ARTICLE-->
+		<article class="article display-article">
+			<div class="main-wrapper tilt-lft">
+			 <div class="slider">
+			   {% for item in destination%}
+			    {% if item.sys.category == "private_safari" %}
+			      {% for image in item.fields.overview.image_corousel%}
+			   <img class="slide {% if forloop.first %}initial{% endif%}" src="{{image}}">
+			      {% endfor%}
+			   {% endif %}
+			  {%endfor%} 
+			 </div>
+			 <div class="arrow arrow_prev">
+			   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257.6 451.8">
+			     <path d="M0,225.9c0-8.1,3.1-16.2,9.3-22.4L203.5,9.3c12.4-12.4,32.4-12.4,44.8,0c12.4,12.4,12.4,32.4,0,44.7L76.4,225.9l171.9,171.9c12.4,12.4,12.4,32.4,0,44.7c-12.4,12.4-32.4,12.4-44.7,0L9.3,248.3C3.1,242.1,0,234,0,225.9z"/>
+			   </svg>
+			 </div>
+			 <div class="arrow arrow_next">
+			   <svg class="arrow arrow_next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257.6 451.8">
+			     <path d="M248.3,248.3L54,442.6c-12.4,12.4-32.4,12.4-44.7,0c-12.4-12.4-12.4-32.4,0-44.7l171.9-171.9L9.3,54C-3.1,41.7-3.1,21.6,9.3,9.3C21.6-3.1,41.7-3.1,54,9.3l194.3,194.3c6.2,6.2,9.3,14.3,9.3,22.4C257.6,234,254.5,242.1,248.3,248.3z"/>
+			   </svg>
+			 </div>
+			</div>
+			{% for item in destination%}
+			  {% if item.sys.url_slug contains "ngorongoro-conservation-area" %}
+			  <header class="align-text-center">
+			    <p><br><br>#️⃣ {{item.fields.overview.setting.hashtags}} <br><br></p>
+			    <p class="article-title  big"> {{item.fields.review}}</p>
+			    <p> {{item.fields.overview.setting.activities}} <br></p>
+			    
+			  
+			    <nav class="article-nav-bar-wrap">
+			      <p class="article-nav-bar flex flex-around"> <a href="#overview" class="article-nav-link article-nav-link-current">Overview</a> | <a href="#what-to-expect" class="article-nav-link ">What to expect</a> | <a href="#what-to-see" class="article-nav-link">What to see</a>|  <a href="#itinerary" class="article-nav-link ">Itinerary</a></p></nav>
+			   </header>
+			   <div class="notes">
+			    <section class="destination-overview"> 
+			      <header>
+			         <p><b>Overview</b></p> 
+			      </header>
+			       <article>
+			        <p id="overview"> {{item.fields.overview.intro}}</p>
+			       </article>
+			      <article> 
+			       <article class="tour-details"> 
+			         <p><b>When: </b><br> {{item.fields.overview.tour_details.when}} </p>
+			         <p><b>Duration: </b><br> {{item.fields.overview.tour_details.duration}} </p>
+			         <p><b>Language: </b><br> {{item.fields.overview.tour_details.language}} </p>
+			         <p><b>Price: </b><br> {{item.fields.overview.tour_details.price_includes}} </p>
+			         <p><b>Transport: </b><br> {{item.fields.overview.tour_details.transport}} </p>
+			         <p><b>Itinerary: </b><br> {{item.fields.overview.tour_details.itinerary}} </p>
+			        
+			       </article>
+			       <article class="tour-logistics">
+			         <div class="nb flex flex-btn flex_wrap "> 
+			           <ul class="included ul-plain">
+			             <p> <b>Included </b> </p>
+			              <hr>
+			             {% for item in item.fields.overview.included %}
+			              <li><b>👍 </b> {{item}}</li>
+			             {% endfor %} 
+			           
+			            </ul>
+			            <ul class="excluded ul-plain">
+			              <p> <b>Excluded </b> </p>
+			              <hr>
+			              {% for item in item.fields.overview.excluded %}
+			              <li><b>  👎  </b> {{item}}</li>  
+			              {% endfor %} 
+			            </ul>
+			         </div>
+			         <ul class="ul-plain plz-note">
+			          <p> <b>Please Note </b> </p>
+			          <hr>
+			          {% for item in item.fields.overview.remarks %}
+			           <li><b>☝</b> {{item}}</li>
+			           {% endfor %}
+			         </ul>
+			       </article> 
+			     </section>
+			    
+			     <section> 
+			      <article class="article no-display-article">
+			         <h4>Watch the Video</h4>
+			         <div id="what-to-expect" class="flex-video-wrap">
+			           <div class="flex-video">
+			             {{item.fields.experience.expect.fields.video.file.url}}
+			           </div>
+			         </div>
+			       </article>
+			      
+			     </section> 
+			     <section> 
+			      <article class="article no-display-article">
+			       <div id="what-to-see" class="accordion">
+			         <h3 class="article-title zero-fit flex flex-btn"> What to see <b>〉</b></h3>
+			       </div>
+			       <div class="panel">
+			         <div class="panel-positional">
+			  
+			          <ul class="notes space-children ul-plain">
+			             {% for item in item.fields.experience.what_to_see %}
+			              <li><b>  🧐   </b> {{item}}</li>  
+			             {% endfor %} 
+			          </ul>
+			         </div>
+			       </div>
+			      </article>
+			     </section> 
+			     <section> 
+			      <article class="article no-display-article">
+			       <div id="itinerary" class="accordion">
+			         <h3 class="article-title zero-fit flex flex-btn"> Itinerary <b>〉</b></h3>
+			       </div>
+			       <div class="panel">
+			         <div class="panel-positional">
+			  
+			          <ul class="notes space-children ul-plain">
+			             {% for item in item.fields.experience.itinerary %}
+			              <li><b>  🧐   </b> {{item}}</li>  
+			             {% endfor %} 
+			          </ul>
+			         </div>
+			       </div>
+			      </article>
+			     </section> 
+			 
+			  </div>
+			{% endif%}
+			{% endfor%} 
+		</article>
+	</section>
+</section>

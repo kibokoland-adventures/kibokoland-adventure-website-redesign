@@ -1,0 +1,49 @@
+// PAGE ========================================= PAGE HEADER
+header.page-header
+  .grid
+    
+    .topnav-mobile.topnav-page 
+      .topnav-mobile-toggle 
+        a(href="javascript:void(0);" id="nav-toggle-page" class="icon js-topnav-mobile-nav-mobile-toggle") <i class="fa fa-bars"></i>
+        a(href="javascript:void(0);" id="nav-toggle-social-page" class="share-icon-page  js-topnav-mobile-nav-mobile-toggle-share") <i class="fa fa-share-alt"></i>
+
+        //PAGE ========================================= PAGE NAV DESK
+        nav.pagenav.flex.flex-btn.grid
+          a(href="/").brands-logo.logo-position-page: img(src="./img/uploads/logo-kibokoland-adventures.svg")
+
+          article
+            ul.ul-plain.pagenav-top-corporate.pagenav-corporate.flex.flex-end <!---pagenav-top-corporate -->
+              li.pgnav-top-link <a href="/about.pug">About Us</a>
+              li.pgnav-top-link <a href="/before-you-travel.pug">Before You Travel</a>
+              li.pgnav-top-link <a href="/contact.pug">Contact </a>
+              li.pgnav-top-link <a href="/blog.pug">Blog </a>
+              li.pgnav-top-link(title="Translation comming soon🚤 !") English <!-- Google Translation -->
+
+            ul.pagenav-product-links.flex.flex-btn 
+              a(href="/day-trip.pug").active.product-link.tilt-rt Day Trip 
+              a(href="/private-safari-holidays-and-transfers.pug").product-link.tilt-lft Safari & Transfers
+              a(href="/trekking-and-activities.pug").product-link.tilt-rt Trekking & Activities
+
+        // PAGE ------------------------------------------------------ END PAGE NAV DESK
+
+      .topnav-mobile-nav
+        .js-topnav-mobile-nav 
+          ul.ul-plain.topnav-mobile-main-links 
+            li <a href="/day-trip.pug" class="topnav-mobile-link "> Day Trip</a> 
+            li <a href="/private-safari-holidays-and-transfers.pug" class="topnav-mobile-link"> Private Safari Holidays And Transfers</a>
+            li <a href="/trekking-and-activities.pug" class="topnav-mobile-link"> Trekking & Activities</a>
+          ul.ul-plain.topnav-mobile-sub-links 
+            li <a href="/our-values.pug" class="topnav-mobile-link"> Our Values</a>
+            li <a href="/our-team.pug" class="topnav-mobile-link"> Our Team</a>
+            li <a href="/how-can-we-help-you.pug" class="topnav-mobile-link"> How can we help you?</a>
+          
+            
+      .topnav-mobile-nav-share.topnav-mobile-nav-share-home.ul-plain
+        .js-topnav-mobile-nav-share 
+          .brand-social <i class=" fa fa-facebook-square"></i>
+          .brand-social <i class=" fa fa-instagram"></i>
+          .brand-social <i class=" fa fa-twitter"></i>
+          .brand-social <i class=" fa fa-tripadvisor"></i>
+          .brand-social <i class=" fa fa-envelope"></i>
+
+// PAGE -------------------------------------------------------- END PAGE HEADER

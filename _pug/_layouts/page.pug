@@ -1,0 +1,44 @@
+|---
+|  layout: default
+|---
+header.page-header
+  .grid
+    .topnav-mobile.topnav-page 
+
+      //site-mobile-nav
+      | {% include site-mobile-nav.html%}
+      //end site-mobile-nav
+
+      .topnav-mobile-toggle 
+        //Nav Toggle Icons 
+        a(href="javascript:void(0);" id="nav-toggle-page" class="icon js-topnav-mobile-nav-mobile-toggle") <i class="fa fa-bars"></i>
+        a(href="javascript:void(0);" id="nav-toggle-social-page" class="share-icon-page  js-topnav-mobile-nav-mobile-toggle-share") <i class="fa fa-share-alt"></i>
+
+        //Page Nav 
+        | {% include pg-nav.html %}
+        //End Page Nav
+
+// PAGE -------------------------------------------------------- END PAGE HEADER
+// PAGE ========================================= PAGE CONTENT  
+section
+  .grid
+
+    //PAGE ====================================== SHOPPING CART
+    | {% include site-shopping-cart.html %}
+    
+   
+    //CART MODAL HERE
+    |{% include site-cart-modal.html %}
+    //END CART MODAL
+
+    //PAGE -------------------------------------- END SHOPPING CART
+
+
+
+    
+    // PAGE =========================================== PAGE CONTENT HEADER
+    | {% include site-page-header.html %}   
+    // PAGE --------------------------------------- - END PAGE CONTENT HEADER
+
+    
+    | {{content}}

@@ -1,0 +1,96 @@
+.main-wrapper
+    position: relative
+
+
+.slider
+    position: relative
+    display: flex
+
+.slide
+    width: 100%
+    height: $col-50-3
+    display: block
+    object-fit: cover
+    object-position: center
+
+.slide:not(.slide_current):not(.slide_next-right):not(.slide_next-left)
+    display: none
+
+
+.arrow
+    cursor: pointer
+    position: absolute
+    z-index: 1
+    height: $col-50-3
+    width: 50vw
+    top: 0
+
+.arrow svg
+    fill: #ffffff
+    width: 35px
+    opacity: 0.55
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+
+.arrow_prev
+    left: 0
+
+.arrow_prev svg
+    left: 3vw
+
+.arrow_next
+    right: 0
+
+.arrow_next svg
+    right: 3vw
+
+.arrow_disabled
+    pointer-events: none
+
+
+.slide_current
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%)
+
+.slide_next-right
+    clip-path: polygon(100% 0%, 100% 100%, 100% 100%, 100% 0%)
+    position: absolute
+
+.slide_next-left
+    clip-path: polygon(0% 0%, 0% 100%, 0% 100%, 0% 0%)
+    position: absolute
+
+.slide_prev-left
+    clip-path: polygon(0% 0%, 0% 100%, 0% 100%, 0% 0%)
+    transition: all 0.5s
+
+.slide_current-right
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%)
+    transition: all 0.5s
+
+.slide_prev-right
+    clip-path: polygon(100% 0%, 100% 100%, 100% 100%, 100% 0%)
+    transition: all 0.5s
+
+.slide_current-left
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%)
+    transition: all 0.5s
+
+
+  
+/*SLIDER OVERIDE*/  
+.slider
+  position: relative
+  display: flex
+
+
+.slide
+  width: 100%
+  height: $col-50-3
+  display: block
+  object-fit: cover
+  object-position: center
+
+
+.slide:not(.slide_current):not(.slide_next-right):not(.slide_next-left)
+  display: none

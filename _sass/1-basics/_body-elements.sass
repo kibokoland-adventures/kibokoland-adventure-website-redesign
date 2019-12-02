@@ -1,0 +1,108 @@
+*,html 
+  box-sizing: border-box
+body
+  background-color: white
+  font-size: 14px
+  line-height: 1.6
+  font-family: 'McLaren', cursive
+  color: #655142
+  -webkit-font-smoothing: antialiased
+  -webkit-text-size-adjust: 100%
+  /*background:
+    image: url("/assets/img/bg3.png")
+    color: $light-yellow */
+  overflow-x: hidden
+  height: auto
+
+.no-mouse-events 
+  pointer-events: none
+
+
+
+//
+// Logo Styles
+//
+.brands-logo
+  left: 0 
+  padding: 0
+  margin: 0
+  font-size: 0
+  display: block
+  z-index: 5
+
+/**
+  * Social Media Icons
+  */
+.brands-social,.brands-mail,.brand-value-icon
+  display: inline-block
+  width: $space-15-3 //36px
+  height: $space-15-3 //36px
+  font-size: $space-15-3
+  margin-right: $space-0-4//15px
+
+.brands-mail
+  margin-right: 0 
+
+.brands-phone
+  font-size: 15px
+
+
+
+/***
+  *Default sizing
+  */
+
+//remove default ul padding & margin
+.ul-plain
+  margin: 0
+  list-style: none 
+  padding: 0
+
+.zero-fit //remove padding&margin elements
+  margin: 0
+  padding: 0
+
+.clearfix::after 
+  content: ""
+  clear: both
+  display: table
+  
+.col
+  margin-top: 75px 
+  background-color: lighten(#493A30, 90%) //lighten(#FBFBE7 , 6%)//lighten(#655142, 60%) //lighten($dark-green, 53%)
+
+
+/**
+  * KLA' element tranfsorm to match kibokoland brand icon character
+    */
+.tilt-lft
+  transform: rotate(-1.9140625deg)
+.tilt-rt
+  transform: rotate(1.344307270233196deg)
+
+
+
+
+/**
+  * BASIC ELEMENT STYLES
+  */
+
+img 
+  max-width: 100%
+
+section
+  position: relative
+
+  //box-shadow: 0px 2px 10px rgba(0,0,0,0.1)
+  
+
+.article // one current news
+  border-radius: 5px 
+  padding: $space-base-2-4
+  background: 
+    color: $light-green //lighten(#493A30, 70%)//lighten(#493A30, 43%)//lighten(#493A30, 70%)
+  border-bottom: $border-w-6 solid $light-brown
+  color: $light-brown //lighten($dark-green, 73%)
+
+.back-to-top .back-to-top-link
+  margin-top: $space-15-4

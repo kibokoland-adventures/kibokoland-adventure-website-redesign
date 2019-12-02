@@ -1,0 +1,87 @@
+
+.cart-overlay
+  position: absolute
+  top: 0
+  right: 0
+  width: 100%
+  height: 100%
+  //background: transparent
+  background: $lighter-green
+  z-index: 300
+  visibility: visible
+  transition: $mainTransition
+
+.cart 
+  positon: absolute
+  top: 0
+  right: 0
+  width: 100%
+  height: 100%
+  overflow: scroll
+  z-index: 10
+  background: $light-green
+  transition: $mainTransition
+  //transform: translateX(100%)
+
+.showCart
+  transform: translateX(0)
+ 
+.transparentBcg
+  visibility: visible
+  display: block
+
+.close-cart 
+  font-size: 1.7rem
+  cursor: pointer
+
+.cart h2 
+  text-transform: capitalize
+  text-align: center
+  letter-spacing: $mainSpacing
+  margin-bottom: 2rem
+
+/*---------- Cart Item -------------------- */
+.cart-item 
+  margin: 1.5rem 0
+
+
+
+.cart-item img 
+  width: $space-15-4
+  height: $col-25-3
+
+.cart-item .item-title
+  font-size: 0.85rem
+  text-transform: capitalize
+  letter-spacing: $mainSpacing
+
+.cart-item .item-circuit
+  margin: 0.5rem 0
+  letter-spacing: $mainSpacing
+
+.item-amount 
+  text-align: center
+  margin-bottom: $space-12-3
+.remove-item 
+  color: grey
+  cursor: pointer
+
+.fa-chevron-up,
+.fa-chevron-down 
+  color: $primaryColor
+  cursor: pointer
+  font-size: 1.7rem
+
+
+
+.cart-footer 
+  margin-top: 2rem
+  letter-spacing: $mainSpacing
+  text-align: center
+
+.cart-footer h3 
+  text-transform: capitalize
+  margin-bottom: 1rem
+
+
+/* --------------- End of Cart ---------------- */
