@@ -85,8 +85,9 @@
 
 			let products = [...document.querySelectorAll('.bag-btn')]
 			products = products.map(item => {
-				const {itemId,itemName,itemImage,itemDescription, itemLocation,itemUrl} = item.dataset;
-				return {itemId, itemName, itemImage,itemDescription,itemLocation, itemUrl};
+
+				const {itemId,itemPrice,itemName,itemImage,itemDescription, itemLocation,itemUrl} = item.dataset;
+				return {itemId,itemPrice, itemName, itemImage,itemDescription,itemLocation, itemUrl};
 			} );	
 			return products;
 			
@@ -127,7 +128,7 @@
 				//display cart item
 				this.addCartItem(cartItem)
 				//show the cart
-				imoji.textContent = "👍";
+				
 				this.showCart()
 			})
 				
@@ -143,6 +144,11 @@
 			})
 			cartItems.innerText = itemsTotal;
 			cartTotal.innerText = itemsTotal;
+			if(itemsTotal == 0){
+				imoji.textContent = "👎";
+			}else {
+				imoji.textContent = "👍";
+			}
 		}
 
 		addCartItem(item){
@@ -216,7 +222,7 @@
 
 			let cartItems = cart.map(item => item.itemId);
 	
-			imoji.textContent = "👎";
+			
 			
 			cartItems.forEach(id => {
 				this.removeItem(id); 

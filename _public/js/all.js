@@ -108,6 +108,7 @@ function () {
       products = products.map(function (item) {
         var _item$dataset = item.dataset,
             itemId = _item$dataset.itemId,
+            itemPrice = _item$dataset.itemPrice,
             itemName = _item$dataset.itemName,
             itemImage = _item$dataset.itemImage,
             itemDescription = _item$dataset.itemDescription,
@@ -115,6 +116,7 @@ function () {
             itemUrl = _item$dataset.itemUrl;
         return {
           itemId: itemId,
+          itemPrice: itemPrice,
           itemName: itemName,
           itemImage: itemImage,
           itemDescription: itemDescription,
@@ -176,8 +178,6 @@ function () {
           _this.addCartItem(cartItem); //show the cart
 
 
-          imoji.textContent = "👍";
-
           _this.showCart();
         });
       });
@@ -193,6 +193,12 @@ function () {
       });
       cartItems.innerText = itemsTotal;
       cartTotal.innerText = itemsTotal;
+
+      if (itemsTotal == 0) {
+        imoji.textContent = "👎";
+      } else {
+        imoji.textContent = "👍";
+      }
     }
   }, {
     key: "addCartItem",
@@ -260,7 +266,6 @@ function () {
       var cartItems = cart.map(function (item) {
         return item.itemId;
       });
-      imoji.textContent = "👎";
       cartItems.forEach(function (id) {
         _this4.removeItem(id);
 
