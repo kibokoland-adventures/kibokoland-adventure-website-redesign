@@ -199,7 +199,7 @@ function () {
     value: function addCartItem(item) {
       var div = document.createElement("fieldset");
       div.classList.add("cart-item");
-      div.innerHTML = "\n\n\t\t\t\t<legend>\n\t\t\t\t\t<h3 class=\"article-title flex\"> <small class=\"best-price\"> \uD83C\uDFF7\uFE0F<mark>$".concat(item.itemPrice, "</mark></small> ").concat(item.itemName, " <span class=\"article-highlights flex flex-col align-start\"> <span class=\"best-time\">\uD83C\uDF1E<br> <b>july - nov </b> <br> <b>jan - march</b> </span> <span class=\"lc-adress\"><b><small>\uD83D\uDCE2 place </small> <span class=\"place tilt-lft\"><a class=\"place-link\" href=\"#\"> <mark> ").concat(item.itemLocation, " \uFE0F</mark></a> </b> </span> </span> </span> </h3>\n\t\t\t\t</legend>\n\n\t\t\t\t<div class=\"flex flex-btn modal-form-label form-col-2\">\n\t\t\t\t\t<label for=\"duration\"> Duration\n\t\t\t\t\t\t<span><br> <input type=\"text\"  name=\"important_note\" placeholder=\"2-nights / daytrip\" required> </span>\n\t\t\t\t\t</label>\n\t\t\t\t\n\t\t\t\t\t<label for=\"accomodation-options\"> Accomodation Options\n\t\t\t\t\t<span>  <br> <input type=\"checkbox\"  name=\"accomodation-options\"> &amp;beyond </input> <br> <input type=\"checkbox\"  name=\"accomodation-options\" > best mid-luxury lodging </input> <br> <input type=\"checkbox\"  name=\"accomodation-options\" > I will Camp \u26FA  </input> </span>\n\t\t\t\t\t</label>\n\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<span class=\"remove-item\" data-id=").concat(item.itemId, "> remove </span>\n\t\t\t\t\t\n\t\t\t");
+      div.innerHTML = "\n\n\t\t\t\t<legend>\n\t\t\t\t\t<h3 class=\"article-title flex\"> <small class=\"best-price\"> \uD83C\uDFF7\uFE0F<mark>$".concat(item.itemPrice, "</mark></small> ").concat(item.itemName, "  <span class=\"lc-adress\"><b><small>\uD83D\uDCE2 place </small> <span class=\"place tilt-lft\"><a class=\"place-link\" href=\"#\"> <mark> ").concat(item.itemLocation, " \uFE0F</mark></a> </b> </span> </span> </h3>\n\t\t\t\t</legend>\n\n\t\t\t\t<div class=\"flex flex-btn modal-form-label form-col-2\">\n\t\t\t\t\t<label for=\"duration\"> Duration\n\t\t\t\t\t\t<span><br> <input type=\"text\"  name=\"important_note\" placeholder=\"2-nights / daytrip\" required> </span>\n\t\t\t\t\t</label>\n\t\t\t\t\n\t\t\t\t\t<label for=\"accomodation-options\"> Accomodation Options\n\t\t\t\t\t<span>  <br> <input type=\"checkbox\"  name=\"accomodation-options\"> &amp;beyond </input> <br> <input type=\"checkbox\"  name=\"accomodation-options\" > best mid-luxury lodging </input> <br> <input type=\"checkbox\"  name=\"accomodation-options\" > I will Camp \u26FA  </input> </span>\n\t\t\t\t\t</label>\n\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<span class=\"remove-item\" data-id=").concat(item.itemId, "> remove </span>\n\t\t\t\t\t\n\t\t\t");
       cartContent.prepend(div);
     }
   }, {
@@ -281,7 +281,7 @@ function () {
 
       var button = this.getSingleButton(id);
       button.disabled = false;
-      button.innerText = "ADD TO BUCKET LIST";
+      button.innerText = "ADD TO BUCKET";
     }
   }, {
     key: "getSingleButton",

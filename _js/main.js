@@ -152,7 +152,7 @@
 			div.innerHTML = `
 
 				<legend>
-					<h3 class="article-title flex"> <small class="best-price"> 🏷️<mark>$${item.itemPrice}</mark></small> ${item.itemName} <span class="article-highlights flex flex-col align-start"> <span class="best-time">🌞<br> <b>july - nov </b> <br> <b>jan - march</b> </span> <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"> <mark> ${item.itemLocation} ️</mark></a> </b> </span> </span> </span> </h3>
+					<h3 class="article-title flex"> <small class="best-price"> 🏷️<mark>$${item.itemPrice}</mark></small> ${item.itemName}  <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"> <mark> ${item.itemLocation} ️</mark></a> </b> </span> </span> </h3>
 				</legend>
 
 				<div class="flex flex-btn modal-form-label form-col-2">
@@ -233,7 +233,7 @@
 			//window['location'].replace(location); //Hack Close Cart dont work
 			let button = this.getSingleButton(id);
 			button.disabled = false;
-			button.innerText = "ADD TO BUCKET LIST";
+			button.innerText = "ADD TO BUCKET";
 			
 
 		}

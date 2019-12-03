@@ -477,6 +477,9 @@ a {
   a:hover, a:focus {
     color: #967763; }
 
+.btn a {
+  color: #fbfbe7; }
+
 .link:hover {
   text-decoration: underline;
   -webkit-text-decoration-color: #493A30;
@@ -659,10 +662,12 @@ hr {
           flex: 2; }
 
 .pg-title {
-  margin-bottom: 30.625px; }
+  margin-bottom: 30.625px;
+  color: #655142; }
 
 .pg-sub {
-  margin-bottom: 61.25px; }
+  margin-bottom: 61.25px;
+  color: #655142; }
 
 .pg-content-table {
   max-width: 245px;
@@ -969,11 +974,12 @@ hr {
   overflow: scroll;
   max-width: 980px;
   margin: 0 auto;
-  height: 90vh;
+  height: 88vh;
   border-radius: 0.5rem; }
   @media screen and (max-width: 450px) {
     .modal-content {
-      width: 320px; } }
+      width: 88%;
+      height: 78vh; } }
 
 .close-button {
   float: right;
@@ -1004,6 +1010,9 @@ hr {
 .modal-form-label > * {
   -webkit-box-flex: 1;
           flex: 1; }
+
+.cart-item {
+  width: 100%; }
 
 .cart-footer {
   margin-top: 2rem;
@@ -1126,8 +1135,7 @@ hr {
   display: none; }
 
 .form {
-  max-width: 95%;
-  min-width: 320px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
   display: -webkit-box;
@@ -1138,6 +1146,8 @@ hr {
           flex-direction: row;
   -webkit-box-pack: center;
           justify-content: center; }
+  .form > * {
+    box-sizing: border-box; }
   .form .customer-details {
     margin: 30.625px auto; }
   .form fieldset {
@@ -1224,9 +1234,7 @@ hr {
 
 fieldset label.error {
   color: #e75845;
-  display: none;
-  margin-left: 0.5em;
-  width: auto !important; }
+  display: none; }
 
 @-webkit-keyframes tick {
   0% {
@@ -1554,6 +1562,8 @@ fieldset label.error {
       color: #fbfbe7;
       border-radius: 1.9140625px 1.344307270233196px;
       padding: 1.9140625px 1.344307270233196px; }
+  .pagenav, .topnav-page .js-topnav-mobile-nav {
+    margin-top: 61.25px; }
   .brand-value {
     display: -webkit-box;
     display: flex;
