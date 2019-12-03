@@ -87,12 +87,16 @@
 //Inner Page Article Styles 
 .article-nav-bar-wrap
   background-color: $lighter-green
-  height: $space-1-4
+  //height: $space-1-4
   border-radius: $border-w-3
 
 .article-nav-bar 
   width: 86%
 .article-nav-link
+  padding: $space-base-2-4
+  text-decoration: underline
+  flex: 1
+  min-width: $col-25-3
   ::hover 
     font-weight: 600
 
@@ -102,18 +106,33 @@
 .destination-overview, .plz-note
   margin-top: $space-5-4
 
+.destination-foot-note-wrap 
+  margin-top: $space-5-4
+.destination-foot-note > * 
+  display: inline-block
+  flex: 1 
+
+.destination-foot-note
+  .mail-to 
+    display: block
+    line-height: 1em
+    max-width: 300px
+  .btn 
+    max-width: 200px
+
 .tour-details 
   background-color: $lighter-green 
   border-radius: $border-w-3
   p
     padding: 0 
     margin-bottom: $space-base-2-4
-    line-height: 1em
+    line-height: 1.5em
     padding: 1em
 .tour-logistics 
   border: solid $letter-spc $dark-brown
   border-radius: $border-w-3
   padding: 1.5%
+  margin-top: $space-5-4
   li b 
     font-size: 20px
 .included,.excluded 

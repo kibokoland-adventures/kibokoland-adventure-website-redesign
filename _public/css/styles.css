@@ -760,14 +760,19 @@ hr {
 
 .article-nav-bar-wrap {
   background-color: #fbfbe7;
-  height: 30.625px;
   border-radius: 3.82812px; }
 
 .article-nav-bar {
   width: 86%; }
 
-.article-nav-link ::hover {
-  font-weight: 600; }
+.article-nav-link {
+  padding: 7.65625px;
+  text-decoration: underline;
+  -webkit-box-flex: 1;
+          flex: 1;
+  min-width: 108.88889px; }
+  .article-nav-link ::hover {
+    font-weight: 600; }
 
 .article-nav-link-current {
   font-weight: 600; }
@@ -775,19 +780,36 @@ hr {
 .destination-overview, .plz-note {
   margin-top: 61.25px; }
 
+.destination-foot-note-wrap {
+  margin-top: 61.25px; }
+
+.destination-foot-note > * {
+  display: inline-block;
+  -webkit-box-flex: 1;
+          flex: 1; }
+
+.destination-foot-note .mail-to {
+  display: block;
+  line-height: 1em;
+  max-width: 300px; }
+
+.destination-foot-note .btn {
+  max-width: 200px; }
+
 .tour-details {
   background-color: #fbfbe7;
   border-radius: 3.82812px; }
   .tour-details p {
     padding: 0;
     margin-bottom: 7.65625px;
-    line-height: 1em;
+    line-height: 1.5em;
     padding: 1em; }
 
 .tour-logistics {
   border: solid 0.05981em #493A30;
   border-radius: 3.82812px;
-  padding: 1.5%; }
+  padding: 1.5%;
+  margin-top: 61.25px; }
   .tour-logistics li b {
     font-size: 20px; }
 
@@ -1608,7 +1630,9 @@ fieldset label.error {
     margin: 3.82812px 0px; }
     .pg-section-articles > * {
       margin: 0 7.65625px;
-      margin-bottom: 61.25px; } }
+      margin-bottom: 61.25px; }
+  .article-nav-bar-wrap {
+    display: none; } }
 
 /**
   * ----------------------------------------------------------------- END  Max-Width: 768px

@@ -243,7 +243,11 @@ function () {
     value: function cartLogic() {
       var _this3 = this;
 
-      //Cart Functionality
+      //clearCart Button
+      clearCartBtn.addEventListener("click", function () {
+        _this3.clearCart();
+      }); //Cart Functionality
+
       cartContent.addEventListener("click", function (event) {
         if (event.target.classList.contains("remove-item")) {
           var removeItem = event.target;
@@ -252,10 +256,6 @@ function () {
 
           _this3.removeItem(id);
         }
-      }); //clearCart Button
-
-      clearCartBtn.addEventListener("click", function () {
-        _this3.clearCart();
       });
     }
   }, {

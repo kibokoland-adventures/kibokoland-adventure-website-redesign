@@ -203,6 +203,11 @@
 		}
 
 		cartLogic(){
+			
+			//clearCart Button
+			clearCartBtn.addEventListener("click", () =>{
+				this.clearCart(); 		})
+				
 			//Cart Functionality
 			cartContent.addEventListener("click", event => {
 				
@@ -213,10 +218,6 @@
 					this.removeItem(id)
 				}
 			})
-			//clearCart Button
-			clearCartBtn.addEventListener("click", () =>{
-				this.clearCart(); 		})
-
 		}
 		clearCart(){
 
