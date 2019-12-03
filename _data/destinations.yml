@@ -329,23 +329,23 @@ items:
 
 #END PRIVATE SAFARIS
 
-# TREKKS AND OTHER ACTIVITIES 
+# trekS AND OTHER ACTIVITIES 
 - sys:
     id: '201'
     icon: 🧗‍♂️ 
     circuit: Northen Circuit
-    category: trekks_and_activities
-    url_slug: mt-kilimanjaro-trekking
+    category: treks_and_activities
+    url_slug: mt-kilimanjaro-treks
     
 
   fields:
-    title: Trekking ⛰ Mt. Kilimanjaro 
+    title: treks ⛰ Mt. Kilimanjaro 
     review:  😲 54 countries of africa on your feet, how do you call that? 
     price: 10.99
     best_time: 🌞 <b>july - nov </b> | <b>jan - march</b>
     image:
       fields:
-        alt: Mt.Kilimanjaro Trekking
+        alt: Mt.Kilimanjaro treks
         file:
           url: "./img/bird-1.jpg"
 
@@ -416,7 +416,7 @@ items:
     id: '202'
     icon: 🚴 🚵  
     circuit: Northen Circuit
-    category: trekks_and_activities
+    category: treks_and_activities
     url_slug: cycling-and-mountain-biking-kilimanjaro
     
 
@@ -494,4 +494,4 @@ items:
         - Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Barcelona vacation. 
         - This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
 
-#END TREKKS AND OTHER ACTIVITIES
+#END trekS AND OTHER ACTIVITIES

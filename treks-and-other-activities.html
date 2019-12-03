@@ -1,15 +1,15 @@
 ---
 layout: page
-title:  TREKKING &amp; ACTIVITIES 
+title:  treks &amp; ACTIVITIES 
 subtitle: UNLEASH THE SOCIAL ACTIVE PERSONALITY. LETS GO INSPIRE THE WORLD!
-backtop: pg-trekks-top
+backtop: pg-treks-top
 ---
 <section class="pg-content flex">{% assign destination = site.data.destinations.items%}
 	<!--PAGE ============================================================ SIDE BAR-->
 	<sidebar class="pg-content-table">
 		<ul class="ul-plain quick-links">
 			<!--for loop - daytrips-collection-->{% for item in destination%}
-			  {% if item.sys.category == "trekks_and_activities" %}
+			  {% if item.sys.category == "treks_and_activities" %}
 			   <li class="link"> <a href="./{{item.sys.url_slug}}.html"> <b>➥</b> {{item.fields.title}} </a> </li>
 			 {% endif%}
 			{%endfor%}
@@ -28,7 +28,7 @@ backtop: pg-trekks-top
 	<!-- PAGE ------------------------------------------------------------- END SIDE BAR-->
 	<section class="pg-section-articles products-center">
 		<!--PAGE ARTICLE ========================================================= PAGE ARTICLE-->{% for item in destination%}
-		  {% if item.sys.category == "trekks_and_activities" %}
+		  {% if item.sys.category == "treks_and_activities" %}
 		  <article class="article {% if forloop.first %} display-article {% endif %}">
 		  <div class="accordion">
 		    <h2 class= "article-title flex"> <small class="best-price"> 🏷️<mark>${{item.fields.price}}</mark></small> {{item.fields.title}} <span class="article-highlights flex flex-col align-start"><span class="best-time">{{item.fields.best_time}} </span> <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"><mark>{{item.sys.circuit}} ️</mark></a> </b> </span> </span> </span> </h2> </div>

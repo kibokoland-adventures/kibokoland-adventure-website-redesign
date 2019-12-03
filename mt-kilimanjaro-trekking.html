@@ -9,7 +9,7 @@ backtop: pg-day-top
 	<sidebar class="pg-content-table">
 		<ul class="ul-plain quick-links">
 			<!--for loop - daytrips-collection-->{% for item in destination%}
-			  {% if item.sys.category == "trekks_and_activities" %}
+			  {% if item.sys.category == "treks_and_activities" %}
 			   <li class="link"> <a href="./{{item.sys.url_slug}}.html"> <b>➥</b> {{item.fields.title}} </a> </li>
 			 {% endif%}
 			{%endfor%}
@@ -32,7 +32,7 @@ backtop: pg-day-top
 			<div class="main-wrapper tilt-lft">
 			 <div class="slider">
 			   {% for item in destination%}
-			    {% if item.sys.category == "trekks_and_activities" %}
+			    {% if item.sys.category == "treks_and_activities" %}
 			      {% for image in item.fields.overview.image_corousel%}
 			   <img class="slide {% if forloop.first %}initial{% endif%}" src="{{image}}">
 			      {% endfor%}
@@ -51,7 +51,7 @@ backtop: pg-day-top
 			 </div>
 			</div>
 			{% for item in destination%}
-			  {% if item.sys.url_slug contains "mt-kilimanjaro-trekking" %}
+			  {% if item.sys.url_slug contains "mt-kilimanjaro-treks" %}
 			  <header class="align-text-center">
 			    <p><br><br>#️⃣ {{item.fields.overview.setting.hashtags}} <br><br></p>
 			    <p class="article-title  big"> {{item.fields.review}}</p>
@@ -170,7 +170,7 @@ backtop: pg-day-top
 			               <article class="services-article col-30 txt-center flex flex-col flex-around align-center">
 			                   <div class="thumb tilt-lft" style="background-image: url('/assets/img/private-4.jpg'); background-size: cover; background-repeat: no-repeat;"></div>
 			                   <h4 class="thumb-title title-1 zero-fit">Girls in boots 👢 </h4>
-			                   <p>"We decided to pack-up and go walking with the giants in Tarangire"... girl we had it ✨</p><a href="/trekking-and-activities.pug"><button class="btn tilt-lft">READ MORE</button></a></article>
+			                   <p>"We decided to pack-up and go walking with the giants in Tarangire"... girl we had it ✨</p><a href="/treks-and-activities.pug"><button class="btn tilt-lft">READ MORE</button></a></article>
 			               
 			               </section>
 			              
