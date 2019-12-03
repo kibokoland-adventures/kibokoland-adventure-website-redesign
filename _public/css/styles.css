@@ -317,7 +317,7 @@ body {
   font-size: 14px;
   line-height: 1.6;
   font-family: 'McLaren', cursive;
-  color: #655142;
+  color: #493A30;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   /*background:
@@ -397,8 +397,8 @@ section {
 .article {
   border-radius: 5px;
   padding: 7.65625px;
-  background-color: #D3CB9B;
-  border-bottom: 7.65625px solid #493A30;
+  background-color: #dfdab7;
+  border-bottom: 7.65625px solid #655142;
   color: #493A30; }
 
 .back-to-top .back-to-top-link {
@@ -425,8 +425,8 @@ input[type="button"] {
   cursor: pointer;
   box-sizing: border-box;
   margin: 5px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#967763), color-stop(#D3CB9B), to(#967763));
-  background: linear-gradient(0.5turn, #967763, #D3CB9B, #967763);
+  background: -webkit-gradient(linear, left top, left bottom, from(#655142), color-stop(#493A30), to(#655142));
+  background: linear-gradient(0.5turn, #655142, #493A30, #655142);
   text-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 1px 0 0px rgba(0, 0, 0, 0.1), 1px 2px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.11);
   color: #faf9f8; }
   .btn:hover, .btn:active, .btn:focus,
@@ -442,8 +442,9 @@ input[type="button"] {
   input[type="button"]:hover,
   input[type="button"]:active,
   input[type="button"]:focus {
-    color: #333;
+    color: #E8E7E2;
     border-color: #888;
+    font-size: 15.3125px;
     outline: 1; }
 
 .shopping-checkout {
@@ -468,6 +469,18 @@ input[type="button"] {
   border: 1.91406px solid #fbfbe7;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 60%; }
+
+a {
+  color: #655142;
+  text-decoration: none;
+  outline: 1; }
+  a:hover, a:focus {
+    color: #967763; }
+
+.link:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #493A30;
+          text-decoration-color: #493A30; }
 
 ::selection {
   background: #FFF498; }
@@ -598,14 +611,14 @@ hr {
   font-weight: 400;
   letter-spacing: 0.05981em;
   margin-bottom: 30.625px;
-  color: #655142;
+  color: #493A30;
   text-transform: uppercase;
   font-family: 'Luckiest Guy', cursive;
   border-bottom: 1.91406px solid #fbfbe7;
   font-size: 12.09877px; }
 
 .pgnav-top-link:hover {
-  border-bottom-color: #D3CB9B; }
+  border-bottom-color: #dfdab7; }
 
 .product-link {
   width: 25.33%;
@@ -626,7 +639,7 @@ hr {
 
 .product-link.active, .corp-active {
   border: 1.91406px solid;
-  border-color: #655142;
+  border-color: #493A30;
   border-radius: 7.65625px;
   border-bottom-width: 3.82812px; }
 
@@ -767,7 +780,7 @@ hr {
     padding: 1em; }
 
 .tour-logistics {
-  border: solid 0.05981em #655142;
+  border: solid 0.05981em #493A30;
   border-radius: 3.82812px;
   padding: 1.5%; }
   .tour-logistics li b {
@@ -798,7 +811,7 @@ hr {
   border-bottom: 15.3125px solid #5E600E;
   background-color: #fffffd;
   border-radius: 1.9140625px 1.344307270233196px;
-  color: #655142;
+  color: #493A30;
   cursor: pointer; }
   .services-article:hover {
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); }
@@ -838,11 +851,11 @@ hr {
   padding: 3.82812px; }
 
 .topnav-mobile-toggle-home {
-  height: 61.25px; }
+  height: 70px; }
 
 .topnav-mobile a.icon {
   display: none;
-  font-size: 30.625px;
+  font-size: 36.2963px;
   z-index: 6; }
 
 .topnav-mobile-nav {
@@ -850,20 +863,21 @@ hr {
   padding: 15.3125px 0;
   padding-bottom: 15.3125px;
   list-style: none;
-  background-color: #D3CB9B; }
+  background-color: #fbfbe7;
+  font-size: 30.625px; }
 
 /* General */
 .topnav-mobile-main-links > *, .topnav-mobile-sub-links > * {
   border-bottom: 1.91406px solid #967763;
-  margin: 0 7.65625px; }
+  margin: 0 15.3125px; }
   .topnav-mobile-main-links > *:last-child, .topnav-mobile-sub-links > *:last-child {
     border-bottom: none; }
 
 .topnav-mobile-sub-links {
-  margin-top: 15.3125px; }
+  margin-top: 61.25px; }
 
 .topnav-mobile-link {
-  color: #655142;
+  color: #493A30;
   display: block;
   width: 100%; }
 
@@ -969,7 +983,7 @@ hr {
   text-align: center;
   cursor: pointer;
   border-radius: 0.25rem;
-  background-color: #493A30;
+  background-color: #655142;
   color: #fbfbe7; }
 
 .close-button:hover {
@@ -1129,7 +1143,7 @@ hr {
   .form fieldset {
     margin-top: 30.625px; }
   .form fieldset legend {
-    color: #655142;
+    color: #493A30;
     font-size: 1.2em;
     font-weight: 600; }
     .form fieldset legend .article-title {
@@ -1154,7 +1168,7 @@ hr {
     height: 2rem;
     border: none;
     border-radius: 5px;
-    background: rgba(101, 81, 66, 0.5);
+    background: rgba(73, 58, 48, 0.5);
     color: white;
     letter-spacing: 1.4px;
     font-family: inherit;
@@ -1192,17 +1206,17 @@ hr {
   .form textarea {
     border-color: #656d78; }
   .form textarea {
-    border-color: #493A30;
+    border-color: #655142;
     width: 95%;
     border-radius: 5px;
-    color: #655142;
+    color: #493A30;
     letter-spacing: .011012330233em;
     font-size: 1.2em;
     background: #E8E7E2;
     margin: 36.2963px 0px 2rem 0px;
     text-align: left; }
   .form option {
-    background-color: rgba(101, 81, 66, 0.2);
+    background-color: rgba(73, 58, 48, 0.2);
     color: white; }
 
 .no-border {
@@ -1240,9 +1254,9 @@ fieldset label.error {
   * FOOTER
   */
 .foot-note {
-  margin-top: 60px;
+  margin-top: 61.25px;
   background-color: #FBFBE7;
-  color: #655142; }
+  color: #493A30; }
 
 .important-links {
   flex-wrap: wrap; }
@@ -1288,7 +1302,7 @@ fieldset label.error {
   margin-top: 11.09876543209877px; }
 
 .homenav-corporate, .pagenav-top-corporate {
-  color: #655142;
+  color: #493A30;
   text-transform: uppercase;
   font-family: 'Luckiest Guy', cursive; }
   .homenav-corporate > *, .pagenav-top-corporate > * {
@@ -1309,7 +1323,7 @@ fieldset label.error {
     border-color: #967763; }
 
 .homenav-brand-connect {
-  color: #493A30;
+  color: #655142;
   right: 0;
   border-bottom: 1.91406px solid #967763;
   margin-top: 30.625px; }
@@ -1363,7 +1377,7 @@ fieldset label.error {
   *
   */
 .services-article-home {
-  border-bottom-color: #D3CB9B;
+  border-bottom-color: #c7bc7f;
   background-color: #faf9f8; }
 
 /*
@@ -1502,7 +1516,8 @@ fieldset label.error {
     text-align: center; }
     .brand-values .brand-value {
       border-bottom: 1.91406px solid #967763;
-      width: 100%; } }
+      width: 100%;
+      padding: 7.65625px 0; } }
 
 /**
   * -----------------------------------------------------------------   Max-Width: 596px
@@ -1525,6 +1540,7 @@ fieldset label.error {
     left: 7.65625px;
     top: 3.82812px; }
   .topnav-mobile a.share-icon-home {
+    display: inline-block;
     position: absolute;
     font-size: 30.625px;
     right: 7.65625px;

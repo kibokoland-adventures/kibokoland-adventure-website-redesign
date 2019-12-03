@@ -22,8 +22,13 @@
     element.addEventListener('click', navToggle);
   });
   document.querySelectorAll(".js-topnav-mobile-nav-mobile-toggle-share").forEach(element => {
-    element.addEventListener('click', navToggleShare);
-  });
+    element.addEventListener('click', (e) => {
+			navToggleShare();
+			e.preventDefault()
+		},false );
+	});
+
+		
 
 
 })();

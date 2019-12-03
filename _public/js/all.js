@@ -46,7 +46,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     element.addEventListener('click', navToggle);
   });
   document.querySelectorAll(".js-topnav-mobile-nav-mobile-toggle-share").forEach(function (element) {
-    element.addEventListener('click', navToggleShare);
+    element.addEventListener('click', function (e) {
+      navToggleShare();
+      e.preventDefault();
+    }, false);
   });
 })(); //CONTENT PANELS 
 
