@@ -320,9 +320,6 @@ body {
   color: #493A30;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
-  /*background:
-    image: url("/assets/img/bg3.png")
-    color: $light-yellow */
   overflow-x: hidden;
   height: auto; }
 
@@ -338,8 +335,8 @@ body {
   z-index: 5; }
 
 /**
-  * Social Media Icons
-  */
+ * Social Media Icons
+ */
 .brands-social, .brands-mail, .brand-value-icon {
   display: inline-block;
   width: 36.2963px;
@@ -354,8 +351,8 @@ body {
   font-size: 15px; }
 
 /***
-  *Default sizing
-  */
+ *Default sizing
+ */
 .ul-plain {
   margin: 0;
   list-style: none;
@@ -370,13 +367,18 @@ body {
   clear: both;
   display: table; }
 
+.arrow-dwn {
+  margin-right: 7.65625px;
+  width: 30.625px;
+  opacity: .8; }
+
 .col {
   margin-top: 75px;
   background-color: white; }
 
 /**
-  * KLA' element tranfsorm to match kibokoland brand icon character
-    */
+ * KLA' element tranfsorm to match kibokoland brand icon character
+ */
 .tilt-lft {
   -webkit-transform: rotate(-1.91406deg);
           transform: rotate(-1.91406deg); }
@@ -386,8 +388,8 @@ body {
           transform: rotate(1.34431deg); }
 
 /**
-  * BASIC ELEMENT STYLES
-  */
+ * BASIC ELEMENT STYLES
+ */
 img {
   max-width: 100%; }
 
@@ -1058,7 +1060,7 @@ hr {
 
 .slide {
   width: 100%;
-  height: 326.66667px;
+  height: 490px;
   display: block;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1072,7 +1074,7 @@ hr {
   cursor: pointer;
   position: absolute;
   z-index: 1;
-  height: 326.66667px;
+  height: 490px;
   width: 50vw;
   top: 0; }
 
@@ -1146,7 +1148,7 @@ hr {
 
 .slide {
   width: 100%;
-  height: 326.66667px;
+  height: 490px;
   display: block;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1155,6 +1157,99 @@ hr {
 
 .slide:not(.slide_current):not(.slide_next-right):not(.slide_next-left) {
   display: none; }
+
+.hash-tag-p {
+  list-style: none;
+  position: relative;
+  padding: 0 0 0 20px; }
+  .hash-tag-p li {
+    display: inline-block;
+    margin-right: 7.65625px; }
+  .hash-tag-p li::before {
+    content: "\20E3"; }
+
+.contact-kla {
+  position: relative;
+  width: 80%;
+  border-radius: 30px;
+  background: #dfdab7; }
+  .contact-kla .find-us-on-google {
+    text-decoration: underline;
+    margin-bottom: 30.625px;
+    font-size: 30.625px;
+    display: inline-block; }
+  .contact-kla .form-left-decoration,
+  .contact-kla .form-right-decoration {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    background: #5E600E; }
+  .contact-kla .form-left-decoration {
+    bottom: 60px;
+    right: -30px; }
+  .contact-kla .form-right-decoration {
+    top: 60px;
+    left: -30px; }
+  .contact-kla .form-left-decoration:before,
+  .contact-kla .form-left-decoration:after,
+  .contact-kla .form-right-decoration:before,
+  .contact-kla .form-right-decoration:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    background: #dfdab7; }
+  .contact-kla .form-left-decoration:before {
+    top: -20px; }
+  .contact-kla .form-left-decoration:after {
+    top: 20px;
+    left: 10px; }
+  .contact-kla .form-right-decoration:before {
+    top: -20px;
+    right: 0; }
+  .contact-kla .form-right-decoration:after {
+    top: 20px;
+    right: 10px; }
+  .contact-kla .circle {
+    position: absolute;
+    bottom: 80px;
+    right: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff; }
+  .contact-kla .form-inner {
+    padding: 40px; }
+  .contact-kla .form-inner input,
+  .contact-kla .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #fbfbe7; }
+  .contact-kla .form-inner textarea {
+    resize: none; }
+  .contact-kla button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 4px solid #493A30;
+    background: #5E600E;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff; }
+  .contact-kla button:hover {
+    background: #484a0b; }
+  @media (min-width: 568px) {
+    .contact-kla form {
+      width: 60%; } }
 
 .form {
   width: 100%;

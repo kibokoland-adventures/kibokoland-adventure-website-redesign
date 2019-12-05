@@ -1,0 +1,131 @@
+|---
+| layout: page
+| title: About Us 
+| subtitle: We Just Guide Better.
+| backtop: pg-day-top
+|---
+
+    
+section.pg-content
+
+  | {% assign destination = site.data.about.experiences.image_corousel%}
+  section.pg-section-articles.products-center
+
+    //PAGE ARTICLE ========================================================= PAGE ARTICLE
+    
+    article.article.display-article
+
+      | <article class="article">
+      |   <div id="what-to-expect" class="flex-video-wrap">
+      |    <div class="flex-video">
+      |      {{site.data.about.who_we_are.video}}
+      |    </div>
+      |   </div>
+      | </article>
+      |       
+      |<section>
+      | <header class="align-text-center">
+      |  <p><br><br> <b>#?</b>  {{site.data.about.who_we_are.hashtags}} <br><br></p>
+      |   <p class="article-title  big"> {{site.data.about.who_we_are.review}}</p>
+      |   <p> {{site.data.about.who_we_are.what_we_do}} <br></p>
+      |     
+      |   
+  
+      | </header>
+      |<div class="main-wrapper tilt-lft">
+      |  <div class="slider">
+      |    {% for image in destination %}
+      |    <img class="slide {% if forloop.first %}initial{% endif%}" src="{{image}}">
+      |   {%endfor%} 
+      |  </div>
+      |  <div class="arrow arrow_prev">
+      |    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257.6 451.8">
+      |      <path d="M0,225.9c0-8.1,3.1-16.2,9.3-22.4L203.5,9.3c12.4-12.4,32.4-12.4,44.8,0c12.4,12.4,12.4,32.4,0,44.7L76.4,225.9l171.9,171.9c12.4,12.4,12.4,32.4,0,44.7c-12.4,12.4-32.4,12.4-44.7,0L9.3,248.3C3.1,242.1,0,234,0,225.9z"/>
+      |    </svg>
+      |  </div>
+      |  <div class="arrow arrow_next">
+      |    <svg class="arrow arrow_next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257.6 451.8">
+      |      <path d="M248.3,248.3L54,442.6c-12.4,12.4-32.4,12.4-44.7,0c-12.4-12.4-12.4-32.4,0-44.7l171.9-171.9L9.3,54C-3.1,41.7-3.1,21.6,9.3,9.3C21.6-3.1,41.7-3.1,54,9.3l194.3,194.3c6.2,6.2,9.3,14.3,9.3,22.4C257.6,234,254.5,242.1,248.3,248.3z"/>
+      |    </svg>
+      |  </div>
+      |</div>
+      
+      |  <div class="notes">
+      |   <section class="destination-overview"> 
+
+
+
+      |     <article class="article no-display-article">
+      |       <div id="overview" class="accordion">
+      |          <h3 class="article-title zero-fit flex flex-btn">About Our Team <i class="arrow-dwn fa fa-chevron-down"></i></h3>
+      |        </div>
+
+      |        <div class="panel">
+      |          <div class="panel-positional">
+
+      |           <article>
+      |            <p id="overview"> {{site.data.about.who_we_are.intro}}</p>
+      |           </article>
+  
+      |           
+
+      |          
+
+      |           
+      |          </div>
+      |        </div>
+      |       </article>
+      
+      |      </section>
+      |     
+      |      
+      |      <section> 
+      |       <article class="article no-display-article">
+      |        <div id="what-to-see" class="accordion">
+      |          <h3 class="article-title zero-fit flex flex-btn"> Our Story <i class="arrow-dwn fa fa-chevron-down"></i></h3>
+      |        </div>
+      |        <div class="panel">
+      |          <div class="panel-positional">
+      |   
+      |           <p>{{site.data.about.who_we_are.intro}} </p>
+      |          </div>
+      |        </div>
+      |       </article>
+      |      </section> 
+
+      |      <section> 
+      |       <article class="article no-display-article">
+      |        <div id="itinerary" class="accordion">
+      |          <h3 class="article-title zero-fit flex flex-btn"> OUR MISSION <i class="arrow-dwn fa fa-chevron-down"></i></h3>
+      |        </div>
+      |        <div class="panel">
+      |          <div class="panel-positional">
+      |   
+      |        
+      |            <article class="article col-100">
+      |              <hr>
+      |              <h3>The Top Tree circuits of 2019! Co-Designed with our Customers</h3>
+      |              <h2>They really knew what was best! {{site.data.emoji.kla-emoji.other.sparkles.fields.html}}</h2><br/>
+      |              <p><b>We have selected these safari packages based on the personalized level and the impact they had to both our clients and the Tanzanian Community... Its in our heart to thank you our dear visitors from whom we grew and stand together and make all trips and experiences posible... </b><br><br></p><br/>
+      |              
+      |               
+      |              </article>
+      |          </div>
+      |        </div>
+      |       </article>
+      |        <section class="destination-foot-note-wrap">  
+      |          <div class=" flex flex-btn align-center flex_wrap destination-foot-note">
+      |             <p> <b class="mail-to align-text-center"><a href="mailto:petergabrieltz@gmail.com">{{site.data.emoji.kla-emoji.other.email.fields.html}} <br> connect with us</a></b> <br><br></p>
+      |          </div>
+      |          <div class="flex flex-col align-end news-letter-footer">
+      |              <div class="authority-signature no-mouse-events tilt-lft" style="background-image: url('./img/uploads/signature-designer.svg'); background-size: 95%; backgroung-position: cover; background-repeat: no-repeat;"> </div>
+      |              <p class="authority-name small tilt-rt"><b>{{site.data.emoji.kla-emoji.animals.hippo.fields.html}} Kibokoland Adventures Ltd.</b></p>
+      |          </div>
+      |        </section>
+      |      </section> 
+      |  
+      |   </div>
+      | </section>
+
+      
+      

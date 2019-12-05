@@ -149,7 +149,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 104)
-  jekyll (~> 3.3.0)
+  jekyll
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.0)

@@ -167,7 +167,7 @@
 					</label>
 				
 					<label for="accomodation-options"> Accomodation Options
-					<span>  <br> <input type="checkbox"  name="accomodation-options"> &amp;beyond </input> <br> <input type="checkbox"  name="accomodation-options" > best mid-luxury lodging </input> <br> <input type="checkbox"  name="accomodation-options" > I will Camp ⛺  </input> </span>
+					<span>  <br> <input type="checkbox"  name="accomodation-options">Five Star 🌟 ( ${item.itemFiveStarPrice}) </input> <br> <input type="checkbox"  name="accomodation-options" > 3-4 Star ⭐ ( ${item.itemThreeStarPrice} )</input> <br> <input type="checkbox"  name="accomodation-options" > I will Camp ⛺ ( ${item.itemCampBasic})  </input>  </span>
 					</label>
 				
 				</div>

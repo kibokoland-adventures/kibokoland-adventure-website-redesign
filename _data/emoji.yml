@@ -1,0 +1,237 @@
+kla-emoji:
+  animals:
+    hippo:
+      fields:
+        code: U+1F99B
+        html: 🦛
+    rhino:
+      fields:
+        code: U+1F98F
+        html: 🦏
+    elephant:
+      fields:
+        code: U+1F418
+        html: 🐘
+    giraffe:
+      fields:
+        code: U+1F992
+        html: 🦒
+    zebra:
+      fields:
+        code: U+1F993
+        html: 🦓
+    leopard:
+      fields:
+        code: U+1F406
+        html: 🐆
+    lion:
+      fields:
+        code: U+1F981
+        html: 🦁
+    gorilla:
+      fields:
+        code: U+1F98D
+        html: 🦍
+    paws:
+      fields:
+        code: U+1F43E
+        html: 🐾
+  foods:
+    pot_food:
+      fields:
+        code: U+1F372
+        html: 🍲
+    green_salad:
+      fields:
+        code: U+1F957
+        html: 🥗
+    lunch_box:
+      fields:
+        code: U+1F371
+        html: 🍱
+  drinks:
+    tropical:
+      fields:
+        code: U+1F379
+        html: 🍹
+  emotions:
+    smiling_cat:
+      fields:
+        code: U+1F63B
+        html: 😻
+    astonished_face:
+      fields:
+        code: U+1F632
+        html: 😲
+    winking_face_tongue:
+      fields:
+        code: U+1F61C
+        html: 😜
+    winking_face:
+      fields:
+        code: U+1F609
+        html: 😉
+    laugh:
+      fields:
+        code: U+1F923
+        html: 🤣
+  landscapes:
+    mountain_show:
+      fields:
+        code: U+1F3D4
+        html: 🏔
+    mountain:
+      fields:
+        code: U+26F0
+        html: ⛰
+    beach:
+      fields:
+        code: U+1F3D6
+        html: 🏖
+    national_park:
+      fields:
+        code: U+1F3DE
+        html: 🏞
+    hot_spring:
+      fields:
+        code: U+2668
+        html: ♨
+  # ============================================ ACTIVITIES
+  activities:
+    camping:
+      fields:
+        code: U+1F3D5
+        html: 🏕
+    diving:
+      fields:
+        code: U+1F93F
+        html: 🤿
+    biking:
+      fields:
+        code: U+1F6B4
+        html: 🚴
+    mountain_biking:
+      fields:
+        code: U+1F6B5
+        html: 🚵
+    swim:
+      fields:
+        code: U+1F3CA
+        html: 🏊
+    bot_roaming:
+      fields:
+        code: U+1F6A3
+        html: 🚣
+    climbing:
+      fields:
+        code: U+1F9D7
+        html: 🧗
+  hands:
+    thumb-up:
+      fields:
+        code: U+1F44D
+        html: 👍
+    thumb-down:
+      fields:
+        code: U+1F44E
+        html: 👎
+    point_up:
+      fields:
+        code: U+1F446
+        html: 👆
+    point_right:
+      fields:
+        code: U+1F449
+        html: 👉
+  events:
+    sun_rise:
+      fields:
+        code: U+1F305
+        html: 🌅
+    departure:
+      fields:
+        code: U+1F6EB
+        html: 🛫
+    arrival:
+      fields:
+        code: U+1F6EC
+        html: 🛬
+  automobile:
+    chopper:
+      fields:
+        code: U+1F681
+        html: 🚁
+  other:
+    time:
+      fields:
+        code: U+231B
+        html: ⌛
+    sun:
+      fields:
+        code: U+1F31E
+        html: 🌞
+    star:
+      fields:
+        code: U+1F31F
+        html: 🌟
+    sparkles:
+      fields:
+        code: U+2728
+        html: ✨
+    baloon:
+      fields:
+        code: U+1F388
+        html: 🎈
+    party_popper:
+      fields:
+        code: U+1F389
+        html: 🎉
+    loud_speaker:
+      fields:
+        code: U+1F4E2
+        html: 📢
+    tel:
+      fields:
+        code: U+260E
+        html: ☎
+    label:
+      fields:
+        code: U+1F3F7
+        html: 🏷
+    credit_card:
+      fields:
+        code: U+1F4B3
+        html: 💳
+    email:
+      fields:
+        code: U+1F4E7
+        html: 📧
+    cart:
+      fields:
+        code: U+1F6D2
+        html: 🛒
+    key_cap:
+      fields:
+        code: EF B8 8F 09
+        html: #️
+    tz:
+      fields:
+        code: U+1F1F9 U+1F1FF
+        html: 🇹 🇿
+    bin:
+      fields:
+        code: U+1F5D1
+        html: 🗑
+    hundred:
+      fields:
+        code: U+1F4AF
+        html: 💯
+    laptop:
+      fields:
+        code: U+1F4BB
+        html: 💻
+  wearables:
+    woman_boots:
+      fields:
+        code: U+1F462
+        html: 👢

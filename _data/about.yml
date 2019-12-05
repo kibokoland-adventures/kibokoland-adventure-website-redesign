@@ -1,0 +1,23 @@
+who_we_are:
+  into: |
+    Kiboko land adventures was established in 2012 and has continued to grow and expand over the years. We pride ourselves in providing our clients with the most comprehensive service and value available. We are dedicated, efficient and passionate about making your Tanzanian holiday a unique and special experience. We are a best African safari company located in Arusha, Tanzania.
+  hashtags: Underground springs pond#️⃣warm  clear clean water#️⃣ideal for swimming.#️⃣very deep, in some places up to 10 meters
+  review: WE JUST LOVE IT, WE ENJOY IT TOO.
+  what_we_do: Karibu Sana!
+  video: <iframe width="560" height="315" src="https://www.youtube.com/embed/8yO2MI0p8Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+our_mission: |
+  As a leading Tanzania Tour Operator, we create unique and socially responsible East African holiday experiences, providing a superior level of client satisfaction and communication and we make sure we deliver what we promise.
+our_staff: |
+  Kibokoland adventures recruited a fantastic group of safari & Mt Kilimanjaro guides, cooks and crew. We have taken many steps to ensure we attract, select, motivate and retain the very best guides in Tanzania.
+  We offer attractive salary packages, as well as generous compensation on top of their monthly salary for nights that are spent on safari and away from their family.
+  Our Kilimanjaro head guides, assistant guides, cooks & porters receive the best treatment on the mountain. We ensure they have 3 meals per day, good sleeping arrangements, medical insurance cover and proper salaries.
+  We have a procedure for allowing our staff to take out loans if needed.
+  We organize regular training for our staff to keep their skills and knowledge at the highest possible expectation.
+  As well as training, we have regular staff meetings to focus on customer service and how to provide a more unique experience to our clients.
+  We have a very little turnover of staff. They tell us that they love their jobs and working for Kibokoland adventures. This is apparent to many of our clients, who give feedback saying how passionate our guides and crew are
+experiences:
+  image_corousel:
+    - ./img/uploads/bird-1.jpg
+    - ./img/uploads/bird-2.jpg
+    - ./img/uploads/bao-tree.jpeg
+    - ./img/uploads/hipo.jpeg

@@ -1,9 +1,10 @@
 |---
 | layout: page
-| title: Cycling &amp; 🚵 Mountain Biking Kilimanjaro 
+| title: Cycling &amp;  Mountain Biking Kilimanjaro 
 | subtitle: The best way to get ready for the climb!, Its Fun too.
 | backtop: pg-day-top
 |---
+
 
     
 section.pg-content.flex
@@ -60,7 +61,7 @@ section.pg-content.flex
       | {% for item in destination%}
       |   {% if item.sys.url_slug contains "cycling-and-mountain-biking-kilimanjaro" %}
       |   <header class="align-text-center">
-      |     <p><br><br>#️⃣ {{item.fields.overview.setting.hashtags}} <br><br></p>
+      |     <p><br><br><b>#</b>  {{item.fields.overview.setting.hashtags}} <br><br></p>
       |     <p class="article-title  big"> {{item.fields.review}}</p>
       |     <p> {{item.fields.overview.setting.activities}} <br></p>
       |     
@@ -77,7 +78,7 @@ section.pg-content.flex
 
       |       <article class="article no-display-article">
       |        <div id="overview" class="accordion">
-      |          <h3 class="article-title zero-fit flex flex-btn"> Overview <b>〉</b></h3>
+      |          <h3 class="article-title zero-fit flex flex-btn"> Overview <i class="arrow-dwn fa fa-chevron-down"></i></h3>
       |        </div>
 
       |        <div class="panel">
@@ -103,7 +104,7 @@ section.pg-content.flex
       |                 <p> <b>Included </b> </p>
       |                 <hr>
       |                 {% for item in item.fields.overview.included %}
-      |                   <li><b>👍 </b> {{item}}</li>
+      |                   <li><b>{{site.data.emoji.kla-emoji.hands.thumb_up.fields.html}}  </b> {{item}}</li>
       |                 {% endfor %} 
       |            
       |                </ul>
@@ -112,7 +113,7 @@ section.pg-content.flex
       |                  <p> <b>Excluded </b> </p>
       |                  <hr>
       |                  {% for item in item.fields.overview.excluded %}
-      |                  <li><b>  👎  </b> {{item}}</li>  
+      |                  <li><b>  {{site.data.emoji.kla-emoji.hands.thumb_down.fields.html}}   </b> {{item}}</li>  
       |                  {% endfor %} 
       |                 </ul>
       |             </div>
@@ -121,7 +122,7 @@ section.pg-content.flex
       |               <p> <b>Please Note </b> </p>
       |               <hr>
       |               {% for item in item.fields.overview.remarks %}
-      |                 <li><b>☝</b> {{item}}</li>
+      |                 <li><b>{{site.data.emoji.kla-emoji.hands.point_up.fields.html}} </b> {{item}}</li>
       |               {% endfor %}
       |              </ul>
 
@@ -146,14 +147,14 @@ section.pg-content.flex
       |      <section> 
       |       <article class="article no-display-article">
       |        <div id="what-to-see" class="accordion">
-      |          <h3 class="article-title zero-fit flex flex-btn"> What to see <b>〉</b></h3>
+      |          <h3 class="article-title zero-fit flex flex-btn"> What to see <i class="arrow-dwn fa fa-chevron-down"></i></h3>
       |        </div>
       |        <div class="panel">
       |          <div class="panel-positional">
       |   
       |           <ul class="notes space-children ul-plain">
       |              {% for item in item.fields.experience.what_to_see %}
-      |               <li><b>  🧐   </b> {{item}}</li>  
+      |               <li><b>  {{site.data.emoji.kla-emoji.emotions.astonished_face.fields.html}}    </b> {{item}}</li>  
       |              {% endfor %} 
       |           </ul>
       |          </div>
@@ -164,7 +165,7 @@ section.pg-content.flex
       |      <section> 
       |       <article class="article no-display-article">
       |        <div id="itinerary" class="accordion">
-      |          <h3 class="article-title zero-fit flex flex-btn"> Itinerary <b>〉</b></h3>
+      |          <h3 class="article-title zero-fit flex flex-btn"> Itinerary <i class="arrow-dwn fa fa-chevron-down"></i></h3>
       |        </div>
       |        <div class="panel">
       |          <div class="panel-positional">
@@ -174,39 +175,18 @@ section.pg-content.flex
       |               <li><b>  🧐   </b> {{item}}</li>  
       |              {% endfor %} 
       |           </ul>
-      |            <article class="article col-100">
-      |              <hr>
-      |              <h3>The Top Tree circuits of 2019! Co-Designed with our Customers</h3>
-      |              <h2>They really knew what was best! ✨</h2><br/>
-      |              <p><b>We have selected these safari packages based on the personalized level and the impact they had to both our clients and the Tanzanian Community... Its in our heart to thank you our dear visitors from whom we grew and stand together and make all trips and experiences posible... </b><br><br></p><br/>
-      |              <section class="services-articles grid flex flex-btn flex_wrap">
-      |                <article class="services-article col-30 txt-center flex flex-col flex-around align-center">
-      |                    <div class="thumb" style="background-image: url('/assets/img/activity-safari-1.jpg'); background-size: cover; background-repeat: no-repeat;"></div>
-      |                    <h4 class="thumb-title title-1 zero-fit">Bush &amp; People</h4>
-      |                    <p>"It is amaizing how woman in Arusha Tanzania think about responsibilities..."</p><a href="/day-trip.pug"><button class="btn tilt-lft">READ MORE</button></a></article>
-      |                <article class="services-article col-30 txt-center flex flex-col flex-around align-center">
-      |                    <div class="thumb tilt-rt" style="background-image: url('/assets/img/private.jpg'); background-size: cover; background-repeat: no-repeat;"></div>
-      |                    <h4 class="thumb-title title-1 zero-fit">Ultimate Northern Safari</h4>
-      |                    <p>"we dreamt of the big five... we trakked them down the whole northen and it was priceless "</p><a href="/private-safari-holidays-and-transfers.pug"><button class="btn tilt-rt">READ MORE</button></a></article>
-      |                <article class="services-article col-30 txt-center flex flex-col flex-around align-center">
-      |                    <div class="thumb tilt-lft" style="background-image: url('/assets/img/private-4.jpg'); background-size: cover; background-repeat: no-repeat;"></div>
-      |                    <h4 class="thumb-title title-1 zero-fit">Girls in boots 👢 </h4>
-      |                    <p>"We decided to pack-up and go walking with the giants in Tarangire"... girl we had it ✨</p><a href="/treks-and-activities.pug"><button class="btn tilt-lft">READ MORE</button></a></article>
-      |                
-      |                </section>
-      |               
-      |              </article>
+      |           {% include site-itinerary-section.html%}
       |          </div>
       |        </div>
       |       </article>
       |        <section class="destination-foot-note-wrap">  
       |          <div class=" flex flex-btn align-center flex_wrap destination-foot-note">
-      |             <p> <b class="mail-to align-text-center"><a href="mailto:petergabrieltz@gmail.com">📧 <br> get a quote.</a></b> <br><br></p>
+      |             <p> <b class="mail-to align-text-center"><a href="mailto:petergabrieltz@gmail.com">{{site.data.emoji.kla-emoji.other.email.fields.html}} <br> get a quote.</a></b> <br><br></p>
       |             <button class="snipcart-add-item btn bag-btn tilt-rt" data-item-id="{{item.sys.id}}" data-item-price="{{item.fields.price}}" data-item-url="./day_trips/{{item.sys.url_slug}}.html" data-item-location="{{item.sys.circuit}}" data-item-description="{{item.fields.review}}" data-item-image="{{item.fields.image.fields.file.url}}" data-item-name="{{item.fields.title}}"> ADD TO BUCKET </button>
       |          </div>
       |          <div class="flex flex-col align-end news-letter-footer">
       |              <div class="authority-signature no-mouse-events tilt-lft" style="background-image: url('./img/uploads/signature-designer.svg'); background-size: 95%; backgroung-position: cover; background-repeat: no-repeat;"> </div>
-      |              <p class="authority-name small tilt-rt"><b>🦛 Kibokoland Adventures Ltd.</b></p>
+      |              <p class="authority-name small tilt-rt"><b>{{site.data.emoji.kla-emoji.animals.hippo.fields.html}}  Kibokoland Adventures Ltd.</b></p>
       |          </div>
       |        </section>
       |      </section> 
