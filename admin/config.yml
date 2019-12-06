@@ -31,12 +31,12 @@ collections:
         name: "home"
         file: "_data/home.yml"
         fields:
-          - label: "Fold"
+          - label: "fold"
             name: "fold"
             widget: "object"
             fields:
-              - label: "Tagline"
-                name: "title"
+              - label: "tagline"
+                name: "tagline"
                 widget: "string"
 
 
