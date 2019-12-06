@@ -6,9 +6,9 @@
 			<h3>About</h3>
 			<hr/>
 			<p class="user"><a href="/about-kla.html">About us </a></p>
-			<p class="user"><a href="/our-values.html">Our Values & Missions </a></p>
-			<p class="user"><a href="/our-team.html">Our Team </a></p>
-			<p class="user"><a href="/how-can-we-help-you.html">How Can we Help You? </a></p>
+			<p class="user"><a href="/about-kla.html/#our-team">Our Team </a></p>
+			<p class="user"><a href="/our-team.html/#our-story">Our Story </a></p>
+			<p class="user"><a href="/contact-kla.html">How Can we Help You? </a></p>
 		</article>
 		<article class="col-3">
 			<h3>Our Services</h3>
@@ -20,28 +20,23 @@
 		<article class="col-3">
 			<h3>Contact</h3>
 			<hr/>
-			<p class="user"><img class="brands-social tilt-rt" src="./img/brands-fb-1.svg"> <img class="brands-social tilt-lft" src="./img/brands-insta-1.svg">  <img class="brands-social tilt-rt" src="./img/brands-tw-1.svg">  <img class="brands-social tilt-rt" src="./img/brands-tripa-1.svg"></p>
-			<p class="tilt-rt">☎ +255 788 383215</p>
-			<p class="tilt-lft"><a href="mailto:info@kibokolandadventures.com">✉ info@kibokolandadventures.com </a></p>
+			<p class="user"><img class="brands-social tilt-rt" src="./img/brands-fb-1.svg"> <img class="brands-social tilt-lft" src="./img/brands-insta-1.svg">  <img class="brands-social tilt-rt" src="./img/brands-tw-1.svg">  <img class="brands-social tilt-rt" src="./img/brands-tripa-1.svg"></p><p class="tilt-rt"> {{site.data.emoji.kla-emoji.other.tel.fields.html}} {{site.data.site_settings.tel}} </p>
+			<p class="tilt-lft"> <a href="mailto:{{site.data.site-settings.email}}">{{site.data.emoji.kla-emoji.other.email.fields.html}} {{site.data.site_settings.email}} </a></p>
 		</article>
 	</section>
 	<section class="grid">
 		<h3 class="align-text-center">Memberships</h3>
 		<hr/>
-		<section class="important-links grid flex flex-around"> 
-			<article class="col-3">
-				<div class="member-link clear-fix" style="background-image: url('./img/uploads/tato-kibokoland-adventures.jpg'); background-size: 100% 60%; background-repeat: no-repeat; background-position: top center;"> </div>
-			</article>
-			<article class="col-3">
-				<div class="member-link clear-fix" style="background-image: url('./img/uploads/ttb-kibokoland-adventures.png'); background-size: 100% 60%; background-repeat: no-repeat; background-position: top center;"></div>
-			</article>
-			<article class="col-3">
-				<div class="member-link clear-fix" style="background-image: url('./img/uploads/tanapa-kibokoland-adventures.jpg'); background-size: 100% 60%; background-repeat: no-repeat; background-position: top center;"></div>
-			</article>
+		<section class="important-links grid flex flex-around">
+			 {% for member in site.data.site_settings.memberships %}
+			 <article class="col-3">
+			     <div class="member-link clear-fix" style="background-image: url('{{member.fields.file}}'); background-size: 100% 60%; background-repeat: no-repeat; background-position: top center;"></div>
+			 </article>
+			{% endfor %}
 		</section>
 	</section>
 	<section class="flex flex-center legal">
-		<p class="grid">© 2019 Kiboko Land Adventures Ltd.</p>
+		<p class="grid">© 2020 Kiboko Land Adventures Ltd.</p>
 	</section>
 </footer>
 <!-- FOOTER ------------------------------------------------------- FOOTER-->

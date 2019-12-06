@@ -7,9 +7,9 @@ footer.foot-note.home-foot-note
       hr
       
       p.user <a href="/about-kla.html">About us </a>
-      p.user <a href="/our-values.html">Our Values & Missions </a>
-      p.user <a href="/our-team.html">Our Team </a>
-      p.user <a href="/how-can-we-help-you.html">How Can we Help You? </a>
+      p.user <a href="/about-kla.html/#our-team">Our Team </a>
+      p.user <a href="/our-team.html/#our-story">Our Story </a>
+      p.user <a href="/contact-kla.html">How Can we Help You? </a>
 
     article.col-3
       h3 Our Services
@@ -24,25 +24,21 @@ footer.foot-note.home-foot-note
       hr
 
       p.user <img class="brands-social tilt-rt" src="./img/brands-fb-1.svg"> <img class="brands-social tilt-lft" src="./img/brands-insta-1.svg">  <img class="brands-social tilt-rt" src="./img/brands-tw-1.svg">  <img class="brands-social tilt-rt" src="./img/brands-tripa-1.svg">
-      p.tilt-rt ☎ +255 788 383215
-      p.tilt-lft <a href="mailto:info@kibokolandadventures.com">✉ info@kibokolandadventures.com </a>
+      | <p class="tilt-rt"> {{site.data.emoji.kla-emoji.other.tel.fields.html}} {{site.data.site_settings.tel}} </p>
+      | <p class="tilt-lft"> <a href="mailto:{{site.data.site-settings.email}}">{{site.data.emoji.kla-emoji.other.email.fields.html}} {{site.data.site_settings.email}} </a></p>
 
   section.grid
     h3.align-text-center Memberships
     hr
     section.important-links.grid.flex.flex-around  
-      article.col-3
-        .member-link.clear-fix(style="background-image: url('./img/uploads/tato-kibokoland-adventures.jpg'); background-size: 100% 60%; background-repeat: no-repeat; background-position: top center;") 
-
-      article.col-3
-        .member-link.clear-fix(style="background-image: url('./img/uploads/ttb-kibokoland-adventures.png'); background-size: 100% 60%; background-repeat: no-repeat; background-position: top center;")
-
-
-      article.col-3
-        .member-link.clear-fix(style="background-image: url('./img/uploads/tanapa-kibokoland-adventures.jpg'); background-size: 100% 60%; background-repeat: no-repeat; background-position: top center;")
+      | {% for member in site.data.site_settings.memberships %}
+      |  <article class="col-3">
+      |      <div class="member-link clear-fix" style="background-image: url('{{member.fields.file}}'); background-size: 100% 60%; background-repeat: no-repeat; background-position: top center;"></div>
+      |  </article>
+      | {% endfor %}
 
 
   section.flex.flex-center.legal
-    p.grid © 2019 Kiboko Land Adventures Ltd.
+    p.grid © 2020 Kiboko Land Adventures Ltd.
 
 // FOOTER ------------------------------------------------------- FOOTER
