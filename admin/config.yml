@@ -10,7 +10,7 @@ collections:
     files:
       - label: "Kibokoland Infomation"
         name: "site"
-        file: "_data/site.yml"
+        file: "_data/site_settings.yml"
         fields:
           - label: "Tel"
             name: "tel"
