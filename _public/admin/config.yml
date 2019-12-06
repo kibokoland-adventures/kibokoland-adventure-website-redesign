@@ -2,7 +2,7 @@ backend:
   name: github
   repo: i-meets-i/kibokoland-adventure-website-redesign
 
-media_folder: "img/uploads/"
+media_folder: "/img/uploads/"
 
 collections:
   - name: "website-settings"
@@ -10,7 +10,7 @@ collections:
     files:
       - label: "Kibokoland Infomation"
         name: "site"
-        file: "_data/site.yml"
+        file: "_data/site_settings.yml"
         fields:
           - label: "Tel"
             name: "tel"
