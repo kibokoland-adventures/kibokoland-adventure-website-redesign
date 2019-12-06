@@ -1,7 +1,20 @@
 tel: 0754887492
 email: info@kibokolandadventures.com
 
-
+social:
+  facebook:
+    user_name: "@kibokolandadventures"
+    url: "#"
+  instagram:
+    user_name: "@kibokolandadventures"
+    url: "#"
+  twitter:
+    user_name: "@kibokolandadventures"
+    url: "#"
+  trip_advisor:
+    user_name: "@kibokolandadventures"
+    url: "#"
+    
 memberships:
   - url:
     logo: ./img/uploads/ttb-kibokoland-adventures.png
