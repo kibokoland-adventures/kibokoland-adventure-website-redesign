@@ -1,16 +1,18 @@
-banner:
-  title: "Safari Holidays that inspire"
+fold:
+  tagline: "Safari Holidays that inspire"
   background_image: ./img/uploads/wildlife-safari-with-the-giants-kibokoland-adventures.jpg
+
+  #why kibokoland
   why_kla:
     personalized:
       icon: ./img/brands-personalized.svg
       title: "Personalized Safaris"
       sub_title: "you always come first"
     impact:
-      icon: ./img/brands-personalized.svg
-      title: "Personalized Safaris"
-      sub_title: "you always come first"
+      icon: ./img/brands-eco.svg
+      title: "Positive Impact"
+      sub_title: "you define your purpose. we inspire the impact"
     booking:
-      icon: ./img/brands-personalized.svg
-      title: "Personalized Safaris"
-      sub_title: "you always come first"
+      icon: ./img/brands-bell.svg
+      title: "Book with confidence"
+      sub_title: "instant comfirmation"

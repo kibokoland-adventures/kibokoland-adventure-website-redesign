@@ -7,7 +7,7 @@ media_folder: "/img/uploads/"
 collections:
   - name: "website-settings"
     label: "Kibokoland Website Settings"
-    fields:
+    files:
       - label: "Kibokoland Infomation"
         name: "site"
         file: "_data/site_settings.yml"
@@ -26,7 +26,7 @@ collections:
             widget: "string"
   - name: "Pages"
     label: "pages"
-    fields:
+    files:
       - label: "Home"
         name: "home"
         file: "_data/home.yml"
@@ -38,5 +38,5 @@ collections:
               - label: "Tagline"
                 name: "title"
                 widget: "string"
-                
+
 
