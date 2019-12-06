@@ -19,24 +19,25 @@
 		</article>
 		<article class="col-3">
 			<h3>Contact</h3>
-			<hr/>
-			<p class="user"><img class="brands-social tilt-rt" src="./img/brands-fb-1.svg"> <img class="brands-social tilt-lft" src="./img/brands-insta-1.svg">  <img class="brands-social tilt-rt" src="./img/brands-tw-1.svg">  <img class="brands-social tilt-rt" src="./img/brands-tripa-1.svg"></p><p class="tilt-rt"> {{site.data.emoji.kla-emoji.other.tel.fields.html}} +255 788 383215 </p>
-			<p class="tilt-lft"> <a href="mailto:info@kibokolandadventures.com">{{site.data.emoji.kla-emoji.other.email.fields.html}} info@kibokolandadventures.com </a></p>
+			<hr/><div class="user"> 
+			  <a href="{{site.data.site_data.social.facebook.url}}" title="{{site.data.site_data.social.facebook.user_name}}"><img class="brands-social tilt-rt" src="./img/brands-fb-1.svg"> </a>
+			  <a href="{{site.data.site_data.social.instagram.url}}" title="{{site.data.site_data.social.instagram.user_name}}"><img class="brands-social tilt-lft" src="./img/brands-insta-1.svg"> </a>
+			  <a href="{{site.data.site_data.social.twitter.url}}" title="{{site.data.site_data.social.twitter.user_name}}"><img class="brands-social tilt-rt" src="./img/brands-tw-1.svg"> </a>
+			  <a href="{{site.data.site_data.social.trip_advisor.url}}" title="{{site.data.site_data.social.trip_advisor.user_name}}"><img class="brands-social tilt-rt" src="./img/brands-tripa-1.svg"></a>
+			</div>
+			<p class="tilt-rt"> {{site.data.emoji.kla-emoji.other.tel.fields.html}} {{site.data.site_data.tel}} </p>
+			<p class="tilt-lft"> <a href="mailto:{{site.data.site_data.email}}">{{site.data.emoji.kla-emoji.other.email.fields.html}} {{site.data.site_data.email}} </a></p>
 		</article>
 	</section>
 	<section class="grid">
 		<h3 class="align-text-center">Memberships</h3>
 		<hr/>
-		<section class="important-links grid flex flex-around"> 
-			<article class="col-3">
-				<div class="member-link clear-fix" style="background-image: url('./img/uploads/tato-kibokoland-adventures.jpg'); background-size: 100% 60%; background-repeat: no-repeat; background-position: top center;"> </div>
-			</article>
-			<article class="col-3">
-				<div class="member-link clear-fix" style="background-image: url('./img/uploads/ttb-kibokoland-adventures.png'); background-size: 100% 60%; background-repeat: no-repeat; background-position: top center;"></div>
-			</article>
-			<article class="col-3">
-				<div class="member-link clear-fix" style="background-image: url('./img/uploads/tanapa-kibokoland-adventures.jpg'); background-size: 100% 60%; background-repeat: no-repeat; background-position: top center;"></div>
-			</article>
+		<section class="important-links grid flex flex-around">
+			 {% for member in site.data.site_data.memberships %}
+			 <article class="col-3">
+			     <a href="{{member.url}}" class="member-link clear-fix" style="background-image: url('{{member.logo}}'); background-size: 100% 60%; background-repeat: no-repeat; background-position: top center;"></a>
+			 </article>
+			{% endfor %}
 		</section>
 	</section>
 	<section class="flex flex-center legal">
