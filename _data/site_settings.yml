@@ -1,19 +1,2 @@
-tel: "0788383215"
-email: "info@kibokolandadventures.com"
-
-seo:
-  tagline: Safari Holidays That Inspire
-
-memberships:
-  - logo:
-    fields:
-      alt: "ttb"
-      file: ./img/uploads/ttb-kibokoland-adventures.png
-  - logo:
-    fields:
-      alt: "Tanapa"
-      file: ./img/uploads/tanapa-kibokoland-adventures.jpg
-  - logo:
-    fields:
-      alt: "Tato"
-      file: ./img/uploads/tato-kibokoland-adventures.jpg
+tel: 0754887492
+email: info@kibokolandadventures.com
