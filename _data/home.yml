@@ -17,4 +17,11 @@ fold:
       title: "Book with confidence"
       sub_title: "instant comfirmation"
 
-  
+#products
+services_kla:
+  day_trip:
+    title: "Day Trip"
+    lead: "Join our daily trips to make most of Tanzania is safari destinations"
+    ulr: ./daytrip.html
+    
+
