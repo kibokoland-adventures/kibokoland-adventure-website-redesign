@@ -1,15 +1,6 @@
 
 <!-- HOME FOLD ========================================= HOME FOLD-->
 <section class="col fold flex flex-end" style="background-image: url('{{site.data.home.fold.background_image}}'); background-size: cover; background-repeat: no-repeat;">
-	<article class="grid"> <h2 class="fold-title"> {{site.data.home.fold.tagline}} </h2></article>
-	<!--HOME VALUES ======================================= HOME VALUES-->
-	<article class="why-us">
-		<ul class="brand-values grid ul-plain flex flex-btn">
-		<li class="brand-value flex align-center"><img class="brand-value-icon" src="{{site.data.home.fold.why_kla.personalized.icon}}"> <span class="brand-value-txt flex flex-col align-start"><i>{{site.data.home.fold.why_kla.personalized.title}}</i><i class="small">{{site.data.home.fold.why_kla.personalized.sub_title}}</i> </span> </li>
-		<li class="brand-value flex align-center"><img class="brand-value-icon" src="{{site.data.home.fold.why_kla.impact.icon}}"> <span class="brand-value-txt flex flex-col align-start"><i>{{site.data.home.fold.why_kla.impact.title}}</i><i class="small">{{site.data.home.fold.why_kla.personalized.sub_title}}</i> </span> </li>
-		<li class="brand-value flex align-center"><img class="brand-value-icon" src="{{site.data.home.fold.why_kla.booking.icon}}"> <span class="brand-value-txt flex flex-col align-start"><i>{{site.data.home.fold.why_kla.booking.title}}</i><i class="small">{{site.data.home.fold.why_kla.booking.sub_title}}</i> </span> </li>
-		</ul>
-	</article>
-	<!-- END VALUES -------------------------------------------- END VALUES-->
+	<article class="grid"> <h2 class="fold-title"> {{site.data.home.fold.tagline}} </h2></article>{%include site-why-us-section.html%}
 </section>
 <!-- END FOLD --------------------------------------------------- END FOLD-->
