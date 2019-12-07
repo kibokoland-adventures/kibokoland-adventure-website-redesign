@@ -2,7 +2,7 @@ backend:
   name: github
   repo: i-meets-i/kibokoland-adventure-website-redesign
 
-media_folder: "/img/uploads/"
+media_folder: "./_img/uploads/"
 
 collections:
   - name: "website-settings"
@@ -18,13 +18,10 @@ collections:
           - label: "email"
             name: "email"
             widget: "string"
-          #social media data
           - label: "Social Media Links"
             name: "social"
             widget: "object"
             fields:
-
-              # facebook
               - label: "Facebook"
                 name: "facebook"
                 fields:
@@ -35,7 +32,6 @@ collections:
                     name: "user_name"
                     widget: "string"
 
-              # insta gram
               - label: "Instagram"
                 name: "instagram"
                 fields:
@@ -45,7 +41,7 @@ collections:
                   - label: "User Name"
                     name: "user_name"
                     widget: "string"
-              #twitter
+
               - label: "Twitter"
                 name: "twitter"
                 fields:
@@ -55,7 +51,7 @@ collections:
                   - label: "User Name"
                     name: "user_name"
                     widget: "string"
-              #end twitter
+
               
               - label: "Trip Advisor"
                 name: "trip_advisor"
@@ -83,6 +79,6 @@ collections:
                 name: "tagline"
                 widget: "string"
               - label: "Image"
-                name: "image"
+                name: "background_image"
                 widget: "image"
 

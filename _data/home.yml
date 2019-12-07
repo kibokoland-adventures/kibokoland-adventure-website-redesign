@@ -1,6 +1,6 @@
 fold:
   tagline: "Safari Holidays that inspire"
-  image: ./img/uploads/wildlife-safari-with-the-giants-kibokoland-adventures.jpg
+  background_image: ./img/uploads/wildlife-safari-with-the-giants-kibokoland-adventures.jpg
 
   #why kibokoland
   why_kla:

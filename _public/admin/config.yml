@@ -2,15 +2,15 @@ backend:
   name: github
   repo: i-meets-i/kibokoland-adventure-website-redesign
 
-media_folder: "/img/uploads/"
+media_folder: "./_img/uploads/"
 
 collections:
   - name: "website-settings"
     label: "Kibokoland Website Settings"
     files:
-      - label: "Kibokoland Infomation"
-        name: "site"
-        file: "_data/site_settings.yml"
+      - label: "Kibokoland's Data"
+        name: "site_data"
+        file: "_data/site_data.yml"
         fields:
           - label: "Tel"
             name: "tel"
@@ -18,12 +18,52 @@ collections:
           - label: "email"
             name: "email"
             widget: "string"
-          - label: "Tel"
-            name: "tel"
-            widget: "string"
-          - label: "email"
-            name: "email"
-            widget: "string"
+          - label: "Social Media Links"
+            name: "social"
+            widget: "object"
+            fields:
+              - label: "Facebook"
+                name: "facebook"
+                fields:
+                  - label: "Account Link"
+                    name: "url"
+                    widget: "string"
+                  - label: "User Name"
+                    name: "user_name"
+                    widget: "string"
+
+              - label: "Instagram"
+                name: "instagram"
+                fields:
+                  - label: "Account Link"
+                    name: "url"
+                    widget: "string"
+                  - label: "User Name"
+                    name: "user_name"
+                    widget: "string"
+
+              - label: "Twitter"
+                name: "twitter"
+                fields:
+                  - label: "Account Link"
+                    name: "url"
+                    widget: "string"
+                  - label: "User Name"
+                    name: "user_name"
+                    widget: "string"
+
+              
+              - label: "Trip Advisor"
+                name: "trip_advisor"
+                fields:
+                  - label: "Account Link"
+                    name: "url"
+                    widget: "string"
+                  - label: "User Name"
+                    name: "user_name"
+                    widget: "string"
+
+
   - name: "Pages"
     label: "pages"
     files:
@@ -38,5 +78,7 @@ collections:
               - label: "tagline"
                 name: "tagline"
                 widget: "string"
-
+              - label: "Image"
+                name: "background_image"
+                widget: "image"
 
