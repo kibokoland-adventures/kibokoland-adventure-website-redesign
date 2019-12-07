@@ -24,6 +24,7 @@ collections:
             fields:
               - label: "Facebook"
                 name: "facebook"
+                widget: "object"
                 fields:
                   - label: "Account Link"
                     name: "url"
@@ -34,6 +35,7 @@ collections:
 
               - label: "Instagram"
                 name: "instagram"
+                widget: "object"
                 fields:
                   - label: "Account Link"
                     name: "url"
@@ -44,6 +46,7 @@ collections:
 
               - label: "Twitter"
                 name: "twitter"
+                widget: "object"
                 fields:
                   - label: "Account Link"
                     name: "url"
@@ -55,6 +58,7 @@ collections:
               
               - label: "Trip Advisor"
                 name: "trip_advisor"
+                widget: "object"
                 fields:
                   - label: "Account Link"
                     name: "url"
