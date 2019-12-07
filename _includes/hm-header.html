@@ -10,19 +10,19 @@
 				<li><a href="/treks-and-other-activities.html" class="topnav-mobile-link"> Treks &amp; other Activities</a></li>
 			</ul>
 			<ul class="ul-plain topnav-mobile-sub-links"> 
-				<li><a href="/about-kla.html/#our-team" class="topnav-mobile-link"> Our Team</a></li>
-				<li><a href="/about-kla.html/#our-story" class="topnav-mobile-link"> Our Story</a></li>
-				<li><a href="/contat-kla.html" class="topnav-mobile-link"> How can we help you?</a></li>
+				<li><a href="/about-kla.html#our-team" class="topnav-mobile-link"> Our Team</a></li>
+				<li><a href="/about-kla.html#our-story" class="topnav-mobile-link"> Our Story</a></li>
+				<li><a href="/contact-kla.html" class="topnav-mobile-link"> How can we help you?</a></li>
 			</ul>
 		</div>
 	</div>
 	<div class="topnav-mobile-nav-share topnav-mobile-nav-share-home ul-plain" id="myTopnav-share"> 
-		<div class="js-topnav-mobile-nav-share"> 
-			<div class="brand-social"><i class=" fa fa-facebook-square"></i></div>
-			<div class="brand-social"><i class=" fa fa-instagram"></i></div>
-			<div class="brand-social"><i class=" fa fa-twitter"></i></div>
-			<div class="brand-social"><i class=" fa fa-tripadvisor"></i></div>
-			<div class="brand-social"><i class=" fa fa-envelope"></i></div>
+		<div class="js-topnav-mobile-nav-share">
+			 <div class="brand-social"><a href="{{site.data.site_data.social.facebook.url}}"><i class=" fa fa-facebook-square"></i></a></div>
+			<div class="brand-social"><a href="{{site.data.site_data.social.instagram.url}}"><i class=" fa fa-instagram"></i></a></div>
+			<div class="brand-social"><a href="{{site.data.site_data.social.twitter.url}}"><i class=" fa fa-twitter"></i></a></div>
+			<div class="brand-social"><a href="{{site.data.site_data.social.trip_advisor.url}}"><i class=" fa fa-tripadvisor"></i></a></div>
+			<div class="brand-social"><a href="mailto:{{site.data.site_data.email}}"><i class=" fa fa-envelope"></i></a></div>
 		</div>
 	</div>
 </div>
@@ -39,8 +39,9 @@
 		</ul>
 		<div class="homenav-brand flex flex-btn"><!--homenav-brand --><a class="brands-logo logo-position-home" href="/"><img src="./img/uploads/logo-kibokoland.svg"/></a>
 			<!--homenav-brand-logo-->
-			<ul class="ul-plain homenav-brand-connect flex flex-col" id="contacts"><!-- homenav-brand-connect--->
-				<li><img class="brands-social" src="./img/brands-fb-1.svg"> <img class="brands-social tilt-lft" src="./img/brands-insta-1.svg">  <img class="brands-social tilt-rt" src="./img/brands-tw-1.svg">  <img class="brands-social tilt-lft" src="./img/brands-tripa-1.svg"> <img class="brands-mail tilt-lft" src="./img/brands-mail-1.svg"></li><li class="brands-phone"> {{site.data.emoji.kla-emoji.other.tel.fields.html}} {{site.data.site_data.tel}} </li>
+			<ul class="ul-plain homenav-brand-connect flex flex-col" id="contacts">
+				<!-- homenav-brand-connect---><li> <a href="{{site.data.site_data.social.facebook.url}}"><img class="brands-social" src="./img/brands-fb-1.svg"></a> <a href="{{site.data.site_data.social.instagram.url}}"><img class="brands-social tilt-lft" src="./img/brands-insta-1.svg"></a>  <a href="{{site.data.site_data.social.twitter.url}}"><img class="brands-social tilt-rt" src="./img/brands-tw-1.svg"></a> <a href="{{site.data.site_data.social.trip_advisor.url}}"> <img class="brands-social tilt-lft" src="./img/brands-tripa-1.svg"> </a> <a href="mailto:{{site.data.site_data.email}}"><img class="brands-mail tilt-lft" src="./img/brands-mail-1.svg"></a></li>
+				<li class="brands-phone"> {{site.data.emoji.kla-emoji.other.tel.fields.html}} {{site.data.site_data.tel}} </li>
 			</ul>
 		</div>
 	</div>
