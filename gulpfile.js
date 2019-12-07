@@ -70,6 +70,7 @@ const pugFiles = ['./_pug/**/*.pug'];
 const pugWatchFiles = ['./*.{pug,md}', './_pug/**/*.pug', './_includes/**/*.pug', './_layouts/**/*.pug', './_pages/**/*.pug', './_posts/**/*.{pug,md}', './_projects/**/*.pug'];
 const sassFiles = ['./_sass/**/*.{sass,scss}'];
 const jsFiles = ['./_js/**/*'];
+const ymlReload = ['./admin/**/*'];
 
 /**
  * Clean all the unnecessary files.
@@ -350,6 +351,7 @@ function watchTask(done) {
   }
 
   gulp.watch(sassFiles, sassCompileTask);
+  gulp.watch(ymlReload, jekyllBuildTask);
   gulp.watch(jsFiles, gulp.series(jsCompileTask, browserSyncReloadTask));
   gulp.watch(imgFiles, imgOptimizeTask);
   gulp.watch(pugWatchFiles, gulp.series(pugCompileTask, jekyllBuildTask, gulp.parallel(sassTask, jsCompileTask,imgOptimizeTask), browserSyncReloadTask));
