@@ -87,7 +87,7 @@ collections:
                 widget: "image"
   - label: "Day Trips"
     name: "daytrips"
-    folder: "./_posts/daytrip/"
+    folder: "_posts/daytrip/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
