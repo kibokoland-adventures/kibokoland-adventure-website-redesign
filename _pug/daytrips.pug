@@ -1,0 +1,56 @@
+|---
+| layout: page
+| title: Day Trips
+| subtitle: A day is all you have got? HAVE THE NORTHEN'S BEST FOR LAST!
+| backtop: pg-day-top
+|---
+
+    
+section.pg-content.flex
+
+  | {% assign destination = site.daytrip%}
+
+  //PAGE ============================================================ SIDE BAR
+  sidebar.pg-content-table
+    ul.ul-plain.quick-links
+      //for loop - daytrips-collection
+      | {% for item in destination%}
+      |    <li class="link"> <a href="{{item.url}}"> <b>➥</b> {{item.sys.fields.title}} </a> </li>
+      | {%endfor%}
+  
+    
+    .quick-perks
+      h2 Tip: 
+      p.
+        You can select the excursion that you like by clicking <button class="btn"> ADD TO BUCKET</button> button... then
+        move to other pages and do the same. And when you about done!
+        there is a cart icon on the top... all your selections will 
+        listed there... ready for sharing w/ us for pre-booking and planning.
+          
+  // PAGE ------------------------------------------------------------- END SIDE BAR
+  section.pg-section-articles.products-center
+
+
+    //PAGE ARTICLE ========================================================= PAGE ARTICLE
+    
+    | {% for item in destination%}
+    |   <article class="article {% if forloop.first %} display-article {% endif %}">
+    |   <div class="accordion">
+    |     <h2 class= "article-title flex"> <small class="best-price"> 🏷️<mark>${{item.sys.fields.price}}</mark></small> {{item.sys.fields.title}} <span class="article-highlights flex flex-col align-start"><span class="best-time">{{item.sys.fields.best_time}} </span> <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"><mark>{{item.sys.circuit}} ️</mark></a> </b> </span> </span> </span> </h2> </div>
+    |   <div class="panel"> 
+    |     <div class="panel-positioning">
+    |       <div class="panel-thumb tilt-lft"  style="background-image: url('{{item.fields.image.fields.file.url}}'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+    |         <h2>{{item.sys.icon}}</h2> </div>
+    |       <div class="notes">
+    |         <p> <b class="user-comment">{{item.sys.fields.review}} </b></p>
+    |         <p> <b>What is like: </b> <br> {{item.overview.setting.hashtags}} </p>
+    |         <p> <b>Activities:</b> {{item.overview.setting.activities}}</p>
+    |         <div class="notes-lc-adress"> 
+    |             <p><b>Pick-Up 🛬  & Drop-Off 🛫  Points 📍 :</b> <br><br> <b> ✈ KILIMANJARO AIRPORT   ✈ ARUCHA AIRPORT  ✈ DAR ES SALAAM </b></p></div>
+    |         <button class="snipcart-add-item btn bag-btn tilt-rt" data-item-id="{{item.sys.id}}" data-item-price="{{item.fields.price}}" data-item-url="./day_trips/{{item.sys.url_slug}}.html" data-item-location="{{item.sys.circuit}}" data-item-description="{{item.fields.review}}" data-item-image="{{item.fields.image.fields.file.url}}" data-item-name="{{item.fields.title}}"> ADD TO BUCKET </button>
+    |         <button class="btn tilt-rt"><a href="{{item.url}}"> READ MORE </a></button> 
+    |      </div> 
+    |    </div>
+    |   </div>
+    |   </article>
+    |{%endfor%}
