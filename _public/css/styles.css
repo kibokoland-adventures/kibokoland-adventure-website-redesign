@@ -406,6 +406,9 @@ section {
 .back-to-top .back-to-top-link {
   margin-top: 122.5px; }
 
+.destination-active-link {
+  text-decoration: underline; }
+
 .btn,
 .button,
 input[type="submit"],

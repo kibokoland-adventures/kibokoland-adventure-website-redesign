@@ -1,14 +1,6 @@
 #data colections: KLA
 collections:
-  daytrip:
-    output: true
-    permalink: /daytrip/:path/
-  private_safari:
-    output: true
-    permalink: /private-safari/:path/
-  treks_and_activities:
-    output: true
-    permalink: /treks-and-other-activities/:path/
+  itineraries:
 
 # Build settings
 markdown: kramdown
@@ -17,7 +9,6 @@ kramdown:
     disable : true
 plugins_dir:
   # - jekyll-feed
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
