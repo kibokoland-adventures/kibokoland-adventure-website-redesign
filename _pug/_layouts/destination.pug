@@ -50,7 +50,7 @@ section
         ul.ul-plain.quick-links
           //for loop - daytrips-collection
           | {% for destination in category[page.category] %}
-          |    <li class="link {% if page.url == destination.url %} destination-active-link {% endif %}"> <a href="{{destination.url}}"> <b>➥</b> {{destination.sys.fields.title}} </a> </li>
+          |    <li class="link {% if page.url == destination.url %} destination-active-link {% endif %}"> <a href="{{destination.url}}"> <b>➥</b> {{destination.title}} </a> </li>
           | {%endfor%}
       
         

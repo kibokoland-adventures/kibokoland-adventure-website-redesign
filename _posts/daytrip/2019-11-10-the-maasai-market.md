@@ -2,17 +2,15 @@
 layout: destination
 category: daytrip
 permalink: /:categories/:title/
-title: Chemka ♨ hot spring Day Tour 
+title: The Maasai Market 🤑
 subtitle: sub goes here!
 sys:
   id: "001"
-  icon: 🏊
+  icon: 🤑
   circuit: Northen Circuit
-  category: day_trip
   url_slug: chemka-hotspring-tour
 
   fields:
-    title: Chemka ♨ hot spring Day Tour 
     review: ✌️ Great experience when the weather holds
     price: 10.99
     best_time: 🌞 <b>july - nov </b> | <b>jan - march</b>

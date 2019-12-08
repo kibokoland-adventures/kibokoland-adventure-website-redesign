@@ -15,7 +15,7 @@ section.pg-content.flex
     ul.ul-plain.quick-links
       //for loop - daytrips-collection
       | {% for item in destination%}
-      |    <li class="link"> <a href="{{item.url}}"> <b>➥</b> {{item.sys.fields.title}} </a> </li>
+      |    <li class="link"> <a href="{{item.url}}"> <b>➥</b> {{item.title}} </a> </li>
       | {%endfor%}
   
     

@@ -2,17 +2,16 @@
 layout: destination
 category: daytrip
 permalink: /:categories/:title/
-title: Chemka ♨ hot spring Day Tour 
+title: Walk with the resqued monkeys 🙈 
 subtitle: sub goes here!
 sys:
   id: "002"
-  icon: 🏊
+  icon: 🐒 🙉 🙈
   circuit: Northen Circuit
-  category: day_trip
   url_slug: chemka-hotspring-tour
 
   fields:
-    title: Chemka ♨ hot spring Day Tour s
+    title: Walk with the resqued monkeys 🙈
     review: ✌️ Great experience when the weather holds
     price: 10.99
     best_time: 🌞 <b>july - nov </b> | <b>jan - march</b>
