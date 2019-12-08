@@ -5,20 +5,16 @@
      <h2>They really knew what was best! {{site.data.emoji.kla-emoji.other.sparkles.fields.html}} </h2><br/>
      <p><b>We have selected these safari packages based on the personalized level and the impact they had to both our clients and the Tanzanian Community... Its in our heart to thank you our dear visitors from whom we grew and stand together and make all trips and experiences posible... </b><br><br></p><br/>
      <section class="services-articles grid flex flex-btn flex_wrap">
-          <article class="services-article col-30 txt-center flex flex-col flex-around align-center">
-          <div class="thumb" style="background-image: url('/assets/img/activity-safari-1.jpg'); background-size: cover; background-repeat: no-repeat;"></div>
-          <h4 class="thumb-title title-1 zero-fit">Bush &amp; People</h4>
-          <p>"It is amaizing how woman in Arusha Tanzania think about responsibilities..."</p><a href="/day-trip.pug"><button class="btn tilt-lft">READ MORE</button></a></article>
-          <article class="services-article col-30 txt-center flex flex-col flex-around align-center">
-             <div class="thumb tilt-rt" style="background-image: url('/assets/img/private.jpg'); background-size: cover; background-repeat: no-repeat;"></div>
-             <h4 class="thumb-title title-1 zero-fit">Ultimate Northern Safari</h4>
-             <p>"we dreamt of the big five... we trakked them down the whole northen and it was priceless "</p><a href="/private-safari-holidays-and-transfers.pug"><button class="btn tilt-rt">READ MORE</button></a>
+			{% for itinerary in site.itineraries%}
+
+			<article class="services-article col-30 txt-center flex flex-col flex-around align-center">
+             <div class="thumb tilt-rt" style="background-image: url('../../{{itineraty.image}}'); background-size: cover; background-repeat: no-repeat;"></div>
+             <h4 class="thumb-title title-1 zero-fit">{{itinerary.title}}</h4>
+             <p>{{itinerary.description}}</p>
+			   <a href="../../{{itinerary.file}}">
+			   	<button class="btn tilt-rt">Download Itinerary</button></a>
           </article>
-          <article class="services-article col-30 txt-center flex flex-col flex-around align-center">
-                   <div class="thumb tilt-lft" style="background-image: url('/assets/img/private-4.jpg'); background-size: cover; background-repeat: no-repeat;"></div>
-                   <h4 class="thumb-title title-1 zero-fit">Girls in boots {{site.data.emoji.kla-emoji.wearables.woman_boots.fields.html}}  </h4>
-                   <p>"We decided to pack-up and go walking with the giants in Tarangire"... girl we had it â¨</p><a href="/treks-and-activities.pug"><button class="btn tilt-lft">READ MORE</button></a></article>
-               
+  		{% endfor %}
      </section>
               
 </article>

@@ -8,11 +8,8 @@ sys:
   id: "201"
   icon: 🏊
   circuit: Northen Circuit
-  category: day_trip
-  url_slug: chemka-hotspring-tour
 
   fields:
-    title: Chemka ♨ hot spring Day Tour s
     review: ✌️ Great experience when the weather holds
     price: 10.99
     best_time: 🌞 <b>july - nov </b> | <b>jan - march</b>
@@ -29,8 +26,6 @@ image_corousel:
   - img/uploads/hipo.jpeg
 
 overview:
-
-
   intro: >
     A short but bumpy drive from Moshi are the clear, turquoise waters of the Chemka Hot Springs, 
     an oasis of geothermal warmth that bubbles up from underground. <br> 🥳  <br>
@@ -99,5 +94,4 @@ remarks:
   - Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Barcelona vacation.
 
   - This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
-
 ---

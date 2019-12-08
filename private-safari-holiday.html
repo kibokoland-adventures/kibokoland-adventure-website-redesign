@@ -39,7 +39,7 @@ backtop: pg-private-top
 		        <p> <b>Activities:</b> {{item.overview.setting.activities}}</p>
 		        <div class="notes-lc-adress"> 
 		            <p><b>Pick-Up 🛬  & Drop-Off 🛫  Points 📍 :</b> <br><br> <b> ✈ KILIMANJARO AIRPORT   ✈ ARUCHA AIRPORT  ✈ DAR ES SALAAM </b></p></div>
-		        <button class="snipcart-add-item btn bag-btn tilt-rt" data-item-id="{{item.sys.id}}" data-item-price="{{item.fields.price}}" data-item-url="./day_trips/{{item.sys.url_slug}}.html" data-item-location="{{item.sys.circuit}}" data-item-description="{{item.fields.review}}" data-item-image="{{item.fields.image.fields.file.url}}" data-item-name="{{item.fields.title}}"> ADD TO BUCKET </button>
+		        <button class="btn bag-btn tilt-rt" data-item-id="{{item.sys.id}}" data-item-price="{{item.fields.price}}" data-item-url="{{item.url}}" data-item-location="{{item.sys.circuit}}" data-item-description="{{item.fields.review}}" data-item-image="{{item.fields.image.fields.file.url}}" data-item-name="{{item.title}}"> ADD TO BUCKET </button>
 		        <button class="btn tilt-rt"><a href="{{item.url}}"> READ MORE </a></button> 
 		     </div> 
 		   </div>

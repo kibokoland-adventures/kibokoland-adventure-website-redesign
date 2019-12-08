@@ -4,15 +4,13 @@ category: treks-and-other-activities
 permalink: /:categories/:title/
 title: Chemka ♨ hot spring Day Tour 
 subtitle: Subtitle here...
+
 sys:
   id: "202"
   icon: 🏊
   circuit: Northen Circuit
-  category: day_trip
-  url_slug: chemka-hotspring-tour
 
   fields:
-    title: Chemka ♨ hot spring Day Tour s
     review: ✌️ Great experience when the weather holds
     price: 10.99
     best_time: 🌞 <b>july - nov </b> | <b>jan - march</b>
@@ -29,8 +27,6 @@ image_corousel:
   - img/uploads/hipo.jpeg
 
 overview:
-
-
   intro: >
     A short but bumpy drive from Moshi are the clear, turquoise waters of the Chemka Hot Springs, 
     an oasis of geothermal warmth that bubbles up from underground. <br> 🥳  <br>
