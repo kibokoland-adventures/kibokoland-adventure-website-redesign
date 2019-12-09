@@ -2,8 +2,8 @@ backend:
   name: github
   repo: i-meets-i/kibokoland-adventure-website-redesign
 
-media_folder: "./_img/uploads/"
-public_folder: "/uploads"
+media_folder: "./img/uploads/"
+public_folder: "uploads"
 
 collections:
   - name: "website-settings"
