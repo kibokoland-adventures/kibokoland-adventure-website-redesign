@@ -39,7 +39,7 @@ section.pg-content.flex
     |     <h2 class= "article-title flex"> <small class="best-price"> 🏷️<mark>${{item.sys.fields.price}}</mark></small> {{item.title}} <span class="article-highlights flex flex-col align-start"><span class="best-time">{{item.sys.fields.best_time}} </span> <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"><mark>{{item.sys.circuit}} ️</mark></a> </b> </span> </span> </span> </h2> </div>
     |   <div class="panel"> 
     |     <div class="panel-positioning">
-    |       <div class="panel-thumb tilt-lft"  style="background-image: url('{{item.fields.image.fields.file.url}}'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+    |       <div class="panel-thumb tilt-lft"  style="background-image: url('{{item.sys.fields.image.fields.file.url}}'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
     |         <h2>{{item.sys.icon}}</h2> </div>
     |       <div class="notes">
     |         <p> <b class="user-comment">{{item.sys.fields.review}} </b></p>
