@@ -4,8 +4,8 @@ category: treks-and-other-activities
 permalink: /:categories/:title/
 title: Chemka ♨ hot spring Day Tour 
 subtitle: sub goes here!
+
 sys:
-  id: "201"
   icon: 🏊
   circuit: Northen Circuit
 
@@ -17,15 +17,17 @@ sys:
       fields:
         alt: Chemka ♨ hot spring Day Tour
         file:
-          url: "./img/bird-1.jpg"
+          url: "./img/uploads/bird-1.jpg"
 
 image_corousel:
-  - img/uploads/bird-1.jpg
-  - img/uploads/bird-2.jpg
-  - img/uploads/bao-tree.jpeg
-  - img/uploads/hipo.jpeg
+  - image: "./img/uploads/bird-1.jpg"
+  - image: "./img/uploads/bird-2.jpg"
+  - image: "./img/uploads/bao-tree.jpeg"
+  - image: "./img/uploads/hipo.jpeg"
 
 overview:
+
+
   intro: >
     A short but bumpy drive from Moshi are the clear, turquoise waters of the Chemka Hot Springs, 
     an oasis of geothermal warmth that bubbles up from underground. <br> 🥳  <br>
@@ -48,31 +50,31 @@ overview:
       "Underground springs pond#️⃣warm  clear clean water#️⃣ideal for swimming.#️⃣very deep, in some places up to 10 meters"
 
   included:
-    - Travel Insurance
-    - Pot
-    - Some real pot
-    - Then some dop dop chopps
+    - item: Travel Insurance
+    - item: Pot
+    - item: Some real pot
+    - item: Then some dop dop chopps
 
   excluded:
-    - Vapours (You can bring Your own)
+    - item: Vapours (You can bring Your own)
 
   remarks:
-    - This tour involves some walking so wear comfortable shoes.
-    - Dress a bit warmer for Montserrat, it is colder than the city.
-    - Silence must be kept inside the church so the guide will give all the explanations outside.
-    - This is not a wheelchair accessible tour.
+    - note: This tour involves some walking so wear comfortable shoes.
+    - note: Dress a bit warmer for Montserrat, it is colder than the city.
+    - note: Silence must be kept inside the church so the guide will give all the explanations outside.
+    - note: This is not a wheelchair accessible tour.
 
 
 experience:
   what_to_see:
-    - Montserrat, the “serrated mountain,” towers 4,000 feet intro the sky, with its jagged peaks and finger-like shapes. It’s a mesmerizing sight from miles away, even better as you enter the natural park. The view unfolds around you on the drive to the monastery.
+    - paragraph: Montserrat, the “serrated mountain,” towers 4,000 feet intro the sky, with its jagged peaks and finger-like shapes. It’s a mesmerizing sight from miles away, even better as you enter the natural park. The view unfolds around you on the drive to the monastery.
 
-    - The Santa Maria de Montserrat Abbey dates back to the 11th century, although it was rebuilt in the 19th century. It melds intro the mountainside and still serves as a home to nearly 80 monks.
+    - paragraph: The Santa Maria de Montserrat Abbey dates back to the 11th century, although it was rebuilt in the 19th century. It melds intro the mountainside and still serves as a home to nearly 80 monks.
 
 
-    - The abbey has always played an important role in the spiritual life of Catalonia; it’s a rite of passage to hike the mountain to watch the sunrise from the top of Montserrat.
+    - paragraph: The abbey has always played an important role in the spiritual life of Catalonia; it’s a rite of passage to hike the mountain to watch the sunrise from the top of Montserrat.
 
-    - On the tour, you’ll have time to explore Montserrat on your own and take pictures of the amazing views. For a truly spectacular sight, take the funicular to St. Joan’s Chapel (not included in the tour) if there’s enough time.
+    - paragraph: On the tour, you’ll have time to explore Montserrat on your own and take pictures of the amazing views. For a truly spectacular sight, take the funicular to St. Joan’s Chapel (not included in the tour) if there’s enough time.
 
 expect:
   fields:
@@ -81,17 +83,18 @@ expect:
         url: <iframe width="560" height="315" src="https://www.youtube.com/embed/8yO2MI0p8Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 itinerary:
-  - Meet in front of the Hotel Olivia Plaza in the Plaça Catalunya at 3 pm (3:15 pm April through November). Plan to arrive 15 minutes before the departure time.
-  - Scenic drive to Montserrat
+  - paragraph: Meet in front of the Hotel Olivia Plaza in the Plaça Catalunya at 3 pm (3:15 pm April through November). Plan to arrive 15 minutes before the departure time.
+  - paragraph: Scenic drive to Montserrat
 
-  - Parc Natural de Montserrat
+  - paragraph: Parc Natural de Montserrat
 
-  - Approximately one hour to explore Montserrat on your own
+  - paragraph: Approximately one hour to explore Montserrat on your own
 
-  - Return ride to Plaça Catalunya
+  - paragraph: Return ride to Plaça Catalunya
 
 remarks:
-  - Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Barcelona vacation.
+  - paragraph: Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Barcelona vacation.
 
-  - This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+  - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+
 ---

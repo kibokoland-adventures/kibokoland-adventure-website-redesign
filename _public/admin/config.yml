@@ -87,7 +87,7 @@ collections:
                 widget: "image"
   - label: "Day Trips"
     name: "daytrips"
-    folder: "_posts/daytrips"
+    folder: "_posts/daytrip"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -117,6 +117,14 @@ collections:
         name: "sys"
         widget: "object"
         fields:
+          - label: "Icons"
+            name: "icon"
+            widget: "markdown"
+
+          - label: "Circuit"
+            name: "circuit"
+            widget: "markdown"
+
           - label: "Fields"
             name: "fields"
             widget: "object"
@@ -137,17 +145,22 @@ collections:
                 name: "image"
                 widget: "object"
                 fields:
-                  - label: "Image Desctiption"
-                    name: "alt"
-                    widget: "string"
-                  - label: "File"
-                    name: "file"
+                  - label: "Fields"
+                    name: "fields"
                     widget: "object"
                     fields:
-                      - label: "Image Location"
-                        name: "url" 
-                        widget: "image"
-                        
+                     - label: "Image Desctiption"
+                       name: "alt"
+                       widget: "string"
+
+                     - label: "File"
+                       name: "file"
+                       widget: "object"
+                       fields:
+                         - label: "Image Location"
+                           name: "url" 
+                           widget: "image"
+
       - label: "Image Slide"
         name: "image_corousel"
         alow-add: true
