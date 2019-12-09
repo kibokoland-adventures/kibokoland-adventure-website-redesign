@@ -87,16 +87,32 @@ collections:
                 widget: "image"
   - label: "Day Trips"
     name: "daytrips"
-    folder: "_posts/daytrip/"
+    folder: "_posts/daytrips"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hiden"
+        default: "destination"
+
+      - label: "Category"
+        name: "category"
+        widget: "hiden"
+        default: "daytrips"
+
+      - label: "Permalink"
+        name: "permalink"
+        widget: "hiden"
+        default: "/:categories/:title/"
+
       - label: "Title"
         name: "title"
         widget: "string"
       - label: "Subtitle"
         name: "subtitle"
         widget: "string"
+
       - label: "Destination Data"
         name: "sys"
         widget: "object"
@@ -109,3 +125,133 @@ collections:
                 name: "review"
                 widget: "string"
 
+              - label: "Price Per Person Per Day/Event"
+                name: "price"
+                widget: "string"
+
+              - label: "Best Time To Visit"
+                name: "best_time"
+                widget: "markdown"
+
+              - label: "Image"
+                name: "image"
+                widget: "object"
+                fields:
+                  - label: "Image Desctiption"
+                    name: "alt"
+                    widget: "string"
+                  - label: "File"
+                    name: "file"
+                    widget: "object"
+                    fields:
+                      - label: "Image Location"
+                        name: "url" 
+                        widget: "image"
+                        
+      - label: "Image Slide"
+        name: "image_corousel"
+        alow-add: true
+        widget: "list"
+        field: {label: Image, name: image, widget: image} 
+
+      - label: "Overview"
+        name: "overview"
+        widget: "object"
+        fields:
+          - label: "Inside Scoop"
+            name: "intro"
+            widget: "markdown"
+
+          - label: "Tour Details"
+            name: "tour_details"
+            widget: "object"
+            fields:
+              - label: "When"
+                name: "when"
+                widget: "markdown"
+
+              - label: "Duration"
+                name: "duration"
+                widget: "markdown"
+                
+              - label: "Language"
+                name: "language"
+                widget: "markdown"
+                
+              - label: "Included in price"
+                name: "price_includes"
+                widget: "markdown"
+                
+              - label: "Transport"
+                name: "transport"
+                widget: "markdown"
+
+              - label: "Itinerary"
+                name: "itinerary"
+                widget: "markdown"
+
+          - label: "Settings"
+            name: "setting"
+            widget: "object"
+            fields:
+              - label: "Activities"
+                name: "activities"
+                widget: "markdown"
+
+              - label: "Hash Tags"
+                name: "hashtags"
+                widget: "markdown"
+
+          - label: "Included"
+            name: "included"
+            widget: "list"
+            alow-add: true
+            field: {label: item, name: item, widget: string}
+
+          - label: "Excluded"
+            name: "excluded"
+            widget: "list"
+            alow-add: true
+            field: {label: item, name: item, widget: markdown}
+
+          - label: "Remarks"
+            name: "remarks"
+            widget: "list"
+            alow-add: true
+            field: {label: item, name: item, widget: markdown}
+          
+      - label: "What to Experience"
+        name: "experience"
+        widget: "object"
+        field:
+          - label: "what to see"
+            name: "what_to_see"
+            widget: "list" 
+            alow-add: true
+            field: {label: item, name: item, widget: markdown} 
+
+      - label: "What to Expect"
+        name: "expect"
+        widget: "object"
+        fields:
+          - label: "Fields"
+            name: "fields"
+            widget: "object" 
+            fields: 
+              - label: "Video"
+                name: "video"
+                widget: "object"
+                field: {label: File, name: url, widget: string} 
+
+      - label: "Itinerary"
+        name: "itinerary"
+        widget: "list"
+        alow-add: true
+        field: {label: Video Embed Link, name: url, widget: markdown} 
+
+      - label: "Remarks"
+        name: "remarks"
+        widget: "list"
+        alow-add: true
+        field: {label: Remark, name: remark, widget: markdown} 
+                  

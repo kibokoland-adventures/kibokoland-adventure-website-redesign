@@ -11,7 +11,6 @@ sys:
   url_slug: chemka-hotspring-tour
 
   fields:
-    title: Walk with the resqued monkeys 🙈
     review: ✌️ Great experience when the weather holds
     price: 10.99
     best_time: 🌞 <b>july - nov </b> | <b>jan - march</b>
