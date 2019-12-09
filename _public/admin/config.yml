@@ -3,7 +3,7 @@ backend:
   repo: i-meets-i/kibokoland-adventure-website-redesign
 
 media_folder: "./_img/uploads/"
-public_folder: "/img/uploads"
+public_folder: "/uploads"
 
 collections:
   - name: "website-settings"
