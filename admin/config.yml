@@ -87,10 +87,11 @@ collections:
                 name: "background_image"
                 widget: "image"
   - label: "Day Trips"
-    name: "daytrips"
+    name: "daytrip"
     folder: "_posts/daytrip"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: name
     fields:
       - label: "Layout"
         name: "layout"
