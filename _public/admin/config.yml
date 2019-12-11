@@ -1,13 +1,16 @@
 backend:
   name: github
   repo: i-meets-i/kibokoland-adventure-website-redesign
+  branch: master # Branch to update
 
-media_folder: "./_img/uploads"
-public_folder: "/uploads"
+media_folder: "_img/uploads"
+public_folder: "uploads"
+publish_mode: editorial_workflow
 
 collections:
   - name: "website-settings"
     label: "Kibokoland Website Settings"
+    identifier_field: name
     files:
       - label: "Kibokoland's Data"
         name: "site_data"
@@ -71,6 +74,7 @@ collections:
 
   - name: "Pages"
     label: "pages"
+    identifier_field: name
     files:
       - label: "Home"
         name: "home"
