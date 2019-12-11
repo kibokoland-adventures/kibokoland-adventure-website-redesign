@@ -170,7 +170,8 @@ collections:
         name: "image_corousel"
         alow-add: true
         widget: "list"
-        field: {label: Image, name: image, widget: image} 
+        fields: 
+          - {label: Image, name: image, widget: image} 
 
       - label: "Overview"
         name: "overview"
