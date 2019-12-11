@@ -11,6 +11,7 @@
     <title>About Us</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/favicon.svg" type="image/svg" sizes="16x16">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body>
@@ -327,6 +328,17 @@
         </footer>
     </main>
     <script src="js/all.js"></script>
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>
