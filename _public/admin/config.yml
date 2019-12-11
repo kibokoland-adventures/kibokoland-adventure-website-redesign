@@ -225,19 +225,22 @@ collections:
             name: "included"
             widget: "list"
             alow-add: true
-            field: {label: item, name: item, widget: string}
+            fields: 
+              - {label: item, name: item, widget: string}
 
           - label: "Excluded"
             name: "excluded"
             widget: "list"
             alow-add: true
-            field: {label: item, name: item, widget: markdown}
+            fields: 
+              - {label: item, name: item, widget: markdown}
 
           - label: "Remarks"
             name: "remarks"
             widget: "list"
             alow-add: true
-            field: {label: item, name: item, widget: markdown}
+            fields: 
+              - {label: item, name: item, widget: markdown}
           
       - label: "What to Experience"
         name: "experience"
@@ -247,7 +250,8 @@ collections:
             name: "what_to_see"
             widget: "list" 
             alow-add: true
-            field: {label: item, name: item, widget: markdown} 
+            fields: 
+              - {label: item, name: item, widget: markdown} 
 
       - label: "What to Expect"
         name: "expect"
@@ -266,11 +270,13 @@ collections:
         name: "itinerary"
         widget: "list"
         alow-add: true
-        field: {label: Video Embed Link, name: url, widget: markdown} 
+        fields: 
+          - {label: Video Embed Link, name: url, widget: markdown} 
 
       - label: "Remarks"
         name: "remarks"
         widget: "list"
         alow-add: true
-        field: {label: Remark, name: remark, widget: markdown} 
+        field: 
+          - {label: Remark, name: remark, widget: markdown} 
                   
