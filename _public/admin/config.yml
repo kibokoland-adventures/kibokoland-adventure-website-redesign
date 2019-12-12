@@ -242,7 +242,7 @@ collections:
             widget: "list"
             allow-add: true
             fields: 
-              - {label: item, name: item, widget: markdown}
+              - {label: note, name: note, widget: markdown}
           
       - label: "What to Experience"
         name: "experience"
@@ -266,19 +266,20 @@ collections:
               - label: "Video"
                 name: "video"
                 widget: "object"
-                field: {label: File, name: url, widget: string} 
+                fields: 
+                  - {label: File, name: url, widget: string} 
 
       - label: "Itinerary"
         name: "itinerary"
         widget: "list"
         allow-add: true
         fields: 
-          - {label: Video Embed Link, name: paragraph, widget: markdown} 
+          - {label: Itinerary, name: paragraph, widget: markdown} 
 
       - label: "Remarks"
         name: "remarks"
         widget: "list"
         allow-add: true
-        field: 
+        fields: 
           - {label: Remark, name: paragraph, widget: markdown} 
                   

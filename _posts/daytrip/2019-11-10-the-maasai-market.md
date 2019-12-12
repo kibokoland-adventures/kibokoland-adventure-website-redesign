@@ -79,7 +79,7 @@ expect:
   fields:
     video: 
       file:
-        url: <iframe width="560" height="315" src="https://www.youtube.com/embed/8yO2MI0p8Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        url: "<iframe width="560" height="315" src="https://www.youtube.com/embed/8yO2MI0p8Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> "
 
 itinerary:
   - paragraph: Meet in front of the Hotel Olivia Plaza in the Plaça Catalunya at 3 pm (3:15 pm April through November). Plan to arrive 15 minutes before the departure time.
