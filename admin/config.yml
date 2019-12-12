@@ -247,13 +247,13 @@ collections:
       - label: "What to Experience"
         name: "experience"
         widget: "object"
-        field:
+        fields:
           - label: "what to see"
             name: "what_to_see"
             widget: "list" 
             allow-add: true
             fields: 
-              - {label: item, name: item, widget: markdown} 
+              - {label: paragraph, name: paragraph, widget: markdown} 
 
       - label: "What to Expect"
         name: "expect"
@@ -273,12 +273,12 @@ collections:
         widget: "list"
         allow-add: true
         fields: 
-          - {label: Video Embed Link, name: url, widget: markdown} 
+          - {label: Video Embed Link, name: paragraph, widget: markdown} 
 
       - label: "Remarks"
         name: "remarks"
         widget: "list"
         allow-add: true
         field: 
-          - {label: Remark, name: remark, widget: markdown} 
+          - {label: Remark, name: paragraph, widget: markdown} 
                   
