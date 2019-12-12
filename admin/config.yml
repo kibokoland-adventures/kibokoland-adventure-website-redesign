@@ -89,11 +89,12 @@ collections:
               - label: "Image"
                 name: "background_image"
                 widget: "image"
+
   - label: "Day Trips"
     name: "daytrip"
     folder: "_posts/daytrip"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     identifier_field: name
     fields:
       - label: "Layout"
@@ -114,6 +115,7 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
+
       - label: "Subtitle"
         name: "subtitle"
         widget: "string"
@@ -168,7 +170,7 @@ collections:
 
       - label: "Image Slide"
         name: "image_corousel"
-        alow-add: true
+        allow-add: true
         widget: "list"
         fields: 
           - {label: Image, name: image, widget: image} 
@@ -224,21 +226,21 @@ collections:
           - label: "Included"
             name: "included"
             widget: "list"
-            alow-add: true
+            allow-add: true
             fields: 
               - {label: item, name: item, widget: string}
 
           - label: "Excluded"
             name: "excluded"
             widget: "list"
-            alow-add: true
+            allow-add: true
             fields: 
               - {label: item, name: item, widget: markdown}
 
           - label: "Remarks"
             name: "remarks"
             widget: "list"
-            alow-add: true
+            allow-add: true
             fields: 
               - {label: item, name: item, widget: markdown}
           
@@ -249,7 +251,7 @@ collections:
           - label: "what to see"
             name: "what_to_see"
             widget: "list" 
-            alow-add: true
+            allow-add: true
             fields: 
               - {label: item, name: item, widget: markdown} 
 
@@ -269,14 +271,14 @@ collections:
       - label: "Itinerary"
         name: "itinerary"
         widget: "list"
-        alow-add: true
+        allow-add: true
         fields: 
           - {label: Video Embed Link, name: url, widget: markdown} 
 
       - label: "Remarks"
         name: "remarks"
         widget: "list"
-        alow-add: true
+        allow-add: true
         field: 
           - {label: Remark, name: remark, widget: markdown} 
                   
