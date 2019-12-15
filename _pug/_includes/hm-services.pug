@@ -2,33 +2,12 @@
 section.services.col
   section.services-articles.grid.flex.flex-btn.flex_wrap
 
-    // ARTICLE-THUMB ========================================= ARTICL-THUMB
-    article.services-article.services-article-home.col-30.txt-center.flex.flex-col.flex-around.align-center
-      .thumb(style="background-image: url('./img/uploads/daytrip-tanzania-safari-kibokoland-adventures.jpg'); background-size: cover; background-repeat: no-repeat;")
-      h4.thumb-title.title-1.zero-fit Day Trip
-      p Join our daily trips to make most of Tanzania is safari destinations
-      a(href="/daytrip.html"): button.btn.tilt-lft View All
-
-    // END ARTICLE-THUMB  ---------------------------------- END ARTICLE-THUMB
-
-
-    // ARTICLE-THUMB ========================================= ARTICLE-THUMB
-    article.services-article.services-article-home.col-30.txt-center.flex.flex-col.flex-around.align-center 
-      .thumb.tilt-rt(style="background-image: url('./img/uploads/private-safari-holiday-tanzania-kibokoland-adventures.jpg'); background-size: cover; background-repeat: no-repeat;")
-      h4.thumb-title.title-1.zero-fit Private Safari holiday
-      p Flexible and Customized safari holiday just for you and your friends
-      a(href="/private-safari-holiday.html"): button.btn.tilt-rt View All
-
-    //END --------------------------------------------- END ARTICLE THUMB
-
-
-    // ARTICLE-THUMB ========================================= ARTICLE-THUMB
-    article.services-article.services-article-home.col-30.txt-center.flex.flex-col.flex-around.align-center 
-      .thumb.tilt-lft(style="background-image: url('./img/uploads/activity-safaris-tanzania-kibokoland-adventures.jpg'); background-size: cover; background-repeat: no-repeat;")
-      h4.thumb-title.title-1.zero-fit treks & other Activities
-      p Checkout some fun & inspiring things to do in Tanzania
-      a(href="/treks-and-other-activities.html"): button.btn.tilt-lft View All
-    //END ARTICLE-THUMB ------------------------------------- END ARTICLE THUMB
+    |{% for package in site.data.home.services_kla%}
+    | <article class="services-article services-article-home col-30 txt-center flex flex-col flex-around align-center">
+    |    <div class="thumb" style="background-image: url('{{package.thumb}}'); background-size: cover; background-repeat: no-repeat;"></div>
+    |    <h4 class="thumb-title title-1 zero-fit">{{package.title}}</h4>
+    |    <p>{{package.lead}}</p><a href="{{package.url}}"><button class="btn tilt-{{package.button_tilt}}">View All</button></a></article>
+    |{% endfor %}
 
 
 // END HOME-SERVICES ------------------------------------ END HOME SERVICES

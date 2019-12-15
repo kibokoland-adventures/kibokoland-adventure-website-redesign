@@ -7,16 +7,12 @@ subtitle: sub goes here!
 sys:
   icon: 🐒 🙉 🙈
   circuit: Northen Circuit
-
-  fields:
-    review: ✌️ Great experience when the weather holds
-    price: 10.99
-    best_time: 🌞 <b>july - nov </b> | <b>jan - march</b>
-    image:
-      fields:
-        alt: Chemka ♨ hot spring Day Tour
-        file:
-          url: "./img/uploads/bird-1.jpg"
+  review: ✌️ Great experience when the weather holds
+  price: 10.99
+  best_time: 🌞 <b>july - nov </b> | <b>jan - march</b>
+  image:
+    alt: Chemka ♨ hot spring Day Tour
+    url: "./img/uploads/bird-1.jpg"
 
 image_corousel:
   - image: "./img/uploads/bird-1.jpg"
@@ -76,10 +72,8 @@ experience:
     - paragraph: On the tour, you’ll have time to explore Montserrat on your own and take pictures of the amazing views. For a truly spectacular sight, take the funicular to St. Joan’s Chapel (not included in the tour) if there’s enough time.
 
 expect:
-  fields:
-    video: 
-      file:
-        url: <iframe width="560" height="315" src="https://www.youtube.com/embed/8yO2MI0p8Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  video: 
+    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/8yO2MI0p8Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 itinerary:
   - paragraph: Meet in front of the Hotel Olivia Plaza in the Plaça Catalunya at 3 pm (3:15 pm April through November). Plan to arrive 15 minutes before the departure time.

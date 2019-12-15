@@ -28,18 +28,18 @@ backtop: pg-treks-top
 		<!--PAGE ARTICLE ========================================================= PAGE ARTICLE-->{% for item in destination%}
 		  <article class="article {% if forloop.first %} display-article {% endif %}">
 		  <div class="accordion">
-		    <h2 class= "article-title flex"> <small class="best-price"> 🏷️<mark>${{item.sys.fields.price}}</mark></small> {{item.title}} <span class="article-highlights flex flex-col align-start"><span class="best-time">{{item.sys.fields.best_time}} </span> <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"><mark>{{item.sys.circuit}} ️</mark></a> </b> </span> </span> </span> </h2> </div>
+		    <h2 class= "article-title flex"> <small class="best-price"> 🏷️<mark>${{item.sys.price}}</mark></small> {{item.title}} <span class="article-highlights flex flex-col align-start"><span class="best-time">{{item.sys.best_time}} </span> <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"><mark>{{item.sys.circuit}} ️</mark></a> </b> </span> </span> </span> </h2> </div>
 		  <div class="panel"> 
 		    <div class="panel-positioning">
-		      <div class="panel-thumb tilt-lft"  style="background-image: url('{{item.sys.fields.image.fields.file.url}}'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+		      <div class="panel-thumb tilt-lft"  style="background-image: url('{{item.sys.image.url}}'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
 		        <h2>{{item.sys.icon}}</h2> </div>
 		      <div class="notes">
-		        <p> <b class="user-comment">{{item.sys.fields.review}} </b></p>
+		        <p> <b class="user-comment">{{item.sys.review}} </b></p>
 		        <p> <b>What is like: </b> <br> {{item.overview.setting.hashtags}} </p>
 		        <p> <b>Activities:</b> {{item.overview.setting.activities}}</p>
 		        <div class="notes-lc-adress"> 
 		            <p><b>Pick-Up 🛬  & Drop-Off 🛫  Points 📍 :</b> <br><br> <b> ✈ KILIMANJARO AIRPORT   ✈ ARUCHA AIRPORT  ✈ DAR ES SALAAM </b></p></div>
-		        <button class="btn bag-btn tilt-rt" data-item-id="2{{forloop.index}}" data-item-price="{{item.sys.fields.price}}" data-item-url="{{item.url}}" data-item-location="{{item.sys.circuit}}" data-item-description="{{item.sys.fields.review}}" data-item-image="{{item.sys.fields.image.fields.file.url}}" data-item-name="{{item.title}}"> ADD TO BUCKET </button>
+		        <button class="btn bag-btn tilt-rt" data-item-id="2{{forloop.index}}" data-item-price="{{item.sys.price}}" data-item-url="{{item.url}}" data-item-location="{{item.sys.circuit}}" data-item-description="{{item.sys.review}}" data-item-image="{{item.sys.image.url}}" data-item-name="{{item.title}}"> ADD TO BUCKET </button>
 		        <button class="btn tilt-rt"><a href="{{item.url}}"> READ MORE </a></button> 
 		     </div> 
 		   </div>

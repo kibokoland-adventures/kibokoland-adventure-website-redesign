@@ -141,7 +141,7 @@
 					         <h4>Watch the Video</h4>
 					         <div id="what-to-expect" class="flex-video-wrap">
 					           <div class="flex-video">
-					             {{page.expect.fields.video.file.url}}
+					             {{page.expect.video.url}}
 					           </div>
 					         </div>
 					       </article>
@@ -174,7 +174,7 @@
 					         <div class="panel-positional">
 					  
 					          <ul class="notes space-children ul-plain">
-					             {% for item in page.experience.itinerary %}
+					             {% for item in page.itinerary %}
 					              <li><b>  🧐   </b> {{item.paragraph}}</li>  
 					             {% endfor %} 
 					          </ul>
@@ -190,16 +190,16 @@
 					              {% for destination in category[page.category] %}
 					                  {% if destination.category == "daytrip"%} 
 					                      {% if page.url == destination.url%}
-					                           <button class="btn bag-btn tilt-rt" data-item-id="0{{forloop.index}}" data-item-price="{{page.sys.fields.price}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.fields.review}}" data-item-image="{{page.sys.fields.image.fields.file.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
+					                           <button class="btn bag-btn tilt-rt" data-item-id="0{{forloop.index}}" data-item-price="{{page.sys.price}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.review}}" data-item-image="{{page.sys.image.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
 					                      {% endif%}
 					                      
 					                  {% elsif destination.category == "private-safari" %}
 					                      {% if page.url == destination.url%}
-					                           <button class="btn bag-btn tilt-rt" data-item-id="1{{forloop.index}}" data-item-price="{{page.sys.fields.price}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.fields.review}}" data-item-image="{{page.sys.fields.image.fields.file.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
+					                           <button class="btn bag-btn tilt-rt" data-item-id="1{{forloop.index}}" data-item-price="{{page.sys.price}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.review}}" data-item-image="{{page.sys.image.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
 					                      {% endif%}
 					                  {% elsif destination.category == "treks-and-other-activities" %}
 					                      {% if page.url == destination.url%}
-					                           <button class="btn bag-btn tilt-rt" data-item-id="2{{forloop.index}}" data-item-price="{{page.sys.fields.price}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.fields.review}}" data-item-image="{{page.sys.fields.image.fields.file.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
+					                           <button class="btn bag-btn tilt-rt" data-item-id="2{{forloop.index}}" data-item-price="{{page.sys.price}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.review}}" data-item-image="{{page.sys.image.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
 					                      {% endif%}
 					                  {%endif%}
 					              {%endfor%}
@@ -216,7 +216,6 @@
 					     </section> 
 					 
 					  </div>
-					
 				</article>
 			</section>
 		</section>
