@@ -18,7 +18,7 @@ backtop: pg-day-top
 			      
 			<section>
 			<header class="align-text-center">
-			 <p><br><br> <b>#</b>  {{site.data.about.who_we_are.hashtags}} <br><br></p>
+			 <p><br><br>  {{site.data.about.who_we_are.hashtags}} <br><br></p>
 			  <p class="article-title  big"> {{site.data.about.who_we_are.review}}</p>
 			  <p> {{site.data.about.who_we_are.what_we_do}} <br></p>
 			    
@@ -27,7 +27,7 @@ backtop: pg-day-top
 			<div class="main-wrapper tilt-lft">
 			 <div class="slider">
 			   {% for image in destination %}
-			   <img class="slide {% if forloop.first %}initial{% endif%}" src="{{image}}">
+			   <img class="slide {% if forloop.first %}initial{% endif%}" src="{{image.img}}">
 			  {%endfor%} 
 			 </div>
 			 <div class="arrow arrow_prev">
@@ -49,8 +49,10 @@ backtop: pg-day-top
 			       </div>
 			       <div class="panel">
 			         <div class="panel-positional">
-			          <article>
-			           <p id="overview"> {{site.data.about.who_we_are.intro}}</p>
+			          <article id="overview">
+			          {% for article in site.data.about.our_staff%}
+			           <p class="flex align-start "><span>✨ </span> {{article.paragraph}}</p>
+			          {% endfor%}
 			          </article>
 			          
 			         
@@ -68,8 +70,9 @@ backtop: pg-day-top
 			       </div>
 			       <div class="panel">
 			         <div class="panel-positional">
-			  
-			          <p>{{site.data.about.who_we_are.intro}} </p>
+			          {% for article in site.data.about.who_we_are.intro%}
+			           <p class="flex align-start "><span>✨ </span> {{article.paragraph}}</p>
+			          {% endfor%}
 			         </div>
 			       </div>
 			      </article>
@@ -81,22 +84,15 @@ backtop: pg-day-top
 			       </div>
 			       <div class="panel">
 			         <div class="panel-positional">
-			  
+			          <p>{{site.data.about.our_mission}} </p>
+			                 
 			       
-			           <article class="article col-100">
-			             <hr>
-			             <h3>The Top Tree circuits of 2019! Co-Designed with our Customers</h3>
-			             <h2>They really knew what was best! {{site.data.emoji.kla-emoji.other.sparkles.fields.html}}</h2><br/>
-			             <p><b>We have selected these safari packages based on the personalized level and the impact they had to both our clients and the Tanzanian Community... Its in our heart to thank you our dear visitors from whom we grew and stand together and make all trips and experiences posible... </b><br><br></p><br/>
-			             
-			              
-			             </article>
 			         </div>
 			       </div>
 			      </article>
 			       <section class="destination-foot-note-wrap">  
 			         <div class=" flex flex-btn align-center flex_wrap destination-foot-note">
-			            <p> <b class="mail-to align-text-center"><a href="mailto:petergabrieltz@gmail.com">{{site.data.emoji.kla-emoji.other.email.fields.html}} <br> connect with us</a></b> <br><br></p>
+			            <p> <b class="mail-to align-text-center"><a href="mailto:{{site.data.site_data.email}}">{{site.data.emoji.kla-emoji.other.email.fields.html}} <br> connect with us</a></b> <br><br></p>
 			         </div>
 			         <div class="flex flex-col align-end news-letter-footer">
 			             <div class="authority-signature no-mouse-events tilt-lft" style="background-image: url('./img/uploads/signature-designer.svg'); background-size: 95%; backgroung-position: cover; background-repeat: no-repeat;"> </div>

@@ -102,7 +102,7 @@ section
                 |     <section class="destination-overview"> 
                 |       <article class="article no-display-article">
                 |        <div id="overview" class="accordion">
-                |          <h3 class="article-title zero-fit flex flex-btn"> Overview <b>〉</b></h3>
+                |          <h3 class="article-title zero-fit flex flex-btn"> Overview <i class="arrow-dwn fa fa-chevron-down"></i></h3>
                 |        </div>
                 |
                 |        <div class="panel">
@@ -171,7 +171,7 @@ section
                 |      <section> 
                 |       <article class="article no-display-article">
                 |        <div id="what-to-see" class="accordion">
-                |          <h3 class="article-title zero-fit flex flex-btn"> What to see <b>〉</b></h3>
+                |          <h3 class="article-title zero-fit flex flex-btn"> What to see <i class="arrow-dwn fa fa-chevron-down"></i></h3>
                 |        </div>
                 |        <div class="panel">
                 |          <div class="panel-positional">
@@ -189,7 +189,7 @@ section
                 |      <section> 
                 |       <article class="article no-display-article">
                 |        <div id="itinerary" class="accordion">
-                |          <h3 class="article-title zero-fit flex flex-btn"> Itinerary <b>〉</b></h3>
+                |          <h3 class="article-title zero-fit flex flex-btn"> Itinerary <i class="arrow-dwn fa fa-chevron-down"></i></h3>
                 |        </div>
                 |        <div class="panel">
                 |          <div class="panel-positional">
@@ -198,12 +198,15 @@ section
                 |              {% for item in page.itinerary %}
                 |               <li><b>  🧐   </b> {{item.paragraph}}</li>  
                 |              {% endfor %} 
+                |             <hr>
                 |           </ul>
+                |          
                 |            {% include site-itinerary-section.html %}
                 |          </div>
+                |         
                 |        </div>
                 |       </article>
-                |
+                |       
                 |
                 |        <section class="destination-foot-note-wrap">  
                 |          <div class=" flex flex-btn align-center flex_wrap destination-foot-note">
