@@ -24,11 +24,12 @@
 		<!--PAGE -------------------------------------- END SHOPPING CART-->
 		<!-- PAGE =========================================== PAGE CONTENT HEADER-->{% include site-page-header.html %}   
 		<!-- PAGE --------------------------------------- - END PAGE CONTENT HEADER-->
-		<section class="pg-content flex">{% assign category = site.categories%}
+		<section class="pg-content flex">
+			<!--| {% assign category = site.categories%}-->
 			<!--PAGE ============================================================ SIDE BAR-->
 			<sidebar class="pg-content-table">
 				<ul class="ul-plain quick-links">
-					<!--for loop - daytrips-collection-->{% for destination in category[page.category] %}
+					<!--for loop - daytrips-collection-->{% for destination in site.categories[page.category] %}
 					   <li class="link {% if page.url == destination.url %} destination-active-link {% endif %}"> <a href="{{destination.url}}"> <b>➥</b> {{destination.title}} </a> </li>
 					{%endfor%}
 				</ul>
@@ -87,8 +88,10 @@
 					       <div class="panel">
 					         <div class="panel-positional">
 					
-					          <article>
-					           <p id="overview"> {{page.overview.intro}}</p>
+					          <article id="overview">
+					           {% for article in page.overview.intro %}
+					           <p> {{article.paragraph}}</p>
+					           {% endfor %}
 					          </article>
 					
 					          <article class="tour-details"> 
@@ -150,7 +153,7 @@
 					     <section> 
 					      <article class="article no-display-article">
 					       <div id="what-to-see" class="accordion">
-					         <h3 class="article-title zero-fit flex flex-btn"> What to see <i class="arrow-dwn fa fa-chevron-down"></i></h3>
+					         <h3 class="article-title zero-fit flex flex-btn"> What to see and what to do <i class="arrow-dwn fa fa-chevron-down"></i></h3>
 					       </div>
 					       <div class="panel">
 					         <div class="panel-positional">
@@ -193,16 +196,16 @@
 					              {% for destination in category[page.category] %}
 					                  {% if destination.category == "daytrip"%} 
 					                      {% if page.url == destination.url%}
-					                           <button class="btn bag-btn tilt-rt" data-item-id="0{{forloop.index}}" data-item-price="{{page.sys.price}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.review}}" data-item-image="{{page.sys.image.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
+					                           <button class="btn bag-btn tilt-rt" data-item-id="0{{forloop.index}}" data-item-price="{{page.sys.price}}" data-item-five-star-price="{{page.sys.accommodation.five_star}}" data-item-three-star-price="{{page.sys.accommodation.mid_star}}"  data-item-camp-basic="{{page.sys.accommodation.camp}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.review}}" data-item-image="{{page.sys.image.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
 					                      {% endif%}
 					                      
 					                  {% elsif destination.category == "private-safari" %}
 					                      {% if page.url == destination.url%}
-					                           <button class="btn bag-btn tilt-rt" data-item-id="1{{forloop.index}}" data-item-price="{{page.sys.price}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.review}}" data-item-image="{{page.sys.image.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
+					                           <button class="btn bag-btn tilt-rt" data-item-id="1{{forloop.index}}" data-item-price="{{page.sys.price}}" data-item-five-star-price="{{page.sys.accommodation.five_star}}" data-item-three-star-price="{{page.sys.accommodation.mid_star}}"  data-item-camp-basic="{{page.sys.accommodation.camp}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.review}}" data-item-image="{{page.sys.image.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
 					                      {% endif%}
 					                  {% elsif destination.category == "treks-and-other-activities" %}
 					                      {% if page.url == destination.url%}
-					                           <button class="btn bag-btn tilt-rt" data-item-id="2{{forloop.index}}" data-item-price="{{page.sys.price}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.review}}" data-item-image="{{page.sys.image.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
+					                           <button class="btn bag-btn tilt-rt" data-item-id="2{{forloop.index}}" data-item-price="{{page.sys.price}}" data-item-five-star-price="{{page.sys.accommodation.five_star}}" data-item-three-star-price="{{page.sys.accommodation.mid_star}}"  data-item-camp-basic="{{page.sys.accommodation.camp}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.review}}" data-item-image="{{page.sys.image.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
 					                      {% endif%}
 					                  {%endif%}
 					              {%endfor%}

@@ -18,7 +18,5 @@ our_staff:
   - paragraph: We have a very little turnover of staff. They tell us that they love their jobs and working for Kibokoland adventures. This is apparent to many of our clients, who give feedback saying how passionate our guides and crew are
 experiences:
   image_corousel:
-    - img: ./img/uploads/bird-1.jpg
-    - img: ./img/uploads/bird-2.jpg
-    - img: ./img/uploads/bao-tree.jpeg
-    - img: ./img/uploads/hipo.jpeg
+    - img: ./img/uploads/the-team-kibokolandadventure.jpg
+

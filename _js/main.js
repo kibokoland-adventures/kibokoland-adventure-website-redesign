@@ -86,8 +86,8 @@
 			let products = [...document.querySelectorAll('.bag-btn')]
 			products = products.map(item => {
 
-				const {itemId,itemPrice,itemName,itemImage,itemDescription, itemLocation,itemUrl} = item.dataset;
-				return {itemId,itemPrice, itemName, itemImage,itemDescription,itemLocation, itemUrl};
+				const {itemId,itemPrice,itemFiveStarPrice,itemThreeStarPrice,itemCampBasic,itemName,itemImage,itemDescription, itemLocation,itemUrl} = item.dataset;
+				return {itemId,itemPrice,itemFiveStarPrice,itemThreeStarPrice,itemCampBasic, itemName, itemImage,itemDescription,itemLocation, itemUrl};
 			} );	
 			return products;
 			
