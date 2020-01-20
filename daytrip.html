@@ -35,12 +35,12 @@ backtop: pg-day-top
 		        <h2>{{item.sys.icon}}</h2> </div>
 		      <div class="notes">
 		        <p> <b class="user-comment">{{item.sys.review}} </b></p>
-		        <p> <b>What is like: </b> <br> {{item.overview.setting.hashtags}} </p>
+		        <p> <b>What is like: </b> <br>#️⃣  {{item.overview.setting.hashtags}} </p>
 		        <p> <b>Activities:</b> {{item.overview.setting.activities}}</p>
 		        <div class="notes-lc-adress"> 
-		            <p><b>Pick-Up 🛬  & Drop-Off 🛫  Points 📍 :</b> <br><br> <b> ✈ KILIMANJARO AIRPORT   ✈ ARUSHA AIRPORT  ✈ DAR ES SALAAM </b></p>
+		            <p><b>Pick-up  &amp; Drop-off  points :</b> 🛏️ Accomodation Location </p>
 		        </div>
-		        <button class="btn bag-btn tilt-rt" data-item-id="0{{forloop.index }}" data-item-price="{{item.sys.price}}" data-item-five-star-price="{{item.sys.accommodation.five_star}}" data-item-three-star-price="{{item.sys.accommodation.mid_star}}"  data-item-camp-basic="{{item.sys.accommodation.camp}}"  data-item-url="{{item.url}}" data-item-location="{{item.sys.circuit}}" data-item-description="{{item.sys.review}}" data-item-image="{{item.sys.image.url}}" data-item-name="{{item.title}}"> ADD TO BUCKET </button>
+		        <button class="btn bag-btn tilt-rt" data-item-id="0{{forloop.index }}" data-item-price="{{item.sys.price}}" data-item-five-star-price="{{item.sys.accommodation.five_star}}" data-item-three-star-price="{{item.sys.accommodation.mid_star}}"  data-item-camp-basic="{{item.sys.accommodation.camp}}"  data-item-url="{{item.url}}" data-item-location="{{item.sys.circuit}}" data-item-description="{{item.sys.review}}" data-item-image="{{item.sys.image.url}}" data-item-name="{{item.title}}"> ADD TO BUCKET LIST </button>
 		        <button class="btn tilt-rt"><a href="{{item.url}}"> READ MORE </a></button> 
 		     </div> 
 		   </div>

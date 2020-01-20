@@ -1,16 +1,14 @@
 
 <article class="article col-100">
-     <hr>
-     <h3>The Top two circuits of 2019! Co-Designed with our Customers</h3>
-     <h2>They really knew what was best! {{site.data.emoji.kla-emoji.other.sparkles.fields.html}} </h2><br/>
-     <p><b>We have selected these safari packages based on the personalized level and the impact they had to both our clients and the Tanzanian Community... Its in our heart to thank you our dear visitors from whom we grew and stand together and make all trips and experiences posible... </b><br><br></p><br/>
+     <h3 class="site-itinerary-section-title">Out of Ideas ?</h3>
+     <h2 class="zero-fit">Your friends really knew what was best! {{site.data.emoji.kla-emoji.other.sparkles.fields.html}} </h2><br/>
      <section class="services-articles grid flex flex-btn flex_wrap">
 			{% for itinerary in site.itineraries%}
 
-			<article class="services-article col-30 txt-center flex flex-col flex-around align-center">
-             <div class="thumb tilt-rt" style="background-image: url('../../{{itineraty.image}}'); background-size: cover; background-repeat: no-repeat;"></div>
-             <h4 class="thumb-title title-1 zero-fit">{{itinerary.title}}</h4>
-             <p>{{itinerary.description}}</p>
+			<article class=" sample-itinerary services-article col-30 txt-center flex flex-col flex-around align-center">
+             <div class="thumb tilt-rt" style="background-image: url('../../{{itinerary.image}}'); background-size: cover; background-repeat: no-repeat;"></div>
+             <h4 class="thumb-title title-1 zero-fit quote-left" style="background-image: url('../../img/quote-left.png'); background-size: 100%; background-position: center center; background-repeat: no-repeat;"></h4>
+             <p class="user-comment"><b>{{itinerary.description}}</b></p>
 			   <a href="../../{{itinerary.file}}">
 			   	<button class="btn tilt-rt">Download Itinerary</button></a>
           </article>

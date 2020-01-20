@@ -3,20 +3,20 @@ layout: destination
 category: daytrip
 permalink: /:categories/:title/
 title: Natural History 📜 Museum
-subtitle: Boma Road
+subtitle: The home of Nature history
 
 sys:
   icon: 🗝️ 📜
-  circuit: Northen Circuit
-  review: ✌️ Great experience when the weather holds
+  circuit: Arusha
+  review: ✌️ I enjoyed reading about Germany history 📜, and how human and other organisms evolved.
   price: 25
-  best_time: 🌞 all year round
+  best_time:  👍  all year round
   accommodation:
     five_star: "N/A"
     mid_star: "N/A" 
     camp: "N/A"
   image:
-    alt: Walk with rescued Monkeys 🙈 ; makoa farm.
+    alt: Natural History 📜 Museum
     url: "./img/uploads/natural-museum-boma-arusha-kibokoland-adventures.jpg"
 
 image_corousel:
@@ -27,38 +27,36 @@ overview:
 
 
   intro:
-    - paragraph: "Natural history museum in Arusha town is located inThe Boma Natural history museum of Arusha is located at the uphill end of Boma road amidst a tranquil, tree filled neighborhood of the city of Arusha - Tanzania. It also is well inside the Central Business District and within close proximity to offices, hotels, restaurants, tour and travel agents and shops."
+    - paragraph: "Natural history museum is located at the city center of Arusha, a minute walk from the famous clock-tower. It is well inside the Central Business District and within close to offices, hotels, restaurants,  and shops."
 
-    - paragraph: "Don’t forget that the place has a lot of artifacts from excavations in the neighboring areas like the famous zinjathropus skull from Olduvai Gorge as a copy and sculptures of the early man. Learn history of Arusha region, a lot more about animals and insects that can be found in the park."
+    - paragraph: "The place has a lot of excavated artifacts like the famous Zinjanthropus skull from Olduvai Gorge and sculptures of the early man. Learn the history of Arusha during the German colonial era, 🚶🏽‍♂️ walk around with your guide and shop for souvenirs 🤑 "
 
-    - paragraph: "Art sessions also provide lessons and art for sale. Other activity interesting is drum making. In the museum’s rear there is a gallery where some of local artists do their creativity. Keeping of real-life eagle, fish and tortoise."
+
 
   tour_details:
-    when: "Best time to visit Makoa farm is all year round and high reason is from January to March and June to December."
-    duration: "4 Hours"
+    when: "8:30am 6 days a week "
+    duration: "3 Hours"
     language: "English"
-    price_includes: "includes visit guided and transport."
-    transport: "Toyota Landcruiser."
+    price_includes: "includes guided visit and transport."
+    transport: "Comfortable Mini Van"
     itinerary: "Product Stop At: Arusha City centre>Makoa Farm>Makoa river primates> Arusha City Centre"
 
   setting:
-    activities: " 🚶🏽‍♂️walking around with guide,  🛒shopping, 🤳 lots of selfies"
-    hashtags: >
-      "Beautiful bead work #️⃣  lots of wood carvings and paintings"
+    activities: " 🚶🏽‍♂️ you will walk around with your guide, read about Germany history📜, evolution of human beings 🧬 and other organisms  ,  🛒shopping, 🤳 and lots of selfies"
+    hashtags: |
+      "displays on insects, #️⃣ the history of Arusha during the German colonial era #️⃣ wildlife photos and stuffed animals" 
 
   included:
     - item: English speaking guide
-    - item: Lunch
-    - item: Transport
+    - item: Transport (to and from the hotel)
     - item: Entrance fees
-    - item: Park feestre
 
 
 
 
   excluded:
-    - item: Alcoholic beverages
-    - item: Personal items
+    - item: Camera
+    - item: Extra Activities other than Natural Museum 📜 visit
     - item: Hygienic items
 
 
@@ -67,27 +65,21 @@ overview:
     - note: This is not a wheelchair accessible tour.
 
 
+
 experience:
   what_to_see:
-    - paragraph: "<b>Artifacts documents (documents, maps and photos)</b>These documents are well prepared that has information explaining the history of Arusha region during German colonial period. Also, the documents talk of the early man ‘’Evolution of a man’’ and the Stone Age."
+    - paragraph: "<b>Artifacts &amp; documents (inscriptions, maps and photos)</b>Visiting natural history museum grants your day with, some instights on the history of Arusha region during German colonial period, a reminder on human evolution, wildlife photos and stuffed animals for closure."
 
-    - paragraph: "<b>Botanical garden</b>This garden featured with small display of plants and snakes."
+    - paragraph: "Botanical garden."
 
 
     - paragraph: "Small pond with some local fresh fish"
 
 
-    - paragraph: "Art gallery displayed by over 12 best local artists"
-
-    - paragraph: "Artifacts from excavation of neighboring areas as Olduvai Gorge and other dead wildlife."
+    - paragraph: "Excavated artifacts  of neighboring like Olduvai Gorge and many others."
 
 
-    - paragraph: "History of the region of Arusha and its people"
-
-    - paragraph: "A mini zoo with some of the region's rare animals such as an eagle"
-
-
-    - paragraph: "A insect section detailing some of the diseases and problems they cause"
+    - paragraph: "History of Arusha region and its people"
 
     - paragraph: "A taxidermy office"
     
@@ -95,17 +87,18 @@ experience:
 
 expect:
   video: 
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/8yO2MI0p8Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/MZwAfsO21-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 itinerary:
-  - paragraph: "Private transport would first need to get to the clock tower, a famous monument of the city, then from their head uphill (north). The museum is the located at the end of the northbound - Boma road that was named after it."
-  - paragraph: "If you are using public transport then you would need to find mini buses headed to the clock tower or Arusha hotel area and get off at the clock tower stop. From there a simple ten minutes walk uphill should get you to the museum."
+  - paragraph: "We will pick you up at your hotel and drive to the clock tower, a famous monument of the city, then from there we will head north. The museum is located at the end of the northbound - Boma road that was named after the museum."
+
+  - paragraph: "After check-in you will be greeted with the museum tour guide who will 🚶🏽‍♂️ walk  you through the museum while explaining the details and answering your interesting questions."
+
+  - paragraph: "After the inside walk around we will catch up some fresh air around the botoanical garden, visit a fish pond just next to the garden before you head back to your hotel and reflect the wonders of this old home of Nature history"
 
 
 remarks:
-  - paragraph: Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Town Tour itinerary .
-
-  - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+  - paragraph: This tour can be incorporated  in other itineraries too, please create your bucket list and send it over so we can create you a quote!
 
 
 

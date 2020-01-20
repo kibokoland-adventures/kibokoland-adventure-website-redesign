@@ -834,13 +834,16 @@ hr {
   margin-top: 61.25px;
   border-color: #fbfbe7; }
 
+.site-itinerary-section-title {
+  margin-top: 61.25px; }
+
 /*
   * KLA SERVICES ARTICLE MODULE
   */
 .services-article {
   margin-top: 30.625px;
   height: 490px;
-  border-bottom: 15.3125px solid #5E600E;
+  border-bottom: 15.3125px solid #faf9f8;
   background-color: #fffffd;
   border-radius: 1.9140625px 1.344307270233196px;
   color: #493A30;
@@ -862,6 +865,19 @@ hr {
   padding: 30px 0;
   color: #655142;
   text-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 1px 0 0px rgba(0, 0, 0, 0.1), 1px 2px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.11); }
+
+.no-border {
+  border: none;
+  border-radius: 10px; }
+
+.quote-left {
+  width: 45%;
+  height: 122.5px; }
+
+.sample-itinerary .user-comment {
+  margin-top: -30.625px;
+  width: 85%;
+  font-size: 15.3125px; }
 
 .name-lockup {
   display: -webkit-inline-box;

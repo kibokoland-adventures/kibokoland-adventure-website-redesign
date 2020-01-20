@@ -89,7 +89,7 @@ section
                 |
                 |   <header class="align-text-center">
                 |     <p><br><br>#️⃣ {{page.overview.setting.hashtags}} <br><br></p>
-                |     <p class="article-title  big"> {{page.review}}</p>
+                |     <p class="article-title  big"> {{page.sys.review}}</p>
                 |     <p> {{page.overview.setting.activities}} <br></p>
                 |     
                 |   
@@ -117,10 +117,7 @@ section
                 |           <article class="tour-details"> 
                 |             <p><b>When: </b><br> {{page.overview.tour_details.when}} </p>
                 |             <p><b>Duration: </b><br> {{page.overview.tour_details.duration}} </p>
-                |             <p><b>Language: </b><br> {{page.overview.tour_details.language}} </p>
-                |             <p><b>Price: </b><br> {{page.overview.tour_details.price_includes}} </p>
                 |             <p><b>Transport: </b><br> {{page.overview.tour_details.transport}} </p>
-                |             <p><b>Itinerary: </b><br> {{page.overview.tour_details.itinerary}} </p>
                 |         
                 |            </article>
                 |
@@ -160,7 +157,7 @@ section
                 |      </section>
                 |     
                 |      <section> 
-                |       <article class="article no-display-article">
+                |       <article class="article no-display-article no-border">
                 |          <h4>Watch the Video</h4>
                 |          <div id="what-to-expect" class="flex-video-wrap">
                 |            <div class="flex-video">
@@ -200,19 +197,23 @@ section
                 |              {% for item in page.itinerary %}
                 |               <li><b>  🧐   </b> {{item.paragraph}}</li>  
                 |              {% endfor %} 
-                |             <hr>
+                |             
                 |           </ul>
                 |          
-                |            {% include site-itinerary-section.html %}
                 |          </div>
                 |         
                 |        </div>
                 |       </article>
-                |       
+                |       {% include site-itinerary-section.html %}
                 |
                 |        <section class="destination-foot-note-wrap">  
+                |           <ul class="notes space-children ul-plain">
+                |              {% for item in page.remarks %}
+                |               <li><b>  🧐   </b> {{item.paragraph}}</li>  
+                |              {% endfor %} 
+                |           </ul>
                 |          <div class=" flex flex-btn align-center flex_wrap destination-foot-note">
-                |             <p> <b class="mail-to align-text-center"><a href="mailto:petergabrieltz@gmail.com">📧 <br> get a quote.</a></b> <br><br></p>
+                |             <p> <b class="mail-to align-text-center"><a href="mailto:{{site.data.site_dada.email}}">📧 <br> get a quote.</a></b> <br><br></p>
                 |               {% for destination in category[page.category] %}
                 |                   {% if destination.category == "daytrip"%} 
                 |                       {% if page.url == destination.url%}

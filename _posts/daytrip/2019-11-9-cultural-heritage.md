@@ -3,12 +3,12 @@ layout: destination
 category: daytrip
 permalink: /:categories/:title/
 title: Tanzanite/ Cultural center
-subtitle: "For a wide selection of African art, sculptures and artefacts, head to The Cultural Heritage craft mall"
+subtitle: "The Guggenheim of Africa"
 
 sys:
   icon: 🏺🧿 
   circuit: Northen Circuit
-  review: "For a wide selection of African art 🏺, sculptures and 🖼️ artefacts 📿, head to The Cultural Heritage craft mall"
+  review: "For a wide selection of African art 🏺, sculptures and 🖼️ artifacts 📿, head to The Cultural Heritage craft mall"
   price: 25
   best_time: 🌞 all year round
   accommodation:
@@ -42,9 +42,11 @@ overview:
     itinerary: "Clock-tower > sokoine road> walk to cultural heritage"
 
   setting:
-    activities: "You are allowed to take Photos 📷, shop around, understand the gallery history on 🖼️ paintings, carvings... "
+    activities:  🚶🏽‍♂️walking around with your docent,  🛒shopping,  know the gallery history on most 🖼️ paintings and carvings... and take lots of selfies 🤳 
+
     hashtags: >
-      "Ivory task big red shaped part glass #️⃣  Maasai shield #️⃣   wild animals curve compound"
+      curio shops #️⃣  Tanzanite and precious stone counter #️⃣   bargain centre #️⃣  outstanding commercial art gallery
+      
   included:
     - item: Bottled water
     - item: Lunch
@@ -87,7 +89,7 @@ experience:
   
 expect:
   video: 
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/ydj-guxcrWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/Ynf67DbR9yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 itinerary:
   - paragraph: " Starting point Clock tower, private transport will pick you up passing the Sokoine road it’s a distance of 5.3km in 15 minutes"
