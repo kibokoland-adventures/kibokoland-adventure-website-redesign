@@ -7,7 +7,7 @@ subtitle: "The Guggenheim of Africa"
 
 sys:
   icon: 🏺🧿 
-  circuit: Northen Circuit
+  circuit: Arusha
   review: "For a wide selection of African art 🏺, sculptures and 🖼️ artifacts 📿, head to The Cultural Heritage craft mall"
   price: 25
   best_time: 🌞 all year round
@@ -89,7 +89,7 @@ experience:
   
 expect:
   video: 
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/Ynf67DbR9yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/MZwAfsO21-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 itinerary:
   - paragraph: " Starting point Clock tower, private transport will pick you up passing the Sokoine road it’s a distance of 5.3km in 15 minutes"
@@ -99,7 +99,7 @@ itinerary:
 remarks:
   - paragraph: Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Town Tour itinerary .
 
-  - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+  - paragraph: This tour can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
 
 
 

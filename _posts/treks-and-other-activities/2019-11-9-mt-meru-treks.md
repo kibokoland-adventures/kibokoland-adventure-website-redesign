@@ -3,27 +3,24 @@ layout: destination
 category: treks-and-other-activities
 permalink: /:categories/:title/
 title: Mt Meru
-subtitle: "For a wide selection of African art, sculptures and artefacts, head to The Cultural Heritage craft mall"
+subtitle: "Kilimanjaro's Little Brother"
 
 sys:
   icon: 🏞️
   circuit: Northen Circuit
-  review: "Memorable Experience"
+  review: "Meru is a great preparation hike for climbing Kilimanjaro"
   price: N/A
-  best_time: 👍 June to October 
+  best_time: 👍 Oct-Feb &amp; Jun - Sept 
   accommodation:
     five_star: "N/A"
     mid_star: "N/A" 
     camp: "N/A"
   image:
-    alt: Ngorongoro Conservation Area
-    url: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+    alt: Mt.Meru
+    url: "./img/uploads/Mt.Meru_Kibokoland.png"
 
 image_corousel:
-  - image: "./img/uploads/cultural-heritage-culture-inside-chamber-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+  - image: "./img/uploads/Mt.Meru_Kibokoland.png"
 
 overview:
 
@@ -84,7 +81,7 @@ experience:
   
 expect:
   video: 
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/Ynf67DbR9yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/MZwAfsO21-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 itinerary:
   - paragraph: "<b>Trekking Mount Meru</b><br> Momella route This is the only route to take you to the destination point. Starting at Momella gate on the Eastern side of the mountain and goes to the summit along the northern arm of the horse shoe crater. Comfortably needs 4 days (three nights). Before the trekking you will have to camp and wait until next day to start the climb. Its high enough for you to feel the effects of altitude, so don’t rush up or underestimate it."
@@ -97,8 +94,6 @@ itinerary:
   - paragraph: "<br>Stage 4: Saddle hut to Momella gate (5km, three to five hours, 2250m descent)</b><br> From the Saddle hut, retrace the stage 2 route to Miriakamba. From Miriakamba, the short path descends gradually down the ridge directly to Momella gate. It goes through forest some of the way, then open grassland, where giraffes and zebras are often seen."
  
 remarks:
-  - paragraph: Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Town Tour itinerary .
-
   - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
 
 

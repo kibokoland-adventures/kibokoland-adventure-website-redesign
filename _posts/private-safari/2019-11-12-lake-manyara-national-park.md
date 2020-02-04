@@ -3,12 +3,12 @@ layout: destination
 category: private-safari
 permalink: /:categories/:title/
 title: Lake Manyara National Park
-subtitle: "For a wide selection of African art, sculptures and artefacts, head to The Cultural Heritage craft mall"
+subtitle: "A vision in pink"
 
 sys:
   icon: 🏞️
   circuit: Northen Circuit
-  review: "Memorable Experience"
+  review: "Beautiful place for a photographer"
   price: N/A
   best_time: 👍 June to September 
   accommodation:
@@ -16,14 +16,11 @@ sys:
     mid_star: "N/A" 
     camp: "N/A"
   image:
-    alt: Ngorongoro Conservation Area
-    url: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+    alt: Lake Manyara National Park
+    url: "./img/uploads/we-just-guide-better-italy-group-dont-feed-animals-kibokolandadventures.JPG"
 
 image_corousel:
-  - image: "./img/uploads/cultural-heritage-culture-inside-chamber-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+  - image: "./img/uploads/we-just-guide-better-italy-group-dont-feed-animals-kibokolandadventures.JPG"
 
 overview:
 
@@ -35,16 +32,14 @@ overview:
   
   tour_details:
     when: "open for tours and activities 9am - 4.30pm every day of the year"
-    duration: "4 Hours"
+    duration: "7 Hours"
     language: "English"
-    price_includes: "includes visit guided and transport."
     transport: "Toyota Landcruiser."
-    itinerary: "Arusha > moshi > northwest Mt. Kilimanjaro"
 
   setting:
     activities: "bird watching and Game drives"
     hashtags: >
-      " #️⃣ birding and #️⃣  wildlife tour. #️⃣   big five game"
+      " #️⃣ birding and #️⃣  wildlife tour. #️⃣   big five game #️⃣  Flamingoes "
 
   included:
     - item: Transport
@@ -85,17 +80,15 @@ experience:
   
 expect:
   video: 
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/Ynf67DbR9yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/MZwAfsO21-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 itinerary:
   - paragraph: "It is in a distance of 126km (also 78miles) by car one can also take a trip from Arusha which only takes 1 to 2 hours to reach the destination. "
-  - paragraph: "Reaching Mto wa Mbu you would need to rent a vehicle to enter the park via the gate way village which is accessible by bus. And park the car ready for a game drive in the park. Having lunch and continue with the game drive till evening. "
+  
   - paragraph: "After an amazing tour hope to get a drive back to your drop off point to where you booked a hotel."
 
  
 remarks:
-  - paragraph: Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Town Tour itinerary .
-
   - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
 
 

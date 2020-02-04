@@ -3,11 +3,11 @@ layout: destination
 category: private-safari
 permalink: /:categories/:title/
 title: Ruaha National Park
-subtitle: Shopping/souvenirs 
+subtitle: The connoisseur’s choice
 sys:
   icon: 🤑 🧑‍🤝‍🧑 
-  circuit: Northen Circuit
-  review: ✌️ Great experience when the weather holds
+  circuit: Southen Circuit
+  review: ✌️ I was very impressed at the diverse variety of birds! Amazing!
   price: 15
   best_time: 🌞 <b>Jun - Oct</b>
   accommodation:
@@ -15,15 +15,14 @@ sys:
     mid_star: "N/A" 
     camp: "N/A"
   image:
-    alt: The Maasi Market 🤑
-    url: "./img/uploads/bird-1.jpg"
+    alt: Ruaha National Park
+    url: "./img/uploads/Ruaha-National-Park-Kibokoland.jpeg"
 
 image_corousel:
+  - image: "./img/uploads/Ruaha-National-Park-Kibokoland.jpeg"
+  - image: "./img/uploads/Ruaha-national-park-kiboko.jpg"
   - image: "./img/uploads/bird-1.jpg"
   - image: "./img/uploads/bird-2.jpg"
-  - image: "./img/uploads/bao-tree.jpeg"
-  - image: "./img/uploads/hipo.jpeg"
-
 overview:
 
 
@@ -36,7 +35,6 @@ overview:
     when: Sunday to Saturday 08am to 06pm in the evening.
     duration: 2-3 Hours
     language: "English"
-    price_includes: includes visit guided and transport.
     transport: Toyota Landcruiser.
     itinerary: "Arusha Toun Tour > Shopping at Maasai Market"
 
@@ -77,7 +75,7 @@ experience:
 
 expect:
   video: 
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/Ynf67DbR9yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/MZwAfsO21-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 itinerary:
   - paragraph: "The drive to Ruaha from Dar es Salaam takes about 10 hours, and a lot of it is on a dusty, bumpy road. Many people travelling to Ruaha make a stopover at Mikumi national park. From Mikumi, the distance to Ruaha is about 320km/200m and drive takes roughly five hours. There are also flights connected to the southern circuit safari."
@@ -85,8 +83,6 @@ itinerary:
   - paragraph: "After a long stay for the adventure will be provided with all meals and accommodation for you to stay during game drives and other activities."
 
 remarks:
-  - paragraph: Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Town Tour itinerary .
-
   - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
 
 

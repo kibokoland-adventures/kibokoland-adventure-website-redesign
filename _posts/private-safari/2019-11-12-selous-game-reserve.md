@@ -3,12 +3,12 @@ layout: destination
 category: private-safari
 permalink: /:categories/:title/
 title: Selous Game Reserve
-subtitle: "For a wide selection of African art, sculptures and artefacts, head to The Cultural Heritage craft mall"
+subtitle: "A wilderness made for walkin. Africa's Largest."
 
 sys:
   icon: 🏞️ 
-  circuit: Northen Circuit
-  review: "For a wide selection of African art 🏺, sculptures and 🖼️ artefacts 📿, head to The Cultural Heritage craft mall"
+  circuit: Southern Circuit
+  review: "Fantastic Reserve: Full of Animals, Not Full of People"
   price: N/A
   best_time: 🌞 June to October
   accommodation:
@@ -17,19 +17,15 @@ sys:
     camp: "N/A"
   image:
     alt: Selous Game Reserve
-    url: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+    url: "./img/uploads/trakking-down-the-giants-kibokolandadventures.jpg"
 
 image_corousel:
-  - image: "./img/uploads/cultural-heritage-culture-inside-chamber-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
-
+  - image: "./img/uploads/trakking-down-the-giants-kibokolandadventures.jpg"
 overview:
 
 
   intro:
-    - paragraph: "Selous national park is located in the southern part of Tanzania. Its Africa’s largest game reserve. The beauty of the park matches with its quality due to activities done in the park like boating walking and flying camps with standard game driving. It’s best for family safaris and honeymooners holiday. "
+    - paragraph: "Selous Game Reserve is located in the southern part of Tanzania. Its Africa’s largest game reserve. The beauty of the park matches with its quality due to activities done in the park like boating walking and flying camps with standard game driving. It’s best for family safaris and honeymooners holiday. "
 
     - paragraph: "The park is visited by large number of visitors just of how it’s beautified. In the Northern section it has a channel of water passing like lagoons that run off Rufiji River. And these help the animals during dry season and wet season. Other rivers and lakes found are also used to save the life of wild animals in the park." 
 
@@ -37,19 +33,17 @@ overview:
   
   tour_details:
     when: "open for tours and activities 9am - 4.30pm every day of the year"
-    duration: "4 Hours"
+    duration: "7 Hours"
     language: "English"
-    price_includes: "includes visit guided and transport."
     transport: "Toyota Landcruiser."
-    itinerary: "Arusha > moshi > northwest Mt. Kilimanjaro"
 
   setting:
-    activities: "Game driving, Bird watching, Boating"
+    activities: "Game driving, Bird watching, walking safaris, Night Drives"
     hashtags: >
-      "huge park #️⃣  lagoons and rivers #️⃣  palm trees"
+      "huge park #️⃣  lagoons and rivers #️⃣  palm trees #️⃣  Wild dogs"
   included:
     - item: All meals
-    - item: Accommodation
+    - item: Accommodation(Pre-booked)
     - item: Transport
     - item: Park fees
 
@@ -77,15 +71,14 @@ experience:
   
 expect:
   video: 
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/Ynf67DbR9yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/MZwAfsO21-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 itinerary:
-  - paragraph: "On your arrival in northern Tanzania, we recommend spending 1 or 2 nights in the suburbs of Arusha to unwind but also to give you an opportunity to experience the rich historical and cultural heritage of this diverse city. The town is located at the base of Mount Meru offering endless vistas of this iconic highland, as well as the roof of Africa -- Mount Kilimanjaro."
-  
+  - paragraph: <b>Dar es Salaam (DAY 1)</b>
+  - paragraph: <b>Selous Game Reserve(DAY 1-3)</b> Game drives and boat safaris
+  - paragraph: <b>Dar es Salaam(DAY 3)</b>
 
 remarks:
-  - paragraph: Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Town Tour itinerary .
-
   - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
 
 

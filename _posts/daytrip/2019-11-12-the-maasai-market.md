@@ -6,7 +6,7 @@ title: The Maasi Market 🤑
 subtitle:  🎨 Gigantic Craft Galore in Arusha.
 sys:
   icon: 🎨 🤑 🖌️
-  circuit: Northen Circuit
+  circuit: Arusha
   review: "👍 Best Place to find tourist stuffs  "
   price: 25
   best_time: 👍🏻 all year round
@@ -88,7 +88,7 @@ itinerary:
   - paragraph: "Now that the van is full of shopped items, we will  safely drive you back to your hotel, and let you spend time with your newly shopped possesions"
 
 remarks:
-  - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+  - paragraph: This tour can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
 
 
 

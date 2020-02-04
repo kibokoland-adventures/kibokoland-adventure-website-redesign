@@ -17,13 +17,10 @@ sys:
     camp: "N/A"
   image:
     alt: Mkomazi National Park
-    url: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+    url: "./img/uploads/we-enjoy-it-too-kibokolandaadventure-guides.JPG"
 
 image_corousel:
-  - image: "./img/uploads/cultural-heritage-culture-inside-chamber-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+  - image: "./img/uploads/we-enjoy-it-too-kibokolandaadventure-guides.JPG"
 
 overview:
 
@@ -83,6 +80,6 @@ itinerary:
   - paragraph: "Soon after all tour activities we will 👋 wave goodbye to Mkomazi National Park and start the drive back to Arusha where the safari ends by dropping you off at your booked hotel."
 
 remarks:
-  - paragraph: This tour can be incorporated  in other itineraries too, please create your bucket list and send it over so we can create you a quote!
+  - paragraph: This destination tour can be incorporated  in other itineraries too, please create your bucket list and send it over so we can create you a quote!
 
 ---

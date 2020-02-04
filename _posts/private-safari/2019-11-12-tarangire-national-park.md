@@ -3,27 +3,24 @@ layout: destination
 category: private-safari
 permalink: /:categories/:title/
 title: Tarangire National Park
-subtitle: "For a wide selection of African art, sculptures and artefacts, head to The Cultural Heritage craft mall"
+subtitle: Tanzania’s most underrated wilderness. An elephant’s tale.
 
 sys:
   icon: 🏞️
   circuit: Northen Circuit
-  review: "Memorable Experience"
+  review: "⏰Time it right and you can’t go wrong 🤳"
   price: N/A
-  best_time: 👍 June to October 
+  best_time: 👍 July to October 
   accommodation:
     five_star: "N/A"
     mid_star: "N/A" 
     camp: "N/A"
   image:
-    alt: Ngorongoro Conservation Area
-    url: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+    alt: Tarangire National Park
+    url: "./img/uploads/bao-tree.jpeg"
 
 image_corousel:
-  - image: "./img/uploads/cultural-heritage-culture-inside-chamber-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+  - image: "./img/uploads/bao-tree.jpeg"
 
 overview:
 
@@ -50,7 +47,7 @@ overview:
   setting:
     activities: " game watching, photo taking and game viewing, "
     hashtags: |
-      #️⃣ Meadow of Maasai steppe #️⃣  lakes #️⃣  great rift valley# #️⃣  seasonal swamps #️⃣ wildlife"
+      Meadow of Maasai steppe #️⃣  lakes #️⃣  great rift valley# #️⃣  seasonal swamps #️⃣ wildlife
 
   included:
     - item: Transport
@@ -88,18 +85,17 @@ experience:
   
 expect:
   video: 
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/Ynf67DbR9yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/MZwAfsO21-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 itinerary:
-  - paragraph: "It is in a distance of 126km (also 78miles) by car one can also take a trip from Arusha which only takes 1 to 2 hours to reach the destination. "
-  - paragraph: "Reaching Mto wa Mbu you would need to rent a vehicle to enter the park via the gate way village which is accessible by bus. And park the car ready for a game drive in the park. Having lunch and continue with the game drive till evening. "
-  - paragraph: "After an amazing tour hope to get a drive back to your drop off point to where you booked a hotel."
-
+  - paragraph: "A trip from Arusha which only takes 1 to 2 hours to reach the destination. "
+  - paragraph: "Reaching Mto wa Mbu you may opt to have a night stay on some of the most amazing campsites around. This is if overlooking Lake Manyara's beauty around a campfire with a bear or two is your kind of thing. We will pack our lanch and have a full game drive tomorrow in Serengeti National Park till evening. "
+  - paragraph: "After a late afternoon tour enrute to your prebooked accomodation for dinner and overnight"
  
 remarks:
-  - paragraph: Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Town Tour itinerary .
+  
 
-  - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+  - paragraph: This destination can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
 
 
 

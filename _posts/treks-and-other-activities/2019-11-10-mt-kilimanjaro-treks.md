@@ -3,27 +3,24 @@ layout: destination
 category: treks-and-other-activities
 permalink: /:categories/:title/
 title: Mt Kilimanjaro Theks
-subtitle: "For a wide selection of African art, sculptures and artefacts, head to The Cultural Heritage craft mall"
+subtitle: "Tallest free standing mountain in the world. Trek trek!"
 
 sys:
   icon: 🏞️ 
   circuit: Northen Circuit
-  review: "For a wide selection of African art 🏺, sculptures and 🖼️ artefacts 📿, head to The Cultural Heritage craft mall"
+  review: "The Roof of Africa"
   price: N/A
-  best_time: 🌞 June to September 
+  best_time: 🌞 Jan-Mar &amp; Jun to Oct 
   accommodation:
     five_star: "N/A"
     mid_star: "N/A" 
     camp: "N/A"
   image:
-    alt: Selous Game Reserve
-    url: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+    alt: Mt.Kilimanjaro
+    url: "./img/uploads/kilimanjaro_with_elephant_herd_kibokoland-adventure.png"
 
 image_corousel:
-  - image: "./img/uploads/cultural-heritage-culture-inside-chamber-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+  - image: "./img/uploads/kilimanjaro_with_elephant_herd_kibokoland-adventure.png"
 
 overview:
 
@@ -41,9 +38,7 @@ overview:
     when: "open for tours and activities 9am - 4.30pm every day of the year"
     duration: "4 Hours"
     language: "English"
-    price_includes: "includes visit guided and transport."
     transport: "Toyota Landcruiser."
-    itinerary: "Arusha > moshi > northwest Mt. Kilimanjaro"
 
   setting:
     activities: "birding, wild watching and trekking "
@@ -84,7 +79,7 @@ experience:
   
 expect:
   video: 
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/Ynf67DbR9yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/MZwAfsO21-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 itinerary:
   - paragraph: " <b>Trek Marangu route </b> A trek in this route is typically sold as for night to five day return package, the extra night is recommended to help you acclimatize especially if you have just flown into Tanzania or from lowlands."
@@ -100,8 +95,6 @@ itinerary:
   - paragraph: "Northern Circuit route; The longest trip taking eight to ten days initially follows the same way as the Shira plateau route before turning north near Lava Tower and then continuing around the northern (“back”) side of Kilimanjaro before reaching the summit via Gilman’s point. "
 
 remarks:
-  - paragraph: Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Town Tour itinerary .
-
   - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
 
 

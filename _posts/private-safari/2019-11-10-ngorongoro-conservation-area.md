@@ -3,12 +3,12 @@ layout: destination
 category: private-safari
 permalink: /:categories/:title/
 title: Ngorongoro Conservation Area
-subtitle: "For a wide selection of African art, sculptures and artefacts, head to The Cultural Heritage craft mall"
+subtitle: "Nature’s own Eden"
 
 sys:
   icon: 🏞️
   circuit: Northen Circuit
-  review: "Memorable Experience"
+  review: "Expansive views and stunning diversity, including black rhino!"
   price: N/A
   best_time: 👍 June to September 
   accommodation:
@@ -17,13 +17,12 @@ sys:
     camp: "N/A"
   image:
     alt: Ngorongoro Conservation Area
-    url: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+    url: "./img/uploads/ngorongoro-crater-descent-kibokoland.jpg"
 
 image_corousel:
-  - image: "./img/uploads/cultural-heritage-culture-inside-chamber-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+  - image: "./img/uploads/we-just-guide-better-italy-group-maasai-culture-kibokolandadventures.JPG"
+  - image: "./img/uploads/ngorongoro-crater-descent-kibokoland.jpg"
+  - image: "./img/uploads/Best-Time-to-Visit-Ngorongoro-kibokoland.jpg"
 
 overview:
 
@@ -37,14 +36,12 @@ overview:
     when: "open for tours and activities 9am - 4.30pm every day of the year"
     duration: "4 Hours"
     language: "English"
-    price_includes: "includes visit guided and transport."
     transport: "Toyota Landcruiser."
-    itinerary: "Arusha > moshi > northwest Mt. Kilimanjaro"
 
   setting:
     activities: "bird watching and Game drives"
     hashtags: >
-      "Volcanic crater #️⃣   big five game #️⃣   rift valley"
+      "Volcanic crater #️⃣   big five game #️⃣   rift valley #️⃣  Black Rhino"
   included:
     - item: All meal(breakfast, lunch, dinner)
     - item: Drinks
@@ -71,7 +68,7 @@ overview:
 
 experience:
   what_to_see:
-    - paragraph: "<b> Ngorongoro crater</b> Obviously you will get a drive down slope of the crater using 4 wheel vehicles. It will You will descend 2000 feet (over 600 meters) to the floor of the crater for a half a day crater tour"
+    - paragraph: "<b> Ngorongoro crater</b> Obviously you will get a driven down the slope of the crater using 4 wheel vehicles. You will descend 2000 feet (over 600 meters) to the floor of the crater for a half a day crater tour"
 
     - paragraph: "<b>Forest exploration</b>The forest area is inhabited by monkeys and elephants. The lake area that you may see the flamingos and the open savannah where the lions hunt for food."
 
@@ -81,17 +78,15 @@ experience:
   
 expect:
   video: 
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/Ynf67DbR9yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/MZwAfsO21-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 itinerary:
   - paragraph: "You can venture Ngorongoro Crater in a day tour from Moshi or Arusha. The tour departs from Arusha town with lunch boxes, Water from your hotel and drive to Ngorongoro Crater. You will descend 2000 feet (over 600 meters) to the floor of the crater for a half day crater tour. "
   - paragraph: "Explore the forest areas that are inhabited by monkeys and elephant, the lake area, where you may see the flamingos and the open savannah where the lions hunt for food. "
-  - paragraph: "Late evening the car will depart driving you back to your departure points and dropping you to your booked hotels. And thus how day ends with a memorable moment, don’t miss it!"
+  - paragraph: "Late evening the car will depart driving you back to your departure points and dropping you to your pre-booked hotels. And thus how day ends with a memorable moment, don’t miss it!"
 
  
 remarks:
-  - paragraph: Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Town Tour itinerary .
-
   - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
 
 

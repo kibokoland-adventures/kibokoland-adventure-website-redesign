@@ -5,9 +5,12 @@ permalink: /:categories/:title/
 title: 🏞️ Lake Duluti 
 subtitle: a paradise for birds and reptiles
 
+
+
+
 sys:
   icon: 🏞️
-  circuit: Northen Circuit
+  circuit: Tengeru, Arusha
   review: "Great hike with lots of Birds and Reptiles"
   price: 25
   best_time: 🌞 all year round
@@ -17,17 +20,18 @@ sys:
     camp: "N/A"
   image:
     alt: Lake Duluti.
-    url: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+    url: "./img/uploads/bird-1.JPG"
+
+
+
 
 image_corousel:
-  - image: "./img/uploads/cultural-heritage-culture-inside-chamber-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-culture-building-kibokoland-adventures.jpg"
-  - image: "./img/uploads/cultural-heritage-bango-kibokoland-adventures.jpg"
+  - image: "./img/uploads/bird-1.JPG"
+  - image: "./img/uploads/bird-2.JPG"
+
+
 
 overview:
-
-
   intro:
     - paragraph: "Is a crater lake located near a small town of Tengeru Arumeru"
 
@@ -35,13 +39,22 @@ overview:
 
     - paragraph: "It provides 130 different species for water birds. Most common birds found in the lake are grey herons, fish eagles, cormorants, ospreys, egrets and kingfishers."
   
+
+
+
+
   tour_details:
     when: "open for tours and activities 9am - 4.30pm every day of the year"
+
     duration: "4 Hours"
+
     language: "English"
+
     price_includes: "includes visit guided and transport."
+
     transport: "Toyota Landcruiser."
-    itinerary: " Four points by Sheraton Arusha, The Arusha Hotel, Fired Road, Clocktower Roundabout, Plot 2, Arusha 23100.Approximately spend 40 minutes to reach lake Duluti from Arusha town and from Kilimanjaro International Airport.  You can be picked from any location around the Centre of Arusha town"
+
+
 
   setting:
     activities: "admire the colourful Birds as you hike through a lush green forest, Sport Fish, enjoy the breathtaking views of Mt.Meru &amp; Kilimanjaro from your canoe.  "
@@ -78,21 +91,28 @@ experience:
   
 expect:
   video: 
-    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/Ynf67DbR9yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    url: <iframe width="560" height="315" src="https://www.youtube.com/embed/MZwAfsO21-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 itinerary:
 
-  - paragraph: "A tour in the destination involves walking in Duluti forest, canoeing, fishing and many more"
-  - paragraph: "Take lunch in the Lake Duluti restaurant"
+  - paragraph: We will pick you up from your hotel and drive to Lake Duluti, a 30 minutes drive from Arusha Town. Lake Duluti lies 10 minutes from the nearest small town, Tengeru.
+
+  - paragraph: Upon arrival at Duluti we shall check-in and trail our way deeper into the paradise for Birds and Reptiles. Enjoying beautiful Bird calls and sights of Cormorants, Kingfishers, African Darters and Herons as they fish and swim in the Lake.
+
+  - paragraph: Based on your activity schedule  walking and canoeing are some of the exciting activities you can enjoy.
+
+  -  paragraph: Luckily for us we can take our lunch sorrounded with the beautiful Bird calls and the majestic greenery vegetatition of Lake Duluti.
+
+  - paragraph: We will call it a day after all the breath taking moments that defines Lake Duluti are all but done. Wave goodbye to the beautiful paradise of Birds and Reptiles, hop in our private minivan and re-live  the moments we made as we head back to our hotel.
  
 
 
 
 
 remarks:
-  - paragraph: Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Town Tour itinerary .
 
-  - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+  - paragraph: This tour can be incorporated  in other itineraries too, please create your bucket list and send it over so we can create you a quote!
+
 
 
 
