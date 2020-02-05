@@ -2,7 +2,7 @@
   .modal-content.article.cart
     span.close-button.close-cart.large &times; <!-- <i class="fa fa-window-close" aria-hidden="true"></i> -->
     h3.align-text-center  Your Bucket List
-    form.form(action="POST" data-netlify="true" data-netlify-recapture="true") 
+    form.form(action="POST" data-netlify="true" data-netlify-recapture="true" id="form1") 
       .cart-content
 
       fieldset 
@@ -14,7 +14,7 @@
         legend.align-text-center 
           h3 Your Details
 
-        label(for="name") Name: <input type="text" id="name" name="customer's_name" required>
+        label(for="name") Name: <input type="text" id="name" name="customer's_name"  required>
         label(for="email") Email: <input type="text" id="email" name="customer's_email" required>
 
         label(for="Group") Number of People Traveling: <br> <input type="number" id="group" name="travel_group" required>

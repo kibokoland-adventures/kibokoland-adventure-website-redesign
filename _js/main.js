@@ -157,17 +157,17 @@
 			
 			div.innerHTML = `
 
-				<legend>
+				<label for="package">
 					<h3 class="article-title flex"> <small class="best-price"> 🏷️<mark>$${item.itemPrice}</mark></small> ${item.itemName}  <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"> <mark> ${item.itemLocation} ️</mark></a> </b> </span> </span> </h3>
-				</legend>
+				</label>
 
 				<div class="flex flex-btn modal-form-label form-col-2">
 					<label for="duration"> Duration
-						<span><br> <input type="text"  name="important_note" placeholder="2-nights / daytrip" required> </span>
+						<span><br> <input form="form1" type="text"  name="important_note" placeholder="2-nights / daytrip" required> </span>
 					</label>
 				
 					<label for="accomodation-options"> Accomodation Options
-					<span>  <br> <input type="checkbox"  name="accomodation-options">Five Star 🌟 ( ${item.itemFiveStarPrice}) </input> <br> <input type="checkbox"  name="accomodation-options" > 3-4 Star ⭐ ( ${item.itemThreeStarPrice} )</input> <br> <input type="checkbox"  name="accomodation-options" > I will Camp ⛺ ( ${item.itemCampBasic})  </input>  </span>
+					<span>  <br> <input form="form1" type="checkbox"  name="accomodation-options">Five Star 🌟 ( ${item.itemFiveStarPrice}) </input> <br> <input type="checkbox"  name="accomodation-options" > 3-4 Star ⭐ ( ${item.itemThreeStarPrice} )</input> <br> <input type="checkbox"  name="accomodation-options" > I will Camp ⛺ ( ${item.itemCampBasic})  </input>  </span>
 					</label>
 				
 				</div>
