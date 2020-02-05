@@ -2,7 +2,7 @@
 <div class="modal cart-overlay">
 	<div class="modal-content article cart"><span class="close-button close-cart large">&times; <!-- <i class="fa fa-window-close" aria-hidden="true"></i> --></span>
 		<h3 class="align-text-center"> Your Bucket List</h3>
-		<form class="form">
+		<form class="form" action="POST" data-netlify="true" data-netlify-recapture="true"> 
 			<div class="cart-content"></div>
 			<fieldset> 
 				<div class="cart-footer">
@@ -14,12 +14,12 @@
 				<legend class="align-text-center"> 
 					<h3>Your Details</h3>
 				</legend>
-				<label for="name">Name: <input type="text" id="name" name="user_name" required></label>
-				<label for="email">Email: <input type="text" id="email" name="user_email" required></label>
-				<label for="Group">Number of People Traveling: <br> <input type="number" id="group" name="user_group" required></label>
+				<label for="name">Name: <input type="text" id="name" name="customer's_name" required></label>
+				<label for="email">Email: <input type="text" id="email" name="customer's_email" required></label>
+				<label for="Group">Number of People Traveling: <br> <input type="number" id="group" name="travel_group" required></label>
 				<div class="flex flex-btn form-col-2">
-					<label for="start-date"><b>Start Date</b> <br><input type="date" id="start_date" name="travel-dates" required></label>
-					<label for="end-date"><b>End Date</b> <br><input  type="date" id="end_date" name="travel-dates" required></label>
+					<label for="start-date"><b>Start Date</b> <br><input type="date" id="start_date" name="start-date" required></label>
+					<label for="end-date"><b>End Date</b> <br><input  type="date" id="end_date" name="end-dates" required></label>
 				</div>
 				<div class="flex flex-btn form-col-2">
 					<label for="pick-up"><b>Pick-up 🛬 </b> <br>
@@ -43,7 +43,7 @@
 						</select>
 					</label>
 				</div>
-				<textarea class="tilt-rt" id="note" name="" cols="30" rows="10" placeholder="Would you like to go camping? tell us your requirements..."></textarea>
+				<textarea class="tilt-rt" id="note" name="Customer-Notes" cols="30" rows="10" placeholder="Would you like to go camping? tell us your requirements..."></textarea>
 			</fieldset>
 			<p>
 				<button class="btn tilt-lft" type="submit">Get A Quote!</button>

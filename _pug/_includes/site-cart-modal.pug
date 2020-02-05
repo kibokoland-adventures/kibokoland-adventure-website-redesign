@@ -2,7 +2,7 @@
   .modal-content.article.cart
     span.close-button.close-cart.large &times; <!-- <i class="fa fa-window-close" aria-hidden="true"></i> -->
     h3.align-text-center  Your Bucket List
-    form.form
+    form.form(action="POST" data-netlify="true" data-netlify-recapture="true") 
       .cart-content
 
       fieldset 
@@ -14,15 +14,15 @@
         legend.align-text-center 
           h3 Your Details
 
-        label(for="name") Name: <input type="text" id="name" name="user_name" required>
-        label(for="email") Email: <input type="text" id="email" name="user_email" required>
+        label(for="name") Name: <input type="text" id="name" name="customer's_name" required>
+        label(for="email") Email: <input type="text" id="email" name="customer's_email" required>
 
-        label(for="Group") Number of People Traveling: <br> <input type="number" id="group" name="user_group" required>
+        label(for="Group") Number of People Traveling: <br> <input type="number" id="group" name="travel_group" required>
         
         
         .flex.flex-btn.form-col-2
-          label(for="start-date") <b>Start Date</b> <br><input type="date" id="start_date" name="travel-dates" required>
-          label(for="end-date") <b>End Date</b> <br><input  type="date" id="end_date" name="travel-dates" required>
+          label(for="start-date") <b>Start Date</b> <br><input type="date" id="start_date" name="start-date" required>
+          label(for="end-date") <b>End Date</b> <br><input  type="date" id="end_date" name="end-dates" required>
 
         
         .flex.flex-btn.form-col-2
@@ -46,7 +46,8 @@
               
           
 
-        textarea#note.tilt-rt(name="", cols="30", rows="10" placeholder="Would you like to go camping? tell us your requirements...")
+        textarea#note.tilt-rt(name="Customer-Notes", cols="30", rows="10" placeholder="Would you like to go camping? tell us your requirements...")
+
 
       p: button.btn.tilt-lft(type="submit") Get A Quote!
           
