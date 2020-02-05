@@ -157,8 +157,8 @@
 			
 			div.innerHTML = `
 
-				<label for="package">
-					<h3 class="article-title flex"> <small class="best-price"> 🏷️<mark>$${item.itemPrice}</mark></small> ${item.itemName}  <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"> <mark> ${item.itemLocation} ️</mark></a> </b> </span> </span> </h3>
+				<label for="package" >
+					<h3 class="article-title flex" name="package" form="form1"> <small class="best-price"> 🏷️<mark>$${item.itemPrice}</mark></small> ${item.itemName}  <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"> <mark> ${item.itemLocation} ️</mark></a> </b> </span> </span> </h3>
 				</label>
 
 				<div class="flex flex-btn modal-form-label form-col-2">

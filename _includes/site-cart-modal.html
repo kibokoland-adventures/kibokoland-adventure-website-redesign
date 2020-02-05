@@ -2,8 +2,12 @@
 <div class="modal cart-overlay">
 	<div class="modal-content article cart"><span class="close-button close-cart large">&times; <!-- <i class="fa fa-window-close" aria-hidden="true"></i> --></span>
 		<h3 class="align-text-center"> Your Bucket List</h3>
-		<form class="form" action="POST" data-netlify="true" data-netlify-recapture="true" id="form1"> 
+		<form action="POST" data-netlify="true" data-netlify-recapture="true" id="form1"> </form>
+		<form action="POST" data-netlify="true" data-netlify-recapture="true" id="form2"> </form>
+		<div class="form">
 			<div class="cart-content"></div>
+		</div>
+		<div class="form">
 			<fieldset> 
 				<div class="cart-footer">
 					<h3 class="cart-imoji">👍    <br><span class="cart-total"> 0 </span> <small>/ Destinations</small></h3>
@@ -14,16 +18,16 @@
 				<legend class="align-text-center"> 
 					<h3>Your Details</h3>
 				</legend>
-				<label for="name">Name: <input type="text" id="name" name="customer's_name"  required></label>
-				<label for="email">Email: <input type="text" id="email" name="customer's_email" required></label>
-				<label for="Group">Number of People Traveling: <br> <input type="number" id="group" name="travel_group" required></label>
+				<label for="name">Name: <input type="text" id="name" name="customer's_name" form="form2" required></label>
+				<label for="email">Email: <input type="text" id="email" name="customer's_email" form="form2" required></label>
+				<label for="Group">Number of People Traveling: <br> <input form="form2" type="number" id="group" name="travel_group" required></label>
 				<div class="flex flex-btn form-col-2">
-					<label for="start-date"><b>Start Date</b> <br><input type="date" id="start_date" name="start-date" required></label>
-					<label for="end-date"><b>End Date</b> <br><input  type="date" id="end_date" name="end-dates" required></label>
+					<label for="start-date"><b>Start Date</b> <br><input form="form2" type="date" id="start_date" name="start-date" required></label>
+					<label for="end-date"><b>End Date</b> <br><input form="form2" type="date" id="end_date" name="end-dates" required></label>
 				</div>
 				<div class="flex flex-btn form-col-2">
 					<label for="pick-up"><b>Pick-up 🛬 </b> <br>
-						<select id="pick-up-points" name="pick-up-points" value="-- Pick a location ---" required="required">
+						<select form="form2" id="pick-up-points" name="pick-up-points" value="-- Pick a location ---" required="required">
 							<option>I don't know yet</option>
 							<option>Kiboko Land Adventure's Office - free</option>
 							<option>Arusha - free</option>
@@ -33,7 +37,7 @@
 						</select>
 					</label>
 					<label for="drop-off"><b>Drop-off 🛫 </b> <br>
-						<select id="drop-off-points" name="drop-off-points" value="-- Pick a location ---" required="required">
+						<select form="form2" id="drop-off-points" name="drop-off-points" value="-- Pick a location ---" required="required">
 							<option>I don't know yet</option>
 							<option>Kiboko Land Adventure's Office - free</option>
 							<option>Arusha Airport - free</option>
@@ -43,11 +47,17 @@
 						</select>
 					</label>
 				</div>
-				<textarea class="tilt-rt" id="note" name="Customer-Notes" cols="30" rows="10" placeholder="Would you like to go camping? tell us your requirements..."></textarea>
+				<textarea class="tilt-rt" id="note" form="form2" name="Customer-Notes" cols="30" rows="10" placeholder="Would you like to go camping? tell us your requirements..."></textarea>
 			</fieldset>
 			<p>
-				<button class="btn tilt-lft" type="submit">Get A Quote!</button>
+				<button class="btn tilt-lft" type="submit" form="form2">Get A Quote! </button>
 			</p>
-		</form>
+			<p>
+				<button class="btn tilt-lft" type="submit" form="form2">Get A Quote!</button>
+			</p>
+			<p>
+				<button class="btn tilt-lft" type="submit">Get A Quote! All</button>
+			</p>
+		</div>
 	</div>
 </div>
