@@ -210,9 +210,40 @@ function () {
     key: "addCartItem",
     value: function addCartItem(item) {
       var div = document.createElement("fieldset");
+      var labelNode = document.createElement("label");
+      var h3Node = document.createElement("h3");
+      var smallNode = document.createElement("small");
+      var smallNodePlace = document.createElement("small");
+      var markNode = document.createElement("mark");
+      var markPlace = document.createElement("mark");
+      var adressNode = document.createElement("span");
+      var spanNode = document.createElement("span");
+      var bNode = document.createElement("b");
+      var packageNode = document.createElement("fieldset");
       div.classList.add("cart-item");
-      div.innerHTML = "\n\n\t\t\t\t<label for=\"package\" >\n\t\t\t\t\t<h3 class=\"article-title flex\" name=\"package\" form=\"form1\"> <small class=\"best-price\"> \uD83C\uDFF7\uFE0F<mark>$".concat(item.itemPrice, "</mark></small> ").concat(item.itemName, "  <span class=\"lc-adress\"><b><small>\uD83D\uDCE2 place </small> <span class=\"place tilt-lft\"><a class=\"place-link\" href=\"#\"> <mark> ").concat(item.itemLocation, " \uFE0F</mark></a> </b> </span> </span> </h3>\n\t\t\t\t</label>\n\n\t\t\t\t<div class=\"flex flex-btn modal-form-label form-col-2\">\n\t\t\t\t\t<label for=\"duration\"> Duration\n\t\t\t\t\t\t<span><br> <input form=\"form1\" type=\"text\"  name=\"important_note\" placeholder=\"2-nights / daytrip\" required> </span>\n\t\t\t\t\t</label>\n\t\t\t\t\n\t\t\t\t\t<label for=\"accomodation-options\"> Accomodation Options\n\t\t\t\t\t<span>  <br> <input form=\"form1\" type=\"checkbox\"  name=\"accomodation-options\">Five Star \uD83C\uDF1F ( ").concat(item.itemFiveStarPrice, ") </input> <br> <input type=\"checkbox\"  name=\"accomodation-options\" > 3-4 Star \u2B50 ( ").concat(item.itemThreeStarPrice, " )</input> <br> <input type=\"checkbox\"  name=\"accomodation-options\" > I will Camp \u26FA ( ").concat(item.itemCampBasic, ")  </input>  </span>\n\t\t\t\t\t</label>\n\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<span class=\"remove-item\" data-id=").concat(item.itemId, "> remove </span>\n\t\t\t\t\t\n\t\t\t");
-      cartContent.prepend(div);
+      packageNode.classList.add("cart-item");
+      labelNode.setAttribute('for', 'package');
+      h3Node.classList.add("article-title", "flex");
+      markNode.appendChild(document.createTextNode("$" + item.itemPrice));
+      smallNode.classList.add("best-price");
+      smallNode.appendChild(document.createTextNode("🏷️"));
+      smallNode.appendChild(markNode);
+      h3Node.appendChild(smallNode);
+      h3Node.setAttribute("name", item.itemName);
+      h3Node.appendChild(document.createTextNode(item.itemName));
+      adressNode.classList.add("lc-adress");
+      spanNode.classList.add("place", "tilt-lft", "place-link");
+      markPlace.appendChild(document.createTextNode(item.itemLocation));
+      spanNode.appendChild(markPlace);
+      smallNodePlace.appendChild(document.createTextNode("📢 place"));
+      bNode.appendChild(smallNodePlace);
+      bNode.appendChild(spanNode);
+      adressNode.appendChild(bNode);
+      labelNode.appendChild(h3Node);
+      h3Node.appendChild(adressNode);
+      packageNode.appendChild(labelNode);
+      cartContent.prepend(packageNode);
+      div.innerHTML = "\n\n\t\t\t\t<label for=\"package\" >\n\t\t\t\t\t<h3 class=\"article-title flex\"> <small class=\"best-price\"> \uD83C\uDFF7\uFE0F<mark>$".concat(item.itemPrice, "</mark></small> ").concat(item.itemName, "  <span class=\"lc-adress\"> <b> <small>\uD83D\uDCE2 place </small> <span class=\"place tilt-lft\"><a class=\"place-link\" href=\"#\"> <mark> ").concat(item.itemLocation, " \uFE0F</mark></a> </b> </span> </span> </h3>\n\t\t\t\t</label>\n\n\t\t\t\t<div class=\"flex flex-btn modal-form-label form-col-2\">\n\t\t\t\t\t<label for=\"duration\"> Duration\n\t\t\t\t\t\t<span><br> <input form=\"form1\" type=\"text\"  name=\"important_note\" placeholder=\"2-nights / daytrip\" required> </span>\n\t\t\t\t\t</label>\n\t\t\t\t\n\t\t\t\t\t<label for=\"accomodation-options\"> Accomodation Options\n\t\t\t\t\t<span>  <br> <input form=\"form1\" type=\"checkbox\"  name=\"accomodation-options\">Five Star \uD83C\uDF1F ( ").concat(item.itemFiveStarPrice, ") </input> <br> <input type=\"checkbox\"  name=\"accomodation-options\" > 3-4 Star \u2B50 ( ").concat(item.itemThreeStarPrice, " )</input> <br> <input type=\"checkbox\"  name=\"accomodation-options\" > I will Camp \u26FA ( ").concat(item.itemCampBasic, ")  </input>  </span>\n\t\t\t\t\t</label>\n\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<span class=\"remove-item\" data-id=").concat(item.itemId, "> remove </span>\n\t\t\t\t\t\n\t\t\t");
     }
   }, {
     key: "showCart",

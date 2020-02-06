@@ -153,12 +153,55 @@
 
 		addCartItem(item){
 			const div = document.createElement("fieldset");
+			let labelNode = document.createElement("label");
+			let h3Node = document.createElement("h3");
+			let smallNode = document.createElement("small");
+			let smallNodePlace= document.createElement("small")
+			let markNode = document.createElement("mark");
+			let markPlace = document.createElement("mark")
+			let adressNode = document.createElement("span");
+			let spanNode = document.createElement("span")
+			let bNode = document.createElement("b");
+			const packageNode = document.createElement("fieldset");
 			div.classList.add("cart-item");
+			packageNode.classList.add("cart-item");
+
+
+			labelNode.setAttribute('for','package');
+
+			h3Node.classList.add("article-title","flex");
+			markNode.appendChild(document.createTextNode("$"+ item.itemPrice))
+
+			smallNode.classList.add("best-price");
+			smallNode.appendChild(document.createTextNode("🏷️"));
+
+			smallNode.appendChild(markNode);
+			h3Node.appendChild(smallNode);
+			h3Node.setAttribute("name",item.itemName);
+			h3Node.appendChild(document.createTextNode(item.itemName));
+			
+
+			adressNode.classList.add("lc-adress")
+			spanNode.classList.add("place","tilt-lft", "place-link")
+			markPlace.appendChild(document.createTextNode(item.itemLocation))
+			spanNode.appendChild(markPlace)
+			smallNodePlace.appendChild(document.createTextNode("📢 place"))
+			bNode.appendChild(smallNodePlace)
+			bNode.appendChild(spanNode)
+			adressNode.appendChild(bNode)
+			labelNode.appendChild(h3Node);
+
+			h3Node.appendChild(adressNode)
+
+			packageNode.appendChild(labelNode)
+			
+
+			cartContent.prepend(packageNode);
 			
 			div.innerHTML = `
 
 				<label for="package" >
-					<h3 class="article-title flex" name="package" form="form1"> <small class="best-price"> 🏷️<mark>$${item.itemPrice}</mark></small> ${item.itemName}  <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"> <mark> ${item.itemLocation} ️</mark></a> </b> </span> </span> </h3>
+					<h3 class="article-title flex"> <small class="best-price"> 🏷️<mark>$${item.itemPrice}</mark></small> ${item.itemName}  <span class="lc-adress"> <b> <small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"> <mark> ${item.itemLocation} ️</mark></a> </b> </span> </span> </h3>
 				</label>
 
 				<div class="flex flex-btn modal-form-label form-col-2">
@@ -174,7 +217,8 @@
 				<span class="remove-item" data-id=${item.itemId}> remove </span>
 					
 			`;
-			cartContent.prepend(div);
+
+
 			
 
 		}
@@ -289,6 +333,8 @@
 		
 
   });
+
+
 (function imageCorousel(){
 	let images = [], arrows = [];
 	let prevImg = {val: ""}, nextImg = {val: ""}, currentImg;
