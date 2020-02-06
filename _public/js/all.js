@@ -219,11 +219,12 @@ function () {
       var adressNode = document.createElement("span");
       var spanNode = document.createElement("span");
       var bNode = document.createElement("b");
-      var packageNode = document.createElement("fieldset");
+      var packageNode = document.createElement("label");
       div.classList.add("cart-item");
       packageNode.classList.add("cart-item");
+      packageNode.setAttribute("for", "destination-" + item.itemId);
       labelNode.setAttribute('value', item.itemName);
-      labelNode.setAttribute('id', "product");
+      labelNode.setAttribute('id', "destination-" + item.itemId);
       h3Node.classList.add("article-title", "flex");
       markNode.appendChild(document.createTextNode("$" + item.itemPrice));
       smallNode.classList.add("best-price");
