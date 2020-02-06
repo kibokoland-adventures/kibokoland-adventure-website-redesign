@@ -153,53 +153,21 @@
 
 		addCartItem(item){
 			const div = document.createElement("fieldset");
-			let labelNode = document.createElement("input");
-			let h3Node = document.createElement("h3");
-			let smallNode = document.createElement("small");
-			let smallNodePlace= document.createElement("small")
-			let markNode = document.createElement("mark");
-			let markPlace = document.createElement("mark")
-			let adressNode = document.createElement("span");
-			let spanNode = document.createElement("span")
-			let bNode = document.createElement("b");
-			const packageNode = document.createElement("label");
+			const itinerary= document.getElementById("bucket-list");
+			const itineraryDestination = item.itemName
+			let list = "";
+
+
+			
+			list+= itineraryDestination
+
+			itinerary.value = list;
+
 			div.classList.add("cart-item");
-			packageNode.classList.add("cart-item");
-			packageNode.setAttribute("for","destination-"+item.itemId )
-
-
-			labelNode.setAttribute('value',item.itemName);
-			labelNode.setAttribute('name',"destination-"+item.itemId)
-
-			h3Node.classList.add("article-title","flex");
-			markNode.appendChild(document.createTextNode("$"+ item.itemPrice))
-
-			smallNode.classList.add("best-price");
-			smallNode.appendChild(document.createTextNode("🏷️"));
-
-			smallNode.appendChild(markNode);
-			h3Node.appendChild(smallNode);
-			h3Node.setAttribute("name",item.itemName);
-			h3Node.appendChild(document.createTextNode(item.itemName));
-			
-
-			adressNode.classList.add("lc-adress")
-			spanNode.classList.add("place","tilt-lft", "place-link")
-			markPlace.appendChild(document.createTextNode(item.itemLocation))
-			spanNode.appendChild(markPlace)
-			smallNodePlace.appendChild(document.createTextNode("📢 place"))
-			bNode.appendChild(smallNodePlace)
-			bNode.appendChild(spanNode)
-			adressNode.appendChild(bNode)
-			labelNode.appendChild(document.createTextNode(item.itemName));
-
-			h3Node.appendChild(adressNode)
-
-			packageNode.appendChild(labelNode)
 			
 			
 
-			cartContent.prepend(packageNode);
+			//cartContent.prepend(packageNode);
 			
 			div.innerHTML = `
 
