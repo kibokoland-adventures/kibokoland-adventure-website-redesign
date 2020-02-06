@@ -159,9 +159,9 @@
 
 
 			
-			list+= itineraryDestination
+			list = itineraryDestination + "\n"
 
-			itinerary.value = list;
+			itinerary.value += list;
 
 			div.classList.add("cart-item");
 			

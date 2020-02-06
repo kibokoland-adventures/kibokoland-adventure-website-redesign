@@ -213,8 +213,8 @@ function () {
       var itinerary = document.getElementById("bucket-list");
       var itineraryDestination = item.itemName;
       var list = "";
-      list += itineraryDestination;
-      itinerary.value = list;
+      list = itineraryDestination + "\n";
+      itinerary.value += list;
       div.classList.add("cart-item"); //cartContent.prepend(packageNode);
 
       div.innerHTML = "\n\n\t\t\t\t<label for=\"package\" >\n\t\t\t\t\t<h3 class=\"article-title flex\"> <small class=\"best-price\"> \uD83C\uDFF7\uFE0F<mark>$".concat(item.itemPrice, "</mark></small> ").concat(item.itemName, "  <span class=\"lc-adress\"> <b> <small>\uD83D\uDCE2 place </small> <span class=\"place tilt-lft\"><a class=\"place-link\" href=\"#\"> <mark> ").concat(item.itemLocation, " \uFE0F</mark></a> </b> </span> </span> </h3>\n\t\t\t\t</label>\n\n\t\t\t\t<div class=\"flex flex-btn modal-form-label form-col-2\">\n\t\t\t\t\t<label for=\"duration\"> Duration\n\t\t\t\t\t\t<span><br> <input form=\"form1\" type=\"text\"  name=\"important_note\" placeholder=\"2-nights / daytrip\" required> </span>\n\t\t\t\t\t</label>\n\t\t\t\t\n\t\t\t\t\t<label for=\"accomodation-options\"> Accomodation Options\n\t\t\t\t\t<span>  <br> <input form=\"form1\" type=\"checkbox\"  name=\"accomodation-options\">Five Star \uD83C\uDF1F ( ").concat(item.itemFiveStarPrice, ") </input> <br> <input type=\"checkbox\"  name=\"accomodation-options\" > 3-4 Star \u2B50 ( ").concat(item.itemThreeStarPrice, " )</input> <br> <input type=\"checkbox\"  name=\"accomodation-options\" > I will Camp \u26FA ( ").concat(item.itemCampBasic, ")  </input>  </span>\n\t\t\t\t\t</label>\n\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<span class=\"remove-item\" data-id=").concat(item.itemId, "> remove </span>\n\t\t\t\t\t\n\t\t\t");
