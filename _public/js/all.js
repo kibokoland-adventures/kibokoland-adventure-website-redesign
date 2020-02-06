@@ -210,7 +210,7 @@ function () {
     key: "addCartItem",
     value: function addCartItem(item) {
       var div = document.createElement("fieldset");
-      var itinerary = document.getElementById("note");
+      var itinerary = document.getElementById("bucket-list");
       var itineraryDestination = item.itemName;
       var list = "";
       list = itineraryDestination + "\n";
