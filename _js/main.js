@@ -153,7 +153,7 @@
 
 		addCartItem(item){
 			const div = document.createElement("fieldset");
-			let labelNode = document.createElement("label");
+			let labelNode = document.createElement("input");
 			let h3Node = document.createElement("h3");
 			let smallNode = document.createElement("small");
 			let smallNodePlace= document.createElement("small")
@@ -167,7 +167,8 @@
 			packageNode.classList.add("cart-item");
 
 
-			labelNode.setAttribute('for',item.itemName);
+			labelNode.setAttribute('value',item.itemName);
+			labelNode.setAttribute('id',"product")
 
 			h3Node.classList.add("article-title","flex");
 			markNode.appendChild(document.createTextNode("$"+ item.itemPrice))

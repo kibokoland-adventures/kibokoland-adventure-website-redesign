@@ -210,7 +210,7 @@ function () {
     key: "addCartItem",
     value: function addCartItem(item) {
       var div = document.createElement("fieldset");
-      var labelNode = document.createElement("label");
+      var labelNode = document.createElement("input");
       var h3Node = document.createElement("h3");
       var smallNode = document.createElement("small");
       var smallNodePlace = document.createElement("small");
@@ -222,7 +222,8 @@ function () {
       var packageNode = document.createElement("fieldset");
       div.classList.add("cart-item");
       packageNode.classList.add("cart-item");
-      labelNode.setAttribute('for', item.itemName);
+      labelNode.setAttribute('value', item.itemName);
+      labelNode.setAttribute('id', "product");
       h3Node.classList.add("article-title", "flex");
       markNode.appendChild(document.createTextNode("$" + item.itemPrice));
       smallNode.classList.add("best-price");
