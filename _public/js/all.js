@@ -222,7 +222,7 @@ function () {
       var packageNode = document.createElement("fieldset");
       div.classList.add("cart-item");
       packageNode.classList.add("cart-item");
-      labelNode.setAttribute('for', 'package');
+      labelNode.setAttribute('for', item.itemName);
       h3Node.classList.add("article-title", "flex");
       markNode.appendChild(document.createTextNode("$" + item.itemPrice));
       smallNode.classList.add("best-price");
