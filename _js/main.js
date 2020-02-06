@@ -189,7 +189,7 @@
 			bNode.appendChild(smallNodePlace)
 			bNode.appendChild(spanNode)
 			adressNode.appendChild(bNode)
-			labelNode.appendChild(h3Node);
+			labelNode.appendChild(document.createTextNode(item.itemName));
 
 			h3Node.appendChild(adressNode)
 
