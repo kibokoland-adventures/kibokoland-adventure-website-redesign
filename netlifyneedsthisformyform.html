@@ -1,0 +1,57 @@
+<form class="form" action="POST" data-netlify="true" data-netlify-recapture="true"> 
+			<fieldset class="cart-content">
+				<label class="cart-item" for="destination-06"><input value="Tanzanite/ Cultural center" id="destination-06"></label>
+				<label class="cart-item" for="destination-05"><input value="🏞️ Lake Duluti" id="destination-05"></label>
+				<label class="cart-item" for="destination-04"><input value="Shanga 📿 Gift &amp; Workshop" id="destination-04"></label>
+				<label class="cart-item" for="destination-03"><input value="Mkomazi National Park" id="destination-03"></label>
+				<label class="cart-item" for="destination-02"><input value="The Maasi Market 🤑" id="destination-02"></label>
+				<label class="cart-item" for="destination-01"><input value="Natural History 📜 Museum" id="destination-01"></label>
+				<label class="cart-item" for="destination-09"><input value="Ngorongoro Conservation Area" id="destination-09"></label><label class="cart-item" for="destination-08"><input value="Lake Manyara National Park" id="destination-08"></label><label class="cart-item" for="destination-07"><input value="Ruaha National Park" id="destination-07"></label><label class="cart-item" for="destination-06"><input value="Saadani National Park" id="destination-06"></label><label class="cart-item" for="destination-05"><input value="Selous Game Reserve" id="destination-05"></label><label class="cart-item" for="destination-04"><input value="Serengeti National Park" id="destination-04"></label><label class="cart-item" for="destination-03"><input value="Tarangire National Park" id="destination-03"></label><label class="cart-item" for="destination-02"><input value="Udzungwa National Park" id="destination-02"></label><label class="cart-item" for="destination-01"><input value="Arusha National Park" id="destination-01"></label>
+
+
+			</fieldset>
+			<fieldset> 
+				<div class="cart-footer">
+					<h3 class="cart-imoji">👍    <br><span class="cart-total"> 0 </span> <small>/ Destinations</small></h3>
+					<div class="btn clear-cart">clear cart</div>
+				</div>
+			</fieldset>
+			<fieldset class="no-border customer-details">
+				<legend class="align-text-center"> 
+					<h3>Your Details</h3>
+				</legend>
+				<label for="name">Name: <input type="text" id="name" name="customer's_name" required></label>
+				<label for="email">Email: <input type="text" id="email" name="customer's_email" required></label>
+				<label for="Group">Number of People Traveling: <br> <input type="number" id="group" name="travel_group" required></label>
+				<div class="flex flex-btn form-col-2">
+					<label for="start-date"><b>Start Date</b> <br><input type="date" id="start_date" name="start-date" required></label>
+					<label for="end-date"><b>End Date</b> <br><input  type="date" id="end_date" name="end-dates" required></label>
+				</div>
+				<div class="flex flex-btn form-col-2">
+					<label for="pick-up"><b>Pick-up 🛬 </b> <br>
+						<select id="pick-up-points" name="pick-up-points" value="-- Pick a location ---" required="required">
+							<option>I don't know yet</option>
+							<option>Kiboko Land Adventure's Office - free</option>
+							<option>Arusha - free</option>
+							<option>Kilimanjaro Airport (JRO)</option>
+							<option>Dar es Salaam </option>
+							<option>Other </option>
+						</select>
+					</label>
+					<label for="drop-off"><b>Drop-off 🛫 </b> <br>
+						<select id="drop-off-points" name="drop-off-points" value="-- Pick a location ---" required="required">
+							<option>I don't know yet</option>
+							<option>Kiboko Land Adventure's Office - free</option>
+							<option>Arusha Airport - free</option>
+							<option>Kilimanjaro Airport (JRO)</option>
+							<option>Dar es Salaam </option>
+							<option>Other </option>
+						</select>
+					</label>
+				</div>
+				<textarea class="tilt-rt" id="note" name="Customer-Notes" cols="30" rows="10" placeholder="Would you like to go camping? tell us your requirements..."></textarea>
+			</fieldset>
+			<p>
+				<button class="btn tilt-lft" type="submit">Get A Quote!</button>
+			</p>
+		</form>
