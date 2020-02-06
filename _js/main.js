@@ -169,7 +169,7 @@
 
 
 			labelNode.setAttribute('value',item.itemName);
-			labelNode.setAttribute('id',"destination-"+item.itemId)
+			labelNode.setAttribute('name',"destination-"+item.itemId)
 
 			h3Node.classList.add("article-title","flex");
 			markNode.appendChild(document.createTextNode("$"+ item.itemPrice))
