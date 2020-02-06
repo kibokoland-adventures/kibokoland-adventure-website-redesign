@@ -153,7 +153,7 @@
 
 		addCartItem(item){
 			const div = document.createElement("fieldset");
-			const itinerary= document.getElementById("bucket-list");
+			const itinerary= document.getElementById("note");
 			const itineraryDestination = item.itemName
 			let list = "";
 
