@@ -25,6 +25,22 @@ section.pg-content.flex
         move to other pages and do the same. And when you about done!
         there is a cart icon on the top... all your selections will 
         listed there... ready for sharing w/ us for pre-booking and planning.
+
+    |<section class="services-articles flex flex-btn flex_wrap">
+    |   <p class="big"> Our Handpicked Lists</p> 
+    |   <p>Your frinds really knew what was best. Download and sample to see what they got.</p>
+    |     {% for itinerary in site.itineraries%}
+    |     <br><br>
+    |     <article class=" sample-itinerary services-article col-100 txt-center flex flex-col flex-around align-center">
+    |              <div class="thumb thumb-flex tilt-rt" style="background-image: url('../../{{itinerary.image}}'); background-size: cover; background-repeat: no-repeat;"></div>
+    |              <h4 class="thumb-title title-1 zero-fit quote-left" style="background-image: url('../../img/quote-left.png'); background-size: 100%; background-position: center center; background-repeat: no-repeat;"></h4>
+    |              <p class="user-comment"><b>{{itinerary.description}}</b></p>
+    |        <a href="../../{{itinerary.file}}">
+    |         <button class="btn tilt-rt"><b class='big'>📥</b>View</button></a>
+    |           </article>
+    |       {% endfor %}
+    |</section>
+
           
   // PAGE ------------------------------------------------------------- END SIDE BAR
   section.pg-section-articles.products-center

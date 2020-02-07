@@ -861,6 +861,9 @@ hr {
   -webkit-box-flex: 1;
           flex: 1; }
 
+.thumb-flex {
+  width: 220px; }
+
 .thumb-title {
   padding: 30px 0;
   color: #655142;
@@ -1624,6 +1627,9 @@ fieldset label.error {
 
 .col-100 {
   width: 100%; }
+
+.col-30-side-bar {
+  width: 200px; }
 
 .col-30 {
   width: 305px; }

@@ -83,13 +83,11 @@
 	<div class="modal-content article cart"><span class="close-button close-cart large">&times; <!-- <i class="fa fa-window-close" aria-hidden="true"></i> --></span>
 		<h3 class="align-text-center"> Your Bucket List</h3>
 		<form class="form" action="POST" data-netlify="true" data-netlify-recapture="true" name="bucket"> 
+			<div class="cart-footer">
+				<p class="cart-imoji">👍  <span class="cart-total"><b> 0 </b></span> <small>/ Destination(s)</small></p>
+			</div>
 			<textarea class="cart-content" name="bucket-list" id="bucket-list" cols="30" rows="10"></textarea>
-			<fieldset> 
-				<div class="cart-footer">
-					<h3 class="cart-imoji">👍    <br><span class="cart-total"> 0 </span> <small>/ Destinations</small></h3>
-					<div class="btn clear-cart">clear cart</div>
-				</div>
-			</fieldset>
+			<div class="btn clear-cart">Clear Counter</div>
 			<fieldset class="no-border customer-details">
 				<legend class="align-text-center"> 
 					<h3>Your Details</h3>
@@ -126,7 +124,7 @@
 				<textarea class="tilt-rt" id="note" name="Customer-Notes" cols="30" rows="10" placeholder="Would you like to go camping? tell us your requirements..."></textarea>
 			</fieldset>
 			<p>
-				<button class="btn tilt-lft" type="submit">Get A Quote!</button>
+				<button class="btn tilt-lft" type="submit">Send Me A Quote!</button>
 			</p>
 		</form>
 	</div>
@@ -171,9 +169,31 @@
 				move to other pages and do the same. And when you about done!
 				there is a cart icon on the top... all your selections will 
 				listed there... ready for sharing w/ us for pre-booking and planning.
-				  
+				
 			</p>
-		</div>
+		</div><section class="services-articles flex flex-btn flex_wrap">
+		  <p class="big"> Our Handpicked Lists</p> 
+		  <p>Your frinds really knew what was best. Download and sample to see what they got.</p>
+		    
+		    <br><br>
+		    <article class=" sample-itinerary services-article col-100 txt-center flex flex-col flex-around align-center">
+		             <div class="thumb thumb-flex tilt-rt" style="background-image: url('../..//img/uploads/we-enjoy-it-too-zanzibar-kibokolandaadventure-guides.jpg'); background-size: cover; background-repeat: no-repeat;"></div>
+		             <h4 class="thumb-title title-1 zero-fit quote-left" style="background-image: url('../../img/quote-left.png'); background-size: 100%; background-position: center center; background-repeat: no-repeat;"></h4>
+		             <p class="user-comment"><b>After safari we decided to pack-up and go walking with and feeding the giants turtles in Zanzibar... girl.. we had it ✨</b></p>
+		       <a href="../.././img/uploads/ultimate-northen.pdf">
+		        <button class="btn tilt-rt"><b class='big'>📥</b>View</button></a>
+		          </article>
+		      
+		    <br><br>
+		    <article class=" sample-itinerary services-article col-100 txt-center flex flex-col flex-around align-center">
+		             <div class="thumb thumb-flex tilt-rt" style="background-image: url('../.././img/uploads/wildlife-safari-with-the-giants-kibokoland-adventures.jpg'); background-size: cover; background-repeat: no-repeat;"></div>
+		             <h4 class="thumb-title title-1 zero-fit quote-left" style="background-image: url('../../img/quote-left.png'); background-size: 100%; background-position: center center; background-repeat: no-repeat;"></h4>
+		             <p class="user-comment"><b>we dreamt of the big five... so we trakked them down the whole northen... it was priceless! </b></p>
+		       <a href="../.././img/uploads/ultimate-northen.pdf">
+		        <button class="btn tilt-rt"><b class='big'>📥</b>View</button></a>
+		          </article>
+		      
+		</section>
 	</sidebar>
 	<!-- PAGE ------------------------------------------------------------- END SIDE BAR-->
 	<section class="pg-section-articles products-center">

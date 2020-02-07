@@ -67,6 +67,7 @@
   const cartOverlay = document.querySelector('.cart-overlay');
   const cartItems = document.querySelector('.cart-items');
   const cartTotal = document.querySelector('.cart-total');
+  const itineraryDOM = document.getElementById("bucket-list");
 	const cartContent = document.querySelector('.cart-content');
 	const cartImoji = document.querySelector(".cart-imoji")
 
@@ -153,15 +154,14 @@
 
 		addCartItem(item){
 			const div = document.createElement("fieldset");
-			const itinerary= document.getElementById("bucket-list");
-			const itineraryDestination = item.itemName
+			const itineraryDestination = item.itemName+ "  \t📢 "+ item.itemLocation
 			let list = "";
 
 
 			
-			list = itineraryDestination + "\n"
+			list = "✅ "+ itineraryDestination + "\n"
 
-			itinerary.value += list;
+			itineraryDOM.value += list;
 
 			div.classList.add("cart-item");
 			
@@ -239,11 +239,15 @@
 			let cartItems = cart.map(item => item.itemId);
 	
 			
-			
+			itineraryDOM.value = "";
 			cartItems.forEach(id => {
 				this.removeItem(id); 
 				while(cartContent.children.length > 0){
-					cartContent.removeChild(cartContent.children[0])}
+					cartContent.removeChild(cartContent.children[0])
+
+
+
+				}
 			})
 			this.hideCart();
 		}
