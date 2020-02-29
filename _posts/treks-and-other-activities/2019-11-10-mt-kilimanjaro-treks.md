@@ -2,12 +2,13 @@
 layout: destination
 category: treks-and-other-activities
 permalink: /:categories/:title/
-title: Mt Kilimanjaro Theks
+date: 2019-11-10 11:59:59 
+title: Mt Kilimanjaro Treks
 subtitle: "Tallest free standing mountain in the world. Trek trek!"
 
 sys:
   icon: 🏞️ 
-  circuit: Northen Circuit
+  circuit: Northern Circuit
   review: "The Roof of Africa"
   price: N/A
   best_time: 🌞 Jan-Mar &amp; Jun to Oct 
@@ -26,7 +27,7 @@ overview:
 
 
   intro:
-    - paragraph: "At  5,896m Mt.Kilimanjaro, Africa’s highest mountain and one of the continent’s magnificient sights. It’s located near Moshi town and is a protected area carefully regulated for climbers to enjoy the trekking and hiking. Since the high altitudes are full of snow caps and ice on its peak with a crater in it. It has three main volcanic peaks including Kibo, Mawenzi, and Shira. It’s a mystery wreathed in clouds meaning Mountain of Light, Mount of Greatness or Mountain of Caravans. "
+    - paragraph: "At  5,896 m Mt.Kilimanjaro, Africa’s highest mountain and one of the continent’s magnificent sights. It’s located near Moshi town and is a protected area carefully regulated for climbers to enjoy the trekking and hiking. Since the high altitudes are full of snow caps and ice on its peak with a crater in it. It has three main volcanic peaks including Kibo, Mawenzi, and Shira. It’s a mystery wreathed in clouds meaning Mountain of Light, Mount of Greatness or Mountain of Caravans. "
 
     - paragraph: "In the lower slopes much of it is cultivated main purpose for subsistence and cash sale. The farmland includes coffee, banana, cassava and maize crop. Without forgetting that there is also existence of national park, including the fact that outside the national park there is subdivisions of small plots. Once inside the park there is thick lowland forest that breaks into alpine meadows once the air begins to thin." 
     - paragraph: "Mount Kilimanjaro national park has these kinds of animals like giraffes, warthogs, water buffalo, Colobus monkeys, blue monkeys, bush buck and did dik, many many birds around. Abit of luck to spot elephants and hyenas."
@@ -35,15 +36,15 @@ overview:
 
   
   tour_details:
-    when: "open for tours and activities 9am - 4.30pm every day of the year"
+    when: "open for tours and activities 9 am - 4.30 pm every day of the year"
     duration: "4 Hours"
     language: "English"
-    transport: "Toyota Landcruiser."
+    transport: "Toyota Land-cruiser."
 
   setting:
     activities: "birding, wild watching and trekking "
     hashtags: |
-      " Snow or icy mountain #️⃣ 5896 metre above the sea level #️⃣ three main volcanic peaks #️⃣  crater at the outer peak is 3km long and 2km wide #️⃣  Inner crater 1,300m in diameter"
+      " Snow or icy mountain #️⃣ 5896 meter above the sea level #️⃣ three main volcanic peaks #️⃣  crater at the outer peak is 3 km long and 2 km wide #️⃣  Inner crater 1,300 m in diameter"
 
   included:
     - item: Professional guides
@@ -95,7 +96,7 @@ itinerary:
   - paragraph: "Northern Circuit route; The longest trip taking eight to ten days initially follows the same way as the Shira plateau route before turning north near Lava Tower and then continuing around the northern (“back”) side of Kilimanjaro before reaching the summit via Gilman’s point. "
 
 remarks:
-  - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+  - paragraph: This can be incorporated in other packages too, please create your bucket list and send it to us to we can create you a quote!
 
 
 

@@ -2,12 +2,13 @@
 layout: destination
 category: private-safari
 permalink: /:categories/:title/
+date: 2019-11-12 11:59:59 
 title: Tarangire National Park
 subtitle: Tanzania’s most underrated wilderness. An elephant’s tale.
 
 sys:
   icon: 🏞️
-  circuit: Northen Circuit
+  circuit: Northern Circuit
   review: "⏰Time it right and you can’t go wrong 🤳"
   price: N/A
   best_time: 👍 July to October 
@@ -37,7 +38,7 @@ overview:
     - paragraph: "Mainly vegetation covers there like acacia thickets and many significant baobab trees. The stunning acacia tortillis trees and occasional palm trees."
   
   tour_details:
-    when: "open for tours and activities 9am - 4.30pm every day of the year"
+    when: "open for tours and activities 9 am - 4.30 pm every day of the year"
     duration: "4 Hours"
     language: "English"
     price_includes: "includes visit guided and transport."
@@ -89,13 +90,11 @@ expect:
 
 itinerary:
   - paragraph: "A trip from Arusha which only takes 1 to 2 hours to reach the destination. "
-  - paragraph: "Reaching Mto wa Mbu you may opt to have a night stay on some of the most amazing campsites around. This is if overlooking Lake Manyara's beauty around a campfire with a bear or two is your kind of thing. We will pack our lanch and have a full game drive tomorrow in Serengeti National Park till evening. "
-  - paragraph: "After a late afternoon tour enrute to your prebooked accomodation for dinner and overnight"
+  - paragraph: "Reaching Mto wa Mbu you may opt to have a night stay on some of the most amazing campsites around. This is if overlooking Lake Manyara's beauty around a campfire with a bear or two is your kind of thing. We will pack our lunch and have a full game drive tomorrow in Serengeti National Park till evening. "
+  - paragraph: "After a late afternoon tour en-route to your pre-booked accommodation for dinner and overnight"
  
 remarks:
-  
-
-  - paragraph: This destination can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+  - paragraph: This destination can be incorporated in other packages too, please create your bucket list and send it to us to we can create you a quote!
 
 
 

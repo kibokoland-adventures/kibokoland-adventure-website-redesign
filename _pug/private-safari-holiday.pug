@@ -2,6 +2,7 @@
 | layout: page
 | title:  PRIVATE SAFARI HOLIDAYS 
 | subtitle: LET THE ADVENTURE BEGIN. THE QUESTION IS, WHERE?
+| p: private
 | backtop: pg-private-top
 |---
     
@@ -12,58 +13,40 @@ section.pg-content.flex
   //PAGE ============================================================ SIDE BAR
   sidebar.pg-content-table
     ul.ul-plain.quick-links
+      .badge.tilt-rt
+        p.badge-title Safari Destinations
       //for loop - daytrips-collection
       | {% for item in destination%}
       |    <li class="link"> <a href="{{item.url}}"> <b>➥</b> {{item.title}} </a> </li>
       | {%endfor%}
   
     
-    .quick-perks
-      h2 Tip: 
-      p.
-        You can select the excursion that you like by clicking <button class="btn"> ADD TO BUCKET</button> button... then
-        move to other pages and do the same. And when you about done!
-        there is a cart icon on the top... all your selections will 
-        listed there... ready for sharing w/ us for pre-booking and planning.
-
-    |<section class="services-articles flex flex-btn flex_wrap">
-    |   <p class="big"> Our Handpicked Lists</p> 
-    |   <p>Your frinds really knew what was best. Download and sample to see what they got.</p>
-    |     {% for itinerary in site.itineraries%}
-    |     <br><br>
-    |     <article class=" sample-itinerary services-article col-100 txt-center flex flex-col flex-around align-center">
-    |              <div class="thumb thumb-flex tilt-rt" style="background-image: url('../../{{itinerary.image}}'); background-size: cover; background-repeat: no-repeat;"></div>
-    |              <h4 class="thumb-title title-1 zero-fit quote-left" style="background-image: url('../../img/quote-left.png'); background-size: 100%; background-position: center center; background-repeat: no-repeat;"></h4>
-    |              <p class="user-comment"><b>{{itinerary.description}}</b></p>
-    |        <a href="../../{{itinerary.file}}">
-    |         <button class="btn tilt-rt"><b class='big'>📥</b>View</button></a>
-    |           </article>
-    |       {% endfor %}
-    |</section>
-
+    | {% include  site-sidebar-note.html %}
           
   // PAGE ------------------------------------------------------------- END SIDE BAR
   section.pg-section-articles.products-center
 
 
     //PAGE ARTICLE ========================================================= PAGE ARTICLE
-    
-    | {% for item in destination%}
-    |   <article class="article {% if forloop.first %} display-article {% endif %}">
+    | {% assign package = site.private_safaris_packages  %}
+
+    | {% for item in package%}
+    |  
+    |   <article class="article {% if forloop.first %} display-article {% endif %} ">
     |   <div class="accordion">
-    |     <h2 class= "article-title flex flex-btn "> <small class="best-price"> 🏷️<mark>${{item.sys.price}}</mark></small> {{item.title}} <span class="article-highlights flex flex-col align-start"><span class="best-time">{{item.sys.best_time}} </span> <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"><mark>{{item.sys.circuit}} ️</mark></a> </b> </span> </span> </span> </h2> </div>
+    |     <h2 class= "article-title flex flex-btn "> <small class="best-price"> 🏷️ <span class="mini-price-tag">from </span> <mark>${{item.sys.price}}</mark></small> {{item.title}} <span class="article-highlights flex flex-col align-start"><span class="best-time">{{item.sys.best_time}} </span> <span class="lc-adress"><b><small>📢 place </small> <span class="place tilt-lft"><a class="place-link" href="#"><mark>{{item.sys.circuit}} ️</mark></a> </b> </span> </span> </span> </h2> </div>
     |   <div class="panel"> 
     |     <div class="panel-positioning">
     |       <div class="panel-thumb tilt-lft"  style="background-image: url('{{item.sys.image.url}}'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
     |         <h2>{{item.sys.icon}}</h2> </div>
     |       <div class="notes">
     |         <p> <b class="user-comment">{{item.sys.review}} </b></p>
-    |         <p> <b>What is like: </b> <br>#️⃣  {{item.overview.setting.hashtags}} </p>
-    |         <p> <b>Activities:</b> {{item.overview.setting.activities}}</p>
+    |         <p> <b>Destinations: </b> <br>{% for destination in item.destinations %}#️⃣  {{destination.hashtag}} {%endfor%} </p>
+    |         <p> <b>Activities:</b> {{item.sys.activities}}</p>
     |         <div class="notes-lc-adress"> 
-    |             <p><b>Pick-up  &amp; Drop-off  points :</b> 🛏️ Accomodation Location </p>
+    |             <p><b>Pick-up  &amp; Drop-off  points :</b> 🛏️ Accommodation Location </p>
     |         </div>
-    |         <button class="btn bag-btn tilt-rt" data-item-id="0{{forloop.index }}" data-item-price="{{item.sys.price}}" data-item-five-star-price="{{item.sys.accommodation.five_star}}" data-item-three-star-price="{{item.sys.accommodation.mid_star}}"  data-item-camp-basic="{{item.sys.accommodation.camp}}"  data-item-url="{{item.url}}" data-item-location="{{item.sys.circuit}}" data-item-description="{{item.sys.review}}" data-item-image="{{item.sys.image.url}}" data-item-name="{{item.title}}"> ADD TO BUCKET LIST </button>
+    |         <button class="btn bag-btn tilt-rt" data-item-id="4{{forloop.index }}" data-item-price="{{item.sys.price}}" data-item-five-star-price="{{item.sys.accommodation.five_star}}" data-item-three-star-price="{{item.sys.accommodation.mid_star}}"  data-item-camp-basic="{{item.sys.accommodation.camp}}"  data-item-url="{{item.url}}" data-item-location="{{item.sys.circuit}}" data-item-description="{{item.sys.review}}" data-item-image="{{item.sys.image.url}}" data-item-name="{{item.title}}"> ADD TO BUCKET LIST </button>
     |         <button class="btn tilt-rt"><a href="{{item.url}}"> READ MORE </a></button> 
     |      </div> 
     |    </div>

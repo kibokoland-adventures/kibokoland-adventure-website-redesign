@@ -2,6 +2,7 @@
 layout: destination
 category: private-safari
 permalink: /:categories/:title/
+date: 2019-11-12 11:59:59 
 title: Serengeti National Park
 subtitle: "Renowned for its wealth of 🐆leopard and lion 🦁"
 
@@ -17,7 +18,7 @@ sys:
     camp: "N/A"
   image:
     alt: Serengeti National Park
-    url: "./img/uploads/we-just-guide-better-italy-group-cheetah-kibokolandadventures.JPG"
+    url: "./img/uploads/wildlife-safaris-with-kibokolandadventures.jpg"
 
 image_corousel:
   - image: "./img/uploads/we-just-guide-better-italy-group-kibokolandadventures.JPG"
@@ -36,16 +37,16 @@ overview:
     - paragraph: "In Serengeti there is game drive and air balloons that will be the interesting activity of the day along."
   
   tour_details:
-    when: "open for tours and activities 9am - 4.30pm every day of the year"
+    when: "open for tours and activities 9 am - 4.30 pm every day of the year"
     duration: "7 Hours"
     language: "English"
-    transport: "Toyota Landcruiser."
+    transport: "Toyota Land-cruiser."
 
 
   setting:
     activities: "bird watching and Game drives hot air balloon rides"
     hashtags: >
-      "Vast landscape #️⃣  big five animals #️⃣  Endless Plains #️⃣  Greatest Natual Show on Earth"
+      "Vast landscape #️⃣  big five animals #️⃣  Endless Plains #️⃣  Greatest Natural Show on Earth"
   included:
     - item: All meals, 
     - item: Transport
@@ -72,7 +73,7 @@ experience:
   what_to_see:
     - paragraph: "<b>Bird species </b> Birds call this place home as they are 500 and more of bird species sight to behold. It’s the twitchier with species like secretary bird, ostriches, flamingos, eagles and so much more. They act as part of major attraction in the park."
 
-    - paragraph: "<b>The wildebeest</b> migration Wildebeest is also termed as the 7 wonders of the world. Having a journey of over 1 million wildebeest across with zebras and other animals its beauty in the eye. Wildebeest habit is migrating so they do extend to Kenya borders on Maasai mara National park as they trek for miles in search for greener pasture and fresh water thus what makes it beautiful."
+    - paragraph: "<b>The wildebeest</b> migration Wildebeest is also termed as the 7 wonders of the world. Having a journey of over 1 million wildebeest across with zebras and other animals its beauty in the eye. Wildebeest habit is migrating so they do extend to Kenya borders on Maasai Mara National park as they trek for miles in search for greener pasture and fresh water thus what makes it beautiful."
 
     - paragraph: "<b>Olduvai Gorge</b> Another attraction which is within Serengeti national park. Its where the oldest remains of early man were dug from about a million years ago by Dr Louis leaky as a famous East Africa archaeologists, this discovery made changes in evolution of man."
 
@@ -93,12 +94,12 @@ expect:
 itinerary:
   - paragraph: "Drive begins from Arusha town early in the morning; approximately eight hours can be spent to drive from Arusha to Serengeti national park "
 
-  - paragraph: "Reaching Mto wa Mbu you may opt to have a night stay on some of the most amazing campsites around. This is if overlooking Lake Manyara's beauty around a campfire with a bear or two is your kind of thing. We will pack our lanch and have a full game drive tomorrow in Serengeti National Park till evening. "
+  - paragraph: "Reaching Mto wa Mbu you may opt to have a night stay on some of the most amazing campsites around. This is if overlooking Lake Manyara's beauty around a campfire with a bear or two is your kind of thing. We will pack our lunch and have a full game drive tomorrow in Serengeti National Park till evening. "
 
-  - paragraph: "After a late afternoon tour enrute to your prebooked accomodation axious and wowed by the wonders of the serengeti you have witnessed, we will have our dinner and sleep early for next days full game drive."
+  - paragraph: "After a late afternoon tour en-route to your pre-booked accommodation, wowed by the wonders of the serengeti you have witnessed, we will have our dinner and sleep early for next days full game drive."
 
  
 remarks:
-  - paragraph: This destination can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+  - paragraph: This destination can be incorporated in other packages too, please create your bucket list and send it to us to we can create you a quote!
 
 ---

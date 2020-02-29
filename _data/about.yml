@@ -4,7 +4,7 @@ who_we_are:
   hashtags: "#️⃣ Personalized Service#️⃣ Make an Impact #️⃣ Book with confidence"
   review: "WE JUST LOVE IT, WE ENJOY IT TOO."
   what_we_do: "Karibu Sana!"
-  video: <iframe width="560" height="315" src="https://www.youtube.com/embed/8yO2MI0p8Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
 our_mission: >
   As a leading Tanzania Tour Operator, we create unique and socially responsible East African holiday experiences, providing a superior level of client satisfaction and communication and we make sure we deliver what we promise.
 our_staff:
@@ -19,4 +19,6 @@ our_staff:
 experiences:
   image_corousel:
     - img: ./img/uploads/the-team-kibokolandadventure.jpg
+    - img: "./img/uploads/natural-museum-boma-arusha-experience-kibokoland-adventures.jpg"
+    - img: "./img/uploads/natural-museum-boma-arusha-kibokoland-adventures.jpg"
 

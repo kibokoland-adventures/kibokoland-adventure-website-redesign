@@ -2,6 +2,7 @@
 layout: destination
 category: private-safari
 permalink: /:categories/:title/
+date: 2019-11-12 11:59:59 
 title: Saadani National Park
 subtitle: "Perfect union for beach and bush safaris"
 
@@ -26,16 +27,16 @@ image_corousel:
 
 overview:
   intro:
-    - paragraph: "Is the 13th national park in Tanzania. It is situated between Dar es salaam (200 km,4 hrs) and Tanga (75km,3hrs).  it is a home of mixture marine and land creatures both flora and fauna. Around the winding Wami river there is unique vegetation known as mangrove forest, clumps of palm trees, coral reefs in the Indian Ocean, long and short grass savannah. "
+    - paragraph: "Is the 13th national park in Tanzania. It is situated between Dar es salaam (200 km,4 hrs) and Tanga (75 km,3 hrs).  it is a home of mixture marine and land creatures both flora and fauna. Around the winding Wami river there is unique vegetation known as mangrove forest, clumps of palm trees, coral reefs in the Indian Ocean, long and short grass savanna. "
 
-    - paragraph: "Saadani has a thriving population of waterbucks, reedbucks, hartebucks, wildebeest, buffaloes, giraffes. Not enough we have shy animals in Saadani park like warthogs, elephants, baboons, Colobus monkey, lions and leopards. These animals are often spotted in the park not seen in open areas. A boat safari is a true highlight to see hippopotamus and crocodiles, malachites, pied and even kingfishers. Having other kinds of bird species in the game such as wooly necked stork." 
+    - paragraph: "Saadani has a thriving population of waterbucks, reedbucks, hartebucks, wildebeest, buffaloes, giraffes. Not enough we have shy animals in Saadani park like warthogs, elephants, baboons, Colobus monkey, lions and leopards. These animals are often spotted in the park not seen in open areas. A boat safari is a true highlight to see hippopotamus and crocodiles, malachites, pied and even kingfishers. Having other kinds of bird species in the game such as woolly necked stork." 
 
   
   tour_details:
-    when: "open for tours and activities 9am - 4.30pm every day of the year"
+    when: "open for tours and activities 9 am - 4.30 pm every day of the year"
     duration: "6 Hours"
     language: "English"
-    transport: "Toyota Landcruiser."
+    transport: "Toyota Land-cruiser."
 
 
   setting:
@@ -79,7 +80,7 @@ itinerary:
   
 
 remarks:
-  - paragraph: This can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+  - paragraph: This can be incorporated in other packages too, please create your bucket list and send it to us to we can create you a quote!
 
 
 

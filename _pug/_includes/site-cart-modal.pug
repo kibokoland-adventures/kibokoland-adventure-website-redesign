@@ -6,7 +6,7 @@
       .cart-footer
         p.cart-imoji 👍  <span class="cart-total"><b> 0 </b></span> <small>/ Destination(s)</small>
       textarea.cart-content(name="bucket-list"  id="bucket-list" cols="30", rows="10")
-      .btn.clear-cart Clear Counter
+      .btn.clear-cart Clear List
       fieldset.no-border.customer-details
         legend.align-text-center 
           h3 Your Details
@@ -44,6 +44,9 @@
           
 
         textarea#note.tilt-rt(name="Customer-Notes", cols="30", rows="10" placeholder="Would you like to go camping? tell us your requirements...")
+
+        |<div data-netlify-recapture="true"></div>
+    
 
 
       p: button.btn.tilt-lft(type="submit") Send Me A Quote!

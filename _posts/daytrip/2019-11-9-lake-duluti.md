@@ -2,6 +2,7 @@
 layout: destination
 category: daytrip
 permalink: /:categories/:title/
+date: 2019-11-9 11:59:59 
 title: 🏞️ Lake Duluti 
 subtitle: a paradise for birds and reptiles
 
@@ -35,7 +36,7 @@ overview:
   intro:
     - paragraph: "Is a crater lake located near a small town of Tengeru Arumeru"
 
-    - paragraph: "This is an amazing day trip that involves tour walk across nature of Lake Duluti. Mount Kilimanjaro and Mount Meru can be easily being viewed. Also, there is canoeing along the beds of the lake. Since waters depth in the middle core of the lake has high pressure. It has depth of 700m (4,230ft). The lake has small size fish that local people come do fishing at night hours. It has a thick forest that has reptiles like monitor lizard and crocodiles." 
+    - paragraph: "This is an amazing day trip that involves tour walk across nature of Lake Duluti. Mount Kilimanjaro and Mount Meru can be easily being viewed. Also, there is canoing along the beds of the lake. Since waters depth in the middle core of the lake has high pressure. It has depth of 700m (4,230ft). The lake has small size fish that local people come do fishing at night hours. It has a thick forest that has reptiles like monitor lizard and crocodiles." 
 
     - paragraph: "It provides 130 different species for water birds. Most common birds found in the lake are grey herons, fish eagles, cormorants, ospreys, egrets and kingfishers."
   
@@ -44,7 +45,7 @@ overview:
 
 
   tour_details:
-    when: "open for tours and activities 9am - 4.30pm every day of the year"
+    when: "open for tours and activities 9 am - 4.30 pm every day of the year"
 
     duration: "4 Hours"
 
@@ -52,21 +53,21 @@ overview:
 
     price_includes: "includes visit guided and transport."
 
-    transport: "Toyota Landcruiser."
+    transport: "Toyota Land-cruiser."
 
 
 
   setting:
-    activities: "admire the colourful Birds as you hike through a lush green forest, Sport Fish, enjoy the breathtaking views of Mt.Meru &amp; Kilimanjaro from your canoe.  "
+    activities: "admire the colorful Birds as you hike through a lush green forest, Sport Fish, enjoy the breathtaking views of Mt.Meru &amp; Kilimanjaro from your canoe.  "
     hashtags: >
-      Canoeing, #️⃣  nature walking and #️⃣  bird watching #️⃣  Sport Fishing
+      Canoing, #️⃣  nature walking and #️⃣  bird watching #️⃣  Sport Fishing
 
 
   included:
     - item: Private Mini Van
     - item: Park fees
     - item: Lunch Boxes
-    - item: Canoeing
+    - item: Canoing
     - item: Bottled water
 
 
@@ -86,7 +87,7 @@ experience:
   what_to_see:
     - paragraph: "<b>Hiking</b>: Hiking takes place through a small trail that has been cleared out by the reserve authorities, going through the whole perimeter of the lake, keeping close to the water's edge at all times. The path is normally well maintained throughout the year."
 
-    - paragraph: "<b>Canoeing</b> go canoeing to explore the lake from a different perspective. This is a great way to explore the marsh areas of the lake. Here, huge papyrus plants are a noisy, colourful nesting ground for many of the birds. Usually a canoe trip around the lake takes around 2-3 hours."
+    - paragraph: "<b>Canoing</b> go canoing to explore the lake from a different perspective. This is a great way to explore the marsh areas of the lake. Here, huge papyrus plants are a noisy, colorful nesting ground for many of the birds. Usually a canoe trip around the lake takes around 2-3 hours."
 
   
 expect:
@@ -101,7 +102,7 @@ itinerary:
 
   - paragraph: Based on your activity schedule  walking and canoeing are some of the exciting activities you can enjoy.
 
-  -  paragraph: Luckily for us we can take our lunch sorrounded with the beautiful Bird calls and the majestic greenery vegetatition of Lake Duluti.
+  -  paragraph: Luckily for us we can take our lunch surrounded with the beautiful Bird calls and the majestic greenery vegetation of Lake Duluti.
 
   - paragraph: We will call it a day after all the breath taking moments that defines Lake Duluti are all but done. Wave goodbye to the beautiful paradise of Birds and Reptiles, hop in our private minivan and re-live  the moments we made as we head back to our hotel.
  
@@ -110,7 +111,6 @@ itinerary:
 
 
 remarks:
-
   - paragraph: This tour can be incorporated  in other itineraries too, please create your bucket list and send it over so we can create you a quote!
 
 

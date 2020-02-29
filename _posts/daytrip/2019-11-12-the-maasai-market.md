@@ -2,7 +2,8 @@
 layout: destination
 category: daytrip
 permalink: /:categories/:title/
-title: The Maasi Market 🤑 
+date: 2019-11-12 11:59:59 
+title: The Maasai Market 🤑 
 subtitle:  🎨 Gigantic Craft Galore in Arusha.
 sys:
   icon: 🎨 🤑 🖌️
@@ -15,7 +16,7 @@ sys:
     mid_star: "N/A" 
     camp: "N/A"
   image:
-    alt: The Maasi Market 🎨
+    alt: The Maasai Market 🎨
     url: "./img/uploads/crafts-at-maasai-market-kibokoland-adventures.jpg"
 
 image_corousel:
@@ -28,12 +29,12 @@ overview:
 
 
   intro:
-    - paragraph: "The Market is a safe place to wander. There are many, many vendors. The bead work items'Maasai specialty', are quite worthwhile to check out. There is an extensive range of crafts goods to review."
+    - paragraph: "The Market is a safe place to wander. There are many, many vendors. The bead work items' Maasai specialty', are quite worthwhile to check out. There is an extensive range of crafts goods to review."
 
     - paragraph: "The place is active and full of gift shops that sell cultural objects such as crafts, cultural clothes (fabrics) from different cultures, carvings, beads and paintings."
 
   tour_details:
-    when: Sunday to Saturday 8am to 6pm in the evening.
+    when: Sunday to Saturday 8 am to 6 pm in the evening.
     duration: 2-3 Hours
     language: "English"
     price_includes: includes guided visit and transport.
@@ -61,15 +62,15 @@ overview:
 
 experience:
   what_to_see:
-    - paragraph: "<b>Fabrics</b> the fabrics are well colorfuly painted, drawn wild African creatures mostly found in most safari prolific national parks. The place is in deed a gigantic craft galore in Arusha, a cultural blend of different Tanzanian societies with their diversities intact."
+    - paragraph: "<b>Fabrics</b> the fabrics are well colorfully painted, drawn wild African creatures mostly found in most safari prolific national parks. The place is in deed a gigantic craft galore in Arusha, a cultural blend of different Tanzanian societies with their diversities intact."
 
-    - paragraph: "<b>Cultural sandals</b>These are leathered type of simple sandals supplied with beads decorated around them. Designed & crafted by the maasai to cruise miles of land with cattles to feed  and protect from wild animals. When you try them on, they always tend to grant you an appeal of their own; That of a maassai warrior."
-
-
-    - paragraph: "<b>Bead Works</b> These are  creative works done by most women in Maasai market... yes! you heard it right, Tanzania women are taking the initiatives to exploit the same opportunities men do . You will see their handywork in sandals, handbags, maasai fabrics, necklaces, earings, bracelets, cups, and photo frames"
+    - paragraph: "<b>Cultural sandals</b>These are leathered type of simple sandals supplied with beads decorated around them. Designed & crafted by the maasai to cruise miles of land with cattles to feed  and protect from wild animals. When you try them on, they always tend to grant you an appeal of their own; That of a maasai warrior."
 
 
-    - paragraph: "<b>Coconut wood carvings</b> Passionately having coconut shells that are well scrubbed and cut to be designed into different shapes like earings and necklaces."
+    - paragraph: "<b>Bead Works</b> These are  creative works done by most women in Maasai market... yes! you heard it right, Tanzania women are taking the initiatives to exploit the same opportunities men do . You will see their handiwork in sandals, handbags, maasai fabrics, necklaces, earrings, bracelets, cups, and photo frames"
+
+
+    - paragraph: "<b>Coconut wood carvings</b> Passionately having coconut shells that are well scrubbed and cut to be designed into different shapes like earrings and necklaces."
 
     - paragraph: "<b>Batik wall hangings</b> These are made of fabrics dyed in different colors to giving the artistic feel that draws attention to its colorfulness."
 
@@ -83,12 +84,12 @@ expect:
 itinerary:
   - paragraph: "We will pick you up at your hotel and drive to the clock tower, a famous monument of the city, then from there we will head south. The Maasai Market is just two minutes drive away"
 
-  - paragraph: "Once you get there you will be greeted with a welcoming sight of colourful crafts just there for you to shop and own. Its like shopping for quality industrial made crafts, only that these are hand-made."
+  - paragraph: "Once you get there you will be greeted with a welcoming sight of colorful crafts just there for you to shop and own. Its like shopping for quality industrial made crafts, only that these are hand-made."
 
-  - paragraph: "Now that the van is full of shopped items, we will  safely drive you back to your hotel, and let you spend time with your newly shopped possesions"
+  - paragraph: "Now that the van is full of shopped items, we will  safely drive you back to your hotel, and let you spend time with your newly shopped possessions"
 
 remarks:
-  - paragraph: This tour can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+  - paragraph: This tour can be incorporated in other packages too, please create your bucket list and send it to us to we can create you a quote!
 
 
 

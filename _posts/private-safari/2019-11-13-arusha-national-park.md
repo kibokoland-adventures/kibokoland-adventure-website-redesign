@@ -2,12 +2,13 @@
 layout: destination
 category: private-safari
 permalink: /:categories/:title/
+date: 2019-11-12 11:59:59 
 title: Arusha National Park
 subtitle: Arusha's backyard under the shadows of Mt.Meru
 
 sys:
   icon: 🏞️
-  circuit: Northen Circuit
+  circuit: Arusha
   review: "Tiny, Green Gem in Mount Meru's shadow"
   price: N/A
   best_time: 👍 June to October 
@@ -34,13 +35,13 @@ overview:
 
  
   tour_details:
-    when: "open for tours and activities 6am - 6pm every day of the Week"
+    when: "open for tours and activities 6 am - 6 pm every day of the Week"
     duration: "6 Hours"
     language: "English"
-    transport: "Toyota Landcruiser."
+    transport: "Toyota Land-cruiser."
 
   setting:
-    activities: " game driving, bird watching, canoeing and hiking"
+    activities: " game driving, bird watching, canoing and hiking"
     hashtags: |
       Mt.Meru, #️⃣ Momela Lakes  #️⃣  Forest Glades #️⃣ Dancing Flamingos #️⃣  Water falls #️⃣  Ngurdoto Crater
       
@@ -69,7 +70,7 @@ overview:
 
 experience:
   what_to_see:
-    - paragraph: "<b>Outstanding wild life</b> Arusha National Park is often ovelooked in favor of its more famous neighbours; Serengeti National Park, Tarangire National Park and Manyara National Park. Arusha National Park is infact a trasure, a rich tapestry of habitats, teeming with animals and birds. Spotted animals are like buffaloes, Colobus monkeys in the forest, turacos, elephants, waterbucks, bee eaters, trogons; it’s incredible to have the pink birds like flamingos in the ake shores and some just hanging across the lake."
+    - paragraph: "<b>Outstanding wild life</b> Arusha National Park is often overlooked in favor of its more famous neighbors; Serengeti National Park, Tarangire National Park and Manyara National Park. Arusha National Park is in-fact a treasure, a rich tapestry of habitats, teeming with animals and birds. Spotted animals are like buffaloes, Colobus monkeys in the forest, turacos, elephants, waterbucks, bee eaters, trogons; it’s incredible to have the pink birds like flamingos in the ake shores and some just hanging across the lake."
 
     - paragraph: "<b>Momela Lakes </b> Momella Lakes is a collection of multiple lakes located in the Arusha National Park fed by various underground water streams and rainfall during its season. which attract complete life cycle of hippos and different wild life from flamingos to little species of duck that is affectionately called Jesus ducks by the locals because they can walk on water.  <br>Despite the temptation of wonderful nearby parks, the Momella lakes are a MUST visit."
 
@@ -77,7 +78,7 @@ experience:
 
 
 
-    - paragraph: "<b>Tululusia hill</b> It was a historical lookout point during tribal wars from Tanzania’s post, its today popular hiking and camping area that affords visitors a good view of the lower reaches of Arusha national park as well as Mount Kilimanjaro and Mount meru. This region is a home to elephants, buffalo, Colobus monkeys, the red duiker, suni, leopards and even tree dwelling pythons."
+    - paragraph: "<b>Tululusia hill</b> It was a historical lookout point during tribal wars from Tanzania’s post, its today popular hiking and camping area that affords visitors a good view of the lower reaches of Arusha national park as well as Mount Kilimanjaro and Mount Meru. This region is a home to elephants, buffalo, Colobus monkeys, the red duiker, suni, leopards and even tree dwelling pythons."
 
 
 
@@ -96,9 +97,7 @@ itinerary:
 
  
 remarks:
-  - paragraph: "Book in advance, since this is one of our most popular day tours. The tour runs six days a week, so you can easily fit it intro your Town Tour itinerary ."
-
-  - paragraph: This destination can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+  - paragraph: This destination can be incorporated in other packages too, please create your bucket list and send it to us to we can create you a quote!
 
 
 

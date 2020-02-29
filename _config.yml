@@ -1,6 +1,13 @@
 #data colections: KLA
 collections:
-  itineraries:
+  newsletters:
+  private_safaris_packages:
+    output: true
+    permalink: /:collection/:title
+  treks_and_other_activities_packages:
+    output: true
+    permalink: /:collection/:title
+  before_you_travel:
 
 # Build settings
 markdown: kramdown

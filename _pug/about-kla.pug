@@ -13,16 +13,7 @@ section.pg-content
 
     //PAGE ARTICLE ========================================================= PAGE ARTICLE
     
-    article.article.display-article
-
-      | <article class="article">
-      |   <div id="what-to-expect" class="flex-video-wrap">
-      |    <div class="flex-video">
-      |      {{site.data.about.who_we_are.video}}
-      |    </div>
-      |   </div>
-      | </article>
-      |       
+    article.article.display-article       
       |<section>
       | <header class="align-text-center">
       |  <p><br><br>  {{site.data.about.who_we_are.hashtags}} <br><br></p>
@@ -55,25 +46,17 @@ section.pg-content
 
 
 
-      |     <article class="article no-display-article">
+      |     <article class="article display-article">
       |       <div id="our-team" class="accordion">
       |          <h3 class="article-title zero-fit flex flex-btn">Our Team <i class="arrow-dwn fa fa-chevron-down"></i></h3>
       |        </div>
-
       |        <div class="panel">
       |          <div class="panel-positional">
-
       |           <article id="overview">
       |           {% for article in site.data.about.our_staff%}
       |            <p class="flex align-start "><span>✨ </span> {{article.paragraph}}</p>
       |           {% endfor%}
       |           </article>
-
-  
-      |           
-
-      |          
-
       |           
       |          </div>
       |        </div>

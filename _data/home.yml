@@ -15,7 +15,7 @@ fold:
     booking:
       icon: ./img/brands-bell.svg
       title: "Book with confidence"
-      sub_title: "instant comfirmation"
+      sub_title: "instant confirmation"
 
 #products
 services_kla:
@@ -37,26 +37,6 @@ services_kla:
     url: ./treks-and-other-activities.html
     button_tilt: lft
     
-#newsletter ==> intependent blog of all newsletters collected over some time
-newsletter_kla:
-  title: "You simply asked, and we listened! 🦛"
-  greetings:
-     salutation: "Dear Visitor,"
-     sub_title: "Welcome to our new site! ✨"
-  letter_body:
-    - paragraph: "Thanks to you we are committed to improving our digital experiences… we ought to acknowledge our honest visitors from whose feedback we drew inspiration to re-think our 💻 digital strategy."
-    - paragraph: 'Inspired by their struggles navigating our <a href="https://www.kibokolandadventures.com/">previous website</a> we took the challenge head on and we are ON IT 💯! This is to challenge you, our dearest friend and family to journey with us as we bridge the gap for other visitors like you to be able to see the awaiting potential to enlightenment that lies in traveling. It should not be that hard.'
-    - paragraph: "Help us easy this! We expect your feedback; maybe you notice a miss-design direction, bad font size or wrong color choice or you just hate the fact that you’re reading this with an empty cup of what could have been a ☕hot coffee 😉."
-  letter_footnote:
-    call_to_action: "Please do let our designer know below."
-    action:
-      mail_to_link: 
-        show: true
-        email: "petergabrieltz@gmail.com"
-        title: "📧 mail-peter 👍"
-      link:
-        show: false
-        url: "./private-safari-holiday.html"
-        title: "someother page"
+
 
       

@@ -1,18 +1,11 @@
 
-<!-- HOME NEWSLATTER ARTICLE  ========================================= HOME NEWSLATTER ARTICLE--><section class="news-letter flex col">
+<!-- HOME NEWSLATTER ARTICLE  ========================================= HOME NEWSLATTER ARTICLE-->{% assign letters = site.newsletters  %}
+<section class="news-letter flex col">
+{% for article in letters %}
    <article class="article col-100 grid">
-       <h2>{{site.data.home.newsletter_kla.title}}
-       </h2><br/>
-       <p>{{site.data.home.newsletter_kla.greetings.salutation}} <br> <b>{{site.data.home.newsletter_kla.greetings.sub_title}}</b></p>
-       {% for article in site.data.home.newsletter_kla.letter_body %}
-        <p>{{article.paragraph}} <p>
-       {% endfor%}
-       <p>{{site.data.home.newsletter_kla.letter_footnote.call_to_action}}</p>
-       {% if site.data.home.newsletter_kla.letter_footnote.action.mail_to_link.show %}
-       <p><b class="mail-to"><a href="mailto:{{site.data.home.newsletter_kla.letter_footnote.action.mail_to_link.url}}">{{site.data.home.newsletter_kla.letter_footnote.action.mail_to_link.title}} </a></b> <br><br></p>
-       {% elsif site.data.home.newsletter_kla.letter_footnote.action.link.show%}
-        <p><b class="mail-to"><a href="{{site.data.home.newsletter_kla.letter_footnote.action.link.url}}">{{site.data.home.newsletter_kla.letter_footnote.action.link.title}} </a></b> <br><br></p>
-       {% endif %}
+		<small class="newsletter-date tilt-rt">⌚ {{article.date | date_to_string }}</small>
+		 {{article.content}}
+{%endfor%}
          <div class="flex flex-col align-end news-letter-footer">
            <div class="authority-signature no-mouse-events tilt-lft" style="background-image: url('./img/uploads/signature-designer.svg'); background-size: 95%; backgroung-position: cover; background-repeat: no-repeat;"> </div>
            <p class="authority-name small tilt-rt"><b>🦛 Kibokoland Adventures Ltd.</b></p>

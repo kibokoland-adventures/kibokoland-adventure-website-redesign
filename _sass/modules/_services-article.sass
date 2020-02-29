@@ -13,6 +13,10 @@
   &:hover
     box-shadow: $box-shadow
 
+.sample-itinerary
+  background:
+   color: $light-green
+  border-radius: 2.9140625px 2.344307270233196px
 
 .thumb 
   width: 305px
@@ -23,7 +27,7 @@
   flex: 1 
 
 .thumb-flex 
-  width: 220px
+  width: 80%
 
 .thumb-title
   padding: $space 0
@@ -45,3 +49,36 @@
     margin-top: -$space-1-4
     width: 85%
     font-size: $space-0-4
+.mini-price-tag
+  font-family: 'McLaren', cursive;
+
+
+//Itinerary Articles Styles 
+//md-classess
+.mbtablestyle
+  border-collapse: collapse
+
+.mbtablestyle > table, td, th 
+  border: 1px solid black
+.mbtablestyle table 
+    display: flex 
+    background-color: $lighter
+.mbtablestyle th
+    background-color: $highlight-light-green
+.mbtablestyle td 
+    padding: $space-base-2-4
+
+.mark 
+  display: inline-block
+  padding: $space-base-4
+  border-radius: $border-w-3 
+  background-color: $highlight-light-green
+    
+
+.newsletter-date 
+  display: inline-block
+  border-radius: $border-w-3 
+  border: 1px solid $dark-brown
+  padding: $space-base-4
+  position: absolute
+  right: 10px

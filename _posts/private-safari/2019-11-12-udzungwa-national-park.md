@@ -2,6 +2,7 @@
 layout: destination
 category: private-safari
 permalink: /:categories/:title/
+date: 2019-11-12 11:59:59 
 title: Udzungwa National Park
 subtitle: An enchanted forest of leafy glades.
 sys:
@@ -25,27 +26,27 @@ overview:
 
 
   intro:
-    - paragraph: "Udzungwa is located in 60km south Mikumi national park. The Udzungwa Mountains are in the Eastern arc part which is found in Kenya and Tanzania formed some 200 million years ago. As the mountains hold a unique collection of flora and fauna and cover only 2% of Tanzania’s area but it holds between 30 to 40% of the countries plant and mammals species."
+    - paragraph: "Udzungwa is located in 60 km south Mikumi national park. The Udzungwa Mountains are in the Eastern arc part which is found in Kenya and Tanzania formed some 200 million years ago. As the mountains hold a unique collection of flora and fauna and cover only 2% of Tanzania’s area but it holds between 30 to 40% of the countries plant and mammals species."
 
     - paragraph: "This park is also a home to various kinds of primates like 6 of them. 2 of which (Iringa red Colobus and Sanje crested Mangabey) occur nowhere else in the world."
 
     - paragraph: "Four previously unknown birds, including the Rufous-Winged Sunbird and a new species of the partrige-like francolin makes this Tanzania's richest forest habitat and among the three most important bird conservation areas on the continent."
 
   tour_details:
-    when: Sunday to Saturday 6am to 05pm in the evening.
+    when: Sunday to Saturday 6 am to 05 pm in the evening.
     duration: 7 Hours
     language: "English"
-    transport: Toyota Landcruiser.
+    transport: Toyota Land-cruiser.
 
   setting:
     activities: Watching monkeys, Sanje waterfalls, 🏞️ Forest tour, 🧗 Trekking Udzungwa mountains, bird watching, 🤳 lots of selfies
     hashtags: >
-      "mountaineous area #️⃣  forest vegetation #️⃣  wildlife #️⃣  Bird Conservation Area "
+      "mountainous area #️⃣  forest vegetation #️⃣  wildlife #️⃣  Bird Conservation Area "
 
   included:
     - item: All meals [Breakfast, Lunch and Dinner]
     - item: Transport
-    - itme: Professional guide
+    - item: Professional guide
     - item: Park fees
     - item: Accommodation
 
@@ -64,14 +65,14 @@ overview:
 
 experience:
   what_to_see:
-    - paragraph: "<b> Udzungwa Mountains </b> These mountains are also known as East Arc mountains is the largest and most bio diverse of a chain of a dozen large forest  swathed mountains that rise from Eastern Tanzania. Its closed up with canopy forest spans with an alititude of 250m (820feet) to above 2,000 metres (6,560ft) without interruptions. Its also famous for hikers rather than sight seers."
+    - paragraph: "<b> Udzungwa Mountains </b> These mountains are also known as East Arc mountains is the largest and most bio diverse of a chain of a dozen large forest  swathed mountains that rise from Eastern Tanzania. Its closed up with canopy forest spans with an altitude of 250 m (820 feet) to above 2,000 metres (6,560 ft) without interruptions. Its also famous for hikers rather than sight seers."
 
     - paragraph: "Forest tour The canopy forest surrounds the Udzungwa mountains that above the forest there is misty spray into the forested valley. The more challenging two night Mwanihana trail leads to the plateau with its panoramic views over surrounding sugar plantations before ascending to."
 
 
-    - paragraph: "<b>Sanje Waterfalls</b> Although not a conventional game viewing destination, Udzungwa attracts hikers an excellent network of forest trails includes the popular half day ramble to Sanje waterfalls it plunges 170m (550 feet) through a misty spray into the valley."
+    - paragraph: "<b>Sanje Waterfalls</b> Although not a conventional game viewing destination, Udzungwa attracts hikers an excellent network of forest trails includes the popular half day ramble to Sanje waterfalls it plunges 170 m (550 feet) through a misty spray into the valley."
 
-    - paragraph: "<b>Watching monkeys</b> The Mwanihani part of the park is the most visited by tourists drawn to the beautiful Sanje waterfall. It is a steep hike to the top, but the fantastic views over the rainforest make it well worth the effort. "
+    - paragraph: "<b>Watching monkeys</b> The Mwanihani part of the park is the most visited by tourists drawn to the beautiful Sanje waterfall. It is a steep hike to the top, but the fantastic views over the rain forest make it well worth the effort. "
 
     - paragraph: "The Iringa red Colobus and the Sanje crested mangabey monkeys as well as numerous bird species such as the Rufus winged sunbird, the Udzungwa partridge , red capped warbler and the dappled mountain forest robin call this park home."
 
@@ -87,7 +88,7 @@ itinerary:
 
 
 remarks:  
-  - paragraph: This destination can be encouporated in other packeges too, please create your bucket list and send it to us to we can create you a quote!
+  - paragraph: This destination can be incorporated in other packages too, please create your bucket list and send it to us to we can create you a quote!
 
 
 

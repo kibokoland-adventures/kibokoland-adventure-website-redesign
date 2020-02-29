@@ -1,6 +1,7 @@
 ---
 layout: destination
 category: daytrip
+date: 2019-11-10 11:59:59 
 permalink: /:categories/:title/
 title: Shanga 📿 Gift & Workshop
 subtitle: "KINDNESS IS A LANGUAGE BLIND PEOPLE SEE AND DEAF PEOPLE HEAR"
@@ -10,7 +11,7 @@ sys:
   circuit: Arusha
   review:  🤩Visit and feel happy about the crafters and your purchases ✌️
   price: 25
-  best_time: 🌞 all year round | 9am - 4.30pm
+  best_time: 🌞 all year round | 9 am - 4.30 pm
   accommodation:
     five_star: "N/A"
     mid_star: "N/A" 
@@ -30,13 +31,13 @@ overview:
 
 
   intro:
-    - paragraph: "Shanga is a brilliant enterprise in Arusha located near the Cultural heritage center. Shanga is the Swahili word for <b>bead</b> and this tour gives artistically-minded travelers the opportunity to work with beautiful glass beads while supporting an income-generating initiative for the disabled. Shanga is open for tours and activities 9am - 4.30pm every day of the week. Visitors are welcome to stop by anytime."
+    - paragraph: "Shanga is a brilliant enterprise in Arusha located near the Cultural heritage center. Shanga is the Swahili word for <b>bead</b> and this tour gives artistically-minded travelers the opportunity to work with beautiful glass beads while supporting an income-generating initiative for the disabled. Shanga is open for tours and activities 9 am - 4.30 pm every day of the week. Visitors are welcome to stop by anytime."
 
     - paragraph: "Enjoy a tour of the workshop before trying your hand. This small business employs over 50 disabled, mute and deaf people. Shanga produces a range of gorgeous necklaces made from beads and a selection of vibrant silk, kanga, chiffon and voile colored fabrics. Everything in the workshop is made from glass blowing, recycled bottles, recycled old pots and pans" 
 
 
   tour_details:
-    when: "open for tours and activities 9am - 4.30pm every day of the week"
+    when: "open for tours and activities 9 am - 4.30 pm every day of the week"
     duration: "4 Hours"
     language: "English"
     
@@ -88,7 +89,7 @@ itinerary:
 
   - paragraph: "Once you get there we will have our 30 minutes guided workshop tour, followed by 15 minutes of making our own necklaces, maasai beading workshop, sign language lessons and finally 20 minutes of shanga shopping."
 
-  - paragraph: "Now that you have learned, bought, and experienced Shanga Gift Shop and it's amaizing people, we will  safely drive you back to your hotel, and let you spend time with your newly shopped possesions"
+  - paragraph: "Now that you have learned, bought, and experienced Shanga Gift Shop and it's amazing people, we will  safely drive you back to your hotel, and let you spend time with your newly shopped possessions"
 
 
 remarks:

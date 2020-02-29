@@ -13,19 +13,15 @@ section.pg-content.flex
   //PAGE ============================================================ SIDE BAR
   sidebar.pg-content-table
     ul.ul-plain.quick-links
+      .badge.tilt-rt
+        p.badge-title Safari Destinations
       //for loop - daytrips-collection
       | {% for item in destination%}
       |    <li class="link"> <a href="{{item.url}}"> <b>➥</b> {{item.title}} </a> </li>
       | {%endfor%}
   
      
-    .quick-perks
-      h2 Tip: 
-      p.
-        You can select the excursion that you like by clicking <button class="btn"> ADD TO BUCKET</button> button... then
-        move to other pages and do the same. And when you about done!
-        there is a cart icon on the top... all your selections will 
-        listed there... ready for sharing w/ us for pre-booking and planning.
+    | {% include  site-sidebar-note.html %}
           
   // PAGE ------------------------------------------------------------- END SIDE BAR
   section.pg-section-articles.products-center
@@ -46,7 +42,7 @@ section.pg-content.flex
     |         <p> <b>What is like: </b> <br>#️⃣  {{item.overview.setting.hashtags}} </p>
     |         <p> <b>Activities:</b> {{item.overview.setting.activities}}</p>
     |         <div class="notes-lc-adress"> 
-    |             <p><b>Pick-up  &amp; Drop-off  points :</b> 🛏️ Accomodation Location </p>
+    |             <p><b>Pick-up  &amp; Drop-off  points :</b> 🛏️ Accommodation Location </p>
     |         </div>
     |         <button class="btn bag-btn tilt-rt" data-item-id="0{{forloop.index }}" data-item-price="{{item.sys.price}}" data-item-five-star-price="{{item.sys.accommodation.five_star}}" data-item-three-star-price="{{item.sys.accommodation.mid_star}}"  data-item-camp-basic="{{item.sys.accommodation.camp}}"  data-item-url="{{item.url}}" data-item-location="{{item.sys.circuit}}" data-item-description="{{item.sys.review}}" data-item-image="{{item.sys.image.url}}" data-item-name="{{item.title}}"> ADD TO BUCKET LIST </button>
     |         <button class="btn tilt-rt"><a href="{{item.url}}"> READ MORE </a></button> 

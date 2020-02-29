@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: i-meets-i/kibokoland-adventure-website-redesign
-  branch: master # Branch to update
+  branch: master #Branch to update
 
 media_folder: "_img/uploads"
 public_folder: "uploads"
@@ -75,17 +75,94 @@ collections:
     label: "pages"
     identifier_field: name
     files:
+      
       - label: "Home"
         name: "home"
         file: "_data/home.yml"
         fields:
-          - label: "fold"
+          - label: "Fold"
             name: "fold"
             widget: "object"
             fields:
-              - label: "tagline"
-                name: "tagline"
-                widget: "string"
-              - label: "Image"
-                name: "background_image"
-                widget: "image"
+              - {label: "Tagline", name: "tagline", widget: "string"}
+              - {label: "Image", name: "background_image", widget: "image"}
+
+          - label: "Package Categories"
+            name: "services_kla"
+            allow_add: true
+            widget: "list"
+            fields:
+              - {label: "Package Title", name: "title", widget: "string"}
+              - {label: "Package Description", name: "lead", widget: "string"}
+              - {label: "Package Image", name: "thumb", widget: "image"}
+
+      - label: "About Us"
+        name: "about"
+        file: "_data/about.yml"
+        fields:
+          - label: "Company History"
+            name: "who_we_are"
+            widget: "object"
+            fields:
+              - label: "paragraph"
+                name: "intro"
+                widget: "list"
+                fields:
+                  - {label: "paragraph", name: "paragraph", widget: "markdown" }
+
+              - {label: "Company Tags", name: "hashtags", widget: "string"}
+              - {label: "Collective Mindset", name: "review", widget: "string"}
+              - {label: "Welcome Note", name: "what_we_do", widget: "string"}
+          - {label: "Our Mission", name: "our_mission", widget: "markdown"}
+
+          - label: "Staff Benefits"
+            name: "our_staff"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "Benefit", name: "paragraph", widget: "string"}
+
+      - label: "Before You Travel"
+        name: "beforeyoutravel"
+        folder: "_before_you_travel/"
+        create: true
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "daytrip" # Used in routes, e.g., /admin/collections/blog
+    label: "Day Trips Destinations" # Used in the UI
+    folder: "_posts/daytrip" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "destination"}
+      - {label: "Category", name: "daytrip", widget: "hidden", default: "daytrip"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:title/"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+
+
+  - name: "private-safari" # Used in routes, e.g., /admin/collections/blog
+    label: "Private Safaris" # Used in the UI
+    folder: "_posts/private-safari" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "destination"}
+      - {label: "Category", name: "private-safari", widget: "hidden", default: "private-safari"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:title/"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+
+  - name: "treks-and-other-activities" # Used in routes, e.g., /admin/collections/blog
+    label: "Treks And Other Activities" # Used in the UI
+    folder: "_posts/treks-and-other-activities" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "destination"}
+      - {label: "Category", name: "private-safari", widget: "hidden", default: "private-safari"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:title/"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}

@@ -1,7 +1,7 @@
 |---
 | layout: contact
 | title: Contact Us
-| subtitle: We sure wait for you to say something.
+| subtitle: We sure wait for you to say something, anything!
 | backtop: pg-day-top
 |---
 
@@ -12,7 +12,7 @@ section.pg-content
     //PAGE ARTICLE ========================================================= PAGE ARTICLE
     article.display-article
       |<section class="flex flex-center">
-      |<form action="/" class="decor contact-kla">
+      |<form action="POST"  data-netlify="true" data-netlify-recapture="true" name="enquiry"class="decor contact-kla">
       |  <div class="form-left-decoration"></div>
       |  <div class="form-right-decoration"></div>
       |
@@ -20,13 +20,14 @@ section.pg-content
       |  <div class="circle"></div>
       
       |  <div class="form-inner">
-      |    <a class="find-us-on-google" href="https://www.google.com/search?q=kiboko+land+adventures&rlz=1C1CHBF_enIN841IN841&oq=Kiboko+Land+Adventures&aqs=chrome.0.0j69i60l2.11264j0j4&sourceid=chrome&ie=UTF-8">{{site.data.emoji.kla-emoji.animals.paws.fields.html}}Find Us On Google</a>
+      |    <a class="find-us-on-google" href="https://www.google.com/search?q=kiboko+land+adventures&rlz=1C1CHBF_enIN841IN841&oq=Kiboko+Land+Adventures&aqs=chrome.0.0j69i60l2.11264j0j4&sourceid=chrome&ie=UTF-8">{{site.data.emoji.kla-emoji.animals.paws.fields.html}}We are on Google 🎉</a>
       |    <textarea placeholder="How can we help you?" rows="10"></textarea>
-      |    <input type="text" placeholder="Username">
+      |    <input type="text" placeholder="Your Name(s)">
       |    <input type="email" placeholder="Email">
       |    <input type="text" placeholder="Nationality">
+      |    <div data-netlify-recapture="true"></div>
       |    
-      |    <button type="submit" href="/">Submit</button>
+      |    <button type="submit" href="/">Send <b class="big">📤</b></button>
       |  </div>
       |</form>
       |</section> 

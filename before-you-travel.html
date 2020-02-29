@@ -1,210 +1,48 @@
 ---
 layout: page
 title: Before You Pack Up
-subtitle: No more suprises!
+subtitle: No more surprises!
 backtop: pg-day-top
 ---
 <section class="pg-content">
-	<section class="pg-section-articles products-center">
-		<!--PAGE ARTICLE ========================================================= PAGE ARTICLE-->
-		<article class="article display-article">
-			      
-			<section>
-			 <div class="notes">
-			  <section class="destination-overview"> 
-			    <article class="article no-display-article">
-			      <div id="overview" class="accordion">
-			         <h3 class="article-title zero-fit flex flex-btn">Accommodation <i class="arrow-dwn fa fa-chevron-down"></i> </h3>
-			       </div>
-			       <div class="panel">
-			         <div class="panel-positional">
-			          <article id="overview">
-			          {% for article in site.data.beforeyoutravel.pricing_overview.intro %}
-			           <p> {{article.paragraph}}</p>
-			          {% endfor%}
-			          <ul class="ul-plain">
-			          {% for article in site.data.beforeyoutravel.pricing_overview.list %}
-			           <li>🎱 {{article.item}}</p>
-			          {% endfor%}
-			          </ul>
-			          {% for article in site.data.beforeyoutravel.accommodation %}
-			           <p> {{article.paragraph}}</p>
-			          {% endfor%}
-			          </article>
-			          
-			         
-			          
-			         </div>
-			       </div>
-			      </article>
-			     </section>
-			    
-			     
-			     <section> 
-			      <article class="article no-display-article">
-			       <div id="what-to-see" class="accordion">
-			         <h3 class="article-title zero-fit flex flex-btn"> Camping <i class="arrow-dwn fa fa-chevron-down"></i></h3>
-			       </div>
-			       <div class="panel">
-			         <div class="panel-positional">
-			          <h3>Preparing for your camping safari in Tanzania</h3>
-			          {% for article in site.data.beforeyoutravel.camping.intro %}
-			           <p> {{article.paragraph}}</p>
-			          {% endfor%}
-			          <ul class="ul-plain">
-			          {% for article in site.data.beforeyoutravel.camping.list %}
-			           <li>🎱 {{article.item}}</p>
-			          {% endfor%}
-			          </ul>
-			          <h3>What is included when go camping with Kibokoland Adventures</h3>
-			          {% for article in site.data.beforeyoutravel.camping.what_is_included.intro %}
-			           <p> {{article.paragraph}}</p>
-			          {% endfor%}
-			          <article class="tour-logistics">
-			             <div class="nb flex flex-btn flex_wrap "> 
-			               <ul class="included ul-plain">
-			                <p> <b>Included </b> </p>
-			                <hr>
-			                {% for include in site.data.beforeyoutravel.camping.what_is_included.list %}
-			                  <li><b>👍 </b> {{include.item}}</li>
-			                {% endfor %} 
-			           
-			               </ul>
-			
-			    
-			            </div>      
-			            </article> 
-			
-			          <h3>Are campsites widely available in Tanzania?</h3>
-			          {% for article in site.data.beforeyoutravel.camping.camp_availability.intro %}
-			           <p> {{article.paragraph}}</p>
-			          {% endfor%}
-			
-			          <h3>Do I need to book my campsites in advance?</h3>
-			          {% for article in site.data.beforeyoutravel.camping.when_to_book.intro %}
-			           <p> {{article.paragraph}}</p>
-			          {% endfor%}
-			
-			          <h3>How can I book a special campsite in the national parks of Tanzania? </h3>
-			          {% for article in site.data.beforeyoutravel.camping.how_to_book.intro %}
-			           <p> {{article.paragraph}}</p>
-			          {% endfor%}
-			
-			
-			          <h3>Tanzania camping fees</h3>
-			          <ul class="ul-plain">
-			          {% for article in site.data.beforeyoutravel.camping.fees.list %}
-			           <li>🎱 {{article.item}}</p>
-			          {% endfor%}
-			          </ul>
-			         </div>
-			       </div>
-			      </article>
-			     </section> 
-			     <section> 
-			      <article class="article no-display-article">
-			       <div id="itinerary" class="accordion">
-			         <h3 class="article-title zero-fit flex flex-btn"> When to go <i class="arrow-dwn fa fa-chevron-down"></i></h3>
-			       </div>
-			       <div class="panel">
-			         <div class="panel-positional">
-			  
-			       
-			           <article class="article col-100">
-			  
-			            <h2>When is the best time to visit Tanzania?</h2>
-			            
-			            {% for article in site.data.beforeyoutravel.when_to_go.intro %}
-			            <p> {{article.paragraph}}</p>
-			            {% endfor %}
-			
-			
-			            <h3>How is the weather in Tanzania?</h3>
-			            
-			            {% for article in site.data.beforeyoutravel.when_to_go.weather %}
-			            <p> {{article.paragraph}}</p>
-			            {% endfor %}
-			
-			            <h3>When is high season in Tanzania?</h3>
-			            
-			            {% for article in site.data.beforeyoutravel.when_to_go.high_season %}
-			            <p> {{article.paragraph}}</p>
-			            {% endfor %}
-			   
-			            <h3>When is the best time for game viewing in Tanzania?</h3>
-			            
-			            {% for article in site.data.beforeyoutravel.when_to_go.best_time.intro %}
-			               
-			            <p> {{article.paragraph}}</p>
-			            {% endfor %}
-			            <p>{{site.data.beforeyoutravel.when_to_go.best_time.serengeti.paragraph}}</p>
-			            <ul class="ul-plain">
-			              {% for article in site.data.beforeyoutravel.when_to_go.best_time.serengeti.list %}
-			                <li>🎱 {{article.item}}</p>
-			              {% endfor%}
-			            </ul>
-			            {% for article in site.data.beforeyoutravel.when_to_go.best_time.other %}
-			            <p> {{article.paragraph}}</p>
-			            {% endfor %}
-			                         
-			             </article>
-			         </div>
-			       </div>
-			      </article>
-			      <article class="article no-display-article">
-			       <div id="itinerary" class="accordion">
-			         <h3 class="article-title zero-fit flex flex-btn"> What to pack <i class="arrow-dwn fa fa-chevron-down"></i></h3>
-			       </div>
-			       <div class="panel">
-			         <div class="panel-positional">
-			  
-			       
-			           <article class="article col-100">
-			            <h2>Packing list for travelling to Tanzania</h2>
-			            
-			            {% for article in site.data.beforeyoutravel.what_to_pack%}
-			               
-			            <p> {{article.paragraph}}</p>
-			            {% endfor %}
-			              
-			             </article>
-			         </div>
-			       </div>
-			      </article>
-			      <article class="article no-display-article">
-			       <div id="itinerary" class="accordion">
-			         <h3 class="article-title zero-fit flex flex-btn"> Donating <i class="arrow-dwn fa fa-chevron-down"></i></h3>
-			       </div>
-			       <div class="panel">
-			         <div class="panel-positional">
-			  
-			       
-			           <article class="article col-100">
-			            <h2>Travel Tanzania responsibly</h2>
-			            
-			            {% for article in site.data.beforeyoutravel.donating%}
-			               
-			            <p> {{article.paragraph}}</p>
-			            {% endfor %}
-			              
-			              
-			             </article>
-			         </div>
-			       </div>
-			      </article> 
-			       <section class="destination-foot-note-wrap">  
-			         <div class=" flex flex-btn align-center flex_wrap destination-foot-note">
-			            <p> <b class="mail-to align-text-center"><a href="mailto:{{site.data.site_data.email}}">{{site.data.emoji.kla-emoji.other.email.fields.html}}<br> connect with us</a></b> <br><br></p>
-			         </div>
-			         <div class="flex flex-col align-end news-letter-footer">
-			             <div class="authority-signature no-mouse-events tilt-lft" style="background-image: url('./img/uploads/signature-designer.svg'); background-size: 95%; backgroung-position: cover; background-repeat: no-repeat;"> </div>
-			             <p class="authority-name small tilt-rt"><b>{{site.data.emoji.kla-emoji.animals.hippo.fields.html}} Kibokoland Adventures Ltd.</b></p>
-			         </div>
-			       </section>
-			     </section> 
-			 
-			  </div>
-			</section>
-		</article>
+	<section class="pg-section-articles products-center">{% assign package = site.before_you_travel  %}
+		<!--PAGE ARTICLE ========================================================= PAGE ARTICLE    -->
 	</section>
+	<article class="article display-article">
+		<section>
+		 <div class="notes">
+		{% for item in package%}   
+		    <section>    
+		    <article class="article {% if forloop.first %} display-article {%else%}no-display-article {% endif %}">
+		      <div id="overview" class="accordion">
+		         <h3 class="article-title zero-fit flex flex-btn">{{item.title}} <i class="arrow-dwn fa fa-chevron-down"></i> </h3>
+		       </div>
+		       <div class="panel">
+		         <div class="panel-positional">
+		          <article id="overview">
+		          {{item.content}}
+		          </article>
+		          
+		         
+		          
+		         </div>
+		       </div>
+		      </article>
+		     </section>
+		     {%endfor%}
+		    
+		       <section class="destination-foot-note-wrap">  
+		         <div class=" flex flex-btn align-center flex_wrap destination-foot-note">
+		            <p> <b class="mail-to align-text-center"><a href="mailto:{{site.data.site_data.email}}">{{site.data.emoji.kla-emoji.other.email.fields.html}}<br> connect with us</a></b> <br><br></p>
+		         </div>
+		         <div class="flex flex-col align-end news-letter-footer">
+		             <div class="authority-signature no-mouse-events tilt-lft" style="background-image: url('./img/uploads/signature-designer.svg'); background-size: 95%; backgroung-position: cover; background-repeat: no-repeat;"> </div>
+		             <p class="authority-name small tilt-rt"><b>{{site.data.emoji.kla-emoji.animals.hippo.fields.html}} Kibokoland Adventures Ltd.</b></p>
+		         </div>
+		       </section>
+		     </section> 
+		 
+		  </div>
+		</section>
+	</article>
 </section>

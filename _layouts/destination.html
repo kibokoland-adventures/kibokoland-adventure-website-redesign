@@ -29,20 +29,28 @@
 			<!--PAGE ============================================================ SIDE BAR-->
 			<sidebar class="pg-content-table">
 				<ul class="ul-plain quick-links">
+					<div class="badge tilt-rt">
+						<p class="badge-title">Safari Destinations</p>
+					</div>
 					<!--for loop - daytrips-collection-->{% for destination in site.categories[page.category] %}
 					   <li class="link {% if page.url == destination.url %} destination-active-link {% endif %}"> <a href="{{destination.url}}"> <b>➥</b> {{destination.title}} </a> </li>
 					{%endfor%}
-				</ul>
-				<div class="quick-perks">
-					<h2>Tip: </h2>
-					<p>
-						You can select the excursion that you like by clicking <button class="btn"> ADD TO BUCKET</button> button... then
-						move to other pages and do the same. And when you about done!
-						there is a cart icon on the top... all your selections will 
-						listed there... ready for sharing w/ us for pre-booking and planning.
-						  
-					</p>
-				</div>
+				</ul>{% include  site-sidebar-note.html %}
+				<section class="services-articles flex flex-btn flex_wrap">
+				  <div class="badge"> 
+				  <p class="badge-title tilt-lft">Our Handpicked Lists</p> 
+				  <p>Your friends really knew what was best. Download and sample to see what they got.</p></div>
+				    {% for itinerary in site.itineraries%}
+				    <br><br>
+				    <article class=" sample-itinerary services-article col-30-side-bar  txt-center flex flex-col flex-around align-center">
+				             <div class="thumb thumb-flex tilt-rt" style="background-image: url('../../{{itinerary.image}}'); background-size: cover; background-repeat: no-repeat;"></div>
+				             <h4 class="thumb-title title-1 zero-fit quote-left" style="background-image: url('../../img/quote-left.png'); background-size: 100%; background-position: center center; background-repeat: no-repeat;"></h4>
+				             <p class="user-comment"><b>{{itinerary.description}}</b></p>
+				       <a href="../../{{itinerary.file}}">
+				        <button class="btn tilt-rt"><b class='big'>📥</b>View</button></a>
+				          </article>
+				      {% endfor %}
+				</section>
 			</sidebar>
 			<!-- PAGE ------------------------------------------------------------- END SIDE BAR-->
 			<section class="pg-section-articles products-center">
@@ -80,9 +88,9 @@
 					
 					   <div class="notes">
 					    <section class="destination-overview"> 
-					      <article class="article no-display-article">
-					       <div id="overview" class="accordion">
-					         <h3 class="article-title zero-fit flex flex-btn"> Overview <i class="arrow-dwn fa fa-chevron-down"></i></h3>
+					      <article class="article display-article ">
+					       <div id="overview" class="accordion active-panel">
+					         <h3 class="article-title zero-fit flex  flex-btn"> Overview <i class="arrow-dwn fa fa-chevron-down"></i></h3>
 					       </div>
 					
 					       <div class="panel">
@@ -184,7 +192,6 @@
 					        
 					       </div>
 					      </article>
-					      {% include site-itinerary-section.html %}
 					
 					       <section class="destination-foot-note-wrap">  
 					          <ul class="notes space-children ul-plain">

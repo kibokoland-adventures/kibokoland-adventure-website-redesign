@@ -1,0 +1,240 @@
+|---
+|  layout: package
+|---
+
+header.page-header
+  .grid
+    .topnav-mobile.topnav-page 
+
+      //site-mobile-nav
+      | {% include site-mobile-nav.html%}
+      //end site-mobile-nav
+
+      .topnav-mobile-toggle 
+        //Nav Toggle Icons 
+        a(href="javascript:void(0);" id="nav-toggle-page" class="icon js-topnav-mobile-nav-mobile-toggle") <i class="fa fa-bars"></i>
+        a(href="javascript:void(0);" id="nav-toggle-social-page" class="share-icon-page  js-topnav-mobile-nav-mobile-toggle-share") <i class="fa fa-share-alt"></i>
+
+        //Page Nav 
+        | {% include destination-header.html %}
+        //End Page Nav
+
+// PAGE -------------------------------------------------------- END PAGE HEADER
+// PAGE ========================================= PAGE CONTENT  
+section
+  .grid
+
+    //PAGE ====================================== SHOPPING CART
+    | {% include site-shopping-cart.html %}
+    
+   
+    //CART MODAL HERE
+    |{% include site-cart-modal.html %}
+    //END CART MODAL
+
+    //PAGE -------------------------------------- END SHOPPING CART
+
+
+
+    
+    // PAGE =========================================== PAGE CONTENT HEADER
+    | {% include site-page-header.html %}   
+    // PAGE --------------------------------------- - END PAGE CONTENT HEADER
+ 
+    section.pg-content.flex
+
+      | {% assign category = site.categories%}
+      | {% assign package-trek = site.treks_and_other_activities_packages  %}
+      | {% assign package-private = site.private_safaris_packages  %}
+
+
+      //PAGE ============================================================ SIDE BAR
+      sidebar.pg-content-table
+        ul.ul-plain.quick-links
+          .badge.tilt-rt
+            p.badge-title Quick Links
+          //for loop - daytrips-collection
+          p: a(href="/daytrip.html") Day Trip
+          p: a(href="/private-safari-holiday.html") Private Safari Holiday 
+          p: a(href="/treks-and-other-activities.html") treks &amp; other activities
+      
+        
+        | {% include  site-sidebar-note.html %}
+
+
+      // PAGE ------------------------------------------------------------- END SIDE BAR
+      section.pg-section-articles.products-center
+
+        //PAGE ARTICLE ========================================================= PAGE ARTICLE
+        
+        article.article.display-article
+                |<div class="main-wrapper tilt-lft">
+                |  <div class="slider">
+                |
+                |   {% for item in page.image_corousel%}
+                |    <img class="slide {% if forloop.first %}initial{% endif%}" src="../../{{item.image}}">
+                |   {% endfor%} 
+                |  </div>
+                |  <div class="arrow arrow_prev">
+                |    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257.6 451.8">
+                |      <path d="M0,225.9c0-8.1,3.1-16.2,9.3-22.4L203.5,9.3c12.4-12.4,32.4-12.4,44.8,0c12.4,12.4,12.4,32.4,0,44.7L76.4,225.9l171.9,171.9c12.4,12.4,12.4,32.4,0,44.7c-12.4,12.4-32.4,12.4-44.7,0L9.3,248.3C3.1,242.1,0,234,0,225.9z"/>
+                |    </svg>
+                |  </div>
+                |  <div class="arrow arrow_next">
+                |    <svg class="arrow arrow_next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257.6 451.8">
+                |      <path d="M248.3,248.3L54,442.6c-12.4,12.4-32.4,12.4-44.7,0c-12.4-12.4-12.4-32.4,0-44.7l171.9-171.9L9.3,54C-3.1,41.7-3.1,21.6,9.3,9.3C21.6-3.1,41.7-3.1,54,9.3l194.3,194.3c6.2,6.2,9.3,14.3,9.3,22.4C257.6,234,254.5,242.1,248.3,248.3z"/>
+                |    </svg>
+                |  </div>
+                |</div>
+                |
+                |   <header class="align-text-center">
+                |     <p><br><br>{% for destination in page.destinations %} #️⃣ {{destination.hashtag}}{% endfor%} <br><br></p>
+                |     <p class="article-title  big"> {{page.sys.review}}</p>
+                |     <p> {{page.sys.activities}} <br></p>
+                |     
+                |   
+                |     <nav class="article-nav-bar-wrap">
+                |       <p class="article-nav-bar flex flex-around flex_wrap"> <a href="#overview" class="article-nav-link article-nav-link-current">Overview</a>  <a href="#what-to-expect" class="article-nav-link ">What to expect</a>  <a href="#what-to-see" class="article-nav-link">What to see</a>  <a href="#itinerary" class="article-nav-link ">Itinerary & Pricing</a></p></nav>
+                |    </header>
+                |
+                |
+                |    <div class="notes">
+                |     <section class="destination-overview"> 
+                |       <article class="article display-article ">
+                |        <div id="overview" class="accordion active-panel">
+                |          <h3 class="article-title zero-fit flex  flex-btn"> Overview <i class="arrow-dwn fa fa-chevron-down"></i></h3>
+                |        </div>
+                |
+                |        <div class="panel">
+                |          <div class="panel-positional">
+                |
+                |           <article id="overview">
+                |            {% for article in page.inside_scoop %}
+                |            <p> {{article.paragraph}}</p>
+                |            {% endfor %}
+                |           </article>
+                |
+                |           <article class="tour-details"> 
+                |             <p><b>When: </b> {{page.overview.tour_details.when}} </p>
+                |             <p><b>itinerary: </b><br>{%for list in page.sys.itinerary %} ⏭️ {{list.paragraph}}{%endfor%}<br></p>
+                |             <p class="pricing-btn"><b>Pricing from: </b> <b class="big">{{page.sys.price}}</b> /Person/Day</p>
+                |         
+                |            </article>
+                |
+                |           <article class="tour-logistics">
+                |              <div class="nb flex flex-btn flex_wrap "> 
+                |                <ul class="included ul-plain">
+                |                 <p> <b>Included </b> </p>
+                |                 <hr>
+                |                 {% for include in page.included %}
+                |                   <li><b>👍 </b> {{include.item}}</li>
+                |                 {% endfor %} 
+                |            
+                |                </ul>
+                |
+                |                 <ul class="excluded ul-plain">
+                |                  <p> <b>Excluded </b> </p>
+                |                  <hr>
+                |                  {% for exclude in page.excluded %}
+                |                  <li><b>  👎  </b> {{exclude.item}}</li>  
+                |                  {% endfor %} 
+                |                 </ul>
+                |             </div>
+                |
+                |             <ul class="ul-plain plz-note">
+                |               <p> <b>Please Note </b> </p>
+                |               <hr>
+                |               {% for item in page.remarks %}
+                |                 <li><b>☝</b> {{item.note}}</li>
+                |               {% endfor %}
+                |              </ul>
+                |
+                |             </article> 
+                |          </div>
+                |        </div>
+                |       </article>
+                |
+                |      </section>
+                |     
+                |      <section> 
+                |       <article class="article no-display-article no-border">
+                |          <h4>Watch the Video</h4>
+                |          <div id="what-to-expect" class="flex-video-wrap">
+                |            <div class="flex-video">
+                |              {{page.video.url}}
+                |            </div>
+                |          </div>
+                |        </article>
+                |       
+                |      </section> 
+                |      <section> 
+                |       <article class="article no-display-article">
+                |        <div id="what-to-see" class="accordion">
+                |          <h3 class="article-title zero-fit flex flex-btn"> What to see and what to do <i class="arrow-dwn fa fa-chevron-down"></i></h3>
+                |        </div>
+                |        <div class="panel">
+                |          <div class="panel-positional">
+                |   
+                |           <ul class="notes space-children ul-plain">
+                |              {% for experience in page.experience.what_to_see %}
+                |               <li><b>  🧐   </b> {{experience.paragraph}}</li>  
+                |              {% endfor %} 
+                |           </ul>
+                |          </div>
+                |        </div>
+                |       </article>
+                |      </section> 
+                |
+                |      <section> 
+                |       <article class="article no-display-article">
+                |        <div id="itinerary" class="accordion">
+                |          <h3 class="article-title zero-fit flex flex-btn"> Itinerary & Pricing <i class="arrow-dwn fa fa-chevron-down"></i></h3>
+                |        </div>
+                |        <div class="panel">
+                |          <div class="panel-positional">
+                |   
+                |           <div class="notes space-children">
+                |              {{content}}
+                |               
+                |             
+                |           </div>
+                |          
+                |          </div>
+                |         
+                |        </div>
+                |       </article>
+                |
+                |        <section class="destination-foot-note-wrap">  
+                |           <ul class="notes space-children ul-plain">
+                |              {% for item in page.footnote %}
+                |               <li><b>  🧐   </b> {{item.paragraph}}</li>  
+                |              {% endfor %} 
+                |           </ul>
+                |          <div class=" flex flex-btn align-center flex_wrap destination-foot-note">
+                |             <p> <b class="mail-to align-text-center"><a href="mailto:{{site.data.site_dada.email}}">📧 <br> get a quote.</a></b> <br><br></p>
+                | 
+                |               {% for collection in package-trek %} 
+                |                       {% if collection.url == page.url%}
+                |                            <button class="btn bag-btn tilt-rt" data-item-id="3{{forloop.index}}" data-item-price="{{page.sys.price}}" data-item-five-star-price="{{page.sys.accommodation.five_star}}" data-item-three-star-price="{{page.sys.accommodation.mid_star}}"  data-item-camp-basic="{{page.sys.accommodation.camp}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.review}}" data-item-image="{{page.sys.image.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
+                |               {% endif%}
+                |                  
+                |               {%endfor%}
+                |               {% for collection in package-private %} 
+                |                       {% if collection.url == page.url%}
+                |                            <button class="btn bag-btn tilt-rt" data-item-id="4{{forloop.index}}" data-item-price="{{page.sys.price}}" data-item-five-star-price="{{page.sys.accommodation.five_star}}" data-item-three-star-price="{{page.sys.accommodation.mid_star}}"  data-item-camp-basic="{{page.sys.accommodation.camp}}" data-item-url="{{page.url}}" data-item-location="{{page.sys.circuit}}" data-item-description="{{page.sys.review}}" data-item-image="{{page.sys.image.url}}" data-item-name="{{page.title}}"> ADD TO BUCKET </button>
+                |               {% endif%}
+                |                  
+                |               {%endfor%}
+                |                  
+                |          </div>
+                |
+                |          <div class="flex flex-col align-end news-letter-footer">
+                |              <div class="authority-signature no-mouse-events tilt-lft" style="background-image: url('./img/uploads/signature-designer.svg'); background-size: 95%; backgroung-position: cover; background-repeat: no-repeat;"> </div>
+                |              <p class="authority-name small tilt-rt"><b>🦛 Kibokoland Adventures Ltd.</b></p>
+                |          </div>
+                |        </section>
+                |
+                |
+                |      </section> 
+                |  
+                |   </div>

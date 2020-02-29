@@ -2,6 +2,7 @@
 layout: destination
 category: daytrip
 permalink: /:categories/:title/
+date: 2019-11-12 11:59:59 
 title: Natural History 📜 Museum
 subtitle: The home of Nature history
 
@@ -34,12 +35,12 @@ overview:
 
 
   tour_details:
-    when: "8:30am 6 days a week "
+    when: "8:30 am 6 days a week "
     duration: "3 Hours"
     language: "English"
-    price_includes: "includes guided visit and transport."
+
     transport: "Comfortable Mini Van"
-    itinerary: "Product Stop At: Arusha City centre>Makoa Farm>Makoa river primates> Arusha City Centre"
+  
 
   setting:
     activities: " 🚶🏽‍♂️ you will walk around with your guide, read about Germany history📜, evolution of human beings 🧬 and other organisms  ,  🛒shopping, 🤳 and lots of selfies"
@@ -68,7 +69,7 @@ overview:
 
 experience:
   what_to_see:
-    - paragraph: "<b>Artifacts &amp; documents (inscriptions, maps and photos)</b>Visiting natural history museum grants your day with, some instights on the history of Arusha region during German colonial period, a reminder on human evolution, wildlife photos and stuffed animals for closure."
+    - paragraph: "<b>Artifacts &amp; documents (inscriptions, maps and photos)</b>Visiting natural history museum grants your day with, some insights on the history of Arusha region during German colonial period, a reminder on human evolution, wildlife photos and stuffed animals for closure."
 
     - paragraph: "Botanical garden."
 
@@ -94,7 +95,7 @@ itinerary:
 
   - paragraph: "After check-in you will be greeted with the museum tour guide who will 🚶🏽‍♂️ walk  you through the museum while explaining the details and answering your interesting questions."
 
-  - paragraph: "After the inside walk around we will catch up some fresh air around the botoanical garden, visit a fish pond just next to the garden before you head back to your hotel and reflect the wonders of this old home of Nature history"
+  - paragraph: "After the inside walk around we will catch up some fresh air around the botanical garden, visit a fish pond just next to the garden before you head back to your hotel and reflect the wonders of this old home of Nature history"
 
 
 remarks:

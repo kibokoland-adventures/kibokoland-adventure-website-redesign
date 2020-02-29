@@ -2,6 +2,7 @@
 layout: destination
 category: daytrip
 permalink: /:categories/:title/
+date: 2019-11-11 11:59:59 
 title: Mkomazi National Park
 subtitle: "Massive uncrowded refuge for Wild dogs and Black Rhino"
 
@@ -35,7 +36,7 @@ overview:
   tour_details:
     when: "open 7 days a week 6am to 6pm"
     duration: "6 Hours"
-    transport: "Toyota Landcruiser."
+    transport: "Toyota Land-cruiser."
     
   setting:
     activities: "watching wildlife, bird watching and walking safaris "
@@ -65,7 +66,7 @@ experience:
     - paragraph: "<b>Birdwatching</b> With over  400 bird species, Mkomazi is a birder’s delight. Bird species to watch for include various Red-fronted Tinkerbirds, Rosy-Patched Bushshrikes, Friedmann's Larks, Red-backed Scrub-robins, Tsavo Sunbirds, Green-winged Pytilias. "
 
 
-    - paragraph: "<b>Walking Safaris</b> Multi-hour guided bush walks can be arranged at Zange gate.<br> <i> <b>Please note</b>: only 12 years and older are alowed on a bush walking safaris in Mkomazi National Park)</i>"
+    - paragraph: "<b>Walking Safaris</b> Multi-hour guided bush walks can be arranged at Zange gate.<br> <i> <b>Please note</b>: only 12 years and older are allowed on a bush walking safaris in Mkomazi National Park)</i>"
 
   
 expect:
@@ -75,7 +76,7 @@ expect:
 itinerary:
   - paragraph: "We will pick you up from your hotel and drive to Mkomazi National Park, a 190 km drive from Arusha. Mkomazi lies 6 kilometers from same, the nearest town. "
 
-  - paragraph: "Upon arrival we shall check in at Zange gate. After checking in we will wind our way deeper in the park and immediately start our game drive till noon when we shall have our picnic lunch. We will search for the Wild dogs, the endangered Black Rhino, the odd-looking Gerenuk and Lesser Kudu while enjoyng the common game of this uncrowded refuge; Mkomazi National Park."
+  - paragraph: "Upon arrival we shall check in at Zange gate. After checking in we will wind our way deeper in the park and immediately start our game drive till noon when we shall have our picnic lunch. We will search for the Wild dogs, the endangered Black Rhino, the odd-looking Gerenuk and Lesser Kudu while enjoying the common game of this uncrowded refuge; Mkomazi National Park."
  
   - paragraph: "Soon after all tour activities we will 👋 wave goodbye to Mkomazi National Park and start the drive back to Arusha where the safari ends by dropping you off at your booked hotel."
 
