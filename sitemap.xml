@@ -1,0 +1,36 @@
+---
+---
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  {% for post in site.posts %}
+    {% if post.layout %}
+      {% include sitemap-entry.xml entry=post %}
+    {% endif %}
+  {% endfor %}
+
+  {% for page in site.pages %}
+    {% if page.layout %}
+      {% include sitemap-entry.xml entry=page %}
+    {% endif %}
+  {% endfor %}
+
+  {% for package in site.private_safaris_packages%}
+    {% if comet.layout %}
+      {% include sitemap-entry.xml entry=package %}
+    {% endif %}
+  {% endfor %}
+
+  {% for package in site.treks_and_other_activities_packages%}
+    {% if comet.layout %}
+      {% include sitemap-entry.xml entry=package %}
+    {% endif %}
+  {% endfor %}
+
+  {% for letter in site.newsletters%}
+    {% if comet.layout %}
+      {% include sitemap-entry.xml entry=package %}
+    {% endif %}
+  {% endfor %}
+
+</urlset>
