@@ -1,7 +1,7 @@
 
 <!-- HOME NEWSLATTER ARTICLE  ========================================= HOME NEWSLATTER ARTICLE-->{% assign letters = site.newsletters  %}
 <section class="news-letter flex col">
-{% for article in letters %}
+{% for article in letters limit:1 %}
    <article class="article col-100 grid">
 		<small class="newsletter-date tilt-rt">⌚ {{article.date | date_to_string }}</small>
 		 {{article.content}}
