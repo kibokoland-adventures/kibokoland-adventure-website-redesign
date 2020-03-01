@@ -351,7 +351,7 @@ function watchTask(done) {
   }
 
   gulp.watch(sassFiles, sassCompileTask);
-  gulp.watch(ymlReload, gulp.series(pugCompileTask,jekyllBuildTask,browserSyncReloadTask));
+  gulp.watch(ymlReload, gulp.series(jekyllBuildTask,browserSyncReloadTask ));
   gulp.watch(jsFiles, gulp.series(jsCompileTask, browserSyncReloadTask));
   gulp.watch(imgFiles, imgOptimizeTask);
   gulp.watch(pugWatchFiles, gulp.series(pugCompileTask, jekyllBuildTask, gulp.parallel(sassTask, jsCompileTask,imgOptimizeTask), browserSyncReloadTask));

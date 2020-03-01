@@ -19,12 +19,25 @@
 					<label for="start-date"><b>Start Date</b> <br><input type="date" id="start_date" name="start-date" required></label>
 					<label for="end-date"><b>End Date</b> <br><input  type="date" id="end_date" name="end-dates" required></label>
 				</div>
+				<div class="flex flex-col form-col-2"><br><br>
+					<p><b>Safari Type</b></p>
+					<div class="flex flex-btn">
+						<label for="delux"><b>Delux</b>
+							<input type="radio" id="delux" name="safari-type" value="Delux" required="required"/>
+						</label>
+						<label for="midrange"><b>Midrange</b>
+							<input type="radio" id="midrange" name="safari-type" value="Midrange"/>
+						</label>
+						<label for="basic"><b>Basic</b>
+							<input type="radio" id="basic" name="safari-type" value="Basic"/>
+						</label><br><br><br>
+					</div>
+				</div>
 				<div class="flex flex-btn form-col-2">
 					<label for="pick-up"><b>Pick-up 🛬 </b> <br>
 						<select id="pick-up-points" name="pick-up-points" value="-- Pick a location ---" required="required">
 							<option>I don't know yet</option>
-							<option>Kiboko Land Adventure's Office - free</option>
-							<option>Arusha - free</option>
+							<option>Arusha </option>
 							<option>Kilimanjaro Airport (JRO)</option>
 							<option>Dar es Salaam </option>
 							<option>Other </option>
@@ -33,8 +46,7 @@
 					<label for="drop-off"><b>Drop-off 🛫 </b> <br>
 						<select id="drop-off-points" name="drop-off-points" value="-- Pick a location ---" required="required">
 							<option>I don't know yet</option>
-							<option>Kiboko Land Adventure's Office - free</option>
-							<option>Arusha Airport - free</option>
+							<option>Arusha Airport </option>
 							<option>Kilimanjaro Airport (JRO)</option>
 							<option>Dar es Salaam </option>
 							<option>Other </option>

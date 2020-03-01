@@ -132,12 +132,12 @@
 
 		addCartItem(item){
 			const div = document.createElement("fieldset");
-			const itineraryDestination = item.itemName+ "  \t📢 "+ item.itemLocation
+			const itineraryDestination = item.itemName+ "\n \n  📦\t"+ item.itemUrl + "\n \n"
 			let list = "";
 
 
 			
-			list = "✅ "+ itineraryDestination + "\n"
+			list = "✅ "+ itineraryDestination+ "\n"
 
 			itineraryDOM.value += list;
 

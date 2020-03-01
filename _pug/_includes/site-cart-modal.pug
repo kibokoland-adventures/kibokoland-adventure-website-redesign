@@ -21,13 +21,25 @@
           label(for="start-date") <b>Start Date</b> <br><input type="date" id="start_date" name="start-date" required>
           label(for="end-date") <b>End Date</b> <br><input  type="date" id="end_date" name="end-dates" required>
 
-        
+        .flex.flex-col.form-col-2
+          <br><br>
+          p <b>Safari Type</b>
+          .flex.flex-btn
+            label(for="delux") <b>Delux</b>
+              input(type="radio" id="delux" name="safari-type" value="Delux" required)
+            
+            label(for="midrange") <b>Midrange</b>
+              input(type="radio" id="midrange" name="safari-type" value="Midrange")
+            
+            label(for="basic") <b>Basic</b>
+              input(type="radio" id="basic" name="safari-type" value="Basic")
+            <br><br><br>
+          
         .flex.flex-btn.form-col-2
           label(for="pick-up") <b>Pick-up 🛬 </b> <br>
             select(id="pick-up-points" name="pick-up-points" value="-- Pick a location ---" required)
               option I don't know yet
-              option Kiboko Land Adventure's Office - free
-              option Arusha - free
+              option Arusha 
               option Kilimanjaro Airport (JRO)
               option Dar es Salaam 
               option Other 
@@ -35,8 +47,7 @@
           label(for="drop-off") <b>Drop-off 🛫 </b> <br>
             select(id="drop-off-points" name="drop-off-points" value="-- Pick a location ---" required)
               option I don't know yet
-              option Kiboko Land Adventure's Office - free
-              option Arusha Airport - free
+              option Arusha Airport 
               option Kilimanjaro Airport (JRO)
               option Dar es Salaam 
               option Other 

@@ -57,22 +57,6 @@ section
       
         
         | {% include  site-sidebar-note.html %}
-              
-        |<section class="services-articles flex flex-btn flex_wrap">
-        |   <div class="badge"> 
-        |   <p class="badge-title tilt-lft">Our Handpicked Lists</p> 
-        |   <p>Your friends really knew what was best. Download and sample to see what they got.</p></div>
-        |     {% for itinerary in site.itineraries%}
-        |     <br><br>
-        |     <article class=" sample-itinerary services-article col-30-side-bar  txt-center flex flex-col flex-around align-center">
-        |              <div class="thumb thumb-flex tilt-rt" style="background-image: url('../../{{itinerary.image}}'); background-size: cover; background-repeat: no-repeat;"></div>
-        |              <h4 class="thumb-title title-1 zero-fit quote-left" style="background-image: url('../../img/quote-left.png'); background-size: 100%; background-position: center center; background-repeat: no-repeat;"></h4>
-        |              <p class="user-comment"><b>{{itinerary.description}}</b></p>
-        |        <a href="../../{{itinerary.file}}">
-        |         <button class="btn tilt-rt"><b class='big'>📥</b>View</button></a>
-        |           </article>
-        |       {% endfor %}
-        |</section>
 
       // PAGE ------------------------------------------------------------- END SIDE BAR
       section.pg-section-articles.products-center

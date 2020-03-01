@@ -71,8 +71,8 @@ collections:
                     widget: "string"
 
 
-  - name: "Pages"
-    label: "pages"
+  - name: "pages"
+    label: "Static Pages"
     identifier_field: name
     files:
       
@@ -122,29 +122,20 @@ collections:
             fields:
               - {label: "Benefit", name: "paragraph", widget: "string"}
 
-      - label: "Before You Travel"
-        name: "beforeyoutravel"
-        folder: "_before_you_travel/"
-        create: true
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "daytrip" # Used in routes, e.g., /admin/collections/blog
-    label: "Day Trips Destinations" # Used in the UI
-    folder: "_posts/daytrip" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "destination"}
-      - {label: "Category", name: "daytrip", widget: "hidden", default: "daytrip"}
-      - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:title/"}
+  - label: "Before You Travel Info"
+    name: "_before_you_travel"
+    folder: "_before_you_travel/"
+    slug: "{{slug}}"
+    create: true
+    fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+      
 
 
   - name: "private-safari" # Used in routes, e.g., /admin/collections/blog
-    label: "Private Safaris" # Used in the UI
+    label: "Private Safaris Destinations" # Used in the UI
     folder: "_posts/private-safari" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -154,15 +145,560 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:title/"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - label: "Destination Metadata"
+        name: "sys"
+        widget: "object"
+        fields: 
+          - {label: "Icon", name: "icon", widget: "string"}
+          - {label: "Price Tag", name: "price", widget: "string"}
+          - {label: "Location", name: "circuit", widget: "string"}
+          - {label: "Best Time To Visit", name: "best_time", widget: "string"}
+          - {label: "Customer Review", name: "review", widget: "string"}
+          - label: "Featured Image"
+            name: "image"
+            widget: "object"
+            fields:
+              - {label: "Alt Tag", name: "alt", widget: "string"}
+              - {label: "Image", name: "url", widget: "image"}
+
+
+
+      - label: "Slide Show Images"
+        name: "image_corousel"
+        allow_add: true 
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+
+
+
+
+      - label: "Body"
+        name: "overview"
+        widget: "object"
+        fields:
+          - label: "overview"
+            name: "intro"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "paragraph", name: "paragraph", widget: "markdown"}
+
+          - label: "Destination Logistics"
+            name: "tour_details"
+            widget: "object"
+            fields:
+              - {label: "When", name: "when", widget: "string"}
+              - {label: "duration", name: "duration", widget: "string"}
+              - {label: "transport", name: "transport", widget: "string"}
+          - label: "Destination Summary"
+            name: "setting"
+            widget: "object"
+            fields:
+              - {label: "Activities", name: "activities", widget: "string"}
+              - {label: "Tags", name: "hashtags", widget: "string"}
+          
+          - label: "Included"
+            name: "included"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "item", name: "item", widget: "string"}
+          - label: "Excluded"
+            name: "excluded"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "item", name: "item", widget: "string"}
+          - label: "Important Note"
+            name: "remarks"
+            widget: "list"
+            allow_add: true
+            fields: 
+              - {label: "note", name: "note", widget: "string"}
+
+      - label: "Expected Experience"
+        name: "experience"
+        widget: "object"
+        fields:
+          - label: "What To See or Do"
+            name: "what_to_see"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "paragraph", name: "paragraph", widget: "string"}
+
+      - label: "Video"
+        name: "expect"
+        widget: "object"
+        fields: 
+          - label: "Video Embed Link"
+            name: "video"
+            widget: "object"
+            fields:
+              - {label: "Video Link form Youtube", name: "url", widget: "string"}
+
+
+      - label: "Tour Itinerary"
+        name: "itinerary"
+        widget: "list"
+        fields:
+          - {label: "paragraph", name: "paragraph", widget: "markdown"}
+      - label: "Remarks"
+        name: "remarks"
+        widget: "list"
+        fields:
+          - {label: "paragraph", name: "paragraph", widget: "markdown"}
 
   - name: "treks-and-other-activities" # Used in routes, e.g., /admin/collections/blog
-    label: "Treks And Other Activities" # Used in the UI
+    label: "Treks Destinations" # Used in the UI
     folder: "_posts/treks-and-other-activities" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "destination"}
-      - {label: "Category", name: "private-safari", widget: "hidden", default: "private-safari"}
+      - {label: "Category", name: "ptreks-and-other-activities", widget: "hidden", default: "treks-and-other-activities"}
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:title/"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - label: "Destination Metadata"
+        name: "sys"
+        widget: "object"
+        fields: 
+          - {label: "Icon", name: "icon", widget: "string"}
+          - {label: "Price Tag", name: "price", widget: "string"}
+          - {label: "Location", name: "circuit", widget: "string"}
+          - {label: "Best Time To Visit", name: "best_time", widget: "string"}
+          - {label: "Customer Review", name: "review", widget: "string"}
+          - label: "Featured Image"
+            name: "image"
+            widget: "object"
+            fields:
+              - {label: "Alt Tag", name: "alt", widget: "string"}
+              - {label: "Image", name: "url", widget: "image"}
+
+
+
+      - label: "Slide Show Images"
+        name: "image_corousel"
+        allow_add: true 
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+
+
+
+
+      - label: "Body"
+        name: "overview"
+        widget: "object"
+        fields:
+          - label: "overview"
+            name: "intro"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "paragraph", name: "paragraph", widget: "markdown"}
+
+          - label: "Destination Logistics"
+            name: "tour_details"
+            widget: "object"
+            fields:
+              - {label: "When", name: "when", widget: "string"}
+              - {label: "duration", name: "duration", widget: "string"}
+              - {label: "transport", name: "transport", widget: "string"}
+          - label: "Destination Summary"
+            name: "setting"
+            widget: "object"
+            fields:
+              - {label: "Activities", name: "activities", widget: "string"}
+              - {label: "Tags", name: "hashtags", widget: "string"}
+          
+          - label: "Included"
+            name: "included"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "item", name: "item", widget: "string"}
+          - label: "Excluded"
+            name: "excluded"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "item", name: "item", widget: "string"}
+          - label: "Important Note"
+            name: "remarks"
+            widget: "list"
+            allow_add: true
+            fields: 
+              - {label: "note", name: "note", widget: "string"}
+
+      - label: "Expected Experience"
+        name: "experience"
+        widget: "object"
+        fields:
+          - label: "What To See or Do"
+            name: "what_to_see"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "paragraph", name: "paragraph", widget: "string"}
+
+      - label: "Video"
+        name: "expect"
+        widget: "object"
+        fields: 
+          - label: "Video Embed Link"
+            name: "video"
+            widget: "object"
+            fields:
+              - {label: "Video Link form Youtube", name: "url", widget: "string"}
+
+
+      - label: "Tour Itinerary"
+        name: "itinerary"
+        widget: "list"
+        fields:
+          - {label: "paragraph", name: "paragraph", widget: "markdown"}
+      - label: "Remarks"
+        name: "remarks"
+        widget: "list"
+        fields:
+          - {label: "paragraph", name: "paragraph", widget: "markdown"}
+
+
+
+
+
+
+
+  - name: "daytrip" # Used in routes, e.g., /admin/collections/blog
+    label: "Day Trips" # Used in the UI
+    folder: "_posts/daytrip" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "destination"}
+      - {label: "Category", name: "daytrip", widget: "hidden", default: "daytrip"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:categories/:title/"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - label: "Destination Metadata"
+        name: "sys"
+        widget: "object"
+        fields: 
+          - {label: "Icon", name: "icon", widget: "string"}
+          - {label: "Price Tag", name: "price", widget: "string"}
+          - {label: "Location", name: "circuit", widget: "string"}
+          - {label: "Best Time To Visit", name: "best_time", widget: "string"}
+          - {label: "Customer Review", name: "review", widget: "string"}
+          - label: "Featured Image"
+            name: "image"
+            widget: "object"
+            fields:
+              - {label: "Alt Tag", name: "alt", widget: "string"}
+              - {label: "Image", name: "url", widget: "image"}
+
+
+
+      - label: "Slide Show Images"
+        name: "image_corousel"
+        allow_add: true 
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+
+
+
+
+      - label: "Body"
+        name: "overview"
+        widget: "object"
+        fields:
+          - label: "overview"
+            name: "intro"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "paragraph", name: "paragraph", widget: "markdown"}
+
+          - label: "Destination Logistics"
+            name: "tour_details"
+            widget: "object"
+            fields:
+              - {label: "When", name: "when", widget: "string"}
+              - {label: "duration", name: "duration", widget: "string"}
+              - {label: "transport", name: "transport", widget: "string"}
+          - label: "Destination Summary"
+            name: "setting"
+            widget: "object"
+            fields:
+              - {label: "Activities", name: "activities", widget: "string"}
+              - {label: "Tags", name: "hashtags", widget: "string"}
+          
+          - label: "Included"
+            name: "included"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "item", name: "item", widget: "string"}
+          - label: "Excluded"
+            name: "excluded"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "item", name: "item", widget: "string"}
+          - label: "Important Note"
+            name: "remarks"
+            widget: "list"
+            allow_add: true
+            fields: 
+              - {label: "note", name: "note", widget: "string"}
+
+      - label: "Expected Experience"
+        name: "experience"
+        widget: "object"
+        fields:
+          - label: "What To See or Do"
+            name: "what_to_see"
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "paragraph", name: "paragraph", widget: "string"}
+
+      - label: "Video"
+        name: "expect"
+        widget: "object"
+        fields: 
+          - label: "Video Embed Link"
+            name: "video"
+            widget: "object"
+            fields:
+              - {label: "Video Link form Youtube", name: "url", widget: "string"}
+
+
+      - label: "Tour Itinerary"
+        name: "itinerary"
+        widget: "list"
+        fields:
+          - {label: "paragraph", name: "paragraph", widget: "markdown"}
+      - label: "Remarks"
+        name: "remarks"
+        widget: "list"
+        fields:
+          - {label: "paragraph", name: "paragraph", widget: "markdown"}
+
+
+
+
+
+  - name: "private_safari_packages" # Used in routes, e.g., /admin/collections/blog
+    label: "Private Safari Packages" # Used in the UI
+    folder: "_private_safaris_packages/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "package-itinerary"}
+      - {label: "Category", name: "private-safari", widget: "hidden", default: "private-safari"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:collection/:title/"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      
+      - label: "Destination Metadata"
+        name: "sys"
+        widget: "object"
+        fields: 
+          - {label: "icon(s)", name: "icon", widget: "string"}
+          - {label: "circuit", name: "circuit", widget: "string"}
+          - {label: "Customer Review", name: "review", widget: "string"}
+          - {label: "Package Base Price", name: "price", widget: "string"}
+          - {label: "Best Time To Visit", name: "best_time", widget: "string"}
+          
+          - label: "Featured Image"
+            name: "image"
+            widget: "object"
+            fields: 
+              - {label: "Altenative Text", name: "alt", widget: "string"}
+              - {label: "Image File", name: "url", widget: "image"}
+          
+          - label: "Itinerary Summary"
+            name: "itinerary"
+            widget: "list"
+            fields:
+              - {label: "paragraph", name: "paragraph", widget: "markdown"}
+          
+          - {label: "Possible Activities" ,name: "activities", widget: "string"}
+      
+
+      - label: "Destinations Coverered"
+        name: "destinations"
+        widget: "list"
+        fields:
+          - {label: "Destination", name: "hashtag", widget: "string"}
+      - label: "What To Experience"
+        name: "experience"
+        widget: "object"
+        fields:
+          - label: "What To See or Do"
+            name: "what_to_see"
+            widget: "list"
+            fields:
+              - {label: "paragraph", name: "paragraph", widget: "markdown"}
+
+      - label: "What Is Included"
+        name: "included"
+        widget: "list"
+        fields:
+          - {label: "Included", name: "item", widget: "string"}
+
+      - label: "What Is Excluded"
+        name: "excluded"
+        widget: "list"
+        fields:
+          - {label: "Excluded", name: "item", widget: "string"}
+
+      - label: "Important Note"
+        name: "remarks"
+        allow_add: true
+        widget: "list"
+        fields:
+          - {label: "note", name: "note", widget: "string"}
+
+      - label: "Embeded Video"
+        name: "video"
+        widget: "object"
+        fields: 
+          - {label: "Video Link From Youtube", name: "url", widget: "string"}
+
+      - label: "Package Overview"
+        name: "inside_scoop"
+        allow_add: true
+        widget: "list"
+        fields:
+          - {label: "paragraph", name: "paragraph", widget: "markdown"}
+
+      - label: "Image Slide"
+        name: "image_corousel"
+        allow_add: true
+        widget: "list"
+        fields: 
+          - {label: "Image", name: "image", widget: "image"}
+      - label: "Remarks"
+        name: "remarks"
+        allow_add: true
+        widget: "list"
+        fields:
+          - {label: "paragraph", name: "paragraph", widget: "markdown"}
+
+      - label: "Package Itinerary Content"
+        name: "body"
+        widget: "markdown"
+
+
+
+
+  - name: "treks_and_other_activities_packages" # Used in routes, e.g., /admin/collections/blog
+    label: "Treking Safari Packages" # Used in the UI
+    folder: "_treks_and_other_activities_packages/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "package-itinerary"}
+      - {label: "Category", name: "treks-and-other-activities", widget: "hidden", default: "treks-and-other-activities"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: "/:collection/:title/"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+
+      - label: "Destination Metadata"
+        name: "sys"
+        widget: "object"
+        fields: 
+          - {label: "icon(s)", name: "icon", widget: "string"}
+          - {label: "circuit", name: "circuit", widget: "string"}
+          - {label: "Customer Review", name: "review", widget: "string"}
+          - {label: "Package Base Price", name: "price", widget: "string"}
+          - {label: "Best Time To Visit", name: "best_time", widget: "string"}
+          
+          - label: "Featured Image"
+            name: "image"
+            widget: "object"
+            fields: 
+              - {label: "Altenative Text", name: "alt", widget: "string"}
+              - {label: "Image File", name: "url", widget: "image"}
+          
+          - label: "Itinerary Summary"
+            name: "itinerary"
+            widget: "list"
+            fields:
+              - {label: "paragraph", name: "paragraph", widget: "markdown"}
+          
+          - {label: "Possible Activities" ,name: "activities", widget: "string"}
+      
+
+      - label: "Destinations Coverered"
+        name: "destinations"
+        widget: "list"
+        fields:
+          - {label: "Destination", name: "hashtag", widget: "string"}
+      - label: "What To Experience"
+        name: "experience"
+        widget: "object"
+        fields:
+          - label: "What To See or Do"
+            name: "what_to_see"
+            widget: "list"
+            fields:
+              - {label: "paragraph", name: "paragraph", widget: "markdown"}
+
+      - label: "What Is Included"
+        name: "included"
+        widget: "list"
+        fields:
+          - {label: "Included", name: "item", widget: "string"}
+
+      - label: "What Is Excluded"
+        name: "excluded"
+        widget: "list"
+        fields:
+          - {label: "Excluded", name: "item", widget: "string"}
+
+      - label: "Important Note"
+        name: "remarks"
+        allow_add: true
+        widget: "list"
+        fields:
+          - {label: "note", name: "note", widget: "string"}
+
+      - label: "Embeded Video"
+        name: "video"
+        widget: "object"
+        fields: 
+          - {label: "Video Link From Youtube", name: "url", widget: "string"}
+
+      - label: "Package Overview"
+        name: "inside_scoop"
+        allow_add: true
+        widget: "list"
+        fields:
+          - {label: "paragraph", name: "paragraph", widget: "markdown"}
+
+      - label: "Image Slide"
+        name: "image_corousel"
+        allow_add: true
+        widget: "list"
+        fields: 
+          - {label: "Image", name: "image", widget: "image"}
+      - label: "Remarks"
+        name: "remarks"
+        allow_add: true
+        widget: "list"
+        fields:
+          - {label: "paragraph", name: "paragraph", widget: "markdown"}
+
+      - label: "Package Itinerary Content"
+        name: "body"
+        widget: "markdown"

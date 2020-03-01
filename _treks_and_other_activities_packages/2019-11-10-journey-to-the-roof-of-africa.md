@@ -4,7 +4,7 @@ category: treks-and-other-activities
 collection: "treks_and_other_activities_packages"
 date: 2019-11-10 11:59:59 
 permalink: /:collection/:title/
-title: "The ultimate 6 Days "
+title: "The ultimate Kilimanjaro 6 Days Climb "
 subtitle: "KINDNESS IS A LANGUAGE BLIND PEOPLE SEE AND DEAF PEOPLE HEAR"
 
 destinations:

@@ -3,7 +3,7 @@ layout: package-itinerary
 category: private-safari
 date: 2019-11-10 11:59:59 
 permalink: /:collection/:title/
-title: "Tanzania's Best "
+title: "Tanzania's Best in 6 Days Safari "
 subtitle: "When wild is all you dream"
 
 destinations:
@@ -47,6 +47,7 @@ sys:
     - paragraph: 'Full Day in <a href="http://localhost:3000/private-safari/ngorongoro-conservation-area/">Ngorongoro Crater</a>'
     - paragraph: "Game Drive in Serengeti and Transfer to Arusha"
     - paragraph: "Departure"
+
   activities: "Game driving, Bird watching, walking safaris, Night Drives"
 
 included:
@@ -145,8 +146,7 @@ Your tour has come to end, today we drive you to the airport for your departure.
 
 | Number Of People  | 1-3                                               | 3-5                                               | 7-8                                               |   
 |------------------ |-------------------------------------------------- |-------------------------------------------------- |-------------------------------------------------- |
-|<b>Price/Person/Day</b>                                                                                                                                                               |
-|-----------------------------------------------------------------------|---------------------------------------------------|----------------------------------------------------|
+|<b>Price/Person/Day</b>                            |
 |           Luxury:        |     <b>$1293</b>                                     | <b>$1293</b>                                     |   <b>$1293</b>                                     |
 |            Midrange:       | <b>$1236</b>                                   |  <b>$1236</b>                                   |   <b>$1236</b>                                   |
 |            Basic:       |   <b>$1200</b>                                      |   <b>$1200</b>                                      |  <b>$1200</b>                                      |

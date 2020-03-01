@@ -3,7 +3,7 @@ layout: package-itinerary
 category: private-safari
 date: 2019-11-10 11:59:59 
 permalink: /:collection/:title/
-title: "The Ultimate Northern "
+title: "The Ultimate Northern in 5 Days Safari "
 subtitle: "When wild is all you dream"
 
 destinations:

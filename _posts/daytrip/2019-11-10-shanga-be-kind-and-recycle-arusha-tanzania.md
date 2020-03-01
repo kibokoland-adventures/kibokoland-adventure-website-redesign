@@ -27,6 +27,8 @@ image_corousel:
   - image: "./img/uploads/shanga-be-king-and-recycle-people-kibokolandadventure.jpg"
   - image: "./img/uploads/shanga-be-king-and-recycle-frames-kibokolandadventure.jpg"
   - image: "./img/uploads/shanga-be-king-and-recycle-rings-kibokolandadventure.jpg"
+
+
 overview:
 
 
@@ -63,6 +65,7 @@ overview:
 
 
 experience:
+
   what_to_see:
     - paragraph: "30 min   Guided workshop tour with 'try' activities including glass blowing"
 
