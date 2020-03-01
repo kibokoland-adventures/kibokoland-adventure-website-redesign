@@ -1,8 +1,7 @@
 backend:
-  name: git-gateway
-  branch: master
-#  repo: i-meets-i/kibokoland-adventure-website-redesign
-#  branch: master #Branch to update
+  name: github
+  repo: i-meets-i/kibokoland-adventure-website-redesign
+  branch: master #Branch to update
 
 media_folder: "_img/uploads"
 public_folder: "uploads"
