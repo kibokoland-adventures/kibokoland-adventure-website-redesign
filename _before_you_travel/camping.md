@@ -1,6 +1,5 @@
 ---
-title: Camping
-
+title: Camping In Tanzania
 ---
 
 **Preparing for your camping safari in Tanzania**
