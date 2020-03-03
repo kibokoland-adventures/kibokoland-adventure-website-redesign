@@ -1,25 +1,24 @@
-tel: 0786163920
+tel: +255 786 887492
 email: info@kibokolandadventures.com
-terms_and_conditions: "/img/uploads/terms-and-conditions-kibokoland-adventures.pdf"
-
+terms_and_conditions: /img/uploads/terms-and-conditions-kibokoland-adventures.pdf
 social:
   facebook:
-    user_name: "@kibokolandadventures"
-    url: "#"
+    user_name: '@kibokolandadventures'
+    url: 'https://www.facebook.com/kibokolandadventure/'
   instagram:
-    user_name: "@kibokolandadventures"
-    url: "#"
+    user_name: '@kibokolandadventures'
+    url: 'https://www.instagram.com/kibokoland_adventures/'
   twitter:
-    user_name: "@kibokolandadventures"
-    url: "#"
+    user_name: '@kibokolandadventures'
+    url: '#'
   trip_advisor:
-    user_name: "@kibokolandadventures"
-    url: "#"
-    
+    user_name: '@kibokolandadventures'
+    url: >-
+      https://www.tripadvisor.com/Attraction_Review-g297913-d11963991-Reviews-Kibokoland_Adventures-Arusha_Arusha_Region.html
 memberships:
-  - url:
+  - url: null
     logo: ./img/uploads/ttb-kibokoland-adventures.png
-  - url:
+  - url: null
     logo: ./img/uploads/tato-kibokoland-adventures.jpg
-  - url:
+  - url: null
     logo: ./img/uploads/tanapa-kibokoland-adventures.jpg
