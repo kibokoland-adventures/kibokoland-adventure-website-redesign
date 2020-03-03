@@ -161,7 +161,6 @@ collections:
             name: "image"
             widget: "object"
             fields:
-              - {label: "Alt Tag", name: "alt", widget: "string"}
               - {label: "Image", name: "url", widget: "image"}
 
 
@@ -277,7 +276,6 @@ collections:
             name: "image"
             widget: "object"
             fields:
-              - {label: "Alt Tag", name: "alt", widget: "string"}
               - {label: "Image", name: "url", widget: "image"}
 
 
@@ -400,7 +398,6 @@ collections:
             name: "image"
             widget: "object"
             fields:
-              - {label: "Alt Tag", name: "alt", widget: "string"}
               - {label: "Image", name: "url", widget: "image"}
 
 
@@ -523,7 +520,6 @@ collections:
             name: "image"
             widget: "object"
             fields: 
-              - {label: "Altenative Text", name: "alt", widget: "string"}
               - {label: "Image File", name: "url", widget: "image"}
           
           - label: "Itinerary Summary"
@@ -589,7 +585,7 @@ collections:
         fields: 
           - {label: "Image", name: "image", widget: "image"}
       - label: "Remarks"
-        name: "remarks"
+        name: "footnote"
         allow_add: true
         widget: "list"
         fields:
@@ -629,7 +625,6 @@ collections:
             name: "image"
             widget: "object"
             fields: 
-              - {label: "Altenative Text", name: "alt", widget: "string"}
               - {label: "Image File", name: "url", widget: "image"}
           
           - label: "Itinerary Summary"
@@ -695,7 +690,7 @@ collections:
         fields: 
           - {label: "Image", name: "image", widget: "image"}
       - label: "Remarks"
-        name: "remarks"
+        name: "footnote"
         allow_add: true
         widget: "list"
         fields:
