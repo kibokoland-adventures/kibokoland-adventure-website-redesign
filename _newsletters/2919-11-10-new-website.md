@@ -16,4 +16,5 @@ Help us easy this! We expect your feedback; maybe you notice a miss-design direc
 
 Please do let our designer know below.
 
-### [📧 mail-peter 👍](<<a href="mailto:petergabrieltz@gmail.com"></a>>)
+### [📧 mail-peter 👍](mailto:petergabrieltz@gmail.com?subject=[Kibokoland Adventure Website] Source Han Sans)
+
