@@ -1,12 +1,15 @@
 backend:
-  name: github
-  repo: i-meets-i/kibokoland-adventure-website-redesign
-  branch: master #Branch to update
+  backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+  #name: github
+  #repo: i-meets-i/kibokoland-adventure-website-redesign
+  #branch: master #Branch to update
   preview_context: webmasterskla/deployment
 publish_mode: editorial_workflow
 
 media_folder: "_img/uploads"
-public_folder: "uploads"
+public_folder: "/img/uploads"
 
 collections:
   - name: "website-settings"
