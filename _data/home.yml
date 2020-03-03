@@ -1,42 +1,32 @@
 fold:
-  tagline: "Safari Holidays that inspire"
+  tagline: Safari Holidays that inspire
   background_image: ./img/uploads/wildlife-safari-with-the-giants-kibokoland-adventures.jpg
-
-  #why kibokoland
   why_kla:
     personalized:
       icon: ./img/brands-personalized.svg
-      title: "Personalized Safaris"
-      sub_title: "you always come first"
+      title: Personalized Safaris
+      sub_title: you always come first
     impact:
       icon: ./img/brands-eco.svg
-      title: "Positive Impact"
-      sub_title: "you define your purpose. we inspire the impact"
+      title: Positive Impact
+      sub_title: you define your purpose. we inspire the impact
     booking:
       icon: ./img/brands-bell.svg
-      title: "Book with confidence"
-      sub_title: "instant confirmation"
-
-#products
+      title: Book with confidence
+      sub_title: instant confirmation
 services_kla:
   - thumb: ./img/uploads/daytrip-tanzania-safari-kibokoland-adventures.jpg
-    title: "Day Trip"
-    lead: "Join our daily trips to make most of Tanzania is safari destinations"
+    title: Day Trip
+    lead: Join our daily trips to make most of Tanzania's safari destinations
     url: ./daytrip.html
     button_tilt: lft
-
-  - thumb: "./img/uploads/private-safari-holiday-tanzania-kibokoland-adventures.jpg"
-    title: "PRIVATE SAFARI HOLIDAY"
-    lead: "Flexible and Customized safari holiday just for you and your friends"
+  - thumb: ./img/uploads/private-safari-holiday-tanzania-kibokoland-adventures.jpg
+    title: PRIVATE SAFARI HOLIDAY
+    lead: Flexible and Customized safari holiday just for you and your friends
     url: ./private-safari-holiday.html
     button_tilt: rt
-
-  - thumb: "./img/uploads/activity-safaris-tanzania-kibokoland-adventures.jpg"
-    title: "TREKS & OTHER ACTIVITIES"
-    lead: "Checkout some fun & inspiring things to do in Tanzania"
+  - thumb: ./img/uploads/activity-safaris-tanzania-kibokoland-adventures.jpg
+    title: TREKS & OTHER ACTIVITIES
+    lead: Checkout some fun & inspiring things to do in Tanzania
     url: ./treks-and-other-activities.html
     button_tilt: lft
-    
-
-
-      
