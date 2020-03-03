@@ -373,7 +373,7 @@ const buildProductionTask = gulp.series(buildTask, gulp.parallel(htmlMinifyTask,
  */
 
 const localBuild = gulp.series(buildTask, gulp.parallel(watchTask, browserSyncTask))
-const defaultTask = gulp.series(buildTask);
+const defaultTask = gulp.series(buildProductionTask);
 
 /**
  * Export tasks to the outside context in order to make them public.
