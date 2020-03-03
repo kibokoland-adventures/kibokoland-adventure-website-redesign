@@ -8,6 +8,7 @@
   },
   "scripts": {
     "prebuild": "rebuild-node-sass",
+    "gulptask": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
