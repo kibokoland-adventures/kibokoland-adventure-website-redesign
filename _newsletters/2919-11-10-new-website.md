@@ -1,10 +1,8 @@
 ---
-title: "You simply asked, and we listened! 🦛"
-date: 2019-11-10
+title: "You simply asked, and we listened! \U0001F99B"
+date: 2019-11-10T00:00:00.000Z
 ---
-
 ## You simply asked, and we listened! 🦛
-
 
 Dear Visitor,
 
@@ -18,4 +16,4 @@ Help us easy this! We expect your feedback; maybe you notice a miss-design direc
 
 Please do let our designer know below.
 
-### 📧 mail-peter 👍
+### [📧 mail-peter 👍](<<a href="mailto:petergabrieltz@gmail.com"></a>>)
