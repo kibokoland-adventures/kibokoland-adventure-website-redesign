@@ -530,7 +530,6 @@ collections:
           
           - {label: "Possible Activities" ,name: "activities", widget: "string"}
       
-
       - label: "Destinations Coverered"
         name: "destinations"
         widget: "list"
