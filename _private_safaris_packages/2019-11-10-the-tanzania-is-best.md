@@ -1,89 +1,123 @@
 ---
 layout: package-itinerary
-category: private-safari
-date: 2019-11-10 11:59:59 
-permalink: /:collection/:title/
-title: "Tanzania's Best in 6 Days Safari "
-subtitle: "When wild is all you dream"
-
+permalink: '/:collection/:title/'
+date: 2019-11-10T11:59:59.000Z
+title: 'Tanzania''s Best in 6 Days Safari '
+subtitle: When 'the wild' is all you dream
+sys:
+  icon: "\U0001F992\U0001F981\U0001F406"
+  circuit: Northern Circuit
+  review: "When 'the wild \U0001F992\U0001F981\U0001F406' is all you dream"
+  price: '2400'
+  best_time: "\U0001F44D  all year round"
+  image:
+    alt: null
+    url: /img/uploads/133232_de546b38-768x432.jpg
+  itinerary:
+    - paragraph: Arrival
+    - paragraph: >-
+        Transfer to [Tarangire National
+        Park](https://www.kibokolandadventures.co.tz/private-safari/tarangire-national-park/)
+    - paragraph: >-
+        Transfer to [Serengeti National
+        Park](https://www.kibokolandadventures.co.tz/private-safari/serengeti-national-park/)
+    - paragraph: >-
+        Full Day
+        [Serengeti](https://www.kibokolandadventures.co.tz/private-safari/serengeti-national-park/)
+        National Park
+    - paragraph: >-
+        Serengeti National Park and Transfer to [Ngorongoro
+        ](https://www.kibokolandadventures.co.tz/private-safari/ngorongoro-conservation-area/)Conservation
+        Area
+    - paragraph: Full Day in Ngorongoro Crater
+    - paragraph: Game Drive in Serengeti and Transfer to Arusha
+    - paragraph: Departure
+  activities: 'Game driving, Bird watching, walking safaris, Night Drives'
 destinations:
-  - hashtag: "Ngorongoro CA"
-  - hashtag: "Serengeti National Park"
-  - hashtag: "Tarangire National Park"
-  - hashtag: "Saadani National Park"
-
+  - hashtag: Ngorongoro CA
+  - hashtag: Serengeti National Park
+  - hashtag: Tarangire National Park
+  - hashtag: Saadani National Park
 experience:
   what_to_see:
-    - paragraph: "<b>Bird species </b> Birds call this place home as they are 500 and more of bird species sight to behold. It’s the twitchier with species like secretary bird, ostriches, flamingos, eagles and so much more. They act as part of major attraction in the park."
-
-    - paragraph: "<b>The wildebeest</b> migration Wildebeest is also termed as the 7 wonders of the world. Having a journey of over 1 million wildebeest across with zebras and other animals its beauty in the eye. Wildebeest habit is migrating so they do extend to Kenya borders on Maasai Mara National park as they trek for miles in search for greener pasture and fresh water thus what makes it beautiful."
-
-    - paragraph: "<b>Olduvai Gorge</b> Another attraction which is within Serengeti national park. Its where the oldest remains of early man were dug from about a million years ago by Dr Louis leaky as a famous East Africa archaeologists, this discovery made changes in evolution of man."
-
-    - paragraph: "<b>Moru Kopjes</b>This scattered protruding rock around Serengeti is perfect place to catch the black rhinos. Use to offer shades and disguise for animals and predators."
-
-    - paragraph: "<b>Retina hippo pool</b>Most of large hippos live in this pool, they are so many in such they occupy the pool and results to often fight break ups."
-
-    - paragraph: "<b>Grumeti River</b>Is a popular attraction especially during the wildebeest migration, the site is spectacular as millions of beasts try to cross the river to Maasai Mara the river is infested by many crocodiles that sometimes crocodiles eat wildebeest while crossing the river. Animals drink water from the banks."
-
-    - paragraph: "<b>Seronera River valley</b> It’s another attraction that provides postcard perfect views of Serengeti. The whole region surrounding the river overflowing with unique flora and fauna. There are the rivers, the gorges, the mountains and the animals."
-
-sys:
-  icon: 🗝️ 📜
-  circuit: Northern Circuit
-  review: ✌️ I enjoyed reading about Germany history 📜, and how human and other organisms evolved.
-  price: 2334
-  best_time:  👍  all year round
-  image:
-    alt: 
-    url: "./img/uploads/we-just-guide-better-italy-group-dont-feed-animals-kibokolandadventures.JPG"
-
-  itinerary:
-    - paragraph: "Arrival"
-    - paragraph: 'Transfer to <a href="http://localhost:3000/private-safari/tarangire-national-park/">Tarangire National Park</a>'
-    - paragraph: 'Transfer to <a href="http://localhost:3000/private-safari/serengeti-national-park/">Serengeti National Park</a>'
-    - paragraph: 'Full Day <a href="http://localhost:3000/private-safari/serengeti-national-park/">Serengeti National Park </a>'
-    - paragraph: 'Serengeti National Park and Transfer to <a href="http://localhost:3000/private-safari/ngorongoro-conservation-area/">Ngorongoro</a>'
-    - paragraph: 'Full Day in <a href="http://localhost:3000/private-safari/ngorongoro-conservation-area/">Ngorongoro Crater</a>'
-    - paragraph: "Game Drive in Serengeti and Transfer to Arusha"
-    - paragraph: "Departure"
-
-  activities: "Game driving, Bird watching, walking safaris, Night Drives"
-
+    - paragraph: >-
+        **Bird species**  Birds call this place home as they are 500 and more of
+        bird species sight to behold. It’s the twitchier with species like
+        secretary bird, ostriches, flamingos, eagles and so much more. They act
+        as part of major attraction in the park.
+    - paragraph: >-
+        **The wildebeest** migration Wildebeest is also termed as the 7 wonders
+        of the world. Having a journey of over 1 million wildebeest across with
+        zebras and other animals its beauty in the eye. Wildebeest habit is
+        migrating so they do extend to Kenya borders on Maasai Mara National
+        park as they trek for miles in search for greener pasture and fresh
+        water thus what makes it beautiful.
+    - paragraph: >-
+        **Olduvai Gorge** Another attraction which is within Serengeti national
+        park. Its where the oldest remains of early man were dug from about a
+        million years ago by Dr Louis leaky as a famous East Africa
+        archaeologists, this discovery made changes in evolution of man.
+    - paragraph: >-
+        **Moru Kopjes** This scattered protruding rock around Serengeti is
+        perfect place to catch the black rhinos. Use to offer shades and
+        disguise for animals and predators.
+    - paragraph: >-
+        **Retina hippo pool** Most of large hippos live in this pool, they are
+        so many in such they occupy the pool and results to often fight break
+        ups.
+    - paragraph: >-
+        **Grumeti River** Is a popular attraction especially during the
+        wildebeest migration, the site is spectacular as millions of beasts try
+        to cross the river to Maasai Mara the river is infested by many
+        crocodiles that sometimes crocodiles eat wildebeest while crossing the
+        river. Animals drink water from the banks.
+    - paragraph: >-
+        **Seronera River valley** It’s another attraction that provides postcard
+        perfect views of Serengeti. The whole region surrounding the river
+        overflowing with unique flora and fauna. There are the rivers, the
+        gorges, the mountains and the animals.
 included:
   - item: English speaking guide
   - item: Transport (to and from the hotel)
   - item: Entrance fees
-
 excluded:
   - item: Camera
-  - item: Extra Activities other than Natural Museum 📜 visit
+  - item: Extra Activities other than specified in your safari brief
   - item: Hygienic items
-
-
 remarks:
   - note: This tour involves some walking so wear comfortable shoes.
   - note: This is not a wheelchair accessible tour.
-
-video: 
-  url: <iframe width="560" height="315" src="https://www.youtube.com/embed/MZwAfsO21-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-inside_scoop: 
-  - paragraph: "This 6 Days unforgettable tour will take you to the Serengeti Plains National Park, the heart of wild Africa and a massive wilderness of 14500 square km, where every day brings a new landscape and a new adventure. "
-
-  - paragraph: "Your African safari will also take you to the Ngorongoro Crater, featuring one of the highest concentrations of game in Africa. Here you will witness an amazing spectacle of African wildlife – inside a self-contained world featuring an unbelievable concentration of animals."
-
-  - paragraph: "Lastly your safari will take you to the Lake Manyara National Park, one of Tanzania&#39;s most dramatically located wildlife areas, consisting of a shallow but huge soda lake, at the foot of the Great Rift Valley&#39;s western escarpment. The size of this national park makes it perfect for a one-day game drive, and is famous for its unique tree-climbing lions."
-
-
+video:
+  url: >-
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/MZwAfsO21-c" frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope;
+    picture-in-picture" allowfullscreen></iframe>
+inside_scoop:
+  - paragraph: >-
+      This 6 Days unforgettable tour will take you to the Serengeti Plains
+      National Park, the heart of wild Africa and a massive wilderness of 14500
+      square km, where every day brings a new landscape and a new adventure. 
+  - paragraph: >-
+      Your African safari will also take you to the Ngorongoro Crater, featuring
+      one of the highest concentrations of game in Africa. Here you will witness
+      an amazing spectacle of African wildlife – inside a self-contained world
+      featuring an unbelievable concentration of animals.
+  - paragraph: >-
+      Lastly your safari will take you to the Lake Manyara National Park, one of
+      Tanzania&#39;s most dramatically located wildlife areas, consisting of a
+      shallow but huge soda lake, at the foot of the Great Rift Valley&#39;s
+      western escarpment. The size of this national park makes it perfect for a
+      one-day game drive, and is famous for its unique tree-climbing lions.
 image_corousel:
-  - image: "./img/uploads/natural-museum-boma-arusha-antelop-kibokoland-adventures.jpg"
-  - image: "./img/uploads/natural-museum-boma-arusha-experience-kibokoland-adventures.jpg"
-  - image: "./img/uploads/natural-museum-boma-arusha-kibokoland-adventures.jpg"
-
+  - image: /img/uploads/4-Days-Safari-Tz.jpg
+  - image: /img/uploads/7-Day-Tanzania-Safari - Copy.png
+  - image: /img/uploads/8-Days-Migration-River-Crossing-1.jpg
 footnote:
-  - paragraph: "This package can be extended as you see fit, please create your bucket list and send it to us to we can create you a quote"
+  - paragraph: >-
+      This package can be extended as you see fit, please create your bucket
+      list and send it to us to we can create you a quote
+category: private-safari
 ---
 
 
