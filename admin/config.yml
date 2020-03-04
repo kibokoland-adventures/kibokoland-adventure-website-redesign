@@ -2,9 +2,8 @@ backend:
   backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-  #name: github
-  #repo: i-meets-i/kibokoland-adventure-website-redesign
-  #branch: master #Branch to update
+  
+publish_mode: editorial_workflow
 media_folder: "_img/uploads"
 public_folder: "/img/uploads"
 
@@ -40,17 +39,6 @@ collections:
 
               - label: "Instagram"
                 name: "instagram"
-                widget: "object"
-                fields:
-                  - label: "Account Link"
-                    name: "url"
-                    widget: "string"
-                  - label: "User Name"
-                    name: "user_name"
-                    widget: "string"
-
-              - label: "Twitter"
-                name: "twitter"
                 widget: "object"
                 fields:
                   - label: "Account Link"
