@@ -115,3 +115,16 @@ Lake Eyasi will surely enhance your safari experience in Tanzania. Being differe
 **Departure**{:.mark}
 
 It is our sincere hope you enjoyed your stay with us. Today we drive you back to the airport for your departure. Kibokoland Adventures hopes to see you again!
+
+
+
+| Number Of People                                                         | 1-3                                                  | 3-5                                                   | 7-8          |
+| ------------------------------------------------------------------------ | ---------------------------------------------------- | ----------------------------------------------------- | ------------ |
+| **Price/Person/Day**                                                     |                                                      |                                                       |              |
+| \----------------------------------------------------------------------- | \--------------------------------------------------- | \---------------------------------------------------- |              |
+| Luxury:                                                                  | **$1293**                                            | **$1293**                                             | **$1293**    |
+| Midrange:                                                                | **$1236**                                            | **$1236**                                             | **$1236**    |
+| Basic:                                                                   | **$1200**                                            | **$1200**                                             | **$1200**    |
+| **Children(5-10)**                                                       | **40%** of adult                                     | **40%** of adult                                      | 40% of adult |
+
+{:.mbtablestyle}
