@@ -88,30 +88,30 @@ footnote:
 ---
 **Day 0**
 
-**Arrival at the Airport (JRO)**
+**Arrival at the Airport (JRO)**{:.mark}
 
 You will be picked up from the airport (Kilimanjaro International Airport/ Arusha Airport) and be transferred to your hotel in the town of your choice where you will rest and prepare for your safari.
 
 **Day 1**
 
-**Arusha to Tarangire National Park**
+**Arusha to Tarangire National Park**{:.mark}
 
 After breakfast we drive to Tarangire National Park. This park with its endless grasslands, huge baobab trees, the perennial Tarangire River and seasonal swamps is home to the largest elephant herds in northern Tanzania. Animals gather at the river and you should be able to see elephants, giraffes, bushbucks, hartebeests, dik-diks, waterbucks, warthogs and reedbucks all year round. Furthermore, the park is also home to buffaloes, zebras and wildebeests which are always closely followed by a range of predators such as lions. Leopards are seen every once in a while but cheetahs are rarely spotted. After an extensive game drive and lunch in the afternoon we drive to Karatu for an overnight.
 
 **Day 2**
 
-**Tarangire National Park to Ngorongoro Crater to Lake Eyasi**
+**Tarangire National Park to Ngorongoro Crater to Lake Eyasi**{:.mark}
 
 After an early breakfast we will drive into the Ngorongoro Conservation Area and down into the crater. The Ngorongoro Crater is almost 600 m deep, approximately 20 km wide and the massive caldera is home to an amazing variety of animals. On your game drive you have the possibility of seeing all different kinds of mammals ranging from the Big Five – lion, elephant, buffalo, rhino and leopard – to Grant’s and Thomson’s gazelles and mountain reedbucks. You might also see spotted hyenas, rare wild dogs and some of the more than 500 bird species of the area. After a picnic lunch in the crater and some more game viewing, you will leave the crater in the afternoon and drive to Lake Eyasi where we will spend another night at the lodge.
 
 **Day 3**
 
-**Lake Eyasi to Arusha**
+**Lake Eyasi to Arusha**{:.mark}
 
 Lake Eyasi will surely enhance your safari experience in Tanzania. Being different from all other destinations, we will get to experience the bush life of the Hadzabe and the Datoga people. These two tribes have remained unchanged for Generations. The hadzabe will demonstrate their hunting skills and dances, while the Datoga are famous Blacksmiths. We will spend time with these people before we leave Lake Eyasi heading to Karatu for an overnight.
 
 **Day 4**
 
-**Departure**
+**Departure**{:.mark}
 
 It is our sincere hope you enjoyed your stay with us. Today we drive you back to the airport for your departure. Kibokoland Adventures hopes to see you again!
