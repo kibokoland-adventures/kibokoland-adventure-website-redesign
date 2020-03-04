@@ -366,7 +366,7 @@ const buildTask = gulp.series(cleanTask, pugCompileTask, jekyllBuildTask, imgOpt
 /**
  * Build the entire website by compiling everyting for production with minified css and js files.
  */
-const buildProductionTask = gulp.series(buildTask, gulp.parallel(htmlMinifyTask, cssMinifyTask, jsMinifyTask),jekyllBuildTask);
+const buildProductionTask = gulp.series(buildTask, gulp.parallel(htmlMinifyTask, cssMinifyTask, jsMinifyTask));
 
 /**
  * Build and watch files.
