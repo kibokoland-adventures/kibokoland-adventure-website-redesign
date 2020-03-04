@@ -1,7 +1,7 @@
 # global context
 [build]
   publish = "_public/"
-  command = "npm run gulptask && jekyll build"
+  command = "npm run gulptask && jekyll build && jekyll build"
 # build a preview (optional)
 [context.deploy-preview]
   command = "gulp build-preview"
