@@ -2,7 +2,7 @@
 layout: package-itinerary
 permalink: '/:collection/:title/'
 date: 2020-03-04T23:34:44.497Z
-title: 5 Day Kilimanjaro Trekking via Marangu Route
+title: 5 Days Kilimanjaro Trekking via Marangu Route
 subtitle: Tallest free standing mountain in the world. Trek trek!
 sys:
   icon: "⛰️\U0001F97E"
