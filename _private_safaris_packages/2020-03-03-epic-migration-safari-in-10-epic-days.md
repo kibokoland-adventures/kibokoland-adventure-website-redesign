@@ -98,8 +98,6 @@ footnote:
 
 Arrival at the Airport and meet with our guide and transfer to **Eka Hotel** for dinner and overnight.
 
-
-
 **DAY 2:**
 
 **Arusha** {:.mark}
@@ -128,7 +126,7 @@ After breakfast in the morning we head of for a game drive. Game driving for mos
 
 **Full Day North Serengeti** {:.mark}
 
-We wake up for breakfast in the morning and thereafter head for a game drive. We are spending the whole day at North Serengeti heading off in search of more migration drama. These migrating mammals in their millions all attempt to cross a croc infested river, the Mara river to reach the greener pastures on the other side. With luck we may be able to spot crocodiles preying on the crossing animals. We shall head back to our lodge for a well-deserved rest in the evening. Serengeti Acacia Migration Camps
+We wake up for breakfast in the morning and thereafter head for a game drive. We are spending the whole day at North Serengeti heading off in search of more migration drama. These migrating mammals in their millions all attempt to cross a crocodile infested river, the Mara river to reach the greener pastures on the other side. With luck we may be able to spot crocodiles preying on the crossing animals. We shall head back to our lodge for a well-deserved rest in the evening. Serengeti Acacia Migration Camps
 
 **DAY 7:**
 
@@ -142,15 +140,11 @@ Having witnessed breathtaking moments at North Serengeti, we drive heading to Ce
 
 We leave Serengeti in the morning after breakfast. 3 hours away lies the Ngorongoro crater. Upon arrival we descend down the crater to catch up with the incredible wildlife that inhabits this unique place, where animals co-exist with wildlife. We shall be catching up with the crater animals for the whole day. We shall then drive to Lake Eyasi for an overnight.  Lake Eyasi Safari Lodge
 
-
-
 **DAY 9**
 
 **Lake Eyasi**{:.mark}
 
   Our tour is taking a whole different taste today. Having spending the last 5 days enjoying wildlife, today we enjoy the Bushmen of East Africa. Lake Eyasi is home to two famous tribes. The Hadzabe and the Datoga. We will spend the day with these people witnessing their unchanged ways of life. Later in the evening we drive back to Arusha for the night. Karama Lodge & Spa
-
-
 
 **DAY 10**
 
@@ -158,19 +152,15 @@ We leave Serengeti in the morning after breakfast. 3 hours away lies the Ngorong
 
 The driver will pick you up from the hotel and drive you to Namanga boarder where you will switch cars. From Namanga you will take another drive to Nairobi with your new driver. Eka Hotel
 
-
-
 **Departure**    Today is your departure day. The driver will pick you up at the hotel and drive you to the airport where we shall wave you goodbye. We hope to see you again. 
 
-
-
-| Number Of People                                                         | 1-3                                                  | 3-5                                                   | 7-8                 |
-| ------------------------------------------------------------------------ | ---------------------------------------------------- | ----------------------------------------------------- | ------------------- |
-| <b>Price/Person/Day</b>                                                  |                                                      |                                                       |                     |
-| \----------------------------------------------------------------------- | \--------------------------------------------------- | \---------------------------------------------------- |                     |
-| Luxury:                                                                  | <b>$1293</b>                                         | <b>$1293</b>                                          | <b>$1293</b>        |
-| Midrange:                                                                | <b>$1236</b>                                         | <b>$1236</b>                                          | <b>$1236</b>        |
-| Basic:                                                                   | <b>$1200</b>                                         | <b>$1200</b>                                          | <b>$1200</b>        |
-| <b>Children(5-10)</b>                                                    | <b>40%</b> of adult                                  | <b>40%</b> of adult                                   | <b>40%</b> of adult |
+| Number Of People                                                         | 1-3                                                  | 3-5                                                   | 7-8          |
+| ------------------------------------------------------------------------ | ---------------------------------------------------- | ----------------------------------------------------- | ------------ |
+| **Price/Person/Day**                                                     |                                                      |                                                       |              |
+| \----------------------------------------------------------------------- | \--------------------------------------------------- | \---------------------------------------------------- |              |
+| Luxury:                                                                  | **$1293**                                            | **$1293**                                             | **$1293**    |
+| Midrange:                                                                | **$1236**                                            | **$1236**                                             | **$1236**    |
+| Basic:                                                                   | **$1200**                                            | **$1200**                                             | **$1200**    |
+| **Children(5-10)**                                                       | **40%** of adult                                     | **40%** of adult                                      | 40% of adult |
 
 {:.mbtablestyle}
