@@ -22,9 +22,7 @@ destinations:
 experience:
   what_to_see:
     - paragraph: >-
-
-
-        **Bird species**Birds call this place home as they are 500 and more of
+        **Bird species** Birds call this place home as they are 500 and more of
         bird species sight to behold. It’s the twitchier with species like
         secretary bird, ostriches, flamingos, eagles and so much more. They act
         as part of major attraction in the park.
