@@ -17,7 +17,7 @@ sys:
     - paragraph: Arrival
     - paragraph: >-
         Transfer to [Tarangire National
-        Park](https://www.kibokolandadventures.co.tz/private-safari/tarangire-national-park/)
+        Park](https://www.kibokolandadventures.co.tz/private-safari/tarangire-national-park/).
     - paragraph: >-
         Transfer to [Serengeti National
         Park](https://www.kibokolandadventures.co.tz/private-safari/serengeti-national-park/)
