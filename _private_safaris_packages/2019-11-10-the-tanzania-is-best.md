@@ -7,7 +7,7 @@ subtitle: When 'the wild' is all you dream
 sys:
   icon: "\U0001F992\U0001F981\U0001F406"
   circuit: Northern Circuit
-  review: "When 'the wild \U0001F992\U0001F981\U0001F406' is all you dream"
+  review: "When 'the wild \U0001F992\U0001F406\U0001F981' is all you dream"
   price: '2400'
   best_time: "\U0001F44D  all year round"
   image:
