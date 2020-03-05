@@ -127,13 +127,11 @@ Once the breakfast is done, you will be taken to Mandara by crossing National pa
 
 In order to get the loveliest experience, you can make a deal with us at your budget. And start to enjoy the best trekking along with us this vacation with your family and friends that whenever you need.
 
-| Number Of People                                                         | 1-3                                                  | 3-5                                                   | 7-8              |
-| ------------------------------------------------------------------------ | ---------------------------------------------------- | ----------------------------------------------------- | ---------------- |
-| **Price/Person/Day**                                                     |                                                      |                                                       |                  |
-| \----------------------------------------------------------------------- | \--------------------------------------------------- | \---------------------------------------------------- |                  |
-| Luxury:                                                                  | **$1293**                                            | **$1293**                                             | **$1293**        |
-| Midrange:                                                                | **$1236**                                            | **$1236**                                             | **$1236**        |
-| Basic:                                                                   | **$1200**                                            | **$1200**                                             | **$1200**        |
-| **Children(5-10)**                                                       | **40%** of adult                                     | **40%** of adult                                      | **40%** of adult |
-
+| Number Of People  | 1-3                                               | 3-5                                               | 7-8                                               |   
+|------------------ |-------------------------------------------------- |-------------------------------------------------- |-------------------------------------------------- |
+|<b>Price/Person/Day</b>                            |
+|           Luxury:        |     <b>$1293</b>                                     | <b>$1293</b>                                     |   <b>$1293</b>                                     |
+|            Midrange:       | <b>$1236</b>                                   |  <b>$1236</b>                                   |   <b>$1236</b>                                   |
+|            Basic:       |   <b>$1200</b>                                      |   <b>$1200</b>                                      |  <b>$1200</b>                                      |
+| <b>Children(5-10)</b>    | <b>40%</b> of adult                                      | <b>40%</b> of adult                                      | <b>40%</b> of adult                                      |
 {:.mbtablestyle}
